@@ -3,6 +3,12 @@ const SOURCE_COLORS = {
   rockefeller: 'bg-purple-100 text-purple-800',
   meetup: 'bg-red-100 text-red-800',
   vink: 'bg-yellow-100 text-yellow-800',
+  nieuscene: 'bg-yellow-100 text-yellow-800',
+  latter: 'bg-yellow-100 text-yellow-800',
+  operaen: 'bg-red-100 text-red-800',
+  oslonye: 'bg-pink-100 text-pink-800',
+  detnorske: 'bg-pink-100 text-pink-800',
+  folketeateret: 'bg-pink-100 text-pink-800',
 }
 
 const CATEGORY_COLORS = {
