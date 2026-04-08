@@ -5,6 +5,7 @@ import { auth, googleProvider } from '../firebase'
 export function useAuth() {
   const [user, setUser] = useState(null)
   const [loading, setLoading] = useState(true)
+  const [error, setError] = useState(null)
 
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, u => {
@@ -15,12 +16,22 @@ export function useAuth() {
   }, [])
 
   async function signInWithGoogle() {
-    await signInWithPopup(auth, googleProvider)
+    setError(null)
+    try {
+      await signInWithPopup(auth, googleProvider)
+    } catch (err) {
+      setError(err.message)
+    }
   }
 
   async function logout() {
-    await signOut(auth)
+    setError(null)
+    try {
+      await signOut(auth)
+    } catch (err) {
+      setError(err.message)
+    }
   }
 
-  return { user, loading, signInWithGoogle, logout }
+  return { user, loading, error, signInWithGoogle, logout }
 }
