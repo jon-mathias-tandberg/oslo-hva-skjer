@@ -27,7 +27,7 @@ export default function EventCard({ event, isFavorite = false, onToggleFavorite,
         {isLoggedIn && (
           <button
             aria-label={isFavorite ? 'fjern lagret' : 'lagre'}
-            onClick={() => onToggleFavorite(event.id)}
+            onClick={() => onToggleFavorite?.(event.id)}
             className="text-xl leading-none shrink-0"
           >
             {isFavorite ? '★' : '☆'}
