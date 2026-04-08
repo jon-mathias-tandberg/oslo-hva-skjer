@@ -18,7 +18,8 @@ GitHub repo (oslo-hva-skjer)
 
 Firebase (gratis tier)
   ├── Authentication     Google OAuth
-  └── Firestore          Brukerens lagrede favoritter
+  ├── Firestore          Brukerens favoritter
+  └── Firestore          Grupper, gruppeplan og stemmer (real-time)
 ```
 
 **Hosting:** Azure Static Web Apps (gratis tier)  
@@ -41,6 +42,14 @@ Firebase (gratis tier)
 1. Bruker klikker "Logg inn med Google" → Firebase Authentication håndterer OAuth
 2. Bruker lagrer et event → skrives til Firestore under brukerens UID
 3. Ved neste besøk henter appen brukerens favoritter fra Firestore og markerer dem i kalenderen
+
+### Grupper (real-time samarbeid)
+1. Innlogget bruker oppretter en gruppe med et navn → Firestore-dokument opprettes med unik invitasjonskode
+2. Bruker deler invitasjonslenke (`/join/{inviteCode}`) med venner
+3. Venn åpner lenken → logges inn → legges til som gruppemedlem
+4. Gruppemedlemmer legger events fra kalenderen til gruppeplanen
+5. Alle medlemmer ser sanntidsoppdateringer via Firestore `onSnapshot`
+6. Medlemmer kan stemme (+1) på forslag — votes lagres per bruker
 
 ## Event-schema
 
@@ -66,6 +75,25 @@ Firebase (gratis tier)
 ```
 
 Favoritter lagres kun som en referanse til event-ID — selve event-dataen hentes alltid fra `events.json`.
+
+### Grupper
+
+```
+/groups/{groupId}
+  → name: string
+  → inviteCode: string (6-tegn, unik)
+  → createdBy: uid
+  → members: { [uid]: { displayName, photoURL, joinedAt } }
+  → createdAt: timestamp
+
+/groups/{groupId}/plan/{eventId}
+  → eventId: string (ref til events.json)
+  → addedBy: uid
+  → addedAt: timestamp
+  → votes: { [uid]: true }   ← +1 per bruker, én stemme per person
+```
+
+Gruppeplan-events lagres som referanser til event-IDer fra `events.json` — selve event-dataen hentes fra den statiske filen.
 
 ## Scraping-kilder (MVP)
 
@@ -97,6 +125,20 @@ Nye kilder legges til ved å skrive ett nytt scraping-script — ingen endringer
 - Trykk "Spin"-knapp → hjul animerer og lander på ett tilfeldig event
 - Viser event-kortet for det trukne eventet
 - Innlogget bruker kan lagre det trukne eventet direkte fra resultatet
+
+### Grupper
+
+**GroupManager** (modal/side):
+- Opprett gruppe: skriv inn navn → genererer invitasjonskode → vis delbar lenke
+- Mine grupper: liste over grupper brukeren er med i
+- Bli med: enten via invitasjonslenke (`/join/{code}`) eller manuell kodeinnskriving
+
+**GroupPlan** (view ved siden av kalenderen):
+- Velg aktiv gruppe fra dropdown
+- Vis events som er lagt til i gruppeplanen for valgt dato, sanntid via `onSnapshot`
+- Hvert event-kort viser hvem som la det til + antall stemmer
+- Knapper: "Legg til i gruppeplan" på event-kort (kun for gruppemedlemmer), "+1"-knapp per planlagt event
+- Innlogget bruker som ikke er i gruppe ser oppfordring til å opprette/bli med i gruppe
 
 ### Auth-komponent
 - "Logg inn med Google"-knapp i header (vises kun for ikke-innloggede)
