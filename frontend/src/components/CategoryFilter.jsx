@@ -7,10 +7,10 @@ export default function CategoryFilter({ selected, onChange }) {
         <button
           key={cat}
           onClick={() => onChange(cat)}
-          className={`px-3 py-1 rounded-full text-sm font-medium transition-colors capitalize ${
+          className={`px-3 py-1 text-xs font-bold tracking-widest uppercase transition-colors border ${
             selected === cat
-              ? 'bg-blue-600 text-white'
-              : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+              ? 'bg-gray-900 text-white border-gray-900'
+              : 'bg-paper text-gray-500 border-gray-300 hover:border-gray-700 hover:text-gray-900'
           }`}
         >
           {cat}

@@ -16,7 +16,7 @@ describe('CategoryFilter', () => {
   it('marks selected category as active', () => {
     render(<CategoryFilter selected="konsert" onChange={() => {}} />)
     const btn = screen.getByRole('button', { name: /konsert/i })
-    expect(btn).toHaveClass('bg-blue-600')
+    expect(btn).toHaveClass('bg-gray-900')
   })
 
   it('calls onChange with category when clicked', () => {
