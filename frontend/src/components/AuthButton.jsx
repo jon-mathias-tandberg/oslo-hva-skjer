@@ -13,6 +13,7 @@ export default function AuthButton() {
           alt={user.displayName}
           className="w-8 h-8 rounded-full"
         />
+        <span className="text-sm text-gray-700">{user.displayName}</span>
         <button
           onClick={logout}
           className="text-sm text-gray-500 hover:text-gray-800"
