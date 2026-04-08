@@ -1,0 +1,42 @@
+[
+  {
+    "id": "blaa-2026-04-10-1",
+    "title": "The Tallest Man on Earth",
+    "date": "2026-04-10",
+    "time": "20:00",
+    "category": "konsert",
+    "source": "blaa",
+    "url": "https://www.blaaoslo.no/events/tallest-man",
+    "description": "Konsert på Blå"
+  },
+  {
+    "id": "rockefeller-2026-04-12-1",
+    "title": "Aurora",
+    "date": "2026-04-12",
+    "time": "19:30",
+    "category": "konsert",
+    "source": "rockefeller",
+    "url": "https://www.rockefeller.no/events/aurora",
+    "description": "Konsert på Rockefeller"
+  },
+  {
+    "id": "meetup-2026-04-11-1",
+    "title": "Oslo Tech Meetup",
+    "date": "2026-04-11",
+    "time": "18:00",
+    "category": "kultur",
+    "source": "meetup",
+    "url": "https://www.meetup.com/oslo-tech/events/123",
+    "description": "Månedlig tech-treff"
+  },
+  {
+    "id": "vink-2026-04-10-1",
+    "title": "Maaemo",
+    "date": "2026-04-10",
+    "time": null,
+    "category": "mat",
+    "source": "vink",
+    "url": "https://www.aftenposten.no/vink/maaemo",
+    "description": "Tre-stjerners restaurant"
+  }
+]
