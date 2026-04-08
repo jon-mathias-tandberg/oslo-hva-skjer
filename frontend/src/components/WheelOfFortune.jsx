@@ -1,9 +1,14 @@
-import { useState } from 'react'
+import { useState, useRef, useEffect } from 'react'
 
 export default function WheelOfFortune({ events }) {
   const [spinning, setSpinning] = useState(false)
   const [result, setResult] = useState(null)
   const [rotation, setRotation] = useState(0)
+  const timeoutRef = useRef(null)
+
+  useEffect(() => {
+    return () => clearTimeout(timeoutRef.current)
+  }, [])
 
   if (events.length === 0) {
     return (
@@ -20,7 +25,7 @@ export default function WheelOfFortune({ events }) {
     const spins = 5 + Math.floor(Math.random() * 5)
     setRotation(r => r + spins * 360 + Math.floor(Math.random() * 360))
 
-    setTimeout(() => {
+    timeoutRef.current = setTimeout(() => {
       const picked = events[Math.floor(Math.random() * events.length)]
       setResult(picked)
       setSpinning(false)
@@ -40,6 +45,7 @@ export default function WheelOfFortune({ events }) {
           }}
         >
           <div className="grid grid-cols-1 gap-0 w-full h-full">
+            {/* Show max 8 segments for visual clarity; all events are still eligible for the random pick */}
             {events.slice(0, 8).map((e, i) => (
               <div
                 key={e.id}
@@ -67,7 +73,7 @@ export default function WheelOfFortune({ events }) {
       </button>
 
       {result && (
-        <div data-testid="wheel-result" className="w-full mt-2 p-4 bg-blue-50 rounded-lg border border-blue-200 text-center">
+        <div role="alert" data-testid="wheel-result" className="w-full mt-2 p-4 bg-blue-50 rounded-lg border border-blue-200 text-center">
           <p className="text-sm text-blue-600 font-medium mb-1">Du fikk:</p>
           <a
             href={result.url}
