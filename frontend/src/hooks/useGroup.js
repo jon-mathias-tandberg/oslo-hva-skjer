@@ -25,32 +25,38 @@ export function useGroup(uid) {
   }, [uid])
 
   async function createGroup(name) {
-    if (!uid) return null
+    if (!uid || !name.trim()) return null
     const groupRef = doc(collection(db, 'groups'))
     const inviteCode = generateInviteCode()
-    await setDoc(groupRef, {
-      name,
-      inviteCode,
-      createdBy: uid,
-      members: {
-        [uid]: { joinedAt: serverTimestamp() },
-      },
-      createdAt: serverTimestamp(),
-    })
-    return groupRef.id
+    try {
+      await setDoc(groupRef, {
+        name: name.trim(),
+        inviteCode,
+        createdBy: uid,
+        members: { [uid]: { joinedAt: serverTimestamp() } },
+        createdAt: serverTimestamp(),
+      })
+      return groupRef.id
+    } catch {
+      return null
+    }
   }
 
   async function joinGroup(inviteCode) {
-    if (!uid) return false
-    const ref = collection(db, 'groups')
-    const q = query(ref, where('inviteCode', '==', inviteCode.toUpperCase()))
-    const snap = await getDocs(q)
-    if (!snap.docs.length) return false
-    const groupDoc = snap.docs[0]
-    await updateDoc(groupDoc.ref, {
-      [`members.${uid}`]: { joinedAt: serverTimestamp() },
-    })
-    return groupDoc.id
+    if (!uid || !inviteCode) return false
+    try {
+      const ref = collection(db, 'groups')
+      const q = query(ref, where('inviteCode', '==', inviteCode.toUpperCase()))
+      const snap = await getDocs(q)
+      if (!snap.docs.length) return false
+      const groupDoc = snap.docs[0]
+      await updateDoc(groupDoc.ref, {
+        [`members.${uid}`]: { joinedAt: serverTimestamp() },
+      })
+      return groupDoc.id
+    } catch {
+      return false
+    }
   }
 
   return { groups, createGroup, joinGroup }
