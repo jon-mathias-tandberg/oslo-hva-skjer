@@ -14,7 +14,8 @@ export function filterByCategory(events, category) {
 }
 
 /**
- * Return events within [fromDate, toDate] inclusive (YYYY-MM-DD strings).
+ * Return events within [fromDate, toDate] inclusive.
+ * Both dates must be in YYYY-MM-DD format (ISO 8601).
  */
 export function getEventsForDateRange(events, fromDate, toDate) {
   return events.filter(e => e.date >= fromDate && e.date <= toDate)
