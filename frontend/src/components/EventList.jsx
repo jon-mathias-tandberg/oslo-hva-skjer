@@ -2,7 +2,7 @@ import { format, parseISO } from 'date-fns'
 import { nb } from 'date-fns/locale'
 import EventCard from './EventCard'
 
-export default function EventList({ events, selectedDate, isLoggedIn, favorites, onToggleFavorite }) {
+export default function EventList({ events, selectedDate, isLoggedIn, favorites, onToggleFavorite, onAddToGroup }) {
   const formatted = selectedDate
     ? format(parseISO(selectedDate), 'd. MMMM', { locale: nb })
     : ''
@@ -23,6 +23,7 @@ export default function EventList({ events, selectedDate, isLoggedIn, favorites,
             isFavorite={favorites.includes(event.id)}
             onToggleFavorite={onToggleFavorite}
             isLoggedIn={isLoggedIn}
+            onAddToGroup={onAddToGroup}
           />
         ))
       )}

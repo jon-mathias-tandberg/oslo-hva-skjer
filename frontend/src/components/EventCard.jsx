@@ -12,7 +12,7 @@ const CATEGORY_COLORS = {
   annet: 'bg-gray-100 text-gray-800',
 }
 
-export default function EventCard({ event, isFavorite = false, onToggleFavorite, isLoggedIn = false }) {
+export default function EventCard({ event, isFavorite = false, onToggleFavorite, isLoggedIn = false, onAddToGroup }) {
   return (
     <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-4 flex flex-col gap-2">
       <div className="flex items-start justify-between gap-2">
@@ -31,6 +31,16 @@ export default function EventCard({ event, isFavorite = false, onToggleFavorite,
             className="text-xl leading-none shrink-0"
           >
             {isFavorite ? '★' : '☆'}
+          </button>
+        )}
+        {isLoggedIn && onAddToGroup && (
+          <button
+            aria-label="legg til i gruppeplan"
+            onClick={() => onAddToGroup(event.id)}
+            className="text-sm leading-none shrink-0 text-gray-400 hover:text-blue-600"
+            title="Legg til i gruppeplan"
+          >
+            ＋
           </button>
         )}
       </div>

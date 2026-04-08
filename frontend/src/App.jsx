@@ -5,8 +5,11 @@ import Calendar from './components/Calendar'
 import EventList from './components/EventList'
 import CategoryFilter from './components/CategoryFilter'
 import WheelOfFortune from './components/WheelOfFortune'
+import GroupManager from './components/GroupManager'
+import GroupPlan from './components/GroupPlan'
 import { useAuth } from './hooks/useAuth'
 import { useFavorites } from './hooks/useFavorites'
+import { useGroupPlan } from './hooks/useGroupPlan'
 import { loadEvents, filterByDate, filterByCategory } from './utils/events'
 
 export default function App() {
@@ -14,9 +17,12 @@ export default function App() {
   const [selectedDate, setSelectedDate] = useState(format(new Date(), 'yyyy-MM-dd'))
   const [category, setCategory] = useState('alle')
   const [view, setView] = useState('calendar') // 'calendar' | 'wheel'
+  const [activeGroupId, setActiveGroupId] = useState(null)
+  const [showGroupManager, setShowGroupManager] = useState(false)
 
   const { user } = useAuth()
   const { favorites, toggleFavorite } = useFavorites(user?.uid ?? null)
+  const { addToPlan } = useGroupPlan(activeGroupId, user?.uid ?? null)
 
   useEffect(() => {
     loadEvents().then(setAllEvents).catch(console.error)
@@ -42,28 +48,48 @@ export default function App() {
           >
             Wheel of Fortune
           </button>
+          <button
+            onClick={() => setShowGroupManager(g => !g)}
+            className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${showGroupManager ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200'}`}
+          >
+            Grupper 👥
+          </button>
         </div>
 
         {view === 'calendar' ? (
-          <div className="grid grid-cols-1 md:grid-cols-[1fr_1.5fr] gap-4">
-            <div className="flex flex-col gap-3">
-              <Calendar
-                events={allEvents}
-                selectedDate={selectedDate}
-                onSelectDate={setSelectedDate}
-              />
+          <>
+            <div className="grid grid-cols-1 md:grid-cols-[1fr_1.5fr] gap-4">
+              <div className="flex flex-col gap-3">
+                <Calendar
+                  events={allEvents}
+                  selectedDate={selectedDate}
+                  onSelectDate={setSelectedDate}
+                />
+              </div>
+              <div className="flex flex-col gap-3">
+                <CategoryFilter selected={category} onChange={setCategory} />
+                <EventList
+                  events={eventsForDate}
+                  selectedDate={selectedDate}
+                  isLoggedIn={!!user}
+                  favorites={favorites}
+                  onToggleFavorite={toggleFavorite}
+                  onAddToGroup={activeGroupId && user ? addToPlan : undefined}
+                />
+              </div>
             </div>
-            <div className="flex flex-col gap-3">
-              <CategoryFilter selected={category} onChange={setCategory} />
-              <EventList
-                events={eventsForDate}
+            {showGroupManager && user && (
+              <GroupManager uid={user.uid} onSelectGroup={id => { setActiveGroupId(id); setShowGroupManager(false) }} />
+            )}
+            {activeGroupId && user && (
+              <GroupPlan
+                groupId={activeGroupId}
+                uid={user.uid}
+                allEvents={allEvents}
                 selectedDate={selectedDate}
-                isLoggedIn={!!user}
-                favorites={favorites}
-                onToggleFavorite={toggleFavorite}
               />
-            </div>
-          </div>
+            )}
+          </>
         ) : (
           <WheelOfFortune events={filterByCategory(allEvents, category)} />
         )}
