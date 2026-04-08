@@ -17,7 +17,7 @@ export default function App() {
   const [allEvents, setAllEvents] = useState([])
   const [selectedDate, setSelectedDate] = useState(format(new Date(), 'yyyy-MM-dd'))
   const [category, setCategory] = useState('alle')
-  const [view, setView] = useState('calendar') // 'calendar' | 'wheel'
+  const [view, setView] = useState('calendar')
   const [activeGroupId, setActiveGroupId] = useState(null)
   const [showGroupManager, setShowGroupManager] = useState(false)
 
@@ -47,26 +47,39 @@ export default function App() {
   const activeGroup = groups.find(g => g.id === activeGroupId) ?? null
 
   return (
-    <div className="min-h-screen bg-gray-50 flex flex-col">
+    <div className="min-h-screen bg-paper flex flex-col">
       <Header />
 
-      <main className="flex-1 max-w-5xl mx-auto w-full p-4 flex flex-col gap-4">
-        <div className="flex gap-2">
+      <main className="flex-1 max-w-5xl mx-auto w-full px-4 py-6 flex flex-col gap-6">
+        {/* View tabs */}
+        <div className="flex gap-6 border-b border-gray-200 pb-0">
           <button
             onClick={() => setView('calendar')}
-            className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${view === 'calendar' ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200'}`}
+            className={`pb-3 text-xs font-bold tracking-widest uppercase transition-colors ${
+              view === 'calendar'
+                ? 'border-b-2 border-gray-900 text-gray-900 -mb-px'
+                : 'text-gray-400 hover:text-gray-700'
+            }`}
           >
             Kalender
           </button>
           <button
             onClick={() => setView('wheel')}
-            className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${view === 'wheel' ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200'}`}
+            className={`pb-3 text-xs font-bold tracking-widest uppercase transition-colors ${
+              view === 'wheel'
+                ? 'border-b-2 border-gray-900 text-gray-900 -mb-px'
+                : 'text-gray-400 hover:text-gray-700'
+            }`}
           >
             Wheel of Fortune
           </button>
           <button
             onClick={() => setShowGroupManager(g => !g)}
-            className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${showGroupManager ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200'}`}
+            className={`pb-3 text-xs font-bold tracking-widest uppercase transition-colors ${
+              showGroupManager
+                ? 'border-b-2 border-gray-900 text-gray-900 -mb-px'
+                : 'text-gray-400 hover:text-gray-700'
+            }`}
           >
             Grupper 👥
           </button>
@@ -74,15 +87,15 @@ export default function App() {
 
         {view === 'calendar' ? (
           <>
-            <div className="grid grid-cols-1 md:grid-cols-[1fr_1.5fr] gap-4">
-              <div className="flex flex-col gap-3">
+            <div className="grid grid-cols-1 md:grid-cols-[1fr_1.5fr] gap-0 md:divide-x divide-gray-200">
+              <div className="pr-0 md:pr-6">
                 <Calendar
                   events={allEvents}
                   selectedDate={selectedDate}
                   onSelectDate={setSelectedDate}
                 />
               </div>
-              <div className="flex flex-col gap-3">
+              <div className="flex flex-col gap-4 pt-4 md:pt-0 md:pl-6">
                 <CategoryFilter selected={category} onChange={setCategory} />
                 <EventList
                   events={eventsForDate}
