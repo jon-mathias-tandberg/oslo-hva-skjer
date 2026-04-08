@@ -1901,3 +1901,629 @@ git push -u origin main
 - [ ] Test Google login works (add your domain to Firebase Auth → Authorized domains)
 - [ ] Manually trigger `scrape.yml` workflow and verify `events.json` is updated
 - [ ] Verify favourites are saved and synced across browser/device when logged in
+
+---
+
+## Task 16: useGroup hook
+
+**Files:**
+- Create: `frontend/src/hooks/useGroup.js`
+- Create: `frontend/src/__tests__/useGroup.test.js`
+
+- [ ] **Step 1: Write failing tests**
+
+```js
+import { describe, it, expect, vi } from 'vitest'
+import { renderHook, act } from '@testing-library/react'
+
+vi.mock('../firebase', () => ({ db: {} }))
+vi.mock('firebase/firestore', () => ({
+  collection: vi.fn(),
+  doc: vi.fn(() => ({ id: 'group-abc' })),
+  setDoc: vi.fn().mockResolvedValue(undefined),
+  updateDoc: vi.fn().mockResolvedValue(undefined),
+  getDoc: vi.fn().mockResolvedValue({ exists: () => false }),
+  getDocs: vi.fn().mockResolvedValue({ docs: [] }),
+  onSnapshot: vi.fn((_, cb) => { cb({ docs: [] }); return () => {} }),
+  query: vi.fn(),
+  where: vi.fn(),
+  serverTimestamp: vi.fn(() => 'ts'),
+  arrayUnion: vi.fn(v => v),
+}))
+
+import { useGroup } from '../hooks/useGroup'
+
+describe('useGroup', () => {
+  it('returns empty groups when uid is null', () => {
+    const { result } = renderHook(() => useGroup(null))
+    expect(result.current.groups).toEqual([])
+  })
+
+  it('createGroup calls setDoc and returns groupId', async () => {
+    const { setDoc } = await import('firebase/firestore')
+    const { result } = renderHook(() => useGroup('uid-1'))
+    let groupId
+    await act(async () => {
+      groupId = await result.current.createGroup('Fredagsklubben')
+    })
+    expect(setDoc).toHaveBeenCalled()
+    expect(groupId).toBeDefined()
+  })
+
+  it('joinGroup returns false when invite code not found', async () => {
+    const { result } = renderHook(() => useGroup('uid-1'))
+    let joined
+    await act(async () => {
+      joined = await result.current.joinGroup('BADCODE')
+    })
+    expect(joined).toBe(false)
+  })
+})
+```
+
+- [ ] **Step 2: Run tests to verify they fail**
+
+```bash
+cd frontend && npx vitest run src/__tests__/useGroup.test.js
+```
+
+- [ ] **Step 3: Create `frontend/src/hooks/useGroup.js`**
+
+```js
+import { useState, useEffect } from 'react'
+import {
+  collection, doc, setDoc, updateDoc, getDoc, getDocs,
+  onSnapshot, query, where, serverTimestamp, arrayUnion
+} from 'firebase/firestore'
+import { db } from '../firebase'
+
+function generateInviteCode() {
+  return Math.random().toString(36).slice(2, 8).toUpperCase()
+}
+
+export function useGroup(uid) {
+  const [groups, setGroups] = useState([])
+
+  useEffect(() => {
+    if (!uid) { setGroups([]); return }
+
+    // Listen to all groups where user is a member
+    const ref = collection(db, 'groups')
+    const q = query(ref, where(`members.${uid}`, '!=', null))
+    const unsubscribe = onSnapshot(q, snap => {
+      setGroups(snap.docs.map(d => ({ id: d.id, ...d.data() })))
+    })
+    return unsubscribe
+  }, [uid])
+
+  async function createGroup(name) {
+    if (!uid) return null
+    const groupRef = doc(collection(db, 'groups'))
+    const inviteCode = generateInviteCode()
+    await setDoc(groupRef, {
+      name,
+      inviteCode,
+      createdBy: uid,
+      members: {
+        [uid]: { joinedAt: serverTimestamp() },
+      },
+      createdAt: serverTimestamp(),
+    })
+    return groupRef.id
+  }
+
+  async function joinGroup(inviteCode) {
+    if (!uid) return false
+    const ref = collection(db, 'groups')
+    const q = query(ref, where('inviteCode', '==', inviteCode.toUpperCase()))
+    const snap = await getDocs(q)
+    if (snap.empty) return false
+    const groupDoc = snap.docs[0]
+    await updateDoc(groupDoc.ref, {
+      [`members.${uid}`]: { joinedAt: serverTimestamp() },
+    })
+    return groupDoc.id
+  }
+
+  return { groups, createGroup, joinGroup }
+}
+```
+
+- [ ] **Step 4: Run tests to verify they pass**
+
+```bash
+cd frontend && npx vitest run src/__tests__/useGroup.test.js
+```
+
+- [ ] **Step 5: Commit**
+
+```bash
+cd ..
+git add frontend/
+git commit -m "feat: add useGroup hook (create, join, list groups)"
+```
+
+---
+
+## Task 17: useGroupPlan hook
+
+**Files:**
+- Create: `frontend/src/hooks/useGroupPlan.js`
+- Create: `frontend/src/__tests__/useGroupPlan.test.js`
+
+- [ ] **Step 1: Write failing tests**
+
+```js
+import { describe, it, expect, vi } from 'vitest'
+import { renderHook, act } from '@testing-library/react'
+
+vi.mock('../firebase', () => ({ db: {} }))
+vi.mock('firebase/firestore', () => ({
+  collection: vi.fn(),
+  doc: vi.fn(),
+  setDoc: vi.fn().mockResolvedValue(undefined),
+  deleteDoc: vi.fn().mockResolvedValue(undefined),
+  updateDoc: vi.fn().mockResolvedValue(undefined),
+  onSnapshot: vi.fn((_, cb) => { cb({ docs: [] }); return () => {} }),
+  serverTimestamp: vi.fn(() => 'ts'),
+  arrayUnion: vi.fn(v => v),
+  arrayRemove: vi.fn(v => v),
+}))
+
+import { useGroupPlan } from '../hooks/useGroupPlan'
+
+describe('useGroupPlan', () => {
+  it('returns empty plan when groupId is null', () => {
+    const { result } = renderHook(() => useGroupPlan(null, 'uid-1'))
+    expect(result.current.plan).toEqual([])
+  })
+
+  it('addToPlan calls setDoc', async () => {
+    const { setDoc } = await import('firebase/firestore')
+    const { result } = renderHook(() => useGroupPlan('group-1', 'uid-1'))
+    await act(async () => {
+      await result.current.addToPlan('event-42')
+    })
+    expect(setDoc).toHaveBeenCalled()
+  })
+
+  it('toggleVote calls updateDoc', async () => {
+    const { updateDoc } = await import('firebase/firestore')
+    const { result } = renderHook(() => useGroupPlan('group-1', 'uid-1'))
+    await act(async () => {
+      await result.current.toggleVote('event-42', false)
+    })
+    expect(updateDoc).toHaveBeenCalled()
+  })
+})
+```
+
+- [ ] **Step 2: Run tests to verify they fail**
+
+```bash
+cd frontend && npx vitest run src/__tests__/useGroupPlan.test.js
+```
+
+- [ ] **Step 3: Create `frontend/src/hooks/useGroupPlan.js`**
+
+```js
+import { useState, useEffect } from 'react'
+import {
+  collection, doc, setDoc, deleteDoc, updateDoc,
+  onSnapshot, serverTimestamp, arrayUnion, arrayRemove
+} from 'firebase/firestore'
+import { db } from '../firebase'
+
+export function useGroupPlan(groupId, uid) {
+  const [plan, setPlan] = useState([])
+
+  useEffect(() => {
+    if (!groupId) { setPlan([]); return }
+
+    const ref = collection(db, 'groups', groupId, 'plan')
+    const unsubscribe = onSnapshot(ref, snap => {
+      setPlan(snap.docs.map(d => ({ id: d.id, ...d.data() })))
+    })
+    return unsubscribe
+  }, [groupId])
+
+  async function addToPlan(eventId) {
+    if (!groupId || !uid) return
+    const ref = doc(db, 'groups', groupId, 'plan', eventId)
+    await setDoc(ref, {
+      eventId,
+      addedBy: uid,
+      addedAt: serverTimestamp(),
+      votes: [],
+    })
+  }
+
+  async function removeFromPlan(eventId) {
+    if (!groupId || !uid) return
+    const ref = doc(db, 'groups', groupId, 'plan', eventId)
+    await deleteDoc(ref)
+  }
+
+  async function toggleVote(eventId, hasVoted) {
+    if (!groupId || !uid) return
+    const ref = doc(db, 'groups', groupId, 'plan', eventId)
+    await updateDoc(ref, {
+      votes: hasVoted ? arrayRemove(uid) : arrayUnion(uid),
+    })
+  }
+
+  return { plan, addToPlan, removeFromPlan, toggleVote }
+}
+```
+
+- [ ] **Step 4: Run tests to verify they pass**
+
+```bash
+cd frontend && npx vitest run src/__tests__/useGroupPlan.test.js
+```
+
+- [ ] **Step 5: Commit**
+
+```bash
+cd ..
+git add frontend/
+git commit -m "feat: add useGroupPlan hook (add, remove, vote on group plan events)"
+```
+
+---
+
+## Task 18: GroupManager component
+
+**Files:**
+- Create: `frontend/src/components/GroupManager.jsx`
+- Create: `frontend/src/__tests__/GroupManager.test.jsx`
+
+- [ ] **Step 1: Write failing tests**
+
+```jsx
+import { describe, it, expect, vi } from 'vitest'
+import { render, screen, fireEvent, waitFor } from '@testing-library/react'
+import GroupManager from '../components/GroupManager'
+
+const mockUseGroup = {
+  groups: [],
+  createGroup: vi.fn().mockResolvedValue('new-group-id'),
+  joinGroup: vi.fn().mockResolvedValue('existing-group-id'),
+}
+
+vi.mock('../hooks/useGroup', () => ({
+  useGroup: () => mockUseGroup,
+}))
+
+describe('GroupManager', () => {
+  it('renders create group form', () => {
+    render(<GroupManager uid="uid-1" onSelectGroup={() => {}} />)
+    expect(screen.getByPlaceholderText(/gruppenavn/i)).toBeInTheDocument()
+    expect(screen.getByRole('button', { name: /opprett/i })).toBeInTheDocument()
+  })
+
+  it('renders join group form', () => {
+    render(<GroupManager uid="uid-1" onSelectGroup={() => {}} />)
+    expect(screen.getByPlaceholderText(/invitasjonskode/i)).toBeInTheDocument()
+  })
+
+  it('calls createGroup and onSelectGroup when form submitted', async () => {
+    const onSelect = vi.fn()
+    render(<GroupManager uid="uid-1" onSelectGroup={onSelect} />)
+    fireEvent.change(screen.getByPlaceholderText(/gruppenavn/i), { target: { value: 'Fredagsklubben' } })
+    fireEvent.click(screen.getByRole('button', { name: /opprett/i }))
+    await waitFor(() => {
+      expect(mockUseGroup.createGroup).toHaveBeenCalledWith('Fredagsklubben')
+      expect(onSelect).toHaveBeenCalledWith('new-group-id')
+    })
+  })
+})
+```
+
+- [ ] **Step 2: Run tests to verify they fail**
+
+```bash
+cd frontend && npx vitest run src/__tests__/GroupManager.test.jsx
+```
+
+- [ ] **Step 3: Create `frontend/src/components/GroupManager.jsx`**
+
+```jsx
+import { useState } from 'react'
+import { useGroup } from '../hooks/useGroup'
+
+export default function GroupManager({ uid, onSelectGroup }) {
+  const { groups, createGroup, joinGroup } = useGroup(uid)
+  const [newName, setNewName] = useState('')
+  const [inviteCode, setInviteCode] = useState('')
+  const [error, setError] = useState(null)
+
+  async function handleCreate(e) {
+    e.preventDefault()
+    if (!newName.trim()) return
+    const id = await createGroup(newName.trim())
+    if (id) { setNewName(''); onSelectGroup(id) }
+  }
+
+  async function handleJoin(e) {
+    e.preventDefault()
+    if (!inviteCode.trim()) return
+    const id = await joinGroup(inviteCode.trim())
+    if (id) { setInviteCode(''); onSelectGroup(id) }
+    else setError('Fant ingen gruppe med den koden.')
+  }
+
+  return (
+    <div className="bg-white rounded-lg border border-gray-200 p-4 flex flex-col gap-4">
+      <h3 className="font-semibold text-gray-800">Grupper</h3>
+
+      {groups.length > 0 && (
+        <div className="flex flex-col gap-1">
+          {groups.map(g => (
+            <button
+              key={g.id}
+              onClick={() => onSelectGroup(g.id)}
+              className="text-left px-3 py-2 rounded hover:bg-gray-50 text-sm text-gray-700"
+            >
+              {g.name}
+            </button>
+          ))}
+        </div>
+      )}
+
+      <form onSubmit={handleCreate} className="flex gap-2">
+        <input
+          value={newName}
+          onChange={e => setNewName(e.target.value)}
+          placeholder="Gruppenavn"
+          className="flex-1 border border-gray-300 rounded px-3 py-1.5 text-sm"
+        />
+        <button
+          type="submit"
+          className="px-3 py-1.5 bg-blue-600 text-white rounded text-sm font-medium hover:bg-blue-700"
+        >
+          Opprett
+        </button>
+      </form>
+
+      <form onSubmit={handleJoin} className="flex gap-2">
+        <input
+          value={inviteCode}
+          onChange={e => { setInviteCode(e.target.value); setError(null) }}
+          placeholder="Invitasjonskode"
+          className="flex-1 border border-gray-300 rounded px-3 py-1.5 text-sm uppercase"
+        />
+        <button
+          type="submit"
+          className="px-3 py-1.5 bg-gray-100 text-gray-700 rounded text-sm font-medium hover:bg-gray-200"
+        >
+          Bli med
+        </button>
+      </form>
+
+      {error && <p className="text-xs text-red-500">{error}</p>}
+    </div>
+  )
+}
+```
+
+- [ ] **Step 4: Run tests to verify they pass**
+
+```bash
+cd frontend && npx vitest run src/__tests__/GroupManager.test.jsx
+```
+
+- [ ] **Step 5: Commit**
+
+```bash
+cd ..
+git add frontend/
+git commit -m "feat: add GroupManager component (create/join groups)"
+```
+
+---
+
+## Task 19: GroupPlan component + integrate into App
+
+**Files:**
+- Create: `frontend/src/components/GroupPlan.jsx`
+- Modify: `frontend/src/App.jsx`
+
+- [ ] **Step 1: Create `frontend/src/components/GroupPlan.jsx`**
+
+```jsx
+import { useGroupPlan } from '../hooks/useGroupPlan'
+
+export default function GroupPlan({ groupId, uid, allEvents, selectedDate }) {
+  const { plan, addToPlan, removeFromPlan, toggleVote } = useGroupPlan(groupId, uid)
+
+  const eventsById = Object.fromEntries(allEvents.map(e => [e.id, e]))
+  const planForDate = plan.filter(p => {
+    const event = eventsById[p.eventId]
+    return event?.date === selectedDate
+  })
+
+  return (
+    <div className="bg-white rounded-lg border border-gray-200 p-4 flex flex-col gap-3">
+      <h3 className="font-semibold text-gray-800">Gruppeplan</h3>
+
+      {planForDate.length === 0 ? (
+        <p className="text-sm text-gray-400">Ingen events i grupplanen for denne dagen.</p>
+      ) : (
+        planForDate.map(p => {
+          const event = eventsById[p.eventId]
+          if (!event) return null
+          const hasVoted = Array.isArray(p.votes) && p.votes.includes(uid)
+          return (
+            <div key={p.id} className="flex items-start justify-between gap-2 p-3 bg-gray-50 rounded-lg">
+              <div className="flex flex-col gap-0.5 min-w-0">
+                <a
+                  href={event.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-medium text-gray-900 hover:text-blue-600 text-sm truncate"
+                >
+                  {event.title}
+                </a>
+                <span className="text-xs text-gray-500">{event.time ?? ''}</span>
+              </div>
+              <div className="flex items-center gap-2 shrink-0">
+                <button
+                  onClick={() => toggleVote(p.eventId, hasVoted)}
+                  className={`flex items-center gap-1 px-2 py-1 rounded text-xs font-medium transition-colors ${
+                    hasVoted ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
+                  }`}
+                  aria-label="stem"
+                >
+                  +1 {Array.isArray(p.votes) ? p.votes.length : 0}
+                </button>
+                {p.addedBy === uid && (
+                  <button
+                    onClick={() => removeFromPlan(p.eventId)}
+                    className="text-gray-300 hover:text-red-400 text-xs"
+                    aria-label="fjern fra gruppeplan"
+                  >
+                    ✕
+                  </button>
+                )}
+              </div>
+            </div>
+          )
+        })
+      )}
+    </div>
+  )
+}
+```
+
+- [ ] **Step 2: Add "Legg til i gruppeplan" button to EventCard**
+
+Modify `frontend/src/components/EventCard.jsx` — add an optional `onAddToGroup` prop. When provided, show a small "+" button next to the favorite star:
+
+```jsx
+// In the header div, after the favorite button:
+{isLoggedIn && onAddToGroup && (
+  <button
+    aria-label="legg til i gruppeplan"
+    onClick={() => onAddToGroup(event.id)}
+    className="text-sm leading-none shrink-0 text-gray-400 hover:text-blue-600"
+    title="Legg til i gruppeplan"
+  >
+    ＋
+  </button>
+)}
+```
+
+- [ ] **Step 3: Update `frontend/src/App.jsx` to integrate groups**
+
+Add group state and wire GroupManager + GroupPlan into the calendar view:
+
+```jsx
+// Add these imports:
+import { useState } from 'react' // already imported
+import GroupManager from './components/GroupManager'
+import GroupPlan from './components/GroupPlan'
+
+// Add state:
+const [activeGroupId, setActiveGroupId] = useState(null)
+const [showGroupManager, setShowGroupManager] = useState(false)
+
+// In the calendar view layout, add a third column or below EventList:
+// Show GroupManager (toggle) and GroupPlan when a group is active
+```
+
+The exact integration: add a "Grupper" button in the view toggle row. When clicked, show GroupManager inline. When a group is selected (`activeGroupId` is set), show GroupPlan below EventList in the calendar view, passing `allEvents`, `selectedDate`, `activeGroupId`, and `user?.uid`.
+
+Pass `onAddToGroup={activeGroupId ? (id) => addToPlan(id) : undefined}` to EventList → EventCard (requires threading `onAddToGroup` through EventList).
+
+- [ ] **Step 4: Thread onAddToGroup through EventList**
+
+Modify `frontend/src/components/EventList.jsx` — accept optional `onAddToGroup` prop and pass it to each EventCard.
+
+- [ ] **Step 5: Run full test suite**
+
+```bash
+cd frontend && npm test 2>&1 | tail -10
+```
+Expected: All tests pass
+
+- [ ] **Step 6: Run build**
+
+```bash
+npm run build 2>&1 | tail -5
+```
+
+- [ ] **Step 7: Commit**
+
+```bash
+cd ..
+git add frontend/
+git commit -m "feat: add GroupPlan component and integrate groups into App"
+```
+
+---
+
+## Task 20: Invite link support
+
+**Files:**
+- Modify: `frontend/src/App.jsx`
+- Modify: `frontend/src/components/GroupManager.jsx`
+
+- [ ] **Step 1: Read invite code from URL on mount**
+
+In `App.jsx`, add a `useEffect` that reads `?join=CODE` from `window.location.search` on mount. If present and user is logged in, call `joinGroup(code)` automatically and redirect to the group.
+
+```jsx
+useEffect(() => {
+  const params = new URLSearchParams(window.location.search)
+  const joinCode = params.get('join')
+  if (joinCode && user) {
+    joinGroup(joinCode).then(id => {
+      if (id) {
+        setActiveGroupId(id)
+        // Remove the ?join= param from URL without reload
+        window.history.replaceState({}, '', window.location.pathname)
+      }
+    })
+  }
+}, [user])
+```
+
+Note: `joinGroup` comes from a `useGroup` call at App level — move `useGroup` usage from GroupManager to App and pass `groups`, `createGroup`, `joinGroup` as props to GroupManager.
+
+- [ ] **Step 2: Add "Kopier invitasjonslenke" in GroupManager**
+
+When a group is selected (after create or join), show the invite link:
+
+```jsx
+const inviteLink = `${window.location.origin}?join=${group.inviteCode}`
+// Show a button that copies this to clipboard:
+<button onClick={() => navigator.clipboard.writeText(inviteLink)}>
+  Kopier invitasjonslenke
+</button>
+```
+
+- [ ] **Step 3: Run full test suite and build**
+
+```bash
+cd frontend && npm test 2>&1 | tail -10 && npm run build 2>&1 | tail -5
+```
+
+- [ ] **Step 4: Commit**
+
+```bash
+cd ..
+git add frontend/
+git commit -m "feat: add invite link support for joining groups via URL"
+```
+
+---
+
+## Updated post-deploy checklist
+
+- [ ] Verify app is live at the Azure Static Web Apps URL
+- [ ] Test Google login works (add your domain to Firebase Auth → Authorized domains)
+- [ ] Manually trigger `scrape.yml` workflow and verify `events.json` is updated
+- [ ] Test group creation and invite link flow end-to-end
+- [ ] Test real-time group plan updates across two browser sessions
+- [ ] Test voting (+1) on group plan events
