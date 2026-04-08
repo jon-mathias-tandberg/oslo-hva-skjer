@@ -6,6 +6,7 @@ Verify by running: python scrape_meetup.py
 """
 import re
 import requests
+from dateutil import parser as dateparser
 
 API_URL = "https://www.meetup.com/gql"
 
@@ -41,7 +42,6 @@ def scrape() -> list[dict]:
     for edge in edges:
         node = edge.get("node", {})
         try:
-            from dateutil import parser as dateparser
             parsed = dateparser.parse(node["dateTime"])
             title = node["title"]
             events.append({
