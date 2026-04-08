@@ -52,7 +52,7 @@ export default function App() {
 
       <main className="flex-1 max-w-5xl mx-auto w-full px-4 py-6 flex flex-col gap-6">
         {/* View tabs */}
-        <div className="flex gap-6 border-b border-gray-200 pb-0">
+        <div className="flex items-end gap-6 border-b border-gray-200">
           <button
             onClick={() => setView('calendar')}
             className={`pb-3 text-xs font-bold tracking-widest uppercase transition-colors ${
