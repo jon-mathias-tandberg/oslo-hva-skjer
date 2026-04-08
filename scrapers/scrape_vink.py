@@ -2,6 +2,18 @@
 Scraper for Aftenposten Vink restaurant recommendations.
 Returns a list of event dicts matching the events.json schema.
 
+The site has moved from aftenposten.no/vink/restauranter to vink.aftenposten.no/
+The homepage is server-side rendered with article teasers in the HTML.
+
+HTML structure (confirmed against live site 2026-04-08):
+  <article class="teaser ...">
+    <a class="teaser-link" href="/artikkel/{id}/{slug}">
+      <div class="text-wrapper">
+        <div class="title">Article title</div>
+      </div>
+    </a>
+  </article>
+
 Verify selectors by running: python scrape_vink.py
 """
 import re
@@ -9,8 +21,8 @@ import requests
 from bs4 import BeautifulSoup
 from datetime import date
 
-BASE_URL = "https://www.aftenposten.no"
-VINK_URL = f"{BASE_URL}/vink/restauranter"
+BASE_URL = "https://vink.aftenposten.no"
+VINK_URL = BASE_URL + "/"
 
 
 def scrape() -> list[dict]:
@@ -21,12 +33,12 @@ def scrape() -> list[dict]:
     events = []
     today = date.today().strftime("%Y-%m-%d")
 
-    # Vink lists restaurants, not time-bound events — we add them as standing recommendations
-    # Selector: inspect aftenposten.no/vink/restauranter and update to match restaurant cards
-    for item in soup.select("article, .article-teaser, [class*='teaser']"):
+    # Vink lists articles/restaurant reviews — we add them as standing recommendations.
+    # Each article is an <article class="teaser ..."> with a nested .title and a.teaser-link.
+    for item in soup.select("article.teaser"):
         try:
-            title_el = item.select_one("h2, h3, [class*='title']")
-            link_el = item.select_one("a[href]")
+            title_el = item.select_one(".title")
+            link_el = item.select_one("a.teaser-link")
 
             if not title_el:
                 continue

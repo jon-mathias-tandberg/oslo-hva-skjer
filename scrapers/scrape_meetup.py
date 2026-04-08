@@ -2,16 +2,20 @@
 Fetches Oslo events from Meetup's public GraphQL API.
 Returns a list of event dicts matching the events.json schema.
 
+Endpoint: https://www.meetup.com/gql2  (POST)
+  - The original /gql endpoint returns 404; the live endpoint is /gql2
+  - radius must be Float, not Int
+
 Verify by running: python scrape_meetup.py
 """
 import re
 import requests
 from dateutil import parser as dateparser
 
-API_URL = "https://www.meetup.com/gql"
+API_URL = "https://www.meetup.com/gql2"
 
 QUERY = """
-query($lat: Float!, $lon: Float!, $radius: Int!, $first: Int!) {
+query recommendedEvents($lat: Float!, $lon: Float!, $radius: Float!, $first: Int!) {
   recommendedEvents(filter: {lat: $lat, lon: $lon, radius: $radius}, first: $first) {
     edges {
       node {
@@ -27,13 +31,22 @@ query($lat: Float!, $lon: Float!, $radius: Int!, $first: Int!) {
 }
 """
 
+HEADERS = {
+    "Content-Type": "application/json",
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+    "Accept": "application/json",
+    "Origin": "https://www.meetup.com",
+    "Referer": "https://www.meetup.com/find/?location=no--Oslo&source=EVENTS",
+}
+
 
 def scrape() -> list[dict]:
     payload = {
+        "operationName": "recommendedEvents",
         "query": QUERY,
-        "variables": {"lat": 59.9139, "lon": 10.7522, "radius": 10, "first": 50},
+        "variables": {"lat": 59.9139, "lon": 10.7522, "radius": 10.0, "first": 50},
     }
-    res = requests.post(API_URL, json=payload, timeout=15, headers={"Content-Type": "application/json"})
+    res = requests.post(API_URL, json=payload, timeout=15, headers=HEADERS)
     res.raise_for_status()
     data = res.json()
 

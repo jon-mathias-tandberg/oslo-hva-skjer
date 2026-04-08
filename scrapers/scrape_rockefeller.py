@@ -2,41 +2,58 @@
 Scraper for Rockefeller (rockefeller.no).
 Returns a list of event dicts matching the events.json schema.
 
+The site is a Next.js SPA (broadcast.events platform) that renders events
+client-side. The full program is fetched from a public JSON API:
+  GET https://www.rockefeller.no/api/eventsEdge?
+
+Response: list of event objects with fields:
+  id, name, start_time, tags, details, custom_fields, place
+
+Event URL pattern: https://www.rockefeller.no/events/{slugified-name}/{id}
+
 Verify selectors by running: python scrape_rockefeller.py
 """
 import re
 import requests
-from bs4 import BeautifulSoup
 from dateutil import parser as dateparser
 
 BASE_URL = "https://www.rockefeller.no"
-EVENTS_URL = f"{BASE_URL}/program"
+API_URL = f"{BASE_URL}/api/eventsEdge?"
+
+
+def _slugify(name: str) -> str:
+    """Reproduce the broadcast.events slug function (lowercase, spaces→hyphens)."""
+    return re.sub(r"\s+", "-", name.strip().lower())
 
 
 def scrape() -> list[dict]:
-    res = requests.get(EVENTS_URL, timeout=10, headers={"User-Agent": "Mozilla/5.0"})
+    res = requests.get(API_URL, timeout=15, headers={"User-Agent": "Mozilla/5.0"})
     res.raise_for_status()
-    soup = BeautifulSoup(res.text, "html.parser")
+    data = res.json()
 
     events = []
-    # Selector: inspect rockefeller.no/program and update to match event list items
-    for item in soup.select("article, .event, .program-item, li[class*='event']"):
+    for item in data:
         try:
-            title_el = item.select_one("h2, h3, .title, .event-name")
-            date_el = item.select_one("time, .date, [class*='date']")
-            link_el = item.select_one("a[href]")
-
-            if not title_el or not date_el:
-                continue
-
-            title = title_el.get_text(strip=True)
-            raw_date = date_el.get("datetime") or date_el.get_text(strip=True)
-            parsed = dateparser.parse(raw_date, dayfirst=True)
+            title = item["name"].strip()
+            raw_date = item["start_time"]  # ISO 8601, e.g. "2026-04-08T17:00:00.000Z"
+            parsed = dateparser.parse(raw_date)
             if not parsed:
                 continue
 
-            href = link_el["href"] if link_el else ""
-            url = href if href.startswith("http") else BASE_URL + href
+            event_id = item["id"]
+            slug = _slugify(title)
+            url = f"{BASE_URL}/events/{slug}/{event_id}"
+
+            # Use ticketUrl from custom_fields if available
+            cf = item.get("custom_fields", {})
+            ticket_url = cf.get("ticketUrl", "")
+            if ticket_url:
+                url = ticket_url
+
+            description = item.get("details", "")[:200] if item.get("details") else ""
+
+            # place field tells us which venue (Rockefeller, John Dee, Sentrum Scene, etc.)
+            place = item.get("place", {}).get("name", "Rockefeller")
 
             events.append({
                 "id": f"rockefeller-{parsed.strftime('%Y-%m-%d')}-{re.sub(r'[^a-z0-9]', '-', title.lower())[:30]}",
@@ -46,7 +63,7 @@ def scrape() -> list[dict]:
                 "category": "konsert",
                 "source": "rockefeller",
                 "url": url,
-                "description": "",
+                "description": description,
             })
         except Exception:
             continue
