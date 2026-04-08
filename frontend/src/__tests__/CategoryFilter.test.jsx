@@ -9,6 +9,7 @@ describe('CategoryFilter', () => {
     expect(screen.getByRole('button', { name: /konsert/i })).toBeInTheDocument()
     expect(screen.getByRole('button', { name: /mat/i })).toBeInTheDocument()
     expect(screen.getByRole('button', { name: /kultur/i })).toBeInTheDocument()
+    expect(screen.getByRole('button', { name: /humor/i })).toBeInTheDocument()
     expect(screen.getByRole('button', { name: /annet/i })).toBeInTheDocument()
   })
 

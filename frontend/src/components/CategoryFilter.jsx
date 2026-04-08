@@ -1,4 +1,4 @@
-const CATEGORIES = ['alle', 'konsert', 'mat', 'kultur', 'annet']
+const CATEGORIES = ['alle', 'konsert', 'mat', 'kultur', 'humor', 'annet']
 
 export default function CategoryFilter({ selected, onChange }) {
   return (

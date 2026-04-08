@@ -12,8 +12,10 @@ import scrape_blaa
 import scrape_rockefeller
 import scrape_meetup
 import scrape_vink
+import scrape_nieuscene
+import scrape_latter
 
-SCRAPERS = [scrape_blaa, scrape_rockefeller, scrape_meetup, scrape_vink]
+SCRAPERS = [scrape_blaa, scrape_rockefeller, scrape_meetup, scrape_vink, scrape_nieuscene, scrape_latter]
 
 OUTPUT_PATHS = [
     Path(__file__).parent.parent / "data" / "events.json",
