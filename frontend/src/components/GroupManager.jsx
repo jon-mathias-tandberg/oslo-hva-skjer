@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-export default function GroupManager({ uid, groups, createGroup, joinGroup, onSelectGroup, activeGroup }) {
+export default function GroupManager({ groups, createGroup, joinGroup, onSelectGroup, activeGroup }) {
   const [newName, setNewName] = useState('')
   const [inviteCode, setInviteCode] = useState('')
   const [error, setError] = useState(null)

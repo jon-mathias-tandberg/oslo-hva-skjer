@@ -37,7 +37,7 @@ export default function App() {
         window.history.replaceState({}, '', window.location.pathname)
       }
     })
-  }, [user])
+  }, [user, joinGroup])
 
   useEffect(() => {
     loadEvents().then(setAllEvents).catch(console.error)
@@ -96,7 +96,6 @@ export default function App() {
             </div>
             {showGroupManager && user && (
               <GroupManager
-                uid={user.uid}
                 groups={groups}
                 createGroup={createGroup}
                 joinGroup={joinGroup}
