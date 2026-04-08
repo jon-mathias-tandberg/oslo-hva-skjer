@@ -7,16 +7,16 @@ export default function AuthButton() {
 
   if (user) {
     return (
-      <div className="flex items-center gap-2">
+      <div className="flex items-center gap-3">
         <img
           src={user.photoURL}
           alt={user.displayName}
-          className="w-8 h-8 rounded-full"
+          className="w-7 h-7 rounded-full"
         />
-        <span className="text-sm text-gray-700">{user.displayName}</span>
+        <span className="text-sm text-gray-700 hidden sm:inline">{user.displayName}</span>
         <button
           onClick={logout}
-          className="text-sm text-gray-500 hover:text-gray-800"
+          className="text-xs font-bold tracking-widest uppercase text-gray-400 hover:text-gray-900 transition-colors"
         >
           Logg ut
         </button>
@@ -29,7 +29,7 @@ export default function AuthButton() {
     <div className="flex items-center gap-2">
       <button
         onClick={signInWithGoogle}
-        className="flex items-center gap-2 px-4 py-2 bg-white border border-gray-300 rounded-lg text-sm font-medium text-gray-700 hover:bg-gray-50 shadow-sm"
+        className="flex items-center gap-2 px-4 py-2 bg-gray-900 text-white text-xs font-bold tracking-widest uppercase hover:bg-gray-700 transition-colors"
       >
         <svg className="w-4 h-4" viewBox="0 0 24 24">
           <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
