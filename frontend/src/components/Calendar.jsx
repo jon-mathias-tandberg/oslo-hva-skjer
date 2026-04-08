@@ -19,30 +19,30 @@ export default function Calendar({ events, selectedDate, onSelectDate }) {
   const days = eachDayOfInterval({ start: calStart, end: calEnd })
 
   return (
-    <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-4">
+    <div className="py-2">
       <div className="flex items-center justify-between mb-4">
         <button
           onClick={() => setViewDate(d => subMonths(d, 1))}
-          className="p-1 hover:bg-gray-100 rounded"
+          className="text-gray-400 hover:text-gray-900 transition-colors px-1 text-lg"
           aria-label="forrige måned"
         >
           ‹
         </button>
-        <h2 className="font-semibold capitalize">
+        <h2 className="text-xs font-bold tracking-widest uppercase text-gray-900">
           {format(viewDate, 'MMMM yyyy', { locale: nb })}
         </h2>
         <button
           onClick={() => setViewDate(d => addMonths(d, 1))}
-          className="p-1 hover:bg-gray-100 rounded"
+          className="text-gray-400 hover:text-gray-900 transition-colors px-1 text-lg"
           aria-label="neste måned"
         >
           ›
         </button>
       </div>
 
-      <div className="grid grid-cols-7 text-center text-xs text-gray-500 mb-1">
+      <div className="grid grid-cols-7 text-center mb-2">
         {['Ma', 'Ti', 'On', 'To', 'Fr', 'Lø', 'Sø'].map(d => (
-          <div key={d}>{d}</div>
+          <div key={d} className="text-xs font-bold text-gray-400 uppercase tracking-wide">{d}</div>
         ))}
       </div>
 
@@ -59,13 +59,20 @@ export default function Calendar({ events, selectedDate, onSelectDate }) {
               data-testid={`day-${dateStr}`}
               data-has-events={hasEvents ? 'true' : 'false'}
               onClick={() => onSelectDate(dateStr)}
-              className={`relative flex flex-col items-center py-1 rounded text-sm transition-colors ${
-                !isCurrentMonth ? 'text-gray-300' : 'text-gray-700 hover:bg-gray-100'
-              } ${isSelected ? 'bg-blue-600 text-white hover:bg-blue-700' : ''}`}
+              className={`relative flex flex-col items-center py-1.5 text-sm transition-colors ${
+                !isCurrentMonth ? 'text-gray-300' : 'text-gray-700 hover:text-gray-900'
+              } ${isSelected ? 'font-bold' : ''}`}
             >
-              {format(day, 'd')}
-              {hasEvents && (
-                <span className={`w-1 h-1 rounded-full mt-0.5 ${isSelected ? 'bg-white' : 'bg-blue-500'}`} />
+              <span className={`w-7 h-7 flex items-center justify-center ${
+                isSelected ? 'bg-gray-900 text-white rounded-full' : ''
+              }`}>
+                {format(day, 'd')}
+              </span>
+              {hasEvents && !isSelected && (
+                <span className="w-1 h-1 rounded-full bg-red-600 mt-0.5" />
+              )}
+              {hasEvents && isSelected && (
+                <span className="w-1 h-1 rounded-full bg-white mt-0.5" />
               )}
             </button>
           )
