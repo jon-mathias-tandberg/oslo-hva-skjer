@@ -10,6 +10,7 @@ import GroupPlan from './components/GroupPlan'
 import { useAuth } from './hooks/useAuth'
 import { useFavorites } from './hooks/useFavorites'
 import { useGroupPlan } from './hooks/useGroupPlan'
+import { useGroup } from './hooks/useGroup'
 import { loadEvents, filterByDate, filterByCategory } from './utils/events'
 
 export default function App() {
@@ -22,13 +23,28 @@ export default function App() {
 
   const { user } = useAuth()
   const { favorites, toggleFavorite } = useFavorites(user?.uid ?? null)
+  const { groups, createGroup, joinGroup } = useGroup(user?.uid ?? null)
   const { addToPlan } = useGroupPlan(activeGroupId, user?.uid ?? null)
+
+  useEffect(() => {
+    if (!user) return
+    const params = new URLSearchParams(window.location.search)
+    const joinCode = params.get('join')
+    if (!joinCode) return
+    joinGroup(joinCode).then(id => {
+      if (id) {
+        setActiveGroupId(id)
+        window.history.replaceState({}, '', window.location.pathname)
+      }
+    })
+  }, [user])
 
   useEffect(() => {
     loadEvents().then(setAllEvents).catch(console.error)
   }, [])
 
   const eventsForDate = filterByCategory(filterByDate(allEvents, selectedDate), category)
+  const activeGroup = groups.find(g => g.id === activeGroupId) ?? null
 
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col">
@@ -79,7 +95,14 @@ export default function App() {
               </div>
             </div>
             {showGroupManager && user && (
-              <GroupManager uid={user.uid} onSelectGroup={id => { setActiveGroupId(id); setShowGroupManager(false) }} />
+              <GroupManager
+                uid={user.uid}
+                groups={groups}
+                createGroup={createGroup}
+                joinGroup={joinGroup}
+                onSelectGroup={id => { setActiveGroupId(id); setShowGroupManager(false) }}
+                activeGroup={activeGroup}
+              />
             )}
             {activeGroupId && user && (
               <GroupPlan

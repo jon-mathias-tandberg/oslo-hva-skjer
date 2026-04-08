@@ -1,8 +1,6 @@
 import { useState } from 'react'
-import { useGroup } from '../hooks/useGroup'
 
-export default function GroupManager({ uid, onSelectGroup }) {
-  const { groups, createGroup, joinGroup } = useGroup(uid)
+export default function GroupManager({ uid, groups, createGroup, joinGroup, onSelectGroup, activeGroup }) {
   const [newName, setNewName] = useState('')
   const [inviteCode, setInviteCode] = useState('')
   const [error, setError] = useState(null)
@@ -71,6 +69,23 @@ export default function GroupManager({ uid, onSelectGroup }) {
       </form>
 
       {error && <p className="text-xs text-red-500">{error}</p>}
+
+      {activeGroup && (
+        <div className="bg-gray-50 rounded p-3 flex flex-col gap-1">
+          <p className="text-xs text-gray-500 font-medium">Invitasjonslenke for {activeGroup.name}:</p>
+          <div className="flex gap-2 items-center">
+            <code className="text-xs text-gray-700 flex-1 truncate">
+              {window.location.origin}?join={activeGroup.inviteCode}
+            </code>
+            <button
+              onClick={() => navigator.clipboard.writeText(`${window.location.origin}?join=${activeGroup.inviteCode}`)}
+              className="px-2 py-1 bg-blue-600 text-white rounded text-xs font-medium hover:bg-blue-700 shrink-0"
+            >
+              Kopier
+            </button>
+          </div>
+        </div>
+      )}
     </div>
   )
 }
