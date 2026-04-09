@@ -23,7 +23,7 @@ export default function App() {
   const [category, setCategory] = useState('alle')
   const [view, setView] = useState('calendar')
   const [activeGroupId, setActiveGroupId] = useState(null)
-  const [showGroupManager, setShowGroupManager] = useState(false)
+
 
   const { user } = useAuth()
   const { favorites, toggleFavorite } = useFavorites(user?.uid ?? null)
@@ -86,9 +86,9 @@ export default function App() {
             Wheel of Fortune
           </button>
           <button
-            onClick={() => setShowGroupManager(g => !g)}
+            onClick={() => setView('grupper')}
             className={`pb-3 text-xs font-bold tracking-widest uppercase transition-colors ${
-              showGroupManager
+              view === 'grupper'
                 ? 'border-b-2 border-gray-900 text-gray-900 -mb-px'
                 : 'text-gray-400 hover:text-gray-700'
             }`}
@@ -141,48 +141,23 @@ export default function App() {
                 />
               </div>
               <div className="flex flex-col gap-4 pt-4 md:pt-0 md:pl-6">
-                {/* GroupManager vises øverst i høyre kolonne når aktivert */}
-                {showGroupManager && user && (
-                  <GroupManager
-                    groups={groups}
-                    createGroup={createGroup}
-                    joinGroup={joinGroup}
-                    onSelectGroup={id => { setActiveGroupId(id); setShowGroupManager(false) }}
-                    activeGroup={activeGroup}
-                  />
+                <CategoryFilter selected={category} onChange={setCategory} />
+                {activeGroup && (
+                  <p className="text-xs text-green-600 font-bold tracking-widest uppercase -mt-2">
+                    {activeGroup.name}
+                  </p>
                 )}
-                {!showGroupManager && (
-                  <>
-                    <CategoryFilter selected={category} onChange={setCategory} />
-                    {activeGroup && (
-                      <p className="text-xs text-green-600 font-bold tracking-widest uppercase -mt-2">
-                        {activeGroup.name}
-                      </p>
-                    )}
-                    {activeGroupId && user && (
-                      <GroupPlan groupId={activeGroupId} uid={user.uid} allEvents={allEvents} selectedDate={selectedDate} />
-                    )}
-                    <EventList
-                      events={eventsForDate}
-                      selectedDate={selectedDate}
-                      isLoggedIn={!!user}
-                      favorites={favorites}
-                      onToggleFavorite={toggleFavorite}
-                      onAddToGroup={activeGroupId && user ? addToPlan : undefined}
-                    />
-                    {user && groups.length === 0 && (
-                      <div className="border border-dashed border-gray-300 p-4 text-center">
-                        <p className="text-xs text-gray-500 mb-2">Planlegg med vennegjengen</p>
-                        <button
-                          onClick={() => setShowGroupManager(true)}
-                          className="text-xs font-bold tracking-widest uppercase text-gray-900 hover:underline"
-                        >
-                          Opprett eller bli med i en gruppe →
-                        </button>
-                      </div>
-                    )}
-                  </>
+                {activeGroupId && user && (
+                  <GroupPlan groupId={activeGroupId} uid={user.uid} allEvents={allEvents} selectedDate={selectedDate} />
                 )}
+                <EventList
+                  events={eventsForDate}
+                  selectedDate={selectedDate}
+                  isLoggedIn={!!user}
+                  favorites={favorites}
+                  onToggleFavorite={toggleFavorite}
+                  onAddToGroup={activeGroupId && user ? addToPlan : undefined}
+                />
               </div>
             </div>
           </>
@@ -198,6 +173,63 @@ export default function App() {
               await setDoc(ref, { eventId, addedBy: user.uid, addedAt: serverTimestamp(), votes: [user.uid] })
             } : undefined}
           />
+        ) : view === 'grupper' ? (
+          <div className="max-w-2xl flex flex-col gap-8">
+            {!user ? (
+              <p className="text-sm text-gray-400 italic">Logg inn for å bruke grupper.</p>
+            ) : (
+              <>
+                {/* Mine grupper */}
+                {groups.length > 0 && (
+                  <div>
+                    <h2 className="font-serif text-2xl font-bold text-gray-900 mb-4 pb-3 border-b-2 border-gray-900">
+                      Mine grupper
+                    </h2>
+                    <div className="flex flex-col gap-2">
+                      {groups.map(g => (
+                        <button
+                          key={g.id}
+                          onClick={() => setActiveGroupId(id => id === g.id ? null : g.id)}
+                          className={`text-left px-4 py-3 border transition-colors ${
+                            activeGroupId === g.id
+                              ? 'border-gray-900 bg-gray-900 text-white'
+                              : 'border-gray-200 hover:border-gray-900 text-gray-700'
+                          }`}
+                        >
+                          <span className="font-semibold">{g.name}</span>
+                          {activeGroupId === g.id && <span className="text-xs ml-2 opacity-70">aktiv</span>}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
+                {/* Aktiv gruppeplan — alle datoer */}
+                {activeGroupId && (
+                  <div>
+                    <h2 className="font-serif text-2xl font-bold text-gray-900 mb-4 pb-3 border-b-2 border-gray-900">
+                      {activeGroup?.name} — agenda
+                    </h2>
+                    <GroupPlan groupId={activeGroupId} uid={user.uid} allEvents={allEvents} />
+                  </div>
+                )}
+
+                {/* Opprett / bli med */}
+                <div>
+                  <h2 className="font-serif text-xl font-bold text-gray-900 mb-4 pb-3 border-b border-gray-200">
+                    {groups.length === 0 ? 'Kom i gang' : 'Ny gruppe / bli med'}
+                  </h2>
+                  <GroupManager
+                    groups={groups}
+                    createGroup={createGroup}
+                    joinGroup={joinGroup}
+                    onSelectGroup={id => setActiveGroupId(id)}
+                    activeGroup={activeGroup}
+                  />
+                </div>
+              </>
+            )}
+          </div>
         ) : view === 'favoritter' ? (
           <div>
             <h2 className="font-serif text-2xl font-bold text-gray-900 mb-4 pb-3 border-b-2 border-gray-900">

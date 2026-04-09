@@ -4,10 +4,10 @@ export default function GroupPlan({ groupId, uid, allEvents, selectedDate }) {
   const { plan, addToPlan, removeFromPlan, toggleVote } = useGroupPlan(groupId, uid)
 
   const eventsById = Object.fromEntries(allEvents.map(e => [e.id, e]))
-  const planForDate = plan.filter(p => {
-    const event = eventsById[p.eventId]
-    return event?.date === selectedDate
-  })
+  // If selectedDate is provided, filter to that date. Otherwise show all.
+  const planForDate = selectedDate
+    ? plan.filter(p => eventsById[p.eventId]?.date === selectedDate)
+    : [...plan].sort((a, b) => (eventsById[a.eventId]?.date ?? '').localeCompare(eventsById[b.eventId]?.date ?? ''))
 
   return (
     <div className="bg-white rounded-lg border border-gray-200 p-4 flex flex-col gap-3">
