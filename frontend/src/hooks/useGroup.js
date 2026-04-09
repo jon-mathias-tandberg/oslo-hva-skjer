@@ -28,8 +28,19 @@ export function useGroup(uid) {
 
   async function createGroup(name) {
     if (!uid || !name.trim()) return { error: 'Mangler navn eller bruker' }
-    // Force token refresh so Firestore gets a valid auth token
-    try { await auth.currentUser?.getIdToken(true) } catch (_) {}
+
+    // Diagnostic: verify auth state
+    const currentUser = auth.currentUser
+    if (!currentUser) return { error: `auth.currentUser er null (uid=${uid})` }
+
+    // Force token refresh
+    let token
+    try {
+      token = await currentUser.getIdToken(true)
+    } catch (tokenErr) {
+      return { error: `Token refresh feilet: ${tokenErr.message}` }
+    }
+
     const groupRef = doc(collection(db, 'groups'))
     const inviteCode = generateInviteCode()
     try {
@@ -43,8 +54,7 @@ export function useGroup(uid) {
       })
       return { id: groupRef.id }
     } catch (err) {
-      console.error('createGroup error:', err)
-      return { error: err.message ?? 'Kunne ikke opprette gruppe' }
+      return { error: `Firestore feil (uid=${uid}, token=${token?.slice(0,10)}...): ${err.code} — ${err.message}` }
     }
   }
 
