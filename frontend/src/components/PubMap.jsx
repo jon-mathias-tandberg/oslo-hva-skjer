@@ -98,28 +98,42 @@ export default function PubMap() {
                 </h3>
               </div>
               {selected.address && (
-                <p className="text-sm text-gray-500">{selected.address}</p>
+                <div className="flex items-start gap-2">
+                  <span className="text-gray-400 mt-0.5">📍</span>
+                  <p className="text-sm text-gray-600">{selected.address}</p>
+                </div>
+              )}
+              {selected.phone && (
+                <div className="flex items-center gap-2">
+                  <span className="text-gray-400">📞</span>
+                  <a href={`tel:${selected.phone}`} className="text-sm text-gray-600 hover:text-gray-900">
+                    {selected.phone}
+                  </a>
+                </div>
               )}
               {selected.opening_hours && (
                 <OpeningHoursPanel raw={selected.opening_hours} />
               )}
-              {selected.phone && (
-                <p className="text-sm text-gray-500">
-                  <a href={`tel:${selected.phone}`} className="hover:text-gray-900">{selected.phone}</a>
-                </p>
-              )}
-              {selected.website ? (
+              <div className="mt-auto flex flex-col gap-2">
+                {selected.website && (
+                  <a
+                    href={selected.website}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block w-full text-center py-2 px-4 bg-gray-900 text-white text-xs font-bold tracking-widest uppercase hover:bg-gray-700 transition-colors"
+                  >
+                    Nettside →
+                  </a>
+                )}
                 <a
-                  href={selected.website}
+                  href={`https://www.google.com/maps/search/?api=1&query=${selected.lat},${selected.lon}`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="mt-auto block w-full text-center py-2 px-4 bg-gray-900 text-white text-xs font-bold tracking-widest uppercase hover:bg-gray-700 transition-colors"
+                  className="block w-full text-center py-2 px-4 border border-gray-300 text-gray-700 text-xs font-bold tracking-widest uppercase hover:border-gray-900 transition-colors"
                 >
-                  Besøk nettside →
+                  Google Maps →
                 </a>
-              ) : (
-                <p className="text-xs text-gray-400 italic mt-auto">Ingen nettside registrert</p>
-              )}
+              </div>
             </div>
           ) : (
             <div className="flex items-center justify-center h-full p-4 text-center">
