@@ -24,7 +24,7 @@ import requests
 from bs4 import BeautifulSoup
 from datetime import date, timedelta
 
-BASE_URL = "https://www.folketeater.no"
+BASE_URL = "https://www.folketeateret.no/"
 PROGRAM_URL = f"{BASE_URL}/forestillinger/program/"
 KALENDER_URL = f"{BASE_URL}/forestillinger/kalender/"
 
