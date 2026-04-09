@@ -14,6 +14,8 @@ import { useFavorites } from './hooks/useFavorites'
 import { useGroupPlan } from './hooks/useGroupPlan'
 import { useGroup } from './hooks/useGroup'
 import { loadEvents, filterByDate, filterByCategory } from './utils/events'
+import { db } from './firebase'
+import { doc, setDoc, serverTimestamp } from 'firebase/firestore'
 
 export default function App() {
   const [allEvents, setAllEvents] = useState([])
@@ -190,7 +192,11 @@ export default function App() {
             isLoggedIn={!!user}
             favorites={favorites}
             onToggleFavorite={toggleFavorite}
-            onAddToGroup={activeGroupId && user ? addToPlan : undefined}
+            groups={user ? groups : []}
+            onAddToSpecificGroup={user ? async (groupId, eventId) => {
+              const ref = doc(db, 'groups', groupId, 'plan', eventId)
+              await setDoc(ref, { eventId, addedBy: user.uid, addedAt: serverTimestamp(), votes: [user.uid] })
+            } : undefined}
           />
         ) : view === 'favoritter' ? (
           <div>

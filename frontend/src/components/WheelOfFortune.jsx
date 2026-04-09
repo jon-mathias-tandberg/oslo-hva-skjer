@@ -2,11 +2,12 @@ import { useState, useRef, useEffect } from 'react'
 import { format, parseISO } from 'date-fns'
 import { nb } from 'date-fns/locale'
 
-export default function WheelOfFortune({ events, isLoggedIn = false, favorites = [], onToggleFavorite, onAddToGroup }) {
+export default function WheelOfFortune({ events, isLoggedIn = false, favorites = [], onToggleFavorite, groups = [], onAddToSpecificGroup }) {
   const [spinning, setSpinning] = useState(false)
   const [result, setResult] = useState(null)
   const [rotation, setRotation] = useState(0)
   const [filterDate, setFilterDate] = useState('')
+  const [showGroupPicker, setShowGroupPicker] = useState(false)
   const timeoutRef = useRef(null)
 
   useEffect(() => {
@@ -103,7 +104,7 @@ export default function WheelOfFortune({ events, isLoggedIn = false, favorites =
               {result.title}
             </a>
             {isLoggedIn && (
-              <div className="flex items-center gap-1 shrink-0 mt-1">
+              <div className="flex items-center gap-1 shrink-0 mt-1 relative">
                 <button
                   aria-label={favorites.includes(result.id) ? 'fjern lagret' : 'lagre'}
                   onClick={() => onToggleFavorite?.(result.id)}
@@ -111,15 +112,36 @@ export default function WheelOfFortune({ events, isLoggedIn = false, favorites =
                 >
                   {favorites.includes(result.id) ? '★' : '☆'}
                 </button>
-                {onAddToGroup && (
-                  <button
-                    aria-label="legg til i gruppeplan"
-                    onClick={() => onAddToGroup(result.id)}
-                    className="text-xl leading-none text-gray-400 hover:text-gray-900 transition-colors"
-                    title="Legg til i gruppeplan"
-                  >
-                    ＋
-                  </button>
+                {groups.length > 0 && (
+                  <div className="relative">
+                    <button
+                      aria-label="legg til i gruppeplan"
+                      onClick={() => {
+                        if (groups.length === 1) {
+                          onAddToSpecificGroup?.(groups[0].id, result.id)
+                        } else {
+                          setShowGroupPicker(v => !v)
+                        }
+                      }}
+                      className="text-xl leading-none text-gray-400 hover:text-gray-900 transition-colors"
+                      title="Legg til i gruppeplan"
+                    >
+                      ＋
+                    </button>
+                    {showGroupPicker && (
+                      <div className="absolute right-0 top-7 bg-white border border-gray-200 shadow-md z-10 min-w-max">
+                        {groups.map(g => (
+                          <button
+                            key={g.id}
+                            onClick={() => { onAddToSpecificGroup?.(g.id, result.id); setShowGroupPicker(false) }}
+                            className="block w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-50"
+                          >
+                            {g.name}
+                          </button>
+                        ))}
+                      </div>
+                    )}
+                  </div>
                 )}
               </div>
             )}
