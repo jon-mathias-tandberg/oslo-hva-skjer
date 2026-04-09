@@ -6,6 +6,7 @@ import EventList from './components/EventList'
 import CategoryFilter from './components/CategoryFilter'
 import WheelOfFortune from './components/WheelOfFortune'
 import RestaurantList from './components/RestaurantList'
+import PubList from './components/PubList'
 import GroupManager from './components/GroupManager'
 import GroupPlan from './components/GroupPlan'
 import Toast from './components/Toast'
@@ -116,6 +117,16 @@ export default function App() {
             }`}
           >
             Restauranter
+          </button>
+          <button
+            onClick={() => setView('puber')}
+            className={`pb-3 text-xs font-bold tracking-widest uppercase transition-colors ${
+              view === 'puber'
+                ? 'border-b-2 border-gray-900 text-gray-900 -mb-px'
+                : 'text-gray-400 hover:text-gray-700'
+            }`}
+          >
+            Puber
           </button>
           <button
             onClick={() => setView(v => v === 'about' ? 'calendar' : 'about')}
@@ -276,6 +287,8 @@ export default function App() {
               </div>
             )}
           </div>
+        ) : view === 'puber' ? (
+          <PubList />
         ) : view === 'restauranter' ? (
           <RestaurantList />
         ) : (

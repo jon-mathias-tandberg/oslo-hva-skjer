@@ -30,11 +30,15 @@ jobs:
       - name: Run Vink restaurant scraper
         run: python scrapers/scrape_vink.py
 
+      - name: Run pub scraper (OpenStreetMap)
+        run: python scrapers/scrape_pubs.py
+
       - name: Commit updated data files
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/events.json frontend/public/data/events.json
           git add data/restaurants.json frontend/public/data/restaurants.json
-          git diff --staged --quiet || git commit -m "chore: update events and restaurants [skip ci]"
+          git add data/pubs.json frontend/public/data/pubs.json
+          git diff --staged --quiet || git commit -m "chore: update events, restaurants and pubs [skip ci]"
           git push
