@@ -54,7 +54,7 @@ export function useGroup(uid) {
       })
       return { id: groupRef.id }
     } catch (err) {
-      return { error: `Firestore feil (uid=${uid}, token=${token?.slice(0,10)}...): ${err.code} — ${err.message}` }
+      return { error: `Project: ${db.app.options.projectId} | uid=${uid} | ${err.code}` }
     }
   }
 
