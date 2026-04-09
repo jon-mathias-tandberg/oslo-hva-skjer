@@ -5,6 +5,7 @@ import Calendar from './components/Calendar'
 import EventList from './components/EventList'
 import CategoryFilter from './components/CategoryFilter'
 import WheelOfFortune from './components/WheelOfFortune'
+import RestaurantList from './components/RestaurantList'
 import GroupManager from './components/GroupManager'
 import GroupPlan from './components/GroupPlan'
 import { useAuth } from './hooks/useAuth'
@@ -84,6 +85,16 @@ export default function App() {
             Grupper 👥
           </button>
           <button
+            onClick={() => setView('restauranter')}
+            className={`pb-3 text-xs font-bold tracking-widest uppercase transition-colors ${
+              view === 'restauranter'
+                ? 'border-b-2 border-gray-900 text-gray-900 -mb-px'
+                : 'text-gray-400 hover:text-gray-700'
+            }`}
+          >
+            Restauranter
+          </button>
+          <button
             onClick={() => setView(v => v === 'about' ? 'calendar' : 'about')}
             className={`pb-3 text-xs font-bold tracking-widest uppercase transition-colors ${
               view === 'about'
@@ -137,6 +148,8 @@ export default function App() {
           </>
         ) : view === 'wheel' ? (
           <WheelOfFortune events={filterByCategory(allEvents, category)} />
+        ) : view === 'restauranter' ? (
+          <RestaurantList />
         ) : (
           <div className="max-w-xl">
             <h2 className="font-serif text-3xl font-bold text-gray-900 mb-6 pb-4 border-b-2 border-gray-900">Om siden</h2>

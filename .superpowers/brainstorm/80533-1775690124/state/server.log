@@ -1,0 +1,5 @@
+{"type":"server-started","port":58519,"host":"127.0.0.1","url_host":"localhost","url":"http://localhost:58519","screen_dir":"/Users/jon.mathias.tandberg/Github/oslo-hva-skjer/.superpowers/brainstorm/80533-1775690124/content","state_dir":"/Users/jon.mathias.tandberg/Github/oslo-hva-skjer/.superpowers/brainstorm/80533-1775690124/state"}
+{"type":"screen-added","file":"/Users/jon.mathias.tandberg/Github/oslo-hva-skjer/.superpowers/brainstorm/80533-1775690124/content/visual-style.html"}
+{"type":"screen-added","file":"/Users/jon.mathias.tandberg/Github/oslo-hva-skjer/.superpowers/brainstorm/80533-1775690124/content/magazine-detail.html"}
+{"type":"screen-added","file":"/Users/jon.mathias.tandberg/Github/oslo-hva-skjer/.superpowers/brainstorm/80533-1775690124/content/waiting.html"}
+{"type":"server-stopped","reason":"idle timeout"}

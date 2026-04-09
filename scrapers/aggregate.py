@@ -11,7 +11,6 @@ sys.path.insert(0, str(Path(__file__).parent))
 import scrape_blaa
 import scrape_rockefeller
 import scrape_meetup
-import scrape_vink
 import scrape_nieuscene
 import scrape_latter
 import scrape_operaen
@@ -22,11 +21,14 @@ import scrape_revolver_ticketco
 import scrape_lasttrain
 import scrape_parkteatret
 
+# Vink restaurant recommendations are evergreen articles (no dates).
+# They are scraped separately by scrape_vink.py → data/restaurants.json
+# and displayed in the dedicated Restauranter tab.
+
 SCRAPERS = [
     scrape_blaa,
     scrape_rockefeller,
     scrape_meetup,
-    scrape_vink,
     scrape_nieuscene,
     scrape_latter,
     scrape_operaen,

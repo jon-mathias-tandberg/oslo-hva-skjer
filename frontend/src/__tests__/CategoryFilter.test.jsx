@@ -7,10 +7,10 @@ describe('CategoryFilter', () => {
     render(<CategoryFilter selected="alle" onChange={() => {}} />)
     expect(screen.getByRole('button', { name: /alle/i })).toBeInTheDocument()
     expect(screen.getByRole('button', { name: /konsert/i })).toBeInTheDocument()
-    expect(screen.getByRole('button', { name: /mat/i })).toBeInTheDocument()
     expect(screen.getByRole('button', { name: /kultur/i })).toBeInTheDocument()
     expect(screen.getByRole('button', { name: /humor/i })).toBeInTheDocument()
     expect(screen.getByRole('button', { name: /annet/i })).toBeInTheDocument()
+    expect(screen.queryByRole('button', { name: /^mat$/i })).not.toBeInTheDocument()
   })
 
   it('marks selected category as active', () => {
@@ -22,7 +22,7 @@ describe('CategoryFilter', () => {
   it('calls onChange with category when clicked', () => {
     const onChange = vi.fn()
     render(<CategoryFilter selected="alle" onChange={onChange} />)
-    fireEvent.click(screen.getByRole('button', { name: /mat/i }))
-    expect(onChange).toHaveBeenCalledWith('mat')
+    fireEvent.click(screen.getByRole('button', { name: /kultur/i }))
+    expect(onChange).toHaveBeenCalledWith('kultur')
   })
 })

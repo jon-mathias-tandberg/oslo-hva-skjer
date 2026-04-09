@@ -1,0 +1,92 @@
+<h2>Hvilken visuell stil passer best?</h2>
+<p class="subtitle">Oslo Hva Skjer — velg retning for redesignet</p>
+
+<div class="cards">
+
+  <div class="card" data-choice="dark" onclick="toggleSelect(this)">
+    <div class="card-image" style="background:#0f0f14;padding:16px;border-radius:8px;font-family:sans-serif">
+      <div style="background:#1a1a24;border-radius:10px;padding:14px;margin-bottom:10px">
+        <div style="color:#a78bfa;font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;margin-bottom:6px">FREDAG 11. APRIL</div>
+        <div style="color:#fff;font-size:15px;font-weight:600;margin-bottom:4px">Aurora — Rockefeller</div>
+        <div style="color:#6b7280;font-size:12px;margin-bottom:8px">19:30</div>
+        <span style="background:#7c3aed22;color:#a78bfa;font-size:10px;padding:3px 8px;border-radius:20px;border:1px solid #7c3aed44">konsert</span>
+      </div>
+      <div style="background:#1a1a24;border-radius:10px;padding:14px">
+        <div style="color:#f59e0b;font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;margin-bottom:6px">LØRDAG 12. APRIL</div>
+        <div style="color:#fff;font-size:15px;font-weight:600;margin-bottom:4px">Lorry — Aftenposten Vink</div>
+        <div style="color:#6b7280;font-size:12px;margin-bottom:8px">Anbefalt restaurant</div>
+        <span style="background:#f59e0b22;color:#f59e0b;font-size:10px;padding:3px 8px;border-radius:20px;border:1px solid #f59e0b44">mat</span>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>Mørk & Vibrant</h3>
+      <p>Mørk bakgrunn med lilla/gull-aksenter. Nattklubb-vibber, ser bra ut om kvelden.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="oslo" onclick="toggleSelect(this)">
+    <div class="card-image" style="background:linear-gradient(135deg,#0d3b6e 0%,#1a5fb4 100%);padding:16px;border-radius:8px;font-family:sans-serif">
+      <div style="background:rgba(255,255,255,0.12);backdrop-filter:blur(8px);border-radius:10px;padding:14px;margin-bottom:10px;border:1px solid rgba(255,255,255,0.2)">
+        <div style="color:#93c5fd;font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;margin-bottom:6px">FREDAG 11. APRIL</div>
+        <div style="color:#fff;font-size:15px;font-weight:700;margin-bottom:4px">Aurora — Rockefeller</div>
+        <div style="color:#bfdbfe;font-size:12px;margin-bottom:8px">19:30</div>
+        <span style="background:rgba(255,255,255,0.2);color:#fff;font-size:10px;padding:3px 8px;border-radius:20px">konsert</span>
+      </div>
+      <div style="background:rgba(255,255,255,0.12);backdrop-filter:blur(8px);border-radius:10px;padding:14px;border:1px solid rgba(255,255,255,0.2)">
+        <div style="color:#fcd34d;font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;margin-bottom:6px">LØRDAG 12. APRIL</div>
+        <div style="color:#fff;font-size:15px;font-weight:700;margin-bottom:4px">Lorry — Aftenposten Vink</div>
+        <div style="color:#bfdbfe;font-size:12px;margin-bottom:8px">Anbefalt restaurant</div>
+        <span style="background:rgba(255,255,255,0.2);color:#fff;font-size:10px;padding:3px 8px;border-radius:20px">mat</span>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>Oslo Blå</h3>
+      <p>Dyp blå gradient inspirert av Oslo-fjorden. Glassmorfisme-kort med frosted bakgrunn.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="magazine" onclick="toggleSelect(this)">
+    <div class="card-image" style="background:#fafaf8;padding:16px;border-radius:8px;font-family:Georgia,serif;border:1px solid #e5e5e0">
+      <div style="border-bottom:2px solid #1a1a1a;padding-bottom:8px;margin-bottom:12px;display:flex;justify-content:space-between;align-items:baseline">
+        <span style="font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#1a1a1a">OSLO HVA SKJER</span>
+        <span style="font-size:10px;color:#9ca3af">9. april 2026</span>
+      </div>
+      <div style="margin-bottom:10px;padding-bottom:10px;border-bottom:1px solid #e5e5e0">
+        <div style="color:#dc2626;font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;margin-bottom:4px">KONSERT · ROCKEFELLER</div>
+        <div style="color:#1a1a1a;font-size:16px;font-weight:700;font-family:Georgia,serif;margin-bottom:2px">Aurora</div>
+        <div style="color:#6b7280;font-size:11px">Fredag 11. april · 19:30</div>
+      </div>
+      <div>
+        <div style="color:#d97706;font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;margin-bottom:4px">MAT · VINK</div>
+        <div style="color:#1a1a1a;font-size:16px;font-weight:700;font-family:Georgia,serif;margin-bottom:2px">Lorry</div>
+        <div style="color:#6b7280;font-size:11px">Anbefalt av Aftenposten</div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>Magasin / Avis</h3>
+      <p>Hvit bakgrunn, serif-font, tydelig typografi. Ligner Aftenposten/Vink — norsk og ryddig.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="neon" onclick="toggleSelect(this)">
+    <div class="card-image" style="background:#09090b;padding:16px;border-radius:8px;font-family:sans-serif">
+      <div style="border:1px solid #22d3ee44;border-radius:10px;padding:14px;margin-bottom:10px;box-shadow:0 0 20px #06b6d422,inset 0 0 20px #06b6d411">
+        <div style="color:#22d3ee;font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;margin-bottom:6px">FRE 11. APR</div>
+        <div style="color:#fff;font-size:15px;font-weight:600;margin-bottom:4px">Aurora — Rockefeller</div>
+        <div style="color:#67e8f9;font-size:12px;margin-bottom:8px">19:30</div>
+        <span style="border:1px solid #22d3ee;color:#22d3ee;font-size:10px;padding:2px 8px;border-radius:2px;letter-spacing:1px">KONSERT</span>
+      </div>
+      <div style="border:1px solid #f43f5e44;border-radius:10px;padding:14px;box-shadow:0 0 20px #f43f5e22,inset 0 0 20px #f43f5e11">
+        <div style="color:#fb7185;font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;margin-bottom:6px">LØR 12. APR</div>
+        <div style="color:#fff;font-size:15px;font-weight:600;margin-bottom:4px">Lorry — Vink</div>
+        <div style="color:#fda4af;font-size:12px;margin-bottom:8px">Anbefalt</div>
+        <span style="border:1px solid #f43f5e;color:#fb7185;font-size:10px;padding:2px 8px;border-radius:2px;letter-spacing:1px">MAT</span>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>Neon / Cyberpunk</h3>
+      <p>Svart med neon-glow i cyan og rosa. Fet og moderne — mer festival enn kalender.</p>
+    </div>
+  </div>
+
+</div>
