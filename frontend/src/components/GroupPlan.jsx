@@ -42,7 +42,7 @@ export default function GroupPlan({ groupId, uid, allEvents, selectedDate }) {
                   aria-label="stem"
                   title={hasVoted ? 'Fjern stemme' : 'Stem'}
                 >
-                  +{Array.isArray(p.votes) ? p.votes.length : 0}
+                  {hasVoted ? '↑' : '+'}{Array.isArray(p.votes) ? p.votes.length : 0}
                 </button>
                 {p.addedBy === uid && (
                   <button
