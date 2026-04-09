@@ -8,24 +8,28 @@ export default function EventList({ events, selectedDate, isLoggedIn, favorites,
     : ''
 
   return (
-    <div className="flex flex-col gap-3">
+    <div>
       {selectedDate && (
-        <h2 className="text-lg font-semibold text-gray-800">{formatted}</h2>
+        <h2 className="font-serif text-2xl font-bold text-gray-900 mb-4 pb-3 border-b-2 border-gray-900">
+          {formatted}
+        </h2>
       )}
 
       {events.length === 0 ? (
-        <p className="text-gray-400 text-sm">Ingen aktiviteter denne dagen.</p>
+        <p className="text-sm text-gray-400 italic">Ingen aktiviteter denne dagen.</p>
       ) : (
-        events.map(event => (
-          <EventCard
-            key={event.id}
-            event={event}
-            isFavorite={favorites.includes(event.id)}
-            onToggleFavorite={onToggleFavorite}
-            isLoggedIn={isLoggedIn}
-            onAddToGroup={onAddToGroup}
-          />
-        ))
+        <div>
+          {events.map(event => (
+            <EventCard
+              key={event.id}
+              event={event}
+              isFavorite={favorites.includes(event.id)}
+              onToggleFavorite={onToggleFavorite}
+              isLoggedIn={isLoggedIn}
+              onAddToGroup={onAddToGroup}
+            />
+          ))}
+        </div>
       )}
     </div>
   )
