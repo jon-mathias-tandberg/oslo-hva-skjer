@@ -12,16 +12,6 @@ L.Icon.Default.mergeOptions({
   shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
 })
 
-const SELECTED_ICON = new L.Icon({
-  iconUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png',
-  iconRetinaUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon-2x.png',
-  shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
-  iconSize: [30, 46],
-  iconAnchor: [15, 46],
-  popupAnchor: [1, -34],
-  shadowSize: [41, 41],
-})
-
 const OSLO_CENTER = [59.9139, 10.7522]
 const DEFAULT_ZOOM = 13
 
@@ -83,7 +73,6 @@ export default function PubMap() {
               <Marker
                 key={pub.id}
                 position={[pub.lat, pub.lon]}
-                icon={selected?.id === pub.id ? SELECTED_ICON : undefined}
                 eventHandlers={{ click: () => setSelected(pub) }}
               />
             ))}
