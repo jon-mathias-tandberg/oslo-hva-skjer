@@ -34,7 +34,7 @@ export function useGroupPlan(groupId, uid) {
         eventId,
         addedBy: uid,
         addedAt: serverTimestamp(),
-        votes: [],
+        votes: [uid],
       })
     } catch {
       // ignore — Firestore offline or permission error
