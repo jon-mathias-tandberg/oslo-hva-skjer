@@ -15,6 +15,3 @@ const app = initializeApp(firebaseConfig)
 export const auth = getAuth(app)
 export const db = getFirestore(app)
 export const googleProvider = new GoogleAuthProvider()
-
-// Temporary debug: expose auth globally so we can test from browser console
-if (typeof window !== 'undefined') window.__fbAuth = auth
