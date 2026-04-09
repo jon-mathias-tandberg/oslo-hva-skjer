@@ -130,6 +130,16 @@ export default function App() {
             Puber
           </button>
           <button
+            onClick={() => setView('vink')}
+            className={`pb-3 text-xs font-bold tracking-widest uppercase transition-colors ${
+              view === 'vink'
+                ? 'border-b-2 border-gray-900 text-gray-900 -mb-px'
+                : 'text-gray-400 hover:text-gray-700'
+            }`}
+          >
+            Vink
+          </button>
+          <button
             onClick={() => setView(v => v === 'about' ? 'calendar' : 'about')}
             className={`pb-3 text-xs font-bold tracking-widest uppercase transition-colors ${
               view === 'about'
@@ -290,6 +300,8 @@ export default function App() {
           </div>
         ) : view === 'puber' ? (
           <PubMap />
+        ) : view === 'vink' ? (
+          <RestaurantList />
         ) : view === 'restauranter' ? (
           <RestaurantMap />
         ) : (
