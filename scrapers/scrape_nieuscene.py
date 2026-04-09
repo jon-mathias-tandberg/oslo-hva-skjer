@@ -2,38 +2,42 @@
 Scraper for Nieu Scene (nieuscene.no) - Oslo comedy and culture venue.
 Returns a list of event dicts matching the events.json schema.
 
-The site is built on Squarespace. Event programs are at:
-  /program-grunerlokka  (Christian Kroghs Gate 60)
-  /program-torshov      (Vogts gate 64)
+The site embeds a SociableKit Facebook Page Events widget on:
+  /program-grunerlokka  (Christian Kroghs Gate 60) - embed_id 25613563
+  /program-torshov      (Vogts gate 64)             - embed_id 89090
 
-Approach:
-1. Try Squarespace JSON endpoint (?format=json) for each page.
-2. If itemCount==0 or items empty, fall back to HTML scraping for
-   article/event entries using BeautifulSoup.
+Events are fetched from the SociableKit/AccentAPI data feed:
+  https://data.accentapi.com/feed/{embed_id}.json
 
-As of April 2026 both collections have itemCount=0 (no events posted yet),
-so the scraper returns an empty list until the venue populates their pages.
-
-Verify by running: python scrape_nieuscene.py
+Each event item has:
+  start_date_raw  (YYYY-MM-DD, local Oslo time)
+  start_time_raw  (ISO UTC, e.g. 2026-05-21T17:00:00.000Z)
+  start_time      (human readable, e.g. "7:00 pm")
+  name            (event title)
+  description     (HTML)
+  html_link       (Facebook event URL)
+  event_id        (Facebook event ID)
 """
 import re
 import requests
 from bs4 import BeautifulSoup
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 
 BASE_URL = "https://www.nieuscene.no"
+FEED_URL = "https://data.accentapi.com/feed/{embed_id}.json"
 
-PROGRAM_PAGES = [
-    "/program-grunerlokka",
-    "/program-torshov",
+VENUES = [
+    {"path": "/program-grunerlokka", "embed_id": "25613563", "name": "Grünerløkka"},
+    {"path": "/program-torshov",     "embed_id": "89090",    "name": "Torshov"},
 ]
 
-HEADERS = {"User-Agent": "Mozilla/5.0"}
-
-MONTH_NO = {
-    "januar": 1, "februar": 2, "mars": 3, "april": 4,
-    "mai": 5, "juni": 6, "juli": 7, "august": 8,
-    "september": 9, "oktober": 10, "november": 11, "desember": 12,
+HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/120.0.0.0 Safari/537.36"
+    ),
+    "Referer": "https://www.nieuscene.no/",
 }
 
 
@@ -41,103 +45,93 @@ def _slugify(text: str) -> str:
     return re.sub(r"[^a-z0-9]", "-", text.lower())[:30].strip("-")
 
 
-def _fetch_json(path: str) -> list[dict]:
-    """Try Squarespace JSON endpoint; returns item list (may be empty)."""
-    url = f"{BASE_URL}{path}?format=json"
-    res = requests.get(url, timeout=15, headers=HEADERS)
-    res.raise_for_status()
-    data = res.json()
-    items = data.get("items", [])
-    if not items:
-        items = data.get("collection", {}).get("items", [])
-    return items
-
-
-def _parse_json_item(item: dict) -> dict | None:
-    """Convert a Squarespace JSON item to an event dict."""
+def _parse_time(start_time_raw: str) -> str | None:
+    """
+    Convert UTC ISO timestamp to Oslo local time (CET/CEST).
+    Uses a simple offset: UTC+1 in winter, UTC+2 in summer (last Sun Mar–last Sun Oct).
+    Returns HH:MM string or None if unparseable.
+    """
+    if not start_time_raw:
+        return None
     try:
-        title = (item.get("title") or "").strip()
-        if not title:
-            return None
-        publish_on = item.get("publishOn")
-        if publish_on:
-            dt = datetime.fromtimestamp(publish_on / 1000, tz=timezone.utc)
+        # Parse as UTC
+        dt_utc = datetime.fromisoformat(
+            start_time_raw.replace("Z", "+00:00").replace(".000+00:00", "+00:00")
+        )
+        # Determine Oslo offset (CEST UTC+2 from last Sun of March to last Sun of October)
+        year = dt_utc.year
+
+        def last_sunday(year: int, month: int) -> datetime:
+            import calendar
+            last_day = calendar.monthrange(year, month)[1]
+            d = datetime(year, month, last_day)
+            d -= timedelta(days=d.weekday() + 1)
+            return d.replace(tzinfo=timezone.utc)
+
+        cest_start = last_sunday(year, 3).replace(hour=1)
+        cest_end = last_sunday(year, 10).replace(hour=1)
+        if cest_start <= dt_utc < cest_end:
+            local_dt = dt_utc + timedelta(hours=2)
         else:
-            return None
-        full_url = item.get("fullUrl", "")
-        if full_url and not full_url.startswith("http"):
-            full_url = BASE_URL + full_url
-        body_html = item.get("body") or ""
-        description = re.sub(r"<[^>]+>", " ", body_html).strip()[:200]
-        slug = _slugify(title)
-        event_id = f"nieuscene-{dt.strftime('%Y-%m-%d')}-{slug}"
-        return {
-            "id": event_id,
-            "title": title,
-            "date": dt.strftime("%Y-%m-%d"),
-            "time": dt.strftime("%H:%M") if dt.hour else None,
-            "category": "humor",
-            "source": "nieuscene",
-            "url": full_url or BASE_URL,
-            "description": description,
-        }
+            local_dt = dt_utc + timedelta(hours=1)
+
+        return local_dt.strftime("%H:%M")
     except Exception:
         return None
 
 
-def _fetch_html(path: str) -> list[dict]:
-    """Fallback: parse HTML for event entries using BeautifulSoup."""
-    url = f"{BASE_URL}{path}"
-    res = requests.get(url, timeout=15, headers=HEADERS)
-    res.raise_for_status()
-    soup = BeautifulSoup(res.text, "html.parser")
+def _strip_html(html: str) -> str:
+    """Strip HTML tags and return plain text, truncated to 300 chars."""
+    text = BeautifulSoup(html, "html.parser").get_text(" ", strip=True)
+    return text[:300]
 
-    events = []
-    # Squarespace blog/event collections use article tags or divs with data-record-type
-    for article in soup.find_all("article"):
+
+def _fetch_events(embed_id: str, venue_path: str) -> list[dict]:
+    """Fetch events from AccentAPI feed for a SociableKit embed_id."""
+    url = FEED_URL.format(embed_id=embed_id)
+    res = requests.get(url, timeout=20, headers=HEADERS)
+    res.raise_for_status()
+    data = res.json()
+
+    events_raw = data.get("events", [])
+    today = datetime.now(tz=timezone.utc).strftime("%Y-%m-%d")
+
+    events: list[dict] = []
+    seen_ids: set[str] = set()
+
+    for item in events_raw:
         try:
-            title_tag = article.find(["h1", "h2", "h3", "h4"])
-            title = title_tag.get_text(strip=True) if title_tag else ""
+            date_str = item.get("start_date_raw", "")
+            if not date_str or date_str < today:
+                continue
+
+            title = (item.get("name") or "").strip()
             if not title:
                 continue
 
-            link_tag = article.find("a", href=True)
-            href = link_tag["href"] if link_tag else ""
-            if href and not href.startswith("http"):
-                href = BASE_URL + href
+            time_str = _parse_time(item.get("start_time_raw", ""))
+            fb_url = item.get("html_link", "") or BASE_URL + venue_path
+            event_id_raw = item.get("event_id", "")
+            description_html = item.get("description", "")
+            description = _strip_html(description_html) if description_html else ""
 
-            # Try to find a date in the article text
-            text = article.get_text(" ", strip=True)
-            date_match = re.search(
-                r"(\d{1,2})\.\s*(januar|februar|mars|april|mai|juni|juli|august|september|oktober|november|desember)\s*(\d{4})",
-                text, re.IGNORECASE
+            event_id = f"nieuscene-{event_id_raw}" if event_id_raw else (
+                f"nieuscene-{date_str}-{_slugify(title)}"
             )
-            time_match = re.search(r"(\d{2}):(\d{2})", text)
 
-            if date_match:
-                day = int(date_match.group(1))
-                month = MONTH_NO.get(date_match.group(2).lower(), 0)
-                year = int(date_match.group(3))
-                if not month:
-                    continue
-                from datetime import date as date_cls
-                event_date = date_cls(year, month, day)
-            else:
+            if event_id in seen_ids:
                 continue
-
-            time_str = f"{time_match.group(1)}:{time_match.group(2)}" if time_match else None
-            slug = _slugify(title)
-            event_id = f"nieuscene-{event_date.isoformat()}-{slug}"
+            seen_ids.add(event_id)
 
             events.append({
                 "id": event_id,
                 "title": title,
-                "date": event_date.isoformat(),
+                "date": date_str,
                 "time": time_str,
                 "category": "humor",
                 "source": "nieuscene",
-                "url": href or url,
-                "description": "",
+                "url": fb_url,
+                "description": description,
             })
         except Exception:
             continue
@@ -146,34 +140,21 @@ def _fetch_html(path: str) -> list[dict]:
 
 
 def scrape() -> list[dict]:
-    events: list[dict] = []
+    all_events: list[dict] = []
     seen_ids: set[str] = set()
 
-    for path in PROGRAM_PAGES:
-        page_events: list[dict] = []
+    for venue in VENUES:
         try:
-            items = _fetch_json(path)
-            for item in items:
-                event = _parse_json_item(item)
-                if event:
-                    page_events.append(event)
-        except Exception:
-            pass
+            events = _fetch_events(venue["embed_id"], venue["path"])
+            for event in events:
+                if event["id"] not in seen_ids:
+                    seen_ids.add(event["id"])
+                    all_events.append(event)
+        except Exception as exc:
+            print(f"[nieuscene] Failed to fetch {venue['name']}: {exc}")
 
-        # If JSON returned nothing, try HTML fallback
-        if not page_events:
-            try:
-                page_events = _fetch_html(path)
-            except Exception:
-                pass
-
-        for event in page_events:
-            if event["id"] not in seen_ids:
-                seen_ids.add(event["id"])
-                events.append(event)
-
-    events.sort(key=lambda e: (e["date"], e.get("time") or ""))
-    return events
+    all_events.sort(key=lambda e: (e["date"], e.get("time") or ""))
+    return all_events
 
 
 if __name__ == "__main__":
