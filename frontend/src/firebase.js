@@ -1,5 +1,5 @@
 import { initializeApp } from 'firebase/app'
-import { initializeAuth, browserLocalPersistence, GoogleAuthProvider } from 'firebase/auth'
+import { getAuth, GoogleAuthProvider } from 'firebase/auth'
 import { getFirestore } from 'firebase/firestore'
 
 const firebaseConfig = {
@@ -12,11 +12,6 @@ const firebaseConfig = {
 }
 
 const app = initializeApp(firebaseConfig)
-
-// Use browserLocalPersistence to avoid relying on the firebaseapp.com auth iframe,
-// which gets blocked as third-party storage in modern browsers (Firefox, Safari, Chrome).
-export const auth = initializeAuth(app, {
-  persistence: browserLocalPersistence,
-})
+export const auth = getAuth(app)
 export const db = getFirestore(app)
 export const googleProvider = new GoogleAuthProvider()

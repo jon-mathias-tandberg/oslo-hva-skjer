@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { onAuthStateChanged, signInWithPopup, signOut } from 'firebase/auth'
+import { onIdTokenChanged, signInWithPopup, signOut } from 'firebase/auth'
 import { auth, googleProvider } from '../firebase'
 
 export function useAuth() {
@@ -8,7 +8,10 @@ export function useAuth() {
   const [error, setError] = useState(null)
 
   useEffect(() => {
-    const unsubscribe = onAuthStateChanged(auth, u => {
+    // onIdTokenChanged fires after the token is ready (vs onAuthStateChanged
+    // which can fire before Firestore has received the auth token)
+    const unsubscribe = onIdTokenChanged(auth, async u => {
+      if (u) await u.getIdToken().catch(() => {})
       setUser(u)
       setLoading(false)
     })
