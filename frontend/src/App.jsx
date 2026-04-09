@@ -8,6 +8,7 @@ import WheelOfFortune from './components/WheelOfFortune'
 import RestaurantList from './components/RestaurantList'
 import GroupManager from './components/GroupManager'
 import GroupPlan from './components/GroupPlan'
+import Toast from './components/Toast'
 import { useAuth } from './hooks/useAuth'
 import { useFavorites } from './hooks/useFavorites'
 import { useGroupPlan } from './hooks/useGroupPlan'
@@ -25,7 +26,7 @@ export default function App() {
   const { user } = useAuth()
   const { favorites, toggleFavorite } = useFavorites(user?.uid ?? null)
   const { groups, createGroup, joinGroup } = useGroup(user?.uid ?? null)
-  const { addToPlan } = useGroupPlan(activeGroupId, user?.uid ?? null)
+  const { plan, addToPlan, lastAdded, clearLastAdded } = useGroupPlan(activeGroupId, user?.uid ?? null)
 
   useEffect(() => {
     if (!user) return
@@ -46,6 +47,14 @@ export default function App() {
 
   const eventsForDate = filterByCategory(filterByDate(allEvents, selectedDate), category)
   const activeGroup = groups.find(g => g.id === activeGroupId) ?? null
+
+  const groupPlanDates = new Set(
+    plan
+      .map(p => allEvents.find(e => e.id === p.eventId)?.date)
+      .filter(Boolean)
+  )
+
+  const lastAddedEvent = lastAdded ? allEvents.find(e => e.id === lastAdded.eventId) : null
 
   return (
     <div className="min-h-screen bg-paper flex flex-col">
@@ -114,10 +123,16 @@ export default function App() {
                   events={allEvents}
                   selectedDate={selectedDate}
                   onSelectDate={setSelectedDate}
+                  groupPlanDates={activeGroupId && user ? groupPlanDates : new Set()}
                 />
               </div>
               <div className="flex flex-col gap-4 pt-4 md:pt-0 md:pl-6">
                 <CategoryFilter selected={category} onChange={setCategory} />
+                {activeGroup && (
+                  <p className="text-xs text-green-600 font-bold tracking-widest uppercase -mt-2 mb-2">
+                    {activeGroup.name}
+                  </p>
+                )}
                 <EventList
                   events={eventsForDate}
                   selectedDate={selectedDate}
@@ -126,6 +141,22 @@ export default function App() {
                   onToggleFavorite={toggleFavorite}
                   onAddToGroup={activeGroupId && user ? addToPlan : undefined}
                 />
+                {activeGroupId && user && (
+                  <div className="mt-4 border-t border-gray-200 pt-4">
+                    <GroupPlan groupId={activeGroupId} uid={user.uid} allEvents={allEvents} selectedDate={selectedDate} />
+                  </div>
+                )}
+                {user && groups.length === 0 && !showGroupManager && (
+                  <div className="border border-dashed border-gray-300 p-4 text-center">
+                    <p className="text-xs text-gray-500 mb-2">Planlegg med vennegjengen</p>
+                    <button
+                      onClick={() => setShowGroupManager(true)}
+                      className="text-xs font-bold tracking-widest uppercase text-gray-900 hover:underline"
+                    >
+                      Opprett eller bli med i en gruppe →
+                    </button>
+                  </div>
+                )}
               </div>
             </div>
             {showGroupManager && user && (
@@ -135,14 +166,6 @@ export default function App() {
                 joinGroup={joinGroup}
                 onSelectGroup={id => { setActiveGroupId(id); setShowGroupManager(false) }}
                 activeGroup={activeGroup}
-              />
-            )}
-            {activeGroupId && user && (
-              <GroupPlan
-                groupId={activeGroupId}
-                uid={user.uid}
-                allEvents={allEvents}
-                selectedDate={selectedDate}
               />
             )}
           </>
@@ -183,6 +206,12 @@ export default function App() {
           </div>
         )}
       </main>
+      {lastAddedEvent && (
+        <Toast
+          message={`Lagt til: ${lastAddedEvent.title}`}
+          onDismiss={clearLastAdded}
+        />
+      )}
     </div>
   )
 }

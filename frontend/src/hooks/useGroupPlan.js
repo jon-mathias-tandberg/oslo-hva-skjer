@@ -7,13 +7,21 @@ import { db } from '../firebase'
 
 export function useGroupPlan(groupId, uid) {
   const [plan, setPlan] = useState([])
+  const [lastAdded, setLastAdded] = useState(null)
 
   useEffect(() => {
     if (!groupId) { setPlan([]); return }
 
     const ref = collection(db, 'groups', groupId, 'plan')
     const unsubscribe = onSnapshot(ref, snap => {
-      setPlan(snap.docs.map(d => ({ id: d.id, ...d.data() })))
+      const newPlan = snap.docs.map(d => ({ id: d.id, ...d.data() }))
+      setPlan(prev => {
+        if (prev.length > 0 && newPlan.length > prev.length) {
+          const added = newPlan.find(p => !prev.some(pp => pp.id === p.id))
+          if (added) setLastAdded(added)
+        }
+        return newPlan
+      })
     })
     return unsubscribe
   }, [groupId])
@@ -55,5 +63,9 @@ export function useGroupPlan(groupId, uid) {
     }
   }
 
-  return { plan, addToPlan, removeFromPlan, toggleVote }
+  function clearLastAdded() {
+    setLastAdded(null)
+  }
+
+  return { plan, addToPlan, removeFromPlan, toggleVote, lastAdded, clearLastAdded }
 }

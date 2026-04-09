@@ -5,7 +5,7 @@ import {
 } from 'date-fns'
 import { nb } from 'date-fns/locale'
 
-export default function Calendar({ events, selectedDate, onSelectDate }) {
+export default function Calendar({ events, selectedDate, onSelectDate, groupPlanDates = new Set() }) {
   const [viewDate, setViewDate] = useState(
     selectedDate ? parseISO(selectedDate) : new Date()
   )
@@ -52,6 +52,7 @@ export default function Calendar({ events, selectedDate, onSelectDate }) {
           const isCurrentMonth = isSameMonth(day, viewDate)
           const isSelected = dateStr === selectedDate
           const hasEvents = eventDates.has(dateStr)
+          const hasGroupPlan = groupPlanDates.has(dateStr)
 
           return (
             <button
@@ -68,10 +69,13 @@ export default function Calendar({ events, selectedDate, onSelectDate }) {
               }`}>
                 {format(day, 'd')}
               </span>
-              {hasEvents && !isSelected && (
+              {hasGroupPlan && !isSelected && (
+                <span className="w-1 h-1 rounded-full bg-green-600 mt-0.5" />
+              )}
+              {hasEvents && !hasGroupPlan && !isSelected && (
                 <span className="w-1 h-1 rounded-full bg-red-600 mt-0.5" />
               )}
-              {hasEvents && isSelected && (
+              {(hasEvents || hasGroupPlan) && isSelected && (
                 <span className="w-1 h-1 rounded-full bg-white mt-0.5" />
               )}
             </button>
