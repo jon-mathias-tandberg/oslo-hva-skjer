@@ -36,12 +36,13 @@ export default function GroupPlan({ groupId, uid, allEvents, selectedDate }) {
               <div className="flex items-center gap-2 shrink-0">
                 <button
                   onClick={() => toggleVote(p.eventId, hasVoted)}
-                  className={`flex items-center gap-1 px-2 py-1 rounded text-xs font-medium transition-colors ${
-                    hasVoted ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
+                  className={`w-8 h-8 rounded-full text-sm font-bold transition-colors ${
+                    hasVoted ? 'bg-gray-900 text-white' : 'bg-gray-100 text-gray-500 hover:bg-gray-200'
                   }`}
                   aria-label="stem"
+                  title={hasVoted ? 'Fjern stemme' : 'Stem'}
                 >
-                  ↑ {Array.isArray(p.votes) ? p.votes.length : 0}
+                  +{Array.isArray(p.votes) ? p.votes.length : 0}
                 </button>
                 {p.addedBy === uid && (
                   <button
