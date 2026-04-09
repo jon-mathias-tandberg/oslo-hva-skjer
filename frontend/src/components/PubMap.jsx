@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet'
+import { MapContainer, TileLayer, Marker, useMap, useMapEvents } from 'react-leaflet'
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 
@@ -11,7 +11,16 @@ L.Icon.Default.mergeOptions({
   shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
 })
 
-// Oslo city centre
+const SELECTED_ICON = new L.Icon({
+  iconUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png',
+  iconRetinaUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon-2x.png',
+  shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
+  iconSize: [30, 46],
+  iconAnchor: [15, 46],
+  popupAnchor: [1, -34],
+  shadowSize: [41, 41],
+})
+
 const OSLO_CENTER = [59.9139, 10.7522]
 const DEFAULT_ZOOM = 13
 
@@ -19,12 +28,12 @@ export default function PubMap() {
   const [pubs, setPubs] = useState([])
   const [loading, setLoading] = useState(true)
   const [search, setSearch] = useState('')
+  const [selected, setSelected] = useState(null)
 
   useEffect(() => {
     fetch('/data/pubs.json')
       .then(r => r.json())
       .then(data => {
-        // Only include pubs with valid coordinates
         setPubs(data.filter(p => p.lat && p.lon))
         setLoading(false)
       })
@@ -49,51 +58,93 @@ export default function PubMap() {
         <input
           type="text"
           value={search}
-          onChange={e => setSearch(e.target.value)}
+          onChange={e => { setSearch(e.target.value); setSelected(null) }}
           placeholder="Søk..."
           className="border border-gray-300 px-3 py-1.5 text-sm focus:outline-none focus:border-gray-900 w-48"
         />
       </div>
 
-      <div className="border border-gray-200" style={{ height: '520px' }}>
-        <MapContainer
-          center={OSLO_CENTER}
-          zoom={DEFAULT_ZOOM}
-          style={{ height: '100%', width: '100%' }}
-        >
-          <TileLayer
-            attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-          />
-          <FitMarkers pubs={filtered} />
-          {filtered.map(pub => (
-            <Marker key={pub.id} position={[pub.lat, pub.lon]}>
-              <Popup>
-                <div style={{ minWidth: 160 }}>
-                  <strong style={{ fontSize: 14 }}>{pub.name}</strong>
-                  {pub.address && <p style={{ fontSize: 12, color: '#666', margin: '4px 0 0' }}>{pub.address}</p>}
-                  {pub.opening_hours && <p style={{ fontSize: 11, color: '#888', margin: '2px 0 0' }}>{pub.opening_hours}</p>}
-                  {pub.website && (
-                    <a
-                      href={pub.website}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      style={{ fontSize: 12, color: '#1a1a1a', display: 'block', marginTop: 6 }}
-                    >
-                      Nettside →
-                    </a>
-                  )}
+      <div className="flex gap-0 border border-gray-200" style={{ height: '520px' }}>
+        {/* Map */}
+        <div style={{ flex: '1 1 0', minWidth: 0 }}>
+          <MapContainer
+            center={OSLO_CENTER}
+            zoom={DEFAULT_ZOOM}
+            style={{ height: '100%', width: '100%' }}
+          >
+            <TileLayer
+              attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+            />
+            <FitMarkers pubs={filtered} />
+            <DeselectOnMapClick onDeselect={() => setSelected(null)} />
+            {filtered.map(pub => (
+              <Marker
+                key={pub.id}
+                position={[pub.lat, pub.lon]}
+                icon={selected?.id === pub.id ? SELECTED_ICON : undefined}
+                eventHandlers={{ click: () => setSelected(pub) }}
+              />
+            ))}
+          </MapContainer>
+        </div>
+
+        {/* Preview panel */}
+        <div className="border-l border-gray-200 bg-white flex flex-col" style={{ width: 240, flexShrink: 0 }}>
+          {selected ? (
+            <div className="p-4 flex flex-col gap-3 overflow-y-auto h-full">
+              <button
+                onClick={() => setSelected(null)}
+                className="text-xs text-gray-400 hover:text-gray-700 self-end uppercase tracking-widest"
+              >
+                ✕ Lukk
+              </button>
+              <div>
+                <div className="text-xs font-bold tracking-widest uppercase text-amber-600 mb-1">
+                  {selected.type === 'pub' ? 'pub' : 'bar'}
                 </div>
-              </Popup>
-            </Marker>
-          ))}
-        </MapContainer>
+                <h3 className="font-serif text-lg font-bold text-gray-900 leading-snug">
+                  {selected.name}
+                </h3>
+              </div>
+              {selected.address && (
+                <p className="text-sm text-gray-500">{selected.address}</p>
+              )}
+              {selected.opening_hours && (
+                <div>
+                  <p className="text-xs font-bold tracking-widest uppercase text-gray-400 mb-1">Åpningstider</p>
+                  <p className="text-xs text-gray-600">{selected.opening_hours}</p>
+                </div>
+              )}
+              {selected.phone && (
+                <p className="text-sm text-gray-500">
+                  <a href={`tel:${selected.phone}`} className="hover:text-gray-900">{selected.phone}</a>
+                </p>
+              )}
+              {selected.website ? (
+                <a
+                  href={selected.website}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-auto block w-full text-center py-2 px-4 bg-gray-900 text-white text-xs font-bold tracking-widest uppercase hover:bg-gray-700 transition-colors"
+                >
+                  Besøk nettside →
+                </a>
+              ) : (
+                <p className="text-xs text-gray-400 italic mt-auto">Ingen nettside registrert</p>
+              )}
+            </div>
+          ) : (
+            <div className="flex items-center justify-center h-full p-4 text-center">
+              <p className="text-xs text-gray-400 italic">Klikk på en markør for å se informasjon</p>
+            </div>
+          )}
+        </div>
       </div>
     </div>
   )
 }
 
-// Fit map bounds to visible markers when search changes
 function FitMarkers({ pubs }) {
   const map = useMap()
   useEffect(() => {
@@ -105,5 +156,10 @@ function FitMarkers({ pubs }) {
       map.fitBounds(bounds, { padding: [40, 40], maxZoom: 16 })
     }
   }, [pubs, map])
+  return null
+}
+
+function DeselectOnMapClick({ onDeselect }) {
+  useMapEvents({ click: onDeselect })
   return null
 }
