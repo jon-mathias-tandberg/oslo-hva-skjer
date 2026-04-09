@@ -6,7 +6,7 @@ import EventList from './components/EventList'
 import CategoryFilter from './components/CategoryFilter'
 import WheelOfFortune from './components/WheelOfFortune'
 import RestaurantList from './components/RestaurantList'
-import PubList from './components/PubList'
+import PubMap from './components/PubMap'
 import GroupManager from './components/GroupManager'
 import GroupPlan from './components/GroupPlan'
 import Toast from './components/Toast'
@@ -288,7 +288,7 @@ export default function App() {
             )}
           </div>
         ) : view === 'puber' ? (
-          <PubList />
+          <PubMap />
         ) : view === 'restauranter' ? (
           <RestaurantList />
         ) : (
