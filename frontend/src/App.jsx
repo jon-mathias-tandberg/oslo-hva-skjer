@@ -6,6 +6,7 @@ import EventList from './components/EventList'
 import CategoryFilter from './components/CategoryFilter'
 import WheelOfFortune from './components/WheelOfFortune'
 import RestaurantList from './components/RestaurantList'
+import RestaurantMap from './components/RestaurantMap'
 import PubMap from './components/PubMap'
 import GroupManager from './components/GroupManager'
 import GroupPlan from './components/GroupPlan'
@@ -290,7 +291,7 @@ export default function App() {
         ) : view === 'puber' ? (
           <PubMap />
         ) : view === 'restauranter' ? (
-          <RestaurantList />
+          <RestaurantMap />
         ) : (
           <div className="max-w-xl">
             <h2 className="font-serif text-3xl font-bold text-gray-900 mb-6 pb-4 border-b-2 border-gray-900">Om siden</h2>
