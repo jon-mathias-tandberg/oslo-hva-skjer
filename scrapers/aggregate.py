@@ -20,6 +20,7 @@ import scrape_detnorske
 import scrape_folketeateret
 import scrape_revolver_ticketco
 import scrape_lasttrain
+import scrape_parkteatret
 
 SCRAPERS = [
     scrape_blaa,
@@ -34,6 +35,7 @@ SCRAPERS = [
     scrape_folketeateret,
     scrape_revolver_ticketco,
     scrape_lasttrain,
+    scrape_parkteatret,
 ]
 
 OUTPUT_PATHS = [
