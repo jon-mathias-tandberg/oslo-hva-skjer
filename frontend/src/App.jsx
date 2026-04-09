@@ -175,7 +175,12 @@ export default function App() {
             </div>
           </>
         ) : view === 'wheel' ? (
-          <WheelOfFortune events={filterByCategory(allEvents, category)} />
+          <WheelOfFortune
+            events={filterByCategory(allEvents, category)}
+            isLoggedIn={!!user}
+            favorites={favorites}
+            onToggleFavorite={toggleFavorite}
+          />
         ) : view === 'restauranter' ? (
           <RestaurantList />
         ) : (
