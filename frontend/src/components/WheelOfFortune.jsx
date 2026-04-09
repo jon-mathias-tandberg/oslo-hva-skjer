@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from 'react'
 import { format, parseISO } from 'date-fns'
 import { nb } from 'date-fns/locale'
 
-export default function WheelOfFortune({ events, isLoggedIn = false, favorites = [], onToggleFavorite }) {
+export default function WheelOfFortune({ events, isLoggedIn = false, favorites = [], onToggleFavorite, onAddToGroup }) {
   const [spinning, setSpinning] = useState(false)
   const [result, setResult] = useState(null)
   const [rotation, setRotation] = useState(0)
@@ -103,13 +103,25 @@ export default function WheelOfFortune({ events, isLoggedIn = false, favorites =
               {result.title}
             </a>
             {isLoggedIn && (
-              <button
-                aria-label={favorites.includes(result.id) ? 'fjern lagret' : 'lagre'}
-                onClick={() => onToggleFavorite?.(result.id)}
-                className="text-2xl leading-none text-gray-400 hover:text-gray-900 transition-colors shrink-0 mt-1"
-              >
-                {favorites.includes(result.id) ? '★' : '☆'}
-              </button>
+              <div className="flex items-center gap-1 shrink-0 mt-1">
+                <button
+                  aria-label={favorites.includes(result.id) ? 'fjern lagret' : 'lagre'}
+                  onClick={() => onToggleFavorite?.(result.id)}
+                  className="text-2xl leading-none text-gray-400 hover:text-gray-900 transition-colors"
+                >
+                  {favorites.includes(result.id) ? '★' : '☆'}
+                </button>
+                {onAddToGroup && (
+                  <button
+                    aria-label="legg til i gruppeplan"
+                    onClick={() => onAddToGroup(result.id)}
+                    className="text-xl leading-none text-gray-400 hover:text-gray-900 transition-colors"
+                    title="Legg til i gruppeplan"
+                  >
+                    ＋
+                  </button>
+                )}
+              </div>
             )}
           </div>
           <p className="text-xs text-gray-500 mt-2 uppercase tracking-wide">

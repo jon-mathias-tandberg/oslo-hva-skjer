@@ -180,6 +180,7 @@ export default function App() {
             isLoggedIn={!!user}
             favorites={favorites}
             onToggleFavorite={toggleFavorite}
+            onAddToGroup={activeGroupId && user ? addToPlan : undefined}
           />
         ) : view === 'restauranter' ? (
           <RestaurantList />
