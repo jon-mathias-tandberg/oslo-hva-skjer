@@ -83,6 +83,16 @@ export default function App() {
           >
             Grupper 👥
           </button>
+          <button
+            onClick={() => setView(v => v === 'about' ? 'calendar' : 'about')}
+            className={`pb-3 text-xs font-bold tracking-widest uppercase transition-colors ${
+              view === 'about'
+                ? 'border-b-2 border-gray-900 text-gray-900 -mb-px'
+                : 'text-gray-400 hover:text-gray-700'
+            }`}
+          >
+            Om
+          </button>
         </div>
 
         {view === 'calendar' ? (
@@ -125,8 +135,39 @@ export default function App() {
               />
             )}
           </>
-        ) : (
+        ) : view === 'wheel' ? (
           <WheelOfFortune events={filterByCategory(allEvents, category)} />
+        ) : (
+          <div className="max-w-xl">
+            <h2 className="font-serif text-3xl font-bold text-gray-900 mb-6 pb-4 border-b-2 border-gray-900">Om siden</h2>
+            <div className="space-y-5 text-gray-700 leading-relaxed">
+              <p>
+                <span className="font-bold text-gray-900">Oslo Hva Skjer?</span> ble til fordi vi i vennegjengen brukte for mye tid på å sjekke ti ulike nettsider for å finne ut hva som skjer i Oslo — konserter på Blå, stand-up på Latter, teaterforestillinger, restaurantanbefalinger fra Vink. Vi ville ha alt på ett sted.
+              </p>
+              <p>
+                I stedet for å lete etter en app som gjorde akkurat det vi ville, bygget vi den selv.
+              </p>
+              <p>
+                Siden henter automatisk events fra Blå, Rockefeller, Latter, Oslo Operaen, Oslo Nye Teater, Det Norske Teatret, Meetup og Aftenposten Vink — og samler dem i en kalender. Du kan logge inn med Google for å lagre favoritter, og opprette en gruppe med vennegjengen for å planlegge ting i fellesskap.
+              </p>
+              <div className="border-t border-gray-200 pt-5">
+                <p className="text-sm text-gray-500">
+                  Laget av <span className="font-semibold text-gray-900">Jon Mathias Tandberg</span> — IT-konsulent i Sopra Steria, bosatt i Oslo.
+                </p>
+                <p className="text-sm text-gray-500 mt-1">
+                  Kildekode:{' '}
+                  <a
+                    href="https://github.com/jon-mathias-tandberg/oslo-hva-skjer"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-medium text-gray-900 hover:underline"
+                  >
+                    github.com/jon-mathias-tandberg/oslo-hva-skjer
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
         )}
       </main>
     </div>
