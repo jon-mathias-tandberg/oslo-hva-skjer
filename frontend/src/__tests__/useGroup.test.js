@@ -1,7 +1,10 @@
 import { describe, it, expect, vi } from 'vitest'
 import { renderHook, act } from '@testing-library/react'
 
-vi.mock('../firebase', () => ({ db: {} }))
+vi.mock('../firebase', () => ({
+  db: {},
+  auth: { currentUser: { getIdToken: vi.fn().mockResolvedValue('fake-token') } },
+}))
 vi.mock('firebase/firestore', () => ({
   collection: vi.fn(),
   doc: vi.fn(() => ({ id: 'group-abc' })),
