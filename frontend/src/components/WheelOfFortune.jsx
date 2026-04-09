@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect } from 'react'
-import { format } from 'date-fns'
+import { format, parseISO } from 'date-fns'
+import { nb } from 'date-fns/locale'
 
 export default function WheelOfFortune({ events, isLoggedIn = false, favorites = [], onToggleFavorite }) {
   const [spinning, setSpinning] = useState(false)
@@ -111,7 +112,9 @@ export default function WheelOfFortune({ events, isLoggedIn = false, favorites =
               </button>
             )}
           </div>
-          <p className="text-xs text-gray-500 mt-2 uppercase tracking-wide">{result.date} · {result.source}</p>
+          <p className="text-xs text-gray-500 mt-2 uppercase tracking-wide">
+            {format(parseISO(result.date), 'd. MMMM yyyy', { locale: nb })} · {result.source}
+          </p>
         </div>
       )}
     </div>
