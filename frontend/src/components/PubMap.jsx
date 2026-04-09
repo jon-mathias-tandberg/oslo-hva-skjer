@@ -1,7 +1,8 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useMemo } from 'react'
 import { MapContainer, TileLayer, Marker, useMap, useMapEvents } from 'react-leaflet'
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
+import opening_hours from 'opening_hours'
 
 // Fix Leaflet's default icon path issue with bundlers
 delete L.Icon.Default.prototype._getIconUrl
@@ -111,10 +112,7 @@ export default function PubMap() {
                 <p className="text-sm text-gray-500">{selected.address}</p>
               )}
               {selected.opening_hours && (
-                <div>
-                  <p className="text-xs font-bold tracking-widest uppercase text-gray-400 mb-1">Åpningstider</p>
-                  <p className="text-xs text-gray-600">{selected.opening_hours}</p>
-                </div>
+                <OpeningHoursPanel raw={selected.opening_hours} />
               )}
               {selected.phone && (
                 <p className="text-sm text-gray-500">
@@ -163,3 +161,85 @@ function DeselectOnMapClick({ onDeselect }) {
   useMapEvents({ click: onDeselect })
   return null
 }
+
+const DAYS = ['Søndag', 'Mandag', 'Tirsdag', 'Onsdag', 'Torsdag', 'Fredag', 'Lørdag']
+
+function OpeningHoursPanel({ raw }) {
+  const info = useMemo(() => {
+    try {
+      const oh = new opening_hours(raw, null, { mode: 0 })
+      const now = new Date()
+      const isOpen = oh.getState(now)
+      const nextChange = oh.getNextChange(now)
+
+      // Build weekly schedule
+      const schedule = []
+      const start = new Date(now)
+      start.setHours(0, 0, 0, 0)
+      start.setDate(start.getDate() - start.getDay() + 1) // Monday
+
+      for (let i = 0; i < 7; i++) {
+        const day = new Date(start)
+        day.setDate(start.getDate() + i)
+        const dayEnd = new Date(day)
+        dayEnd.setHours(23, 59, 59)
+        const intervals = oh.getOpenIntervals(day, dayEnd)
+        schedule.push({
+          day: DAYS[(day.getDay())],
+          intervals: intervals.map(([from, to]) =>
+            `${pad(from.getHours())}:${pad(from.getMinutes())} – ${pad(to.getHours())}:${pad(to.getMinutes())}`
+          ),
+        })
+      }
+
+      let nextLabel = ''
+      if (nextChange) {
+        const diff = nextChange - now
+        const hours = Math.floor(diff / 3600000)
+        const mins = Math.floor((diff % 3600000) / 60000)
+        if (hours < 24) {
+          nextLabel = isOpen
+            ? `Stenger ${hours > 0 ? `om ${hours}t` : `om ${mins}min`}`
+            : `Åpner ${hours > 0 ? `om ${hours}t` : `om ${mins}min`}`
+        }
+      }
+
+      return { isOpen, nextLabel, schedule }
+    } catch {
+      return null
+    }
+  }, [raw])
+
+  if (!info) return (
+    <div>
+      <p className="text-xs font-bold tracking-widest uppercase text-gray-400 mb-1">Åpningstider</p>
+      <p className="text-xs text-gray-500">{raw}</p>
+    </div>
+  )
+
+  return (
+    <div className="flex flex-col gap-2">
+      <div className="flex items-center gap-2">
+        <span className={`text-xs font-bold tracking-widest uppercase ${info.isOpen ? 'text-green-600' : 'text-red-500'}`}>
+          {info.isOpen ? 'Åpen nå' : 'Stengt nå'}
+        </span>
+        {info.nextLabel && (
+          <span className="text-xs text-gray-400">· {info.nextLabel}</span>
+        )}
+      </div>
+      <div className="flex flex-col gap-0.5">
+        {info.schedule.map(({ day, intervals }) => {
+          const isToday = day === DAYS[new Date().getDay()]
+          return (
+            <div key={day} className={`flex justify-between text-xs ${isToday ? 'font-bold text-gray-900' : 'text-gray-500'}`}>
+              <span>{day.slice(0, 3)}</span>
+              <span>{intervals.length === 0 ? 'Stengt' : intervals.join(', ')}</span>
+            </div>
+          )
+        })}
+      </div>
+    </div>
+  )
+}
+
+function pad(n) { return String(n).padStart(2, '0') }
