@@ -127,47 +127,52 @@ export default function App() {
                 />
               </div>
               <div className="flex flex-col gap-4 pt-4 md:pt-0 md:pl-6">
-                <CategoryFilter selected={category} onChange={setCategory} />
-                {activeGroup && (
-                  <p className="text-xs text-green-600 font-bold tracking-widest uppercase -mt-2 mb-2">
-                    {activeGroup.name}
-                  </p>
+                {/* GroupManager vises øverst i høyre kolonne når aktivert */}
+                {showGroupManager && user && (
+                  <GroupManager
+                    groups={groups}
+                    createGroup={createGroup}
+                    joinGroup={joinGroup}
+                    onSelectGroup={id => { setActiveGroupId(id); setShowGroupManager(false) }}
+                    activeGroup={activeGroup}
+                  />
                 )}
-                <EventList
-                  events={eventsForDate}
-                  selectedDate={selectedDate}
-                  isLoggedIn={!!user}
-                  favorites={favorites}
-                  onToggleFavorite={toggleFavorite}
-                  onAddToGroup={activeGroupId && user ? addToPlan : undefined}
-                />
-                {activeGroupId && user && (
-                  <div className="mt-4 border-t border-gray-200 pt-4">
-                    <GroupPlan groupId={activeGroupId} uid={user.uid} allEvents={allEvents} selectedDate={selectedDate} />
-                  </div>
-                )}
-                {user && groups.length === 0 && !showGroupManager && (
-                  <div className="border border-dashed border-gray-300 p-4 text-center">
-                    <p className="text-xs text-gray-500 mb-2">Planlegg med vennegjengen</p>
-                    <button
-                      onClick={() => setShowGroupManager(true)}
-                      className="text-xs font-bold tracking-widest uppercase text-gray-900 hover:underline"
-                    >
-                      Opprett eller bli med i en gruppe →
-                    </button>
-                  </div>
+                {!showGroupManager && (
+                  <>
+                    <CategoryFilter selected={category} onChange={setCategory} />
+                    {activeGroup && (
+                      <p className="text-xs text-green-600 font-bold tracking-widest uppercase -mt-2 mb-2">
+                        {activeGroup.name}
+                      </p>
+                    )}
+                    <EventList
+                      events={eventsForDate}
+                      selectedDate={selectedDate}
+                      isLoggedIn={!!user}
+                      favorites={favorites}
+                      onToggleFavorite={toggleFavorite}
+                      onAddToGroup={activeGroupId && user ? addToPlan : undefined}
+                    />
+                    {activeGroupId && user && (
+                      <div className="mt-4 border-t border-gray-200 pt-4">
+                        <GroupPlan groupId={activeGroupId} uid={user.uid} allEvents={allEvents} selectedDate={selectedDate} />
+                      </div>
+                    )}
+                    {user && groups.length === 0 && (
+                      <div className="border border-dashed border-gray-300 p-4 text-center">
+                        <p className="text-xs text-gray-500 mb-2">Planlegg med vennegjengen</p>
+                        <button
+                          onClick={() => setShowGroupManager(true)}
+                          className="text-xs font-bold tracking-widest uppercase text-gray-900 hover:underline"
+                        >
+                          Opprett eller bli med i en gruppe →
+                        </button>
+                      </div>
+                    )}
+                  </>
                 )}
               </div>
             </div>
-            {showGroupManager && user && (
-              <GroupManager
-                groups={groups}
-                createGroup={createGroup}
-                joinGroup={joinGroup}
-                onSelectGroup={id => { setActiveGroupId(id); setShowGroupManager(false) }}
-                activeGroup={activeGroup}
-              />
-            )}
           </>
         ) : view === 'wheel' ? (
           <WheelOfFortune events={filterByCategory(allEvents, category)} />
