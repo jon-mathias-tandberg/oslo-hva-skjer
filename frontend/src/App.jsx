@@ -93,6 +93,18 @@ export default function App() {
           >
             Grupper 👥
           </button>
+          {user && (
+            <button
+              onClick={() => setView('favoritter')}
+              className={`pb-3 text-xs font-bold tracking-widest uppercase transition-colors ${
+                view === 'favoritter'
+                  ? 'border-b-2 border-gray-900 text-gray-900 -mb-px'
+                  : 'text-gray-400 hover:text-gray-700'
+              }`}
+            >
+              Favoritter ★
+            </button>
+          )}
           <button
             onClick={() => setView('restauranter')}
             className={`pb-3 text-xs font-bold tracking-widest uppercase transition-colors ${
@@ -182,6 +194,52 @@ export default function App() {
             onToggleFavorite={toggleFavorite}
             onAddToGroup={activeGroupId && user ? addToPlan : undefined}
           />
+        ) : view === 'favoritter' ? (
+          <div>
+            <h2 className="font-serif text-2xl font-bold text-gray-900 mb-4 pb-3 border-b-2 border-gray-900">
+              Mine favoritter
+            </h2>
+            {favorites.length === 0 ? (
+              <p className="text-sm text-gray-400 italic">Du har ingen stjernede events ennå. Klikk ☆ på et event for å lagre det.</p>
+            ) : (
+              <div>
+                {allEvents
+                  .filter(e => favorites.includes(e.id))
+                  .sort((a, b) => a.date.localeCompare(b.date))
+                  .map(event => (
+                    <div key={event.id} className="py-3 border-b border-gray-100 last:border-b-0">
+                      <div className={`text-xs font-bold tracking-widest uppercase mb-1 ${
+                        { konsert: 'text-red-600', mat: 'text-amber-600', kultur: 'text-blue-600', humor: 'text-violet-600' }[event.category] ?? 'text-gray-500'
+                      }`}>
+                        {event.category} · {event.source}
+                      </div>
+                      <div className="flex items-start justify-between gap-2">
+                        <a href={event.url} target="_blank" rel="noopener noreferrer"
+                          className="font-serif font-bold text-gray-900 hover:text-gray-600 transition-colors leading-snug">
+                          {event.title}
+                        </a>
+                        <div className="flex items-center gap-1 shrink-0">
+                          <button
+                            aria-label="fjern lagret"
+                            onClick={() => toggleFavorite(event.id)}
+                            className="text-lg leading-none text-gray-700 hover:text-gray-400 transition-colors"
+                          >★</button>
+                          {activeGroupId && user && (
+                            <button
+                              aria-label="legg til i gruppeplan"
+                              onClick={() => addToPlan(event.id)}
+                              className="text-sm leading-none text-gray-400 hover:text-gray-700 transition-colors"
+                              title="Legg til i gruppeplan"
+                            >＋</button>
+                          )}
+                        </div>
+                      </div>
+                      {event.time && <span className="text-xs text-gray-500 mt-0.5 block">{event.date} · {event.time}</span>}
+                    </div>
+                  ))}
+              </div>
+            )}
+          </div>
         ) : view === 'restauranter' ? (
           <RestaurantList />
         ) : (
