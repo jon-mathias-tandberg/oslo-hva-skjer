@@ -7,17 +7,21 @@ export default function GroupManager({ groups, createGroup, joinGroup, onSelectG
 
   async function handleCreate(e) {
     e.preventDefault()
+    setError(null)
     if (!newName.trim()) return
-    const id = await createGroup(newName.trim())
-    if (id) { setNewName(''); onSelectGroup(id) }
+    const result = await createGroup(newName.trim())
+    if (result?.id) { setNewName(''); onSelectGroup(result.id) }
+    else setError(result?.error ?? 'Kunne ikke opprette gruppe. Prøv igjen.')
   }
 
   async function handleJoin(e) {
     e.preventDefault()
+    setError(null)
     if (!inviteCode.trim()) return
-    const id = await joinGroup(inviteCode.trim())
-    if (id) { setInviteCode(''); onSelectGroup(id) }
-    else setError('Fant ingen gruppe med den koden.')
+    const result = await joinGroup(inviteCode.trim())
+    if (result?.id) { setInviteCode(''); onSelectGroup(result.id) }
+    else if (result?.notFound) setError('Fant ingen gruppe med den koden.')
+    else setError(result?.error ?? 'Kunne ikke bli med i gruppen. Prøv igjen.')
   }
 
   return (

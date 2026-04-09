@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import {
   collection, doc, setDoc, updateDoc, getDocs,
-  onSnapshot, query, where, serverTimestamp
+  onSnapshot, query, where, serverTimestamp, arrayUnion
 } from 'firebase/firestore'
 import { db } from '../firebase'
 
@@ -15,17 +15,19 @@ export function useGroup(uid) {
   useEffect(() => {
     if (!uid) { setGroups([]); return }
 
-    // Listen to all groups where user is a member
+    // Use array-contains on memberIds for reliable querying without composite index
     const ref = collection(db, 'groups')
-    const q = query(ref, where(`members.${uid}`, '!=', null))
+    const q = query(ref, where('memberIds', 'array-contains', uid))
     const unsubscribe = onSnapshot(q, snap => {
       setGroups(snap.docs.map(d => ({ id: d.id, ...d.data() })))
+    }, err => {
+      console.error('useGroup onSnapshot error:', err)
     })
     return unsubscribe
   }, [uid])
 
   async function createGroup(name) {
-    if (!uid || !name.trim()) return null
+    if (!uid || !name.trim()) return { error: 'Mangler navn eller bruker' }
     const groupRef = doc(collection(db, 'groups'))
     const inviteCode = generateInviteCode()
     try {
@@ -33,29 +35,33 @@ export function useGroup(uid) {
         name: name.trim(),
         inviteCode,
         createdBy: uid,
+        memberIds: [uid],
         members: { [uid]: { joinedAt: serverTimestamp() } },
         createdAt: serverTimestamp(),
       })
-      return groupRef.id
-    } catch {
-      return null
+      return { id: groupRef.id }
+    } catch (err) {
+      console.error('createGroup error:', err)
+      return { error: err.message ?? 'Kunne ikke opprette gruppe' }
     }
   }
 
   async function joinGroup(inviteCode) {
-    if (!uid || !inviteCode) return false
+    if (!uid || !inviteCode) return { error: 'Mangler kode eller bruker' }
     try {
       const ref = collection(db, 'groups')
       const q = query(ref, where('inviteCode', '==', inviteCode.toUpperCase()))
       const snap = await getDocs(q)
-      if (!snap.docs.length) return false
+      if (!snap.docs.length) return { notFound: true }
       const groupDoc = snap.docs[0]
       await updateDoc(groupDoc.ref, {
+        memberIds: arrayUnion(uid),
         [`members.${uid}`]: { joinedAt: serverTimestamp() },
       })
-      return groupDoc.id
-    } catch {
-      return false
+      return { id: groupDoc.id }
+    } catch (err) {
+      console.error('joinGroup error:', err)
+      return { error: err.message ?? 'Kunne ikke bli med i gruppe' }
     }
   }
 

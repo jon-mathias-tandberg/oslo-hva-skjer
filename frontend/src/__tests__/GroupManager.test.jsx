@@ -2,8 +2,8 @@ import { describe, it, expect, vi } from 'vitest'
 import { render, screen, fireEvent, waitFor } from '@testing-library/react'
 import GroupManager from '../components/GroupManager'
 
-const createGroup = vi.fn().mockResolvedValue('new-group-id')
-const joinGroup = vi.fn().mockResolvedValue('existing-group-id')
+const createGroup = vi.fn().mockResolvedValue({ id: 'new-group-id' })
+const joinGroup = vi.fn().mockResolvedValue({ id: 'existing-group-id' })
 
 describe('GroupManager', () => {
   it('renders create group form', () => {

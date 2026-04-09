@@ -24,23 +24,23 @@ describe('useGroup', () => {
     expect(result.current.groups).toEqual([])
   })
 
-  it('createGroup calls setDoc and returns groupId', async () => {
+  it('createGroup calls setDoc and returns { id }', async () => {
     const { setDoc } = await import('firebase/firestore')
     const { result } = renderHook(() => useGroup('uid-1'))
-    let groupId
+    let res
     await act(async () => {
-      groupId = await result.current.createGroup('Fredagsklubben')
+      res = await result.current.createGroup('Fredagsklubben')
     })
     expect(setDoc).toHaveBeenCalled()
-    expect(groupId).toBeDefined()
+    expect(res?.id).toBeDefined()
   })
 
-  it('joinGroup returns false when invite code not found', async () => {
+  it('joinGroup returns { notFound: true } when invite code not found', async () => {
     const { result } = renderHook(() => useGroup('uid-1'))
-    let joined
+    let res
     await act(async () => {
-      joined = await result.current.joinGroup('BADCODE')
+      res = await result.current.joinGroup('BADCODE')
     })
-    expect(joined).toBe(false)
+    expect(res?.notFound).toBe(true)
   })
 })
