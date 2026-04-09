@@ -3,7 +3,7 @@ import {
   collection, doc, setDoc, updateDoc, getDocs,
   onSnapshot, query, where, serverTimestamp, arrayUnion
 } from 'firebase/firestore'
-import { db } from '../firebase'
+import { db, auth } from '../firebase'
 
 function generateInviteCode() {
   return Math.random().toString(36).slice(2, 8).toUpperCase()
@@ -28,6 +28,8 @@ export function useGroup(uid) {
 
   async function createGroup(name) {
     if (!uid || !name.trim()) return { error: 'Mangler navn eller bruker' }
+    // Force token refresh so Firestore gets a valid auth token
+    try { await auth.currentUser?.getIdToken(true) } catch (_) {}
     const groupRef = doc(collection(db, 'groups'))
     const inviteCode = generateInviteCode()
     try {
