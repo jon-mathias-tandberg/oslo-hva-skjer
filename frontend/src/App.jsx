@@ -153,9 +153,12 @@ export default function App() {
                   <>
                     <CategoryFilter selected={category} onChange={setCategory} />
                     {activeGroup && (
-                      <p className="text-xs text-green-600 font-bold tracking-widest uppercase -mt-2 mb-2">
+                      <p className="text-xs text-green-600 font-bold tracking-widest uppercase -mt-2">
                         {activeGroup.name}
                       </p>
+                    )}
+                    {activeGroupId && user && (
+                      <GroupPlan groupId={activeGroupId} uid={user.uid} allEvents={allEvents} selectedDate={selectedDate} />
                     )}
                     <EventList
                       events={eventsForDate}
@@ -165,11 +168,6 @@ export default function App() {
                       onToggleFavorite={toggleFavorite}
                       onAddToGroup={activeGroupId && user ? addToPlan : undefined}
                     />
-                    {activeGroupId && user && (
-                      <div className="mt-4 border-t border-gray-200 pt-4">
-                        <GroupPlan groupId={activeGroupId} uid={user.uid} allEvents={allEvents} selectedDate={selectedDate} />
-                      </div>
-                    )}
                     {user && groups.length === 0 && (
                       <div className="border border-dashed border-gray-300 p-4 text-center">
                         <p className="text-xs text-gray-500 mb-2">Planlegg med vennegjengen</p>
