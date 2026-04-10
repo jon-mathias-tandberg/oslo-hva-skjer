@@ -110,34 +110,14 @@ export default function App() {
             </button>
           )}
           <button
-            onClick={() => setView('restauranter')}
+            onClick={() => setView(v => ['restauranter','puber','vink'].includes(v) ? v : 'restauranter')}
             className={`pb-3 text-xs font-bold tracking-widest uppercase transition-colors shrink-0 ${
-              view === 'restauranter'
+              ['restauranter','puber','vink'].includes(view)
                 ? 'border-b-2 border-gray-900 text-gray-900 -mb-px'
                 : 'text-gray-400 hover:text-gray-700'
             }`}
           >
-            Restauranter
-          </button>
-          <button
-            onClick={() => setView('puber')}
-            className={`pb-3 text-xs font-bold tracking-widest uppercase transition-colors shrink-0 ${
-              view === 'puber'
-                ? 'border-b-2 border-gray-900 text-gray-900 -mb-px'
-                : 'text-gray-400 hover:text-gray-700'
-            }`}
-          >
-            Puber
-          </button>
-          <button
-            onClick={() => setView('vink')}
-            className={`pb-3 text-xs font-bold tracking-widest uppercase transition-colors shrink-0 ${
-              view === 'vink'
-                ? 'border-b-2 border-gray-900 text-gray-900 -mb-px'
-                : 'text-gray-400 hover:text-gray-700'
-            }`}
-          >
-            Vink
+            Steder
           </button>
           <button
             onClick={() => setView(v => v === 'about' ? 'calendar' : 'about')}
@@ -150,6 +130,25 @@ export default function App() {
             Om
           </button>
         </div>
+
+        {/* Sub-tabs for Steder */}
+        {['restauranter','puber','vink'].includes(view) && (
+          <div className="flex gap-4 -mt-4 border-b border-gray-100 overflow-x-auto scrollbar-none">
+            {['restauranter','puber','vink'].map(v => (
+              <button
+                key={v}
+                onClick={() => setView(v)}
+                className={`pb-2 text-xs font-medium tracking-widest uppercase transition-colors shrink-0 ${
+                  view === v
+                    ? 'border-b-2 border-gray-600 text-gray-900 -mb-px'
+                    : 'text-gray-400 hover:text-gray-600'
+                }`}
+              >
+                {v === 'restauranter' ? 'Restauranter' : v === 'puber' ? 'Puber' : 'Vink'}
+              </button>
+            ))}
+          </div>
+        )}
 
         {view === 'calendar' ? (
           <>
