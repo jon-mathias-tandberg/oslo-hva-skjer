@@ -50,11 +50,11 @@ export default function RestaurantMap() {
           <h2 className="font-serif text-2xl font-bold text-gray-900">Restauranter i Oslo</h2>
           <p className="text-xs text-gray-400 uppercase tracking-widest mt-1">{filtered.length} steder · OpenStreetMap</p>
         </div>
-        <div className="flex gap-2">
+        <div className="flex gap-2 w-full sm:w-auto">
           <select
             value={cuisineFilter}
             onChange={e => { setCuisineFilter(e.target.value); setSelected(null) }}
-            className="border border-gray-300 px-2 py-1.5 text-sm focus:outline-none focus:border-gray-900"
+            className="border border-gray-300 px-2 py-1.5 text-sm focus:outline-none focus:border-gray-900 flex-1 sm:flex-none"
           >
             <option value="">Alle kjøkken</option>
             {cuisines.map(c => <option key={c} value={c}>{c}</option>)}
@@ -64,13 +64,13 @@ export default function RestaurantMap() {
             value={search}
             onChange={e => { setSearch(e.target.value); setSelected(null) }}
             placeholder="Søk..."
-            className="border border-gray-300 px-3 py-1.5 text-sm focus:outline-none focus:border-gray-900 w-40"
+            className="border border-gray-300 px-3 py-1.5 text-sm focus:outline-none focus:border-gray-900 flex-1 sm:w-40"
           />
         </div>
       </div>
 
-      <div className="flex gap-0 border border-gray-200" style={{ height: '520px' }}>
-        <div style={{ flex: '1 1 0', minWidth: 0 }}>
+      <div className="flex flex-col md:flex-row gap-0 border border-gray-200">
+        <div style={{ flex: '1 1 0', minWidth: 0, height: 'clamp(300px, 55vw, 520px)' }}>
           <MapContainer center={OSLO_CENTER} zoom={13} style={{ height: '100%', width: '100%' }}>
             <TileLayer
               attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
@@ -84,7 +84,7 @@ export default function RestaurantMap() {
           </MapContainer>
         </div>
 
-        <div className="border-l border-gray-200 bg-white flex flex-col" style={{ width: 240, flexShrink: 0 }}>
+        <div className="border-t md:border-t-0 md:border-l border-gray-200 bg-white flex flex-col w-full md:w-60 md:flex-shrink-0" style={{ minHeight: 160, maxHeight: 'clamp(160px, 40vw, 400px)' }}>
           {selected ? (
             <div className="p-4 flex flex-col gap-3 overflow-y-auto h-full">
               <button onClick={() => setSelected(null)} className="text-xs text-gray-400 hover:text-gray-700 self-end uppercase tracking-widest">✕ Lukk</button>

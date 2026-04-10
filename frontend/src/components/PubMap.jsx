@@ -39,7 +39,7 @@ export default function PubMap() {
 
   return (
     <div className="flex flex-col gap-4">
-      <div className="flex items-center justify-between">
+      <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
         <div>
           <h2 className="font-serif text-2xl font-bold text-gray-900">Puber & Barer</h2>
           <p className="text-xs text-gray-400 uppercase tracking-widest mt-1">
@@ -51,13 +51,13 @@ export default function PubMap() {
           value={search}
           onChange={e => { setSearch(e.target.value); setSelected(null) }}
           placeholder="Søk..."
-          className="border border-gray-300 px-3 py-1.5 text-sm focus:outline-none focus:border-gray-900 w-48"
+          className="border border-gray-300 px-3 py-1.5 text-sm focus:outline-none focus:border-gray-900 w-full sm:w-48"
         />
       </div>
 
-      <div className="flex gap-0 border border-gray-200" style={{ height: '520px' }}>
+      <div className="flex flex-col md:flex-row gap-0 border border-gray-200">
         {/* Map */}
-        <div style={{ flex: '1 1 0', minWidth: 0 }}>
+        <div style={{ flex: '1 1 0', minWidth: 0, height: 'clamp(300px, 55vw, 520px)' }}>
           <MapContainer
             center={OSLO_CENTER}
             zoom={DEFAULT_ZOOM}
@@ -79,8 +79,8 @@ export default function PubMap() {
           </MapContainer>
         </div>
 
-        {/* Preview panel */}
-        <div className="border-l border-gray-200 bg-white flex flex-col" style={{ width: 240, flexShrink: 0 }}>
+        {/* Preview panel — full width below map on mobile, fixed sidebar on desktop */}
+        <div className="border-t md:border-t-0 md:border-l border-gray-200 bg-white flex flex-col w-full md:w-60 md:flex-shrink-0" style={{ minHeight: 160, maxHeight: 'clamp(160px, 40vw, 400px)' }}>
           {selected ? (
             <div className="p-4 flex flex-col gap-3 overflow-y-auto h-full">
               <button

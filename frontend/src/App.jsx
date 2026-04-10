@@ -65,11 +65,11 @@ export default function App() {
       <Header />
 
       <main className="flex-1 max-w-5xl mx-auto w-full px-4 py-6 flex flex-col gap-6">
-        {/* View tabs */}
-        <div className="flex items-end gap-6 border-b border-gray-200">
+        {/* View tabs — horizontally scrollable on mobile */}
+        <div className="flex items-end gap-4 sm:gap-6 border-b border-gray-200 overflow-x-auto scrollbar-none -mx-4 px-4 sm:mx-0 sm:px-0">
           <button
             onClick={() => setView('calendar')}
-            className={`pb-3 text-xs font-bold tracking-widest uppercase transition-colors ${
+            className={`pb-3 text-xs font-bold tracking-widest uppercase transition-colors shrink-0 ${
               view === 'calendar'
                 ? 'border-b-2 border-gray-900 text-gray-900 -mb-px'
                 : 'text-gray-400 hover:text-gray-700'
@@ -79,7 +79,7 @@ export default function App() {
           </button>
           <button
             onClick={() => setView('wheel')}
-            className={`pb-3 text-xs font-bold tracking-widest uppercase transition-colors ${
+            className={`pb-3 text-xs font-bold tracking-widest uppercase transition-colors shrink-0 ${
               view === 'wheel'
                 ? 'border-b-2 border-gray-900 text-gray-900 -mb-px'
                 : 'text-gray-400 hover:text-gray-700'
@@ -89,7 +89,7 @@ export default function App() {
           </button>
           <button
             onClick={() => setView('grupper')}
-            className={`pb-3 text-xs font-bold tracking-widest uppercase transition-colors ${
+            className={`pb-3 text-xs font-bold tracking-widest uppercase transition-colors shrink-0 ${
               view === 'grupper'
                 ? 'border-b-2 border-gray-900 text-gray-900 -mb-px'
                 : 'text-gray-400 hover:text-gray-700'
@@ -100,7 +100,7 @@ export default function App() {
           {user && (
             <button
               onClick={() => setView('favoritter')}
-              className={`pb-3 text-xs font-bold tracking-widest uppercase transition-colors ${
+              className={`pb-3 text-xs font-bold tracking-widest uppercase transition-colors shrink-0 ${
                 view === 'favoritter'
                   ? 'border-b-2 border-gray-900 text-gray-900 -mb-px'
                   : 'text-gray-400 hover:text-gray-700'
@@ -111,7 +111,7 @@ export default function App() {
           )}
           <button
             onClick={() => setView('restauranter')}
-            className={`pb-3 text-xs font-bold tracking-widest uppercase transition-colors ${
+            className={`pb-3 text-xs font-bold tracking-widest uppercase transition-colors shrink-0 ${
               view === 'restauranter'
                 ? 'border-b-2 border-gray-900 text-gray-900 -mb-px'
                 : 'text-gray-400 hover:text-gray-700'
@@ -121,7 +121,7 @@ export default function App() {
           </button>
           <button
             onClick={() => setView('puber')}
-            className={`pb-3 text-xs font-bold tracking-widest uppercase transition-colors ${
+            className={`pb-3 text-xs font-bold tracking-widest uppercase transition-colors shrink-0 ${
               view === 'puber'
                 ? 'border-b-2 border-gray-900 text-gray-900 -mb-px'
                 : 'text-gray-400 hover:text-gray-700'
@@ -131,7 +131,7 @@ export default function App() {
           </button>
           <button
             onClick={() => setView('vink')}
-            className={`pb-3 text-xs font-bold tracking-widest uppercase transition-colors ${
+            className={`pb-3 text-xs font-bold tracking-widest uppercase transition-colors shrink-0 ${
               view === 'vink'
                 ? 'border-b-2 border-gray-900 text-gray-900 -mb-px'
                 : 'text-gray-400 hover:text-gray-700'
@@ -141,7 +141,7 @@ export default function App() {
           </button>
           <button
             onClick={() => setView(v => v === 'about' ? 'calendar' : 'about')}
-            className={`pb-3 text-xs font-bold tracking-widest uppercase transition-colors ${
+            className={`pb-3 text-xs font-bold tracking-widest uppercase transition-colors shrink-0 ${
               view === 'about'
                 ? 'border-b-2 border-gray-900 text-gray-900 -mb-px'
                 : 'text-gray-400 hover:text-gray-700'
