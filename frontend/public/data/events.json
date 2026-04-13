@@ -1,55 +1,5 @@
 [
   {
-    "id": "oslonye-2026-04-11-siren-stories-2100",
-    "title": "Siren Stories",
-    "date": "2026-04-11",
-    "time": "21:00",
-    "category": "kultur",
-    "source": "oslonye",
-    "url": "https://www.ticketmaster.no/event/689029030?language=no-no&track=DiscoveryAPI&camefrom=OsloNye&subchannel_id=1",
-    "description": ""
-  },
-  {
-    "id": "meetup-2026-04-12-heartfulness-meditasjon-gr-ner",
-    "title": "Heartfulness meditasjon Grünerløkka",
-    "date": "2026-04-12",
-    "time": "09:50",
-    "category": "kultur",
-    "source": "meetup",
-    "url": "https://www.meetup.com/heartfulness-meditation-oslo-meetup/events/313882848/",
-    "description": "Velkommen til Heartfulness avspenning og meditasjon på hjertet - et pust i hverdagen. Fred starter med deg.\n(In english follows)\n\nMeditasjonen starter kl 10\nDørene åpner kl 9:50\nGratis deltagelse\n\nHea"
-  },
-  {
-    "id": "meetup-2026-04-12-kurs-tormek-slipemaskin",
-    "title": "Kurs Tormek Slipemaskin",
-    "date": "2026-04-12",
-    "time": "10:15",
-    "category": "kultur",
-    "source": "meetup",
-    "url": "https://www.meetup.com/bitraf/events/313724530/",
-    "description": "Dette kurset er for betalende medlemmer av Bitraf. Bitraf sin Tormek slipemaskin kan slipe det meste med skarp kant. Kniver, økser, sakser, jern til dreiebenk, bor osv.\n\nVi starter med en gjennomgang "
-  },
-  {
-    "id": "meetup-2026-04-12-shopbot-cnc-theory-and-practic",
-    "title": "Shopbot CNC theory and practical",
-    "date": "2026-04-12",
-    "time": "11:00",
-    "category": "kultur",
-    "source": "meetup",
-    "url": "https://www.meetup.com/bitraf/events/314106843/",
-    "description": "This course is necessary for new users of the Shopbot CNC at Bitraf to establish baseline knowledge & safety standards that everyone can expect from each other.\n\nIt will be held in English.\n\nThis cour"
-  },
-  {
-    "id": "meetup-2026-04-12-s-ndag-skrivetreff",
-    "title": "Søndag Skrivetreff",
-    "date": "2026-04-12",
-    "time": "13:00",
-    "category": "kultur",
-    "source": "meetup",
-    "url": "https://www.meetup.com/oslo-skriveklubb/events/314204889/",
-    "description": "📚✍️ **Velkommen til søndags skrivetreff!**\n\nHar du en tekst du jobber med – kanskje en roman eller novelle? 📝📖\nBli med i Oslo Skriveklubb og skriv sammen med andre engasjerte skribenter i et hyggelig "
-  },
-  {
     "id": "blaa-2026-04-12-frank-znort-quartet",
     "title": "Frank Znort Quartet",
     "date": "2026-04-12",
@@ -58,66 +8,6 @@
     "source": "blaa",
     "url": "https://www.blaaoslo.no/events/frank-znort-quartet/jB9PmKbY6j",
     "description": "Frank Znort Quartet er sitt eget unike univers og Oslos upolerte perle av en skatt. Med sin livsbejaende tilnærming til sjangre, låter, mennesker og generelt drøyt bra stemning har dette storbandet st"
-  },
-  {
-    "id": "operaen-2026-04-12-don-carlo-1600",
-    "title": "Don Carlo",
-    "date": "2026-04-12",
-    "time": "16:00",
-    "category": "kultur",
-    "source": "operaen",
-    "url": "https://www.operaen.no/forestillinger/don-carlo-opera/",
-    "description": ""
-  },
-  {
-    "id": "nieuscene-3826151144353196",
-    "title": "Formula 1 Watch Party • nieu sportsbar",
-    "date": "2026-04-12",
-    "time": "17:00",
-    "category": "humor",
-    "source": "nieuscene",
-    "url": "https://www.facebook.com/events/3826151144353196",
-    "description": "Formula 1 Watch Party på Nieu Sportsbar Denne søndagen kan du se Bahrain Grand Prix LIVE hos oss på Nieu Sportsbar kl. 17.00. Side Chick serverer wings, fries og digg mat mellom lapsene, så du slipper å gå sulten gjennom løpet. Det er gratis og åpent for alle. Vi tar ikke bordreservasjoner, så det e"
-  },
-  {
-    "id": "meetup-2026-04-12-international-improv-show---ja",
-    "title": "International Improv Show & JAM - Eagerly Waiting @ Impro Neuf",
-    "date": "2026-04-12",
-    "time": "19:00",
-    "category": "kultur",
-    "source": "meetup",
-    "url": "https://www.meetup.com/english-improv-comedy-in-oslo/events/314016738/",
-    "description": "Room: Lillesalen\nJoin this legendary improv evening @ Impro Neuf. For the first time ever \"Eagerly Waiting\" will be performed in Norway, followed by a JAM with the international performers and the Imp"
-  },
-  {
-    "id": "nieuscene-1690847325450056",
-    "title": "BUGGE BANG LIVE // UTSOLGT",
-    "date": "2026-04-12",
-    "time": "19:00",
-    "category": "humor",
-    "source": "nieuscene",
-    "url": "https://www.facebook.com/events/1690847325450056",
-    "description": "Bugge Bang inviterer til live-podcast, med spennende gjester som tør å ta samfunnet på kornet og si ting sånn som de faktisk er. Av og med Jon Sindre Fjellvang og Albert Holskjær. Dørene åpner: 18:30 Showstart: 19:00 Aldersgrense: 18 år Pris: 290,-"
-  },
-  {
-    "id": "nieuscene-1672115840811508",
-    "title": "Hangover med Galvan Mehidi og venner",
-    "date": "2026-04-12",
-    "time": "19:00",
-    "category": "humor",
-    "source": "nieuscene",
-    "url": "https://www.facebook.com/events/1672115840811508",
-    "description": "Bakpå? Fylleangst? Gira på å reparere en sliten søndag? Kom så! Galvan inviterer et lite knippe favorittkomikere til å komme og jøgle på nieu scene. Det er hemmelig line-up, men blir kun med de beste folka i bransja, så meget blir det. Dørene åpner: 18:45 Showstart: 19:00 Aldersgrense: 18 år Pris: 1"
-  },
-  {
-    "id": "parkteatret-2026-04-12-herkedal",
-    "title": "Herkedal",
-    "date": "2026-04-12",
-    "time": "19:00",
-    "category": "konsert",
-    "source": "parkteatret",
-    "url": "https://www.ticketmaster.no/event/936081118?brand=parkteatret",
-    "description": ""
   },
   {
     "id": "rockefeller-2026-04-13-witch-fever",
@@ -310,6 +200,16 @@
     "description": "Det blir garantert «Låt og leven» når Byting kommer til John Dee 15. april! Thomas Hellekås og resten av bandet er i toppform! Alle de kjente og kjære låtene kommer på rekke og rad, med fintrimmede ar"
   },
   {
+    "id": "meetup-2026-04-15-wednesday-boardgame-night-",
+    "title": "Wednesday BoardGame Night!",
+    "date": "2026-04-15",
+    "time": "18:00",
+    "category": "kultur",
+    "source": "meetup",
+    "url": "https://www.meetup.com/boardgamesoslo/events/313961874/",
+    "description": "We are now collaborating with **Spilloteket**! That means we will have a whole floor to ourselves with up to 40 folks, and 2 tables dedicated to featured long games. If you want to be a part of the lo"
+  },
+  {
     "id": "meetup-2026-04-15-krypto-skatt-v--reese-legal",
     "title": "Krypto-skatt v/ Reese Legal",
     "date": "2026-04-15",
@@ -320,14 +220,24 @@
     "description": "Krypto-skatt: Reese Legal kommer til Oslo Blockchain Meetup!\n\nSkattereglene for\n• gevinst og tap ved salg av kryptovaluta, DEFI-transaksjoner, lån, gaver etc.\n• formue i kryptovaluta\n\nHvordan beregne "
   },
   {
-    "id": "meetup-2026-04-15-wednesday-boardgame-night-",
-    "title": "Wednesday BoardGame Night!",
+    "id": "meetup-2026-04-15-bitraf-nybegynnerkurs---gettin",
+    "title": "Bitraf nybegynnerkurs / Getting started",
     "date": "2026-04-15",
     "time": "18:00",
     "category": "kultur",
     "source": "meetup",
-    "url": "https://www.meetup.com/boardgamesoslo/events/313961874/",
-    "description": "We are now collaborating with **Spilloteket**! That means we will have a whole floor to ourselves with up to 40 folks, and 2 tables dedicated to featured long games. If you want to be a part of the lo"
+    "url": "https://www.meetup.com/bitraf/events/313931929/",
+    "description": "*(English text below)*\n\nHar du meldt deg inn i Bitraf, men lurer på hvordan vi fungerer eller hvordan du kommer i gang? Trenger du tilgang til verktøy eller tips til hvordan du skal løse et problem? D"
+  },
+  {
+    "id": "meetup-2026-04-15-heartfulness-meditasjon-torsho",
+    "title": "Heartfulness meditasjon Torshov",
+    "date": "2026-04-15",
+    "time": "18:00",
+    "category": "kultur",
+    "source": "meetup",
+    "url": "https://www.meetup.com/heartfulness-meditation-oslo-meetup/events/313883514/",
+    "description": "NB: KL 17 / 5 pm.\nMenneskehetens vei fremover går gjennom hjertet. (In English follows)\n\n**INTRODUKSJON TIL HEARTFULNESS**\nNår du prøver Heartfulness for første gang og føler deg tiltrukket av å utfor"
   },
   {
     "id": "nieuscene-925978536841457",
@@ -730,6 +640,16 @@
     "description": "**Kveldens line-up (spillerekkefølgen annonseres når dørene åpner):**\n\n7isa\nDy-Moll\nEliz\nErica\nFlingus Yellowstate\nHaukland\nSkausy\nTerminal Avdeling\n\nEmergenza Festival er verdens største musikkonkurr"
   },
   {
+    "id": "meetup-2026-04-17---english-conversation--meet-f",
+    "title": "🌐 English Conversation: Meet Friends & Learn Daily",
+    "date": "2026-04-17",
+    "time": "17:00",
+    "category": "kultur",
+    "source": "meetup",
+    "url": "https://www.meetup.com/oslo-english/events/314231958/",
+    "description": "🚀 **Stop searching for classes. Start speaking today!**\nWelcome to our free worldwide community. Hosted by English teachers, our daily sessions are fun, supportive, and focused on *real* practice. For"
+  },
+  {
     "id": "latter-2026-04-17-gutt--32-1830",
     "title": "Gutt (32)",
     "date": "2026-04-17",
@@ -836,7 +756,7 @@
     "time": "20:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/nb/e/longfield__super_skeleton__revolver",
+    "url": "https://revolveroslo.ticketco.events/no/en/e/longfield__super_skeleton__revolver",
     "description": ""
   },
   {
@@ -1118,6 +1038,16 @@
     "source": "meetup",
     "url": "https://www.meetup.com/heartfulness-meditation-oslo-meetup/events/313882850/",
     "description": "Velkommen til Heartfulness avspenning og meditasjon på hjertet - et pust i hverdagen. Fred starter med deg.\n(In english follows)\n\nMeditasjonen starter kl 10\nDørene åpner kl 9:50\nGratis deltagelse\n\nHea"
+  },
+  {
+    "id": "meetup-2026-04-19-online-morning-group-for-women",
+    "title": "Online morning group for women-resonance and tools from iopt",
+    "date": "2026-04-19",
+    "time": "10:00",
+    "category": "kultur",
+    "source": "meetup",
+    "url": "https://www.meetup.com/iopt-workshops-and-self-development-workshops/events/314034339/",
+    "description": "Morning group for women. I invite you to a group with focus on deep connections, coming closer to yourself and the present moment in a safe space. To lay the groundwork for your friday and weekend.\n\nW"
   },
   {
     "id": "meetup-2026-04-19-abundance-meetup--1---frognerp",
@@ -1410,6 +1340,16 @@
     "description": "We are now collaborating with **Spilloteket**! That means we will have a whole floor to ourselves with up to 40 folks, and 2 tables dedicated to featured long games. If you want to be a part of the lo"
   },
   {
+    "id": "meetup-2026-04-22-heartfulness-meditasjon-torsho",
+    "title": "Heartfulness meditasjon Torshov",
+    "date": "2026-04-22",
+    "time": "18:00",
+    "category": "kultur",
+    "source": "meetup",
+    "url": "https://www.meetup.com/heartfulness-meditation-oslo-meetup/events/313883525/",
+    "description": "NB: KL 17 / 5 pm.\nMenneskehetens vei fremover går gjennom hjertet. (In English follows)\n\n**INTRODUKSJON TIL HEARTFULNESS**\nNår du prøver Heartfulness for første gang og føler deg tiltrukket av å utfor"
+  },
+  {
     "id": "latter-2026-04-22-standup-p--latter-1830",
     "title": "Standup på Latter",
     "date": "2026-04-22",
@@ -1418,16 +1358,6 @@
     "source": "latter",
     "url": "https://www.ticketmaster.no/event/1345526465",
     "description": "5 nye komikere hver uke - tirsdag til lørdag!"
-  },
-  {
-    "id": "meetup-2026-04-22-online-evening-group-for-women",
-    "title": "Online evening group for women- with tools from the method of IOPT",
-    "date": "2026-04-22",
-    "time": "19:00",
-    "category": "kultur",
-    "source": "meetup",
-    "url": "https://www.meetup.com/iopt-workshops-and-self-development-workshops/events/314093258/",
-    "description": "Join us for an enlightening workshop on self-love and self-acceptance, where you will learn practical tools and techniques to cultivate a deeper sense of love and acceptance for yourself. This worksho"
   },
   {
     "id": "nieuscene-817467478036921",
@@ -1578,6 +1508,16 @@
     "source": "rockefeller",
     "url": "https://www.ticketmaster.no/event/2015538973?brand=sentrumscene&camefrom=CFC_NO_Rockefeller_Fatoumata_Diawara_230426_Billettsalg&utm_campaign=NO_Rockefeller_Fatoumata_Diawara_230426_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
     "description": "En gigant på den vestafrikanske musikkscenen og en kjær venn av Oslo World vender tilbake til Oslo i 2026. Det tilhører sjeldenhetene at vi arrangerer konserter utenfor uke 44. Den siste, og eneste ga"
+  },
+  {
+    "id": "meetup-2026-04-23-customizable-select-elements--",
+    "title": "Customizable select elements  + Let's break WCAG rules",
+    "date": "2026-04-23",
+    "time": "17:00",
+    "category": "kultur",
+    "source": "meetup",
+    "url": "https://www.meetup.com/framsia/events/313652618/",
+    "description": "**Agenda**\n17:00 Doors open, grab some food, find your seat 😋\n\n17:30 **Customizable select elements**\n*by Eric Veliyulin @* *[Forte](https://www.fortedigital.com/)*\n\nTBD\n\n18:00 **Let's break some WCAG"
   },
   {
     "id": "detnorske-2026-04-23-rets-revy-2026-1730",
@@ -1907,7 +1847,7 @@
     "category": "humor",
     "source": "nieuscene",
     "url": "https://www.facebook.com/events/4244289415845626",
-    "description": "Syns du skate eller snowboard er kult? Perfekt. Syns du det er teit? Enda bedre! Er konseptet brettsport ukjent for deg? Fear not.. Hvis du er enig i noe av dette har du INGEN unnskyldning til å ikke komme på Skate + Snow = SHOW med Fredrik Perry på nieu grünerløkka (med mindre du er keen på å chill"
+    "description": "Syns du skate eller snowboard er kult? Perfekt. Syns du det er teit? Enda bedre! Er konseptet brettsport ukjent for deg? Fear not.. Hvis du er enig i noe av dette har du INGEN unnskyldning til å ikke komme på Skate + Snow = SHOW med Fredrik Perry på Nieu Grünerløkka. På scenen kommer Karsten Kleppan"
   },
   {
     "id": "latter-2026-04-24-standup-p--latter-2030",
@@ -2170,6 +2110,16 @@
     "description": "Velkommen til Heartfulness avspenning og meditasjon på hjertet - et pust i hverdagen. Fred starter med deg.\n(In english follows)\n\nMeditasjonen starter kl 10\nDørene åpner kl 9:50\nGratis deltagelse\n\nHea"
   },
   {
+    "id": "meetup-2026-04-26-shopbot-cnc-theory-and-practic",
+    "title": "Shopbot CNC theory and practical",
+    "date": "2026-04-26",
+    "time": "11:00",
+    "category": "kultur",
+    "source": "meetup",
+    "url": "https://www.meetup.com/bitraf/events/314106849/",
+    "description": "This course is necessary for new users of the Shopbot CNC at Bitraf to establish baseline knowledge & safety standards that everyone can expect from each other.\n\nIt will be held in English.\n\nThis cour"
+  },
+  {
     "id": "nieuscene-1185897769765076",
     "title": "nieu marked",
     "date": "2026-04-26",
@@ -2188,16 +2138,6 @@
     "source": "blaa",
     "url": "https://www.blaaoslo.no/events/frank-znort-quartet/aClHhVxgqD",
     "description": "Frank Znort Quartet er sitt eget unike univers og Oslos upolerte perle av en skatt. Med sin livsbejaende tilnærming til sjangre, låter, mennesker og generelt drøyt bra stemning har dette storbandet st"
-  },
-  {
-    "id": "meetup-2026-04-26-in-person-events-now-arranged-",
-    "title": "In-Person Events now arranged on a platform called Aftergame. See link below.",
-    "date": "2026-04-26",
-    "time": "14:00",
-    "category": "kultur",
-    "source": "meetup",
-    "url": "https://www.meetup.com/blood-on-the-clocktower-oslo/events/313902394/",
-    "description": "We are still playing every* Tuesday in-person but the games are organised on another platform now called Aftergame. Follow the link and sign-up there to attend."
   },
   {
     "id": "rockefeller-2026-04-26-joe-lynn-turner",
@@ -2368,16 +2308,6 @@
     "source": "meetup",
     "url": "https://www.meetup.com/boardgamesoslo/events/314199408/",
     "description": "We are now collaborating with **Spilloteket**! That means we will have a whole floor to ourselves with up to 40 folks, and 2 tables dedicated to featured long games. If you want to be a part of the lo"
-  },
-  {
-    "id": "meetup-2026-04-29-heartfulness-meditasjon-torsho",
-    "title": "Heartfulness meditasjon Torshov",
-    "date": "2026-04-29",
-    "time": "18:00",
-    "category": "kultur",
-    "source": "meetup",
-    "url": "https://www.meetup.com/heartfulness-meditation-oslo-meetup/events/313883534/",
-    "description": "NB: KL 17 / 5 pm.\nMenneskehetens vei fremover går gjennom hjertet. (In English follows)\n\n**INTRODUKSJON TIL HEARTFULNESS**\nNår du prøver Heartfulness for første gang og føler deg tiltrukket av å utfor"
   },
   {
     "id": "latter-2026-04-29-standup-p--latter-1830",
@@ -2766,7 +2696,7 @@
     "time": "20:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/nb/e/synning__revolver",
+    "url": "https://revolveroslo.ticketco.events/no/en/e/synning__revolver",
     "description": ""
   },
   {
@@ -2858,6 +2788,16 @@
     "source": "nieuscene",
     "url": "https://www.facebook.com/events/1926191114658808",
     "description": "Formula 1 Watch Party på Nieu Sportsbar Denne søndagen kan du se Miami Grand Prix LIVE hos oss på Nieu Sportsbar kl. 22.00. Side Chick serverer wings, fries og digg mat mellom lapsene, så du slipper å gå sulten gjennom løpet. Det er gratis og åpent for alle. Vi tar ikke bordreservasjoner, så det er "
+  },
+  {
+    "id": "meetup-2026-05-04-lag-din-egen-ai-agent-",
+    "title": "Lag din egen AI-agent!",
+    "date": "2026-05-04",
+    "time": "16:00",
+    "category": "kultur",
+    "source": "meetup",
+    "url": "https://www.meetup.com/smidig/events/314229814/",
+    "description": "AI er i vinden og enda mer aktuelt er AI-agenter.\nAgenter kommer til å ha stor påvirkning på hvordan smidig kommer til å bli utøvd i fremtiden.\n\nMen hva er egentlig en agent? Hva består den av?\nHvorda"
   },
   {
     "id": "meetup-2026-05-04-r-ntgensyn-i-produksjon-med-op",
@@ -3026,7 +2966,7 @@
     "time": "20:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/nb/e/graset_gror__moellspist__revolver",
+    "url": "https://revolveroslo.ticketco.events/no/en/e/graset_gror__moellspist__revolver",
     "description": ""
   },
   {
@@ -3627,7 +3567,7 @@
     "category": "humor",
     "source": "nieuscene",
     "url": "https://www.facebook.com/events/1624203388449448",
-    "description": "The Comedy Store kommer til nieu grünerløkka! Standupklubben blir ofte omtalt som fødestedet for standup i Storbritannia og har vært springbrett for utallige komikere, blant andre …"
+    "description": "The Comedy Store kommer til nieu grünerløkka! Standupklubben blir ofte omtalt som fødestedet for standup i Storbritannia og har vært springbrett for utallige komikere, blant andre Michael McIntyre, Eddie Izzard, Jimmy Carr – og mange flere. Nå kommer The Comedy Store til Oslo, og det blir en kveld m"
   },
   {
     "id": "revolver-2026-05-14-hiawata----doopy----revolver",
@@ -3756,7 +3696,7 @@
     "time": "20:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/en/e/confess__revolver",
+    "url": "https://revolveroslo.ticketco.events/no/nb/e/confess__revolver",
     "description": ""
   },
   {
@@ -4466,7 +4406,7 @@
     "time": "20:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/nb/e/pushwagnergruppen_revolverr",
+    "url": "https://revolveroslo.ticketco.events/no/en/e/pushwagnergruppen_revolverr",
     "description": ""
   },
   {
@@ -5276,7 +5216,7 @@
     "time": "18:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/nb/e/paal_flaata__revolver_26",
+    "url": "https://revolveroslo.ticketco.events/no/en/e/paal_flaata__revolver_26",
     "description": ""
   },
   {
@@ -5656,7 +5596,7 @@
     "time": "18:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/nb/e/orb_aus__revolver_backyard",
+    "url": "https://revolveroslo.ticketco.events/no/en/e/orb_aus__revolver_backyard",
     "description": ""
   },
   {
@@ -5756,7 +5696,7 @@
     "time": "20:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/nb/e/together_pangea_us__revolver",
+    "url": "https://revolveroslo.ticketco.events/no/en/e/together_pangea_us__revolver",
     "description": ""
   },
   {
@@ -5860,6 +5800,16 @@
     "description": ""
   },
   {
+    "id": "nieuscene-958691033398188",
+    "title": "Formula 1 Watch Party • nieu sportsbar",
+    "date": "2026-07-19",
+    "time": "15:00",
+    "category": "humor",
+    "source": "nieuscene",
+    "url": "https://www.facebook.com/events/958691033398188",
+    "description": "Formula 1 Watch Party på Nieu Sportsbar Denne søndagen kan du se Belgian Grand Prix LIVE hos oss på Nieu Sportsbar kl. 15.00. Side Chick serverer wings, fries og digg mat mellom lapsene, så du slipper å gå sulten gjennom løpet. Det er gratis og åpent for alle. Vi tar ikke bordreservasjoner, så det e"
+  },
+  {
     "id": "latter-2026-07-21-sommerstandup-2026-1830",
     "title": "Sommerstandup 2026",
     "date": "2026-07-21",
@@ -5918,6 +5868,16 @@
     "source": "latter",
     "url": "https://www.ticketmaster.no/event/sommerstandup-2026-billetter/1779788756",
     "description": ""
+  },
+  {
+    "id": "nieuscene-1597368121433844",
+    "title": "Formula 1 Watch Party • nieu sportsbar",
+    "date": "2026-07-26",
+    "time": "15:00",
+    "category": "humor",
+    "source": "nieuscene",
+    "url": "https://www.facebook.com/events/1597368121433844",
+    "description": "Formula 1 Watch Party på Nieu Sportsbar Denne søndagen kan du se Hungarian Grand Prix LIVE hos oss på Nieu Sportsbar kl. 15.00. Side Chick serverer wings, fries og digg mat mellom lapsene, så du slipper å gå sulten gjennom løpet. Det er gratis og åpent for alle. Vi tar ikke bordreservasjoner, så det"
   },
   {
     "id": "latter-2026-07-28-sommerstandup-2026-1830",
@@ -6210,6 +6170,16 @@
     "description": ""
   },
   {
+    "id": "nieuscene-1395526789016274",
+    "title": "Dette må aldri skje igjen LIVE: Premiere League-skandaler",
+    "date": "2026-08-21",
+    "time": "19:00",
+    "category": "humor",
+    "source": "nieuscene",
+    "url": "https://www.facebook.com/events/1395526789016274",
+    "description": "Magnus Devold og Marco Reinertsen tar oss med gjennom noen av historiens mest spektakulære katastrofer og tabber, og ser på hva som gikk galt. Hva kan vi lære av det? Og hvordan unngår vi å gjøre de samme feilene selv? Dørene åpner: 18:30 Showstart: 19:00 Aldersgrense: 18 år Pris: 320,-"
+  },
+  {
     "id": "rockefeller-2026-08-22-sexhibition-2026",
     "title": "Sexhibition 2026",
     "date": "2026-08-22",
@@ -6258,6 +6228,16 @@
     "source": "parkteatret",
     "url": "https://www.ticketmaster.no/event/1033666639?brand=parkteatret",
     "description": ""
+  },
+  {
+    "id": "nieuscene-1252675577014381",
+    "title": "Formula 1 Watch Party • nieu sportsbar",
+    "date": "2026-08-23",
+    "time": "15:00",
+    "category": "humor",
+    "source": "nieuscene",
+    "url": "https://www.facebook.com/events/1252675577014381",
+    "description": "Formula 1 Watch Party på Nieu Sportsbar Denne søndagen kan du se Dutch Grand Prix LIVE hos oss på Nieu Sportsbar kl. 15.00. Side Chick serverer wings, fries og digg mat mellom lapsene, så du slipper å gå sulten gjennom løpet. Det er gratis og åpent for alle. Vi tar ikke bordreservasjoner, så det er "
   },
   {
     "id": "rockefeller-2026-08-23-suede",
@@ -6660,6 +6640,16 @@
     "description": "Året er 2006. Montenegro erklærer seg uavhengig, Solveig Fiske blir utnevnt til biskop av Hamar, og den andre januar har Radioresepsjonen sin første sending på NRK. Det startet som en spøk, og nå – tj"
   },
   {
+    "id": "latter-2026-09-11-live-laugh-l-vland-1830",
+    "title": "Live Laugh Løvland",
+    "date": "2026-09-11",
+    "time": "18:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/257555607",
+    "description": "Andrea Løvland"
+  },
+  {
     "id": "latter-2026-09-11-finn-tre-feil-1900",
     "title": "Finn tre feil",
     "date": "2026-09-11",
@@ -6678,6 +6668,16 @@
     "source": "oslonye",
     "url": "https://www.ticketmaster.no/event/696794508?language=no-no&track=DiscoveryAPI&camefrom=OsloNye&subchannel_id=1",
     "description": ""
+  },
+  {
+    "id": "latter-2026-09-12-live-laugh-l-vland-0930",
+    "title": "Live Laugh Løvland",
+    "date": "2026-09-12",
+    "time": "09:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/805836407",
+    "description": "Andrea Løvland"
   },
   {
     "id": "rockefeller-2026-09-12-mamas-gun",

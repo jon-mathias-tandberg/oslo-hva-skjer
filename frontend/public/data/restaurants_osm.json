@@ -330,7 +330,7 @@
     "address": "Grønland, 0188",
     "website": "https://www.asylet.no/",
     "phone": "+47 22 17 09 39",
-    "opening_hours": "Mo-Fr 11:00-00:30; Sa 12:00-00:30; Su 12:00-23:00",
+    "opening_hours": "Mo-Tu 11:00-22:00; We-Fr 11:00-24:00; Sa 12:00-24:00; Su 12:00-22:00",
     "description": "",
     "lat": 59.912872,
     "lon": 10.762362
@@ -1680,6 +1680,18 @@
     "lon": 10.7644478
   },
   {
+    "id": "osm-rest-13713956655",
+    "name": "Dar al Maghreb",
+    "cuisine": "Moroccan",
+    "address": "Majorstuveien, 0367",
+    "website": "",
+    "phone": "",
+    "opening_hours": "",
+    "description": "",
+    "lat": 59.9279795,
+    "lon": 10.7151362
+  },
+  {
     "id": "osm-rest-11105650107",
     "name": "De la casa",
     "cuisine": "",
@@ -1767,7 +1779,7 @@
     "id": "osm-rest-13334174879",
     "name": "Den Sultne Mave",
     "cuisine": "Indisk",
-    "address": "Gamle Ringeriksvei, 1368",
+    "address": "Gamle Ringeriksvei, 1321",
     "website": "https://www.densultnemave.no",
     "phone": "+47 48 51 49 43",
     "opening_hours": "Tu-Sa 16:00-22:00; Su 16:00-21:00; Mo off",
@@ -1866,7 +1878,7 @@
     "address": "Tullinpassasjen, 0164",
     "website": "https://www.dindeli.no/om-oss-dindeli-tullin",
     "phone": "",
-    "opening_hours": "",
+    "opening_hours": "Mo-Fr 08:00-20:00",
     "description": "",
     "lat": 59.9170789,
     "lon": 10.7370933
@@ -2475,7 +2487,7 @@
     "id": "osm-rest-292102329",
     "name": "Folkvang",
     "cuisine": "",
-    "address": "Arendalsgata, 0463",
+    "address": "Arendalsgata, 0465",
     "website": "https://folkvangsagene.no/",
     "phone": "+47 98 44 89 00",
     "opening_hours": "",
@@ -2811,7 +2823,7 @@
     "id": "osm-rest-4346614026",
     "name": "Golden Mountain",
     "cuisine": "Kinesisk",
-    "address": "Fridtjof Nansens plass, 0160",
+    "address": "Roald Amundsens gate, 0160",
     "website": "https://goldenmountain.no",
     "phone": "+47 22 42 53 62",
     "opening_hours": "Mo-Fr 11:00-22:00; Sa-Su 12:00-22:00",
@@ -4599,7 +4611,7 @@
     "id": "osm-rest-12369819501",
     "name": "Lille Amerika Sentrum",
     "cuisine": "Burger",
-    "address": "Osterhaus’ gate, 0183",
+    "address": "Osterhaus’ gate, 0182",
     "website": "https://lilleamerika.no",
     "phone": "+47 98 88 24 87",
     "opening_hours": "Mo-Th 11:00-22:00; Fr 11:00-23:00; Sa 12:00-23:00; Su 12:00-22:00",
@@ -4968,18 +4980,6 @@
     "lon": 10.771528
   },
   {
-    "id": "osm-rest-8436229223",
-    "name": "Mac + Cheese Bar",
-    "cuisine": "Amerikansk",
-    "address": "Møllergata, 0178",
-    "website": "https://www.macandcheesebar.no/",
-    "phone": "",
-    "opening_hours": "",
-    "description": "",
-    "lat": 59.9186803,
-    "lon": 10.7511467
-  },
-  {
     "id": "osm-rest-11704386367",
     "name": "Mad Love",
     "cuisine": "Pizza",
@@ -5007,7 +5007,7 @@
     "id": "osm-rest-5652445255",
     "name": "Madonna",
     "cuisine": "",
-    "address": "Operagata 17, 0194",
+    "address": "Operagata, 0194",
     "website": "https://www.madonnaoslo.no/",
     "phone": "+47 22 60 12 00",
     "opening_hours": "Mo-Th 16:00-23:00; Fr-Sa 12:00-24:00",
@@ -6099,7 +6099,7 @@
     "id": "osm-rest-1988656478",
     "name": "Peppes Pizza",
     "cuisine": "Pizza",
-    "address": "Observatoriegata, 0254",
+    "address": "Observatoriegata, 0257",
     "website": "https://www.peppes.no/webshop/restaurant/12-peppes-pizza-solli-plass?2",
     "phone": "+47 22 22 55 55",
     "opening_hours": "Mo-Th 12:00-23:00; Fr 12:00-24:00; Sa 13:00-24:00; Su 13:00-23:00",
@@ -6642,7 +6642,7 @@
     "address": "Prinsens gate, 0152",
     "website": "https://www.rentmeloslo.no",
     "phone": "",
-    "opening_hours": "Mo-Su 07:30-22:00",
+    "opening_hours": "Tu-Sa 07:30-22:00; Su,Mo 07:30-21:00",
     "description": "",
     "lat": 59.9103814,
     "lon": 10.7471673
@@ -6783,7 +6783,7 @@
     "id": "osm-rest-2785920497",
     "name": "Risbolle",
     "cuisine": "Thai",
-    "address": "Dronningens gate 24, 0154",
+    "address": "Dronningens gate, 0154",
     "website": "https://www.risbolle.no/",
     "phone": "",
     "opening_hours": "Mo-Sa 11:00-22:00; Su 13:30-21:00",
@@ -8940,18 +8940,6 @@
     "lon": 10.5259624
   },
   {
-    "id": "osm-rest-4511885847",
-    "name": "ZZ Pizza",
-    "cuisine": "",
-    "address": "Åkebergveien, 0650",
-    "website": "",
-    "phone": "",
-    "opening_hours": "",
-    "description": "",
-    "lat": 59.911459,
-    "lon": 10.771302
-  },
-  {
     "id": "osm-rest-9797054830",
     "name": "ZZ Pizza",
     "cuisine": "Pizza",
@@ -8962,5 +8950,17 @@
     "description": "",
     "lat": 59.906052,
     "lon": 10.775168
+  },
+  {
+    "id": "osm-rest-4511885847",
+    "name": "ZZ Pizza Tøyen",
+    "cuisine": "",
+    "address": "Eiriks gate 2, 0650",
+    "website": "https://zz.pizza/toyen/",
+    "phone": "+47 94 06 77 97",
+    "opening_hours": "Mo-Sa 12:00-21:30; Su 12:00-20:30",
+    "description": "",
+    "lat": 59.911459,
+    "lon": 10.771302
   }
 ]
