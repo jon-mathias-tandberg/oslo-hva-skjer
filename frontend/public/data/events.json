@@ -1,235 +1,5 @@
 [
   {
-    "id": "operaen-2026-05-07-billettsalget-har-startet-0000",
-    "title": "Billettsalget har startet!",
-    "date": "2026-05-07",
-    "time": null,
-    "category": "kultur",
-    "source": "operaen",
-    "url": "https://www.operaen.no/forestillinger/sesonglansering-26-27/",
-    "description": ""
-  },
-  {
-    "id": "oslonye-2026-05-07-harr---hartberg-2100",
-    "title": "Harr & Hartberg",
-    "date": "2026-05-07",
-    "time": "21:00",
-    "category": "kultur",
-    "source": "oslonye",
-    "url": "https://www.ticketmaster.no/event/316536648?language=no-no&track=DiscoveryAPI&camefrom=OsloNye&subchannel_id=1",
-    "description": ""
-  },
-  {
-    "id": "rockefeller-2026-05-08-desertfest-oslo-2026",
-    "title": "Desertfest Oslo 2026",
-    "date": "2026-05-08",
-    "time": "13:30",
-    "category": "konsert",
-    "source": "rockefeller",
-    "url": "https://www.ticketmaster.no/artist/desertfest-oslo-billetter/1277694?camefrom=CFC_NO_Rockefeller_Desertfest_2026_samle_Billettsalg&utm_campaign=NO_Rockefeller_Desertfest_2026_samle_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
-    "description": "**Fredag:**\nRussian Circles / King Buffalo / Pelican / Thulsa Doom / Dopelord / Blackwater Holylight / Nebula / High Desert Queen / -16- / Spelljammer / Gïobia / Håndgemeng / Hexjakt / Sunface / White"
-  },
-  {
-    "id": "nieuscene-2296667347828428",
-    "title": "Afterwork hver fredag",
-    "date": "2026-05-08",
-    "time": "15:00",
-    "category": "humor",
-    "source": "nieuscene",
-    "url": "https://www.facebook.com/events/2296667347828428",
-    "description": "Hver fredag sparker vi igang helga på nieu grünerløkka med en aldri så liten afterwork fra 15:00. Åpent for alle og bare å labbe innom for noe kaldt i glasset. Det blir ålreit stemning."
-  },
-  {
-    "id": "detnorske-2026-05-08-pippip--sirkus-1530",
-    "title": "Pippipå sirkus",
-    "date": "2026-05-08",
-    "time": "15:30",
-    "category": "kultur",
-    "source": "detnorske",
-    "url": "https://billettar.detnorsketeatret.no/nn/buyingflow/tickets/39845/89378/",
-    "description": ""
-  },
-  {
-    "id": "detnorske-2026-05-08-spesialomvising-pippi-p--sirku-1715",
-    "title": "Spesialomvising:Pippi på sirkus",
-    "date": "2026-05-08",
-    "time": "17:15",
-    "category": "kultur",
-    "source": "detnorske",
-    "url": "https://billettar.detnorsketeatret.no/nn/buyingflow/tickets/45870/94525/",
-    "description": ""
-  },
-  {
-    "id": "blaa-2026-05-08-nasjonal-utgroving--support--c",
-    "title": "Nasjonal Utgroving (support: Cely)",
-    "date": "2026-05-08",
-    "time": "18:00",
-    "category": "konsert",
-    "source": "blaa",
-    "url": "https://www.ticketmaster.no/event/1754234476",
-    "description": "Nasjonal Utgroving grover ut som vanlig og nivået er nasjonalt. Denne gangen på Himmel, i BLÅs annenetasje.\n\nKonserten er utsolgt.\n\nDørene åpner 20:00\nCely opptrer 21:00\nNasjonal Utgroving 22:00\n"
-  },
-  {
-    "id": "blaa-2026-05-08-seefeel--warp-records-",
-    "title": "Seefeel (Warp Records)",
-    "date": "2026-05-08",
-    "time": "18:00",
-    "category": "konsert",
-    "source": "blaa",
-    "url": "https://www.ticketmaster.no/event/2089038394?fbclid=IwY2xjawOuJ31leHRuA2FlbQIxMABicmlkETF4ZjZ1T09mZldHTlBMSGpTc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHkbqnakgW0XfAwtDIc38-Ic7UVkwhS7e1iD1HEf_8DNnqxVllhhOddZwu4IM_aem_s5zgxAqxY97Yg3STiHzNdg",
-    "description": "Seefeel var tidlig ute med å hviske ut skillene mellom elektronikkens eksperimentering og gitarmusikken, og oppsto under en av de avgjørende musikalske bølgene i 90-tallets London.\n\nMed debutskiva Qui"
-  },
-  {
-    "id": "nieuscene-960790183164797",
-    "title": "Vinshowet - nieu x non dos",
-    "date": "2026-05-08",
-    "time": "18:00",
-    "category": "humor",
-    "source": "nieuscene",
-    "url": "https://www.facebook.com/events/960790183164797",
-    "description": "En myk inngang til vin. Perfekt for deg som er glad i vin, uten å være helt opphengt i druer og for deg som kan alt. Vi skal lære litt, men kødde mest. Bare slurpe på no' snacksy vin sammen i mens vi ler så vi griner. Hvordan funker det? Du får smake på mange forskjellige viner gjennom kvelden. Hver"
-  },
-  {
-    "id": "detnorske-2026-05-08-sukker-1800",
-    "title": "Sukker",
-    "date": "2026-05-08",
-    "time": "18:00",
-    "category": "kultur",
-    "source": "detnorske",
-    "url": "https://billettar.detnorsketeatret.no/nn/buyingflow/tickets/38821/93548/",
-    "description": ""
-  },
-  {
-    "id": "lasttrain-2026-05-08-vilde-bye",
-    "title": "Vilde Bye",
-    "date": "2026-05-08",
-    "time": "18:00",
-    "category": "konsert",
-    "source": "lasttrain",
-    "url": "https://tikkio.com/events/62892",
-    "description": "Vilde Bye Band\n\nVilde Bye er full av begeistring for å være tilbake på Last Train, et sted hun har svært gode minner fra. Allerede som nittenåring (i februar 2023) spilte hun en splittkonsert med Dag "
-  },
-  {
-    "id": "latter-2026-05-08-standup-p--latter-1830",
-    "title": "Standup på Latter",
-    "date": "2026-05-08",
-    "time": "18:30",
-    "category": "humor",
-    "source": "latter",
-    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/1599970365",
-    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
-  },
-  {
-    "id": "detnorske-2026-05-08-pippip--sirkus-1830",
-    "title": "Pippipå sirkus",
-    "date": "2026-05-08",
-    "time": "18:30",
-    "category": "kultur",
-    "source": "detnorske",
-    "url": "https://billettar.detnorsketeatret.no/nn/buyingflow/tickets/39845/89379/",
-    "description": ""
-  },
-  {
-    "id": "rockefeller-2026-05-08-oskar-med-k",
-    "title": "oskar med k",
-    "date": "2026-05-08",
-    "time": "19:00",
-    "category": "konsert",
-    "source": "rockefeller",
-    "url": "https://www.ticketmaster.no/event/611656293?brand=sentrumscene&camefrom=CFC_NO_Rockefeller_oskar_med_k_080526_Billettsalg&utm_campaign=NO_Rockefeller_oskar_med_k_080526_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
-    "description": "Den norske produsenten oskar med k skaper et lydbilde der chill, melodisk house møter smittende, smilende låtskriving. Produksjonen hans blander klubb-orienterte beats, fengende melodier og eteriske v"
-  },
-  {
-    "id": "nieuscene-983527547333678",
-    "title": "Oslo Zoo med Rasmus Wold",
-    "date": "2026-05-08",
-    "time": "19:00",
-    "category": "humor",
-    "source": "nieuscene",
-    "url": "https://www.facebook.com/events/983527547333678",
-    "description": "Denne kvelden forvandles scenen til en ekte dyrehage når en Rasmus Wold inviterer til klubbkveld på nieu grünerløkka. Rasmus slipper løs Henrik Farley, Amalie Stuver og Marius Thorkildsen, og vi kan love både brøling og uforutsigbare innslag fra alle kanter. Det blir standup, kaos og en kveld der al"
-  },
-  {
-    "id": "nieuscene-1498960638517591",
-    "title": "FTP IMPRO",
-    "date": "2026-05-08",
-    "time": "19:00",
-    "category": "humor",
-    "source": "nieuscene",
-    "url": "https://www.facebook.com/events/1498960638517591",
-    "description": "FTP IMPRO er tilbake med et av sine spinnville improshows! Etter flere elleville shows på Kjellern på Blindern er vi nå klare for nieu scene. Perfekt start på helgen! Og en perfekt anledning til å se denne fantastiske improgjengen på ekte!!! Vi ses! Dørene åpner: 19:15 Showstart: 19:30 Aldersgrense:"
-  },
-  {
-    "id": "operaen-2026-05-08-la-bayad-re-1900",
-    "title": "La Bayadère",
-    "date": "2026-05-08",
-    "time": "19:00",
-    "category": "kultur",
-    "source": "operaen",
-    "url": "https://www.operaen.no/forestillinger/la-bayadere-ballett/",
-    "description": ""
-  },
-  {
-    "id": "nieuscene-1271475745154247",
-    "title": "HVA HVIS med Sara Grette + Jonatan Husøy",
-    "date": "2026-05-08",
-    "time": "19:30",
-    "category": "humor",
-    "source": "nieuscene",
-    "url": "https://www.facebook.com/events/1271475745154247",
-    "description": "Hva hvis du ikke satt å leste denne teksten akkurat nå, men heller satt i fengsel på Bahamas? Eller at du ikke dro på festen hvor du møtte kjæresten, tok en helt annen karrierevei eller befant deg på Titanic? Improvisatøren Sara Grette inviterer til HVA HVIS- et helt improvisert, køddent og uforutsi"
-  },
-  {
-    "id": "parkteatret-2026-05-08-sult",
-    "title": "SULT",
-    "date": "2026-05-08",
-    "time": "20:00",
-    "category": "konsert",
-    "source": "parkteatret",
-    "url": "https://www.ticketmaster.no/event/1505776664?brand=parkteatret",
-    "description": ""
-  },
-  {
-    "id": "latter-2026-05-08-standup-p--latter-2030",
-    "title": "Standup på Latter",
-    "date": "2026-05-08",
-    "time": "20:30",
-    "category": "humor",
-    "source": "latter",
-    "url": "https://www.ticketmaster.no/event/975031813",
-    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
-  },
-  {
-    "id": "blaa-2026-05-08-dj-python--xl-recordings----po",
-    "title": "DJ Python (XL Recordings) & Posner",
-    "date": "2026-05-08",
-    "time": "21:00",
-    "category": "konsert",
-    "source": "blaa",
-    "url": "https://www.ticketmaster.no/event/1929771857",
-    "description": "DJ Python (XL Recordings)\n\nDJ Python er hovedaliaset til Queens-baserte DJ og produsent Brian Piñeyro. En DJ av høy rang som har gode kvaliteter på tvers av sjangre og stemninger. Spilt for blant anne"
-  },
-  {
-    "id": "nieuscene-1469990961531024",
-    "title": "Oslo Zoo med Rasmus Wold",
-    "date": "2026-05-08",
-    "time": "21:00",
-    "category": "humor",
-    "source": "nieuscene",
-    "url": "https://www.facebook.com/events/1469990961531024",
-    "description": "Denne kvelden forvandles scenen til en ekte dyrehage når Marius Thorkildsen inviterer til klubbkveld på nieu grünerløkka. Marius slipper løs Henrik Farley, Amalie Stuver og Rasmus Wold, og vi kan love både brøling og uforutsigbare innslag fra alle kanter. Det blir standup, kaos og en kveld der alt k"
-  },
-  {
-    "id": "nieuscene-1592704171986006",
-    "title": "nieu show",
-    "date": "2026-05-08",
-    "time": "21:00",
-    "category": "humor",
-    "source": "nieuscene",
-    "url": "https://www.facebook.com/events/1592704171986006",
-    "description": "Hver helg kommer en ny nieu-venn og samler forskjellige folk til en skrattemild idiotkveld med fokus på humor. Blir det stand up? Blir det impro? Blir det burlesque? Bare en måte å finne ut det på. Kom å få den kulturelle magesekken din stappa full! Kan bli læ10s dette! Dørene åpner: 20:45 Showstart"
-  },
-  {
     "id": "oslonye-2026-05-08-diesel-s-carnal-cabaret-caf-2100",
     "title": "Diesel’s Carnal Cabaret Café",
     "date": "2026-05-08",
@@ -440,16 +210,6 @@
     "description": "- et latenight show med Alon og Marko"
   },
   {
-    "id": "meetup-2026-05-10-heartfulness-meditasjon-gr-ner",
-    "title": "Heartfulness meditasjon Grünerløkka",
-    "date": "2026-05-10",
-    "time": "09:50",
-    "category": "kultur",
-    "source": "meetup",
-    "url": "https://www.meetup.com/heartfulness-meditation-oslo-meetup/events/314591128/",
-    "description": "Velkommen til Heartfulness avspenning og meditasjon på hjertet - et pust i hverdagen. Fred starter med deg.\n(In english follows)\n\nMeditasjonen starter kl 10\nDørene åpner kl 9:50\nGratis deltagelse\n\nHea"
-  },
-  {
     "id": "meetup-2026-05-10-kurs-tormek-slipemaskin",
     "title": "Kurs Tormek Slipemaskin",
     "date": "2026-05-10",
@@ -488,16 +248,6 @@
     "source": "meetup",
     "url": "https://www.meetup.com/abundance-oslo/events/314607882/",
     "description": "A casual get-together for anyone curious about \"abundance\" related topics - opportunities from safe and aligned AI, how to build much more clean energy and housing, eco-modernism, accelerating economi"
-  },
-  {
-    "id": "meetup-2026-05-10-sunday-hike--unlimited-spots",
-    "title": "Sunday Hike!✨Unlimited spots",
-    "date": "2026-05-10",
-    "time": "12:05",
-    "category": "kultur",
-    "source": "meetup",
-    "url": "https://www.meetup.com/socialoslo/events/314640256/",
-    "description": "(Meetup says full, but we’ve got room! **Join the waitlist and just show up** ☺️)\n\nHalla friends, let’s head east and hike in Østmarka!\n\n🥾 **Moderate hike:** • 10.8 km • 4–5 h • elevation gain 339 m\n📍"
   },
   {
     "id": "meetup-2026-05-10-s-ndag-skrivetreff",
@@ -700,6 +450,16 @@
     "description": "Oslo Data & Analytics Meetup er et faglig fellesskap for deg som jobber med data, analyse eller AI, med fokus på erfaringsdeling, praktisk bruk og relevante diskusjoner.\n\nMeetupen arrangeres av Analys"
   },
   {
+    "id": "meetup-2026-05-13-learn-to-use-bitraf-s-table-sa",
+    "title": "Learn to use Bitraf's Table Saw",
+    "date": "2026-05-13",
+    "time": "16:00",
+    "category": "kultur",
+    "source": "meetup",
+    "url": "https://www.meetup.com/bitraf/events/314609212/",
+    "description": "This course is necessary for everyone who wants access to the table saw at Bitraf - beginner and experienced users - to establish baseline knowledge & standards that everyone can expect of each other."
+  },
+  {
     "id": "blaa-2026-05-13-califone--us-",
     "title": "Califone (US)",
     "date": "2026-05-13",
@@ -728,6 +488,16 @@
     "source": "rockefeller",
     "url": "https://www.ticketmaster.no/event/717576223?brand=johndee&camefrom=CFC_NO_Rockefeller_WING_IN_Presents_Prime_Time_130526_Billettsalg&utm_campaign=NO_Rockefeller_WING_IN_Presents_Prime_Time_130526_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
     "description": "WING’IN presenterer Prime Time på John Dee 13. mai! Dette showet skal løfte frem talentet og allsidigheten til utvalgte produsenter, og kveldens lineup består av Trezzor (UK), SPACEWAVE og Benocchio!\n"
+  },
+  {
+    "id": "meetup-2026-05-13---english-conversation--meet-f",
+    "title": "🌐 English Conversation: Meet Friends & Learn Daily",
+    "date": "2026-05-13",
+    "time": "17:00",
+    "category": "kultur",
+    "source": "meetup",
+    "url": "https://www.meetup.com/oslo-english/events/314439363/",
+    "description": "🚀 **Stop searching for classes. Start speaking today!**\nWelcome to our free worldwide community. Hosted by English teachers, our daily sessions are fun, supportive, and focused on *real* practice. For"
   },
   {
     "id": "detnorske-2026-05-13-pippip--sirkus-1700",
@@ -946,7 +716,7 @@
     "time": "20:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/en/e/hiawata__dooby__revolver",
+    "url": "https://revolveroslo.ticketco.events/no/nb/e/hiawata__dooby__revolver",
     "description": ""
   },
   {
@@ -1116,7 +886,7 @@
     "time": "20:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/en/e/confess__revolver",
+    "url": "https://revolveroslo.ticketco.events/no/nb/e/confess__revolver",
     "description": ""
   },
   {
@@ -1160,16 +930,6 @@
     "description": "Join us for a day exploring Oslo’s unique second-hand and antique scene!\n\nThis group is all about connecting with new people who share an appreciation for vintage finds, hidden treasures, and sustaina"
   },
   {
-    "id": "meetup-2026-05-16-feeling-stuck--reset-your-mind",
-    "title": "Feeling Stuck? Reset Your Mindset in 1 Day (Oslo Workshop)",
-    "date": "2026-05-16",
-    "time": "13:00",
-    "category": "kultur",
-    "source": "meetup",
-    "url": "https://www.meetup.com/oslo-love-yourself-community/events/314433079/",
-    "description": "**⚠️ OSLO – THIS WILL FILL FAST ⚠️**\n\n**If you’ve been feeling stuck, overwhelmed, or unclear about your direction…**\n**this 1-day workshop might be exactly what you need right now.**\n\n**✨ 1-DAY MANIF"
-  },
-  {
     "id": "nieuscene-1497685398384329",
     "title": "Gærne Damer Live-Podcast",
     "date": "2026-05-16",
@@ -1190,14 +950,14 @@
     "description": ""
   },
   {
-    "id": "rockefeller-2026-05-16-eurovision-fest-p--16--mai-",
-    "title": "Eurovision-fest på 16. mai!",
+    "id": "detnorske-2026-05-16-pippip--sirkus-1500",
+    "title": "Pippipå sirkus",
     "date": "2026-05-16",
-    "time": "17:00",
-    "category": "konsert",
-    "source": "rockefeller",
-    "url": "https://www.ticketmaster.no/event/1604820816?brand=sentrumscene&camefrom=CFC_NO_Rockefeller_Eurovision-fest_160526_Billettsalg&utm_campaign=NO_Rockefeller_Eurovision-fest_160526_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
-    "description": "Eurovision Norway, Nordic Eurovision Party og Sentrum Scene har gleden av å invitere til årets happening – Eurovision-finalen 2026! \n\nLørdag 16. mai er det bare å finne fram fjærboaen, og møte opp på "
+    "time": "15:00",
+    "category": "kultur",
+    "source": "detnorske",
+    "url": "https://billettar.detnorsketeatret.no/nn/buyingflow/tickets/39845/91046/",
+    "description": ""
   },
   {
     "id": "rockefeller-2026-05-16-willi-carlisle",
@@ -1208,6 +968,16 @@
     "source": "rockefeller",
     "url": "https://www.ticketmaster.no/event/753058541?brand=johndee&camefrom=CFC_NO_Rockefeller_Willi_Carlisle_160526_Billettsalg&utm_campaign=NO_Rockefeller_Willi_Carlisle_160526_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
     "description": "Willi Carlisle er poet og folkesanger, nå basert i Arkansas og oppvokst med punk og folkemusikktradisjon. Vi gleder oss til å ønske ham velkommen til John Dee lørdag 16. mai!\n\n«Det er lenge mellom hve"
+  },
+  {
+    "id": "rockefeller-2026-05-16-eurovision-fest-p--16--mai-",
+    "title": "Eurovision-fest på 16. mai!",
+    "date": "2026-05-16",
+    "time": "17:00",
+    "category": "konsert",
+    "source": "rockefeller",
+    "url": "https://www.ticketmaster.no/event/1604820816?brand=sentrumscene&camefrom=CFC_NO_Rockefeller_Eurovision-fest_160526_Billettsalg&utm_campaign=NO_Rockefeller_Eurovision-fest_160526_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
+    "description": "Eurovision Norway, Nordic Eurovision Party og Sentrum Scene har gleden av å invitere til årets happening – Eurovision-finalen 2026! \n\nLørdag 16. mai er det bare å finne fram fjærboaen, og møte opp på "
   },
   {
     "id": "rockefeller-2026-05-16-backstreet-girls",
@@ -1230,13 +1000,23 @@
     "description": "Med en forkjærlighet for låtskrivere som Ole Paus, Bob Dylan og Alf Prøysen utforsker August Selnes den rike norske sangtradisjonen med et tidløst, men friskt, lydbilde. Han tar opp arven etter den fo"
   },
   {
+    "id": "detnorske-2026-05-16-pippip--sirkus-1800",
+    "title": "Pippipå sirkus",
+    "date": "2026-05-16",
+    "time": "18:00",
+    "category": "kultur",
+    "source": "detnorske",
+    "url": "https://billettar.detnorsketeatret.no/nn/buyingflow/tickets/39845/91047/",
+    "description": ""
+  },
+  {
     "id": "revolver-2026-05-16-fangst----slippkonsert---bakg-",
     "title": "Fangst // Slippkonsert & Bakgårdsfest // 16. mai - Revolver - MAILINGLIST",
     "date": "2026-05-16",
     "time": "18:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/en/e/fangst__slippkonsert__bakgaardsfest__16_mai__revolver__mailinglist",
+    "url": "https://revolveroslo.ticketco.events/no/nb/e/fangst__slippkonsert__bakgaardsfest__16_mai__revolver__mailinglist",
     "description": ""
   },
   {
@@ -1248,6 +1028,26 @@
     "source": "latter",
     "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/926443791",
     "description": "5 nye komikere hver uke - tirsdag til lørdag!"
+  },
+  {
+    "id": "nieuscene-2024169408177709",
+    "title": "Sivert Eimhjellen - «Med alle odds»",
+    "date": "2026-05-16",
+    "time": "20:00",
+    "category": "humor",
+    "source": "nieuscene",
+    "url": "https://www.facebook.com/events/2024169408177709",
+    "description": "Sivert Eimhjellen - «Med alle odds» Sivert Eimhjellen er en relativt laidback fyr med store ambisjoner. Kombinasjonen har gitt ham en solid rekke fiaskoer frem til nå, men en enorm tro på fremtiden. Nå har han dessuten Morten Ramm i ryggen! Sivert har gjort standup i fem år. Han er fast inventar på "
+  },
+  {
+    "id": "nieuscene-1936800163610529",
+    "title": "Sivert Eimhjellen - «Med alle odds»",
+    "date": "2026-05-16",
+    "time": "20:00",
+    "category": "humor",
+    "source": "nieuscene",
+    "url": "https://www.facebook.com/events/1936800163610529",
+    "description": "Sivert Eimhjellen - «Med alle odds» Sivert Eimhjellen er en relativt laidback fyr med store ambisjoner. Kombinasjonen har gitt ham en solid rekke fiaskoer frem til nå, men en enorm tro på fremtiden. Nå har han dessuten Morten Ramm i ryggen! Sivert har gjort standup i fem år. Han er fast inventar på "
   },
   {
     "id": "latter-2026-05-16-standup-p--latter-2030",
@@ -1330,16 +1130,6 @@
     "description": "**Vi i Novacare gleder oss til å invitere deg til en hands-on og uformell dag sammen med Umbraco AI hvor vi bygger, utforsker og lærer sammen. Enten du er ekspert på AI eller bare nysgjerrig, er du hj"
   },
   {
-    "id": "meetup-2026-05-18-oracle-integration-enters-the-",
-    "title": "Oracle Integration Enters the Age of AI — Product Update Webcast June 18th 2026",
-    "date": "2026-05-18",
-    "time": "17:00",
-    "category": "kultur",
-    "source": "meetup",
-    "url": "https://www.meetup.com/integration-ougn-sig/events/314557031/",
-    "description": "Oracle Integration is evolving, and you are invited to see what’s next. Join us for an exclusive webcast as Oracle Integration enters the Age of AI, introducing a new generation of capabilities that e"
-  },
-  {
     "id": "meetup-2026-05-19-soco-frokostseminar--brukersen",
     "title": "SOCO Frokostseminar: Brukersentrert design og test",
     "date": "2026-05-19",
@@ -1360,14 +1150,14 @@
     "description": "DAMA meetup: Master data maturity and artificial intelligence\nWhen: 19.05.2026 kl. 16:00-18:00\nWhere: Mesh Youngstorget- Møllergata 6, 0179 Oslo\nSignup: [DAMA meetup: Master data maturity and artifici"
   },
   {
-    "id": "meetup-2026-05-19-learn-to-use-bitraf-s-table-sa",
-    "title": "Learn to use Bitraf's Table Saw",
+    "id": "nieuscene-1674438763697577",
+    "title": "Sip & sew pute med Fæbrik på Nieu Grünerløkka",
     "date": "2026-05-19",
     "time": "16:00",
-    "category": "kultur",
-    "source": "meetup",
-    "url": "https://www.meetup.com/bitraf/events/314609216/",
-    "description": "This course is necessary for everyone who wants access to the table saw at Bitraf - beginner and experienced users - to establish baseline knowledge & standards that everyone can expect of each other."
+    "category": "humor",
+    "source": "nieuscene",
+    "url": "https://www.facebook.com/events/1674438763697577",
+    "description": "Velkommen så mye til tidenes hyggeliste tirsdagskveld Kjære sy-sultne gjeng - denne er for dere! Dere har spurt og spurt om flere sykurs. Nå har vi årna det Og hvis du tenkte det var hyggelig og sosialt før, så kan du doble det nå. For denne gangen skal vi henge sammen hos byens kuleste Nieu scene p"
   },
   {
     "id": "meetup-2026-05-19-openclaw-inside-the-company--y",
@@ -1378,16 +1168,6 @@
     "source": "meetup",
     "url": "https://www.meetup.com/agentbrew/events/314376830/",
     "description": "**Heads-up: working draft. Details may shift ahead of the event.**\n\n\"Your AI Employee, Always On\" is an easy thing to say. Running a company on it is harder.\nTwo operators, two industries, same patter"
-  },
-  {
-    "id": "meetup-2026-05-19---english-conversation--meet-f",
-    "title": "🌐 English Conversation: Meet Friends & Learn Daily",
-    "date": "2026-05-19",
-    "time": "17:00",
-    "category": "kultur",
-    "source": "meetup",
-    "url": "https://www.meetup.com/oslo-english/events/314543791/",
-    "description": "🚀 **Stop searching for classes. Start speaking today!**\nWelcome to our free worldwide community. Hosted by English teachers, our daily sessions are fun, supportive, and focused on *real* practice. For"
   },
   {
     "id": "meetup-2026-05-19-arkitekturprat-fuck-ups---hvil",
@@ -1686,7 +1466,7 @@
     "time": "20:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/nb/e/makthaverskan_se__revolver",
+    "url": "https://revolveroslo.ticketco.events/no/en/e/makthaverskan_se__revolver",
     "description": ""
   },
   {
@@ -1760,16 +1540,6 @@
     "description": "**Details**\nThis course is for paying Bitraf members only. If you are not a paying member, sign up for membership at [https://bitraf.no/#](https://bitraf.no/) before the course.\nBand saws are ideal fo"
   },
   {
-    "id": "rockefeller-2026-05-22-ondara",
-    "title": "Ondara",
-    "date": "2026-05-22",
-    "time": "17:00",
-    "category": "konsert",
-    "source": "rockefeller",
-    "url": "https://www.ticketmaster.no/event/623231296?brand=johndee&camefrom=CFC_NO_Rockefeller_Ondara_150226_Billettsalg&utm_campaign=NO_Rockefeller_Ondara_150226_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
-    "description": "Den Grammy-nominerte singer-songwriteren Ondara introduserer sitt nye bandprosjekt – The Jet Stone Conspiracy! Fredag 22. mai kommer han tilbake til John Dee.\n\nPå denne turneen vil Ondara, nå som Jet "
-  },
-  {
     "id": "rockefeller-2026-05-22-joey-valence---brae",
     "title": "Joey Valence & Brae",
     "date": "2026-05-22",
@@ -1780,14 +1550,14 @@
     "description": "Den populære hiphop-duoen Joey Valence & Brae kommer til Sentrum Scene fredag 22. mai!\n\nI løpet av de fire årene siden det påståtte møtet deres på en Red Lobster i State College, Pennsylvania, har Joe"
   },
   {
-    "id": "meetup-2026-05-22---english-conversation--meet-f",
-    "title": "🌐 English Conversation: Meet Friends & Learn Daily",
+    "id": "rockefeller-2026-05-22-ondara",
+    "title": "Ondara",
     "date": "2026-05-22",
     "time": "17:00",
-    "category": "kultur",
-    "source": "meetup",
-    "url": "https://www.meetup.com/oslo-english/events/314595690/",
-    "description": "🚀 **Stop searching for classes. Start speaking today!**\nWelcome to our free worldwide community. Hosted by English teachers, our daily sessions are fun, supportive, and focused on *real* practice. For"
+    "category": "konsert",
+    "source": "rockefeller",
+    "url": "https://www.ticketmaster.no/event/623231296?brand=johndee&camefrom=CFC_NO_Rockefeller_Ondara_150226_Billettsalg&utm_campaign=NO_Rockefeller_Ondara_150226_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
+    "description": "Den Grammy-nominerte singer-songwriteren Ondara introduserer sitt nye bandprosjekt – The Jet Stone Conspiracy! Fredag 22. mai kommer han tilbake til John Dee.\n\nPå denne turneen vil Ondara, nå som Jet "
   },
   {
     "id": "lasttrain-2026-05-22-ravangers--us--supp-hitskrieg-",
@@ -1808,6 +1578,16 @@
     "source": "latter",
     "url": "https://www.ticketmaster.no/event/sommerstandup-2026-billetter/298163864",
     "description": ""
+  },
+  {
+    "id": "nieuscene-2110841906143081",
+    "title": "Schampansj - en klubbkveld med Else & gjester",
+    "date": "2026-05-22",
+    "time": "19:00",
+    "category": "humor",
+    "source": "nieuscene",
+    "url": "https://www.facebook.com/events/2110841906143081",
+    "description": "Velkommen til Schampansj; en klubbkveld med Else Kåss Furuseth & gjester! Else inviterer til en kveld med standup, overraskelser og god stemning sammen med tre komikergjester. Litt bubbel ved ankomst + show en fredag kveld må jo være bra? Dørene åpner: 18:30 Showstart: 19:00 Aldersgrense: 18 år Pris"
   },
   {
     "id": "nieuscene-1970843240302908",
@@ -1866,7 +1646,7 @@
     "time": "20:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/en/e/moreller__mina_my__revolver",
+    "url": "https://revolveroslo.ticketco.events/no/nb/e/moreller__mina_my__revolver",
     "description": ""
   },
   {
@@ -1950,16 +1730,6 @@
     "description": "Lørdag 23. mai er det klart for en hardtslående (pinse)aften på John Dee! Det blir blytung, energisk folkrock fra Blodsmak, groovy, twisted metal fra SubTrees, og hard, sår post-hardcore fra Lüdo!\n\n**"
   },
   {
-    "id": "meetup-2026-05-23---english-conversation--meet-f",
-    "title": "🌐 English Conversation: Meet Friends & Learn Daily",
-    "date": "2026-05-23",
-    "time": "17:00",
-    "category": "kultur",
-    "source": "meetup",
-    "url": "https://www.meetup.com/oslo-english/events/314611290/",
-    "description": "🚀 **Stop searching for classes. Start speaking today!**\nWelcome to our free worldwide community. Hosted by English teachers, our daily sessions are fun, supportive, and focused on *real* practice. For"
-  },
-  {
     "id": "latter-2026-05-23-sommerstandup-2026-1830",
     "title": "Sommerstandup 2026",
     "date": "2026-05-23",
@@ -1987,7 +1757,7 @@
     "category": "humor",
     "source": "nieuscene",
     "url": "https://www.facebook.com/events/925242457016864",
-    "description": ""
+    "description": "På lørdag tar Odin med seg en haug med godteri og en drøss av sine favorittkomikere opp til nieu. Det blir stand up, det blir premier, sanger laget på sparket. Det blir godt..Det blir nieudagsgodt! Få deg en bubblizz i nebbet og nyt noen av Oslos beste komikere! Dørene åpner: 19:15 Showstart: 19:30 "
   },
   {
     "id": "parkteatret-2026-05-23-flammer-dance-band",
@@ -2010,16 +1780,6 @@
     "description": ""
   },
   {
-    "id": "nieuscene-990890543266628",
-    "title": "nieu show",
-    "date": "2026-05-23",
-    "time": "21:00",
-    "category": "humor",
-    "source": "nieuscene",
-    "url": "https://www.facebook.com/events/990890543266628",
-    "description": "Hver helg kommer en ny nieu-venn og samler forskjellige folk til en skrattemild idiotkveld med fokus på humor. Blir det stand up? Blir det impro? Blir det burlesque? Bare en måte å finne ut det på. Kom å få den kulturelle magesekken din stappa full! Kan bli læ10s dette! Dørene åpner: 20:45 Showstart"
-  },
-  {
     "id": "nieuscene-667265623114838",
     "title": "Henrik Farley: Alle følelsene // UTSOLGT",
     "date": "2026-05-23",
@@ -2028,6 +1788,16 @@
     "source": "nieuscene",
     "url": "https://www.facebook.com/events/667265623114838",
     "description": "“Alle Følelsene” er et følelsesladd, ufølsomt show om følelser og er Henrik Farley sitt første soloshow. Dette showet er en reise gjennom menneskets forskjellige følelser og hva som trigger dem (hos Henrik), alt fra glede til frykt. Showet kombinerer nesten alle humorsjangre som Henrik har jobbet me"
+  },
+  {
+    "id": "nieuscene-990890543266628",
+    "title": "nieu show",
+    "date": "2026-05-23",
+    "time": "21:00",
+    "category": "humor",
+    "source": "nieuscene",
+    "url": "https://www.facebook.com/events/990890543266628",
+    "description": "Hver helg kommer en ny nieu-venn og samler forskjellige folk til en skrattemild idiotkveld med fokus på humor. Blir det stand up? Blir det impro? Blir det burlesque? Bare en måte å finne ut det på. Kom å få den kulturelle magesekken din stappa full! Kan bli læ10s dette! Dørene åpner: 20:45 Showstart"
   },
   {
     "id": "nieuscene-853884030295576",
@@ -2050,6 +1820,16 @@
     "description": "Søndagsmarked på nieu! Hei alle! Vi starter opp igjen med søndagsmarkedet på nieu Her vil det være mulig å ha sin egen stand der man kan selge alt mulig f.eks. klær, bøker, merch. Datoer er (12:00-16:00) - 18.jan - 15.feb - 22.mars - 26.april - 24.mai - 21.juni Vil du selge? Et bord/ stand koster 10"
   },
   {
+    "id": "meetup-2026-05-24-sunday-hike--unlimited-spots",
+    "title": "Sunday Hike!✨Unlimited spots",
+    "date": "2026-05-24",
+    "time": "12:05",
+    "category": "kultur",
+    "source": "meetup",
+    "url": "https://www.meetup.com/socialoslo/events/314640256/",
+    "description": "⚠️ UPDATE\nHei folkens! Unfortunately, due to the bad weather forecast, I have to postpone the hike 😢 **The new date is 24 May**. Thanks for understanding, and I hope to see you then. Really looking fo"
+  },
+  {
     "id": "meetup-2026-05-24-s-ndag-skrivetreff",
     "title": "Søndag Skrivetreff",
     "date": "2026-05-24",
@@ -2060,23 +1840,23 @@
     "description": "📚✍️ **Velkommen til søndags skrivetreff!**\n\nHar du en tekst du jobber med – kanskje en roman eller novelle? 📝📖\nBli med i Oslo Skriveklubb og skriv sammen med andre engasjerte skribenter i et hyggelig "
   },
   {
+    "id": "parkteatret-2026-05-24-txt-full-av-kraft",
+    "title": "TxT Full av Kraft",
+    "date": "2026-05-24",
+    "time": "17:00",
+    "category": "konsert",
+    "source": "parkteatret",
+    "url": "https://www.ticketmaster.no/event/1306442752?brand=parkteatret",
+    "description": ""
+  },
+  {
     "id": "revolver-2026-05-24-the-cruel-intentions--releasef",
     "title": "The Cruel Intentions, Releasefest//Konsert//Listeningparty - Revolver",
     "date": "2026-05-24",
     "time": "18:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/nb/e/the_cruel_intentons_releasefestkonsertlisteningparty__revolver",
-    "description": ""
-  },
-  {
-    "id": "parkteatret-2026-05-24-txt-full-av-kraft",
-    "title": "TxT Full av Kraft",
-    "date": "2026-05-24",
-    "time": "18:00",
-    "category": "konsert",
-    "source": "parkteatret",
-    "url": "https://www.ticketmaster.no/event/1306442752?brand=parkteatret",
+    "url": "https://revolveroslo.ticketco.events/no/en/e/the_cruel_intentons_releasefestkonsertlisteningparty__revolver",
     "description": ""
   },
   {
@@ -2100,6 +1880,16 @@
     "description": "Formula 1 Watch Party på Nieu Sportsbar Denne søndagen kan du se Canadian Grand Prix LIVE hos oss på Nieu Sportsbar kl. 20.00. Side Chick serverer wings, fries og digg mat mellom lapsene, så du slipper å gå sulten gjennom løpet. Det er gratis og åpent for alle. Vi tar ikke bordreservasjoner, så det "
   },
   {
+    "id": "meetup-2026-05-26-certified-data-management-prof",
+    "title": "Certified Data Management Professional (CDMP) 26th - 28th of May",
+    "date": "2026-05-26",
+    "time": "09:00",
+    "category": "kultur",
+    "source": "meetup",
+    "url": "https://www.meetup.com/dama-data-management-association-norway/events/314292433/",
+    "description": "# Certified Data Management Professional (CDMP) 26th - 28th of May\n\nJoin DAMA Norway for a 3-day Certified Data Management Professional (CDMP) course in May! Official training.\n\nThe 𝐂𝐃𝐌𝐏 is one of the"
+  },
+  {
     "id": "detnorske-2026-05-26-lunsj-lyrikk-1200",
     "title": "Lunsj&Lyrikk",
     "date": "2026-05-26",
@@ -2120,6 +1910,16 @@
     "description": "Vi starter 3 sesong av OQLD den 3. februar med påfølgende kurs annenhver tirsdag helt frem til 9.6.\nHvert kurs er en selvstendig undervisningsøkt og kan tas enkeltvis eller som del av en serie. Kurset"
   },
   {
+    "id": "meetup-2026-05-26---english-conversation--meet-f",
+    "title": "🌐 English Conversation: Meet Friends & Learn Daily",
+    "date": "2026-05-26",
+    "time": "17:00",
+    "category": "kultur",
+    "source": "meetup",
+    "url": "https://www.meetup.com/oslo-english/events/314659992/",
+    "description": "🚀 **Stop searching for classes. Start speaking today!**\nWelcome to our free worldwide community. Hosted by English teachers, our daily sessions are fun, supportive, and focused on *real* practice. For"
+  },
+  {
     "id": "meetup-2026-05-26-about-ontologies-and-knowledge",
     "title": "About ontologies and knowledge graphs",
     "date": "2026-05-26",
@@ -2128,6 +1928,16 @@
     "source": "meetup",
     "url": "https://www.meetup.com/microsoft-data-platform-user-group-norway/events/314424797/",
     "description": "For some people - such as this events' main speaker, ontologies and knowledge graphs have been an obvious choice for years. For others it might be something they just heard about as Microsoft launched"
+  },
+  {
+    "id": "meetup-2026-05-26-rencontre-du-mardi-",
+    "title": "Rencontre du Mardi!",
+    "date": "2026-05-26",
+    "time": "17:30",
+    "category": "kultur",
+    "source": "meetup",
+    "url": "https://www.meetup.com/oslo-french-language-meetup/events/314660265/",
+    "description": "Venez nous rejoindre pour une pause-café où nous pouvons parler en français dans un environnement décontracté! :)"
   },
   {
     "id": "latter-2026-05-26-sommerstandup-2026-1830",
@@ -2180,6 +1990,16 @@
     "description": "**Squarehead is hosting this event.**\nThe office is located [two minutes from Nydalen T-bane](https://maps.app.goo.gl/p5APo6XV8ZrsZowJA) in Nydalsveien 28, 0484 Oslo.\n\n**Timetable**\n\\- 17:00 : Food an"
   },
   {
+    "id": "meetup-2026-05-27---english-conversation--meet-f",
+    "title": "🌐 English Conversation: Meet Friends & Learn Daily",
+    "date": "2026-05-27",
+    "time": "17:00",
+    "category": "kultur",
+    "source": "meetup",
+    "url": "https://www.meetup.com/oslo-english/events/314676795/",
+    "description": "🚀 **Stop searching for classes. Start speaking today!**\nWelcome to our free worldwide community. Hosted by English teachers, our daily sessions are fun, supportive, and focused on *real* practice. For"
+  },
+  {
     "id": "latter-2026-05-27-sommerstandup-2026-1830",
     "title": "Sommerstandup 2026",
     "date": "2026-05-27",
@@ -2226,7 +2046,7 @@
     "time": "20:00",
     "category": "kultur",
     "source": "detnorske",
-    "url": "https://billettar.detnorsketeatret.no/nn/buyingflow/tickets/46237/94132/",
+    "url": "https://www.detnorsketeatret.no/framsyningar/det-har-vore-eit-fantastisk-ar",
     "description": ""
   },
   {
@@ -2270,16 +2090,6 @@
     "description": "\nEt av Nordens mest omtalte indieband kommer til Blå i Oslo 28. mai, billettene er i salg nå!\n\nAt Terra er best i klassen innen hudløs indie har vært godt kjent i undergrunnen helt siden debutalbumet "
   },
   {
-    "id": "rockefeller-2026-05-28-tinariwen",
-    "title": "Tinariwen",
-    "date": "2026-05-28",
-    "time": "17:00",
-    "category": "konsert",
-    "source": "rockefeller",
-    "url": "https://www.ticketmaster.no/event/1939429261?brand=rockefeller&camefrom=CFC_NO_Rockefeller_Tinariwen_280526_Billettsalg&utm_campaign=NO_Rockefeller_Tinariwen_280526_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
-    "description": "Ørkenblues-legendene Tinariwen kommer tilbake til Rockefeller 28. mai!\n\nMusikerkollektivet har sin opprinnelse fra det sørlige Sahara, og blir omtalt som pionerer innen desert blues. Nomadegruppens gi"
-  },
-  {
     "id": "rockefeller-2026-05-28-gents",
     "title": "GENTS",
     "date": "2026-05-28",
@@ -2288,6 +2098,16 @@
     "source": "rockefeller",
     "url": "https://www.ticketmaster.no/event/1914826203?brand=johndee&camefrom=CFC_NO_Rockefeller_GENTS_280526_Billettsalg&utm_campaign=NO_Rockefeller_GENTS_280526_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
     "description": "Den København-baserte duoen GENTS fyller 10 år som band og er aktuelle med sitt nye album *Masculinity*, som ble sluppet i januar. Torsdag 28. mai inntar de John Dee på jubileumsturneen!\n\nGENTS, bestå"
+  },
+  {
+    "id": "rockefeller-2026-05-28-tinariwen",
+    "title": "Tinariwen",
+    "date": "2026-05-28",
+    "time": "17:00",
+    "category": "konsert",
+    "source": "rockefeller",
+    "url": "https://www.ticketmaster.no/event/1939429261?brand=rockefeller&camefrom=CFC_NO_Rockefeller_Tinariwen_280526_Billettsalg&utm_campaign=NO_Rockefeller_Tinariwen_280526_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
+    "description": "Ørkenblues-legendene Tinariwen kommer tilbake til Rockefeller 28. mai!\n\nMusikerkollektivet har sin opprinnelse fra det sørlige Sahara, og blir omtalt som pionerer innen desert blues. Nomadegruppens gi"
   },
   {
     "id": "meetup-2026-05-28-a-practical-guide-to-the-datab",
@@ -2306,7 +2126,7 @@
     "time": "18:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/nb/e/avind__revolver_bakgaard",
+    "url": "https://revolveroslo.ticketco.events/no/en/e/avind__revolver_bakgaard",
     "description": ""
   },
   {
@@ -2410,6 +2230,16 @@
     "description": "En myk inngang til vin. Perfekt for deg som er glad i vin, uten å være helt opphengt i druer og for deg som kan alt. Vi skal lære litt, men kødde mest. Bare slurpe på no' snacksy vin sammen i mens vi ler så vi griner. Hvordan funker det? Du får smake på mange forskjellige viner gjennom kvelden. Hver"
   },
   {
+    "id": "detnorske-2026-05-29-sukker-1800",
+    "title": "Sukker",
+    "date": "2026-05-29",
+    "time": "18:00",
+    "category": "kultur",
+    "source": "detnorske",
+    "url": "https://billettar.detnorsketeatret.no/nn/buyingflow/tickets/38821/88654/",
+    "description": ""
+  },
+  {
     "id": "latter-2026-05-29-sommerstandup-2026-1830",
     "title": "Sommerstandup 2026",
     "date": "2026-05-29",
@@ -2428,16 +2258,6 @@
     "source": "rockefeller",
     "url": "https://www.ticketmaster.no/event/304509878?brand=rockefeller&camefrom=CFC_NO_Rockefeller_Oslokoret_290526_Billettsalg&utm_campaign=NO_Rockefeller_Oslokoret_290526_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
     "description": "Det starter med en låt hele rommet kan. Én blir til tre, blir til ti. Plutselig koker hele dansegulvet. \n\nDet er følelsen Oslokoret tar med til Rockefeller fredag 29. mai.\n\nMed over 100 sangere og DJ "
-  },
-  {
-    "id": "nieuscene-759973033862465",
-    "title": "Sivert Eimhjellen - «Med alle odds»",
-    "date": "2026-05-29",
-    "time": "19:00",
-    "category": "humor",
-    "source": "nieuscene",
-    "url": "https://www.facebook.com/events/759973033862465",
-    "description": "Sivert Eimhjellen - «Med alle odds» Sivert Eimhjellen er en relativt laidback fyr med store ambisjoner. Kombinasjonen har gitt ham en solid rekke fiaskoer frem til nå, men en enorm tro på fremtiden. Nå har han dessuten Morten Ramm i ryggen! Sivert har gjort standup i fem år. Han er fast inventar på "
   },
   {
     "id": "nieuscene-1812512240138482",
@@ -2486,7 +2306,7 @@
     "time": "20:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/nb/e/pushwagnergruppen_revolverr",
+    "url": "https://revolveroslo.ticketco.events/no/en/e/pushwagnergruppen_revolverr",
     "description": ""
   },
   {
@@ -2538,6 +2358,16 @@
     "source": "oslonye",
     "url": "https://www.ticketmaster.no/event/1021087659?language=no-no&track=DiscoveryAPI&camefrom=OsloNye&subchannel_id=1",
     "description": ""
+  },
+  {
+    "id": "meetup-2026-05-30-feeling-stuck--reset-your-mind",
+    "title": "Feeling Stuck? Reset Your Mindset in 1 Day (Oslo Workshop)",
+    "date": "2026-05-30",
+    "time": "13:00",
+    "category": "kultur",
+    "source": "meetup",
+    "url": "https://www.meetup.com/oslo-love-yourself-community/events/314433079/",
+    "description": "**⚠️ OSLO – THIS WILL FILL FAST ⚠️**\n\n**If you’ve been feeling stuck, overwhelmed, or unclear about your direction…**\n**this 1-day workshop might be exactly what you need right now.**\n\n**✨ 1-DAY MANIF"
   },
   {
     "id": "detnorske-2026-05-30-antropolis-1300",
@@ -2790,16 +2620,6 @@
     "description": ""
   },
   {
-    "id": "rockefeller-2026-06-02-static-x",
-    "title": "Static-X",
-    "date": "2026-06-02",
-    "time": "17:00",
-    "category": "konsert",
-    "source": "rockefeller",
-    "url": "https://www.ticketmaster.no/event/524380794?brand=rockefeller&camefrom=CFC_NO_Rockefeller_Static-X_020626_Billettsalg&utm_campaign=NO_Rockefeller_Static-X_020626_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
-    "description": "Static-X tar med seg sin «evil disco» til Oslo og Rockefeller 2. juni! De har siden 90-tallet vært en av de mest gjenkjennelige og kompromissløse kreftene på den internasjonale metalscenen, med sin un"
-  },
-  {
     "id": "rockefeller-2026-06-02-chance-pe-a",
     "title": "Chance Peña",
     "date": "2026-06-02",
@@ -2808,6 +2628,16 @@
     "source": "rockefeller",
     "url": "https://www.ticketmaster.no/event/1020544023?brand=sentrumscene&camefrom=CFC_NO_Rockefeller_Chance_Pena_020626_Billettsalg&utm_campaign=NO_Rockefeller_Chance_Pena_020626_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
     "description": "Den hyllede, unge amerikanske singer-songwriteren Chance Peña kommer til Sentrum Scene tirsdag 2. juni! \n\nI 2019 tok balladen «Up, Up & Away» ham ut i rampelyset, da låta fikk plass i den rørende film"
+  },
+  {
+    "id": "rockefeller-2026-06-02-static-x",
+    "title": "Static-X",
+    "date": "2026-06-02",
+    "time": "17:00",
+    "category": "konsert",
+    "source": "rockefeller",
+    "url": "https://www.ticketmaster.no/event/524380794?brand=rockefeller&camefrom=CFC_NO_Rockefeller_Static-X_020626_Billettsalg&utm_campaign=NO_Rockefeller_Static-X_020626_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
+    "description": "Static-X tar med seg sin «evil disco» til Oslo og Rockefeller 2. juni! De har siden 90-tallet vært en av de mest gjenkjennelige og kompromissløse kreftene på den internasjonale metalscenen, med sin un"
   },
   {
     "id": "latter-2026-06-02-sommerstandup-2026-1830",
@@ -3000,6 +2830,16 @@
     "description": ""
   },
   {
+    "id": "nieuscene-2027173321226169",
+    "title": "10 humorsjangre på 1 time",
+    "date": "2026-06-04",
+    "time": "21:00",
+    "category": "humor",
+    "source": "nieuscene",
+    "url": "https://www.facebook.com/events/2027173321226169",
+    "description": "En gang i måneden inviterer Markus Vangen og Ole Klevan til én hel time der de tvinger seg selv (og publikum) til å gå gjennom ti ulike humorsjangre. Det kan være alt fra stand-up til avbryterekarakter og slap-stick. I hvert show har de meg seg en av norges aller beste komikere som tar meg seg sin e"
+  },
+  {
     "id": "blaa-2026-06-05-elias-akselsen",
     "title": "Elias Akselsen",
     "date": "2026-06-05",
@@ -3010,16 +2850,6 @@
     "description": "Elias Akselsen er tilbake igjen på Himmel! Han er en velkjent, dyktig visesanger. Hans kraftfulle stemme har gjort ham kjent i mange sammenheng, og hans plateutgivelser har gitt ham flere kulturpriser"
   },
   {
-    "id": "rockefeller-2026-06-05-lakeview",
-    "title": "Lakeview",
-    "date": "2026-06-05",
-    "time": "17:00",
-    "category": "konsert",
-    "source": "rockefeller",
-    "url": "https://www.ticketmaster.no/event/500199192?brand=johndee&camefrom=CFC_NO_Rockefeller_Lakeview_ordinaer_050626_Billettsalg&utm_campaign=NO_Rockefeller_Lakeview_ordinaer_050626_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
-    "description": "Countrymetalbandet Lakeview inntar John Dee fredag 5. juni! Duoen, bestående av Jesse Denaro og Luke Healy, er blant Nashvilles raskest voksende nye navn. Med over 140 millioner strømminger og et dedi"
-  },
-  {
     "id": "rockefeller-2026-06-05-rock---react--datarock--iverse",
     "title": "Rock & React: Datarock, Iversen & God Bedring",
     "date": "2026-06-05",
@@ -3028,6 +2858,16 @@
     "source": "rockefeller",
     "url": "https://www.ticketmaster.no/event/2054021694?brand=rockefeller&camefrom=CFC_NO_Rockefeller_Rock_%2B_React_050626_Billettsalg&utm_campaign=NO_Rockefeller_Rock_%2B_React_050626_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
     "description": "Experience an epic night of Norwegian music as Datarock, Iversen and God Bedring take over Rockefeller for Rock & React.\n\n--\n \nBill. kr. 450,- + bill.avg.\n \n18 års aldersgrense med legitimasjonsplikt."
+  },
+  {
+    "id": "rockefeller-2026-06-05-lakeview",
+    "title": "Lakeview",
+    "date": "2026-06-05",
+    "time": "17:00",
+    "category": "konsert",
+    "source": "rockefeller",
+    "url": "https://www.ticketmaster.no/event/500199192?brand=johndee&camefrom=CFC_NO_Rockefeller_Lakeview_ordinaer_050626_Billettsalg&utm_campaign=NO_Rockefeller_Lakeview_ordinaer_050626_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
+    "description": "Countrymetalbandet Lakeview inntar John Dee fredag 5. juni! Duoen, bestående av Jesse Denaro og Luke Healy, er blant Nashvilles raskest voksende nye navn. Med over 140 millioner strømminger og et dedi"
   },
   {
     "id": "detnorske-2026-06-05-europavisjonar-1730",
@@ -3078,6 +2918,16 @@
     "source": "revolver",
     "url": "https://revolveroslo.ticketco.events/no/en/e/pjolterguys__krass__terrorfett___skyggesiden__revolver",
     "description": ""
+  },
+  {
+    "id": "nieuscene-1726615428305513",
+    "title": "Hannah Inviterer til et humorshow med sine fønni venner",
+    "date": "2026-06-05",
+    "time": "19:30",
+    "category": "humor",
+    "source": "nieuscene",
+    "url": "https://www.facebook.com/events/1726615428305513",
+    "description": "Du er herved invitert til et stykk deilig, hyggelig og klinkende god standupkveld. Hannah Christin Lerfaldet har invitert med seg kun skatter og legender som skal lire av seg vitser, og de har alle sagt at de gleder seg. For å være sprut ærlig så er det fare for at det blir en skikkelig hyggelig kve"
   },
   {
     "id": "nieuscene-976816161372098",
@@ -3436,7 +3286,7 @@
     "time": "19:00",
     "category": "kultur",
     "source": "detnorske",
-    "url": "https://billettar.detnorsketeatret.no/nn/buyingflow/tickets/43755/90357/",
+    "url": "https://www.detnorsketeatret.no/framsyningar/15-ar",
     "description": ""
   },
   {
@@ -3666,7 +3516,7 @@
     "time": "18:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/en/e/paal_flaata__revolver_26",
+    "url": "https://revolveroslo.ticketco.events/no/nb/e/paal_flaata__revolver_26",
     "description": ""
   },
   {
@@ -3727,7 +3577,7 @@
     "category": "humor",
     "source": "nieuscene",
     "url": "https://www.facebook.com/events/939499995539388",
-    "description": "Brygga, splitter nytt konsept! Vi setter opp show hver søndag i juni OG 31.mai. Det hele blir geleidet av Ole Henry Snildalsli og Eilert Assman med sol, komikere, god stemning og…"
+    "description": "Brygga, splitter nytt konsept! Vi setter opp show hver søndag i juni OG 31.mai. Det hele blir geleidet av Ole Henry Snildalsli og Eilert Assman med sol, komikere, god stemning og Akerselva som bakteppe. Vi sees på Nieu Grünerløkka! Dørene åpner: 15:30 Showstart: 16:00 Aldersgrense: 18 år Pris: 160,-"
   },
   {
     "id": "rockefeller-2026-06-14-liam-st--john",
@@ -3900,16 +3750,6 @@
     "description": ""
   },
   {
-    "id": "rockefeller-2026-06-19-cc-cowboys",
-    "title": "CC Cowboys",
-    "date": "2026-06-19",
-    "time": "17:00",
-    "category": "konsert",
-    "source": "rockefeller",
-    "url": "https://www.ticketmaster.no/event/204341969?brand=rockefeller&camefrom=CFC_NO_Rockefeller_CC_Cowboys_190626_Billettsalg&utm_campaign=NO_Rockefeller_CC_Cowboys_190626_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
-    "description": "CC Cowboys spiller på Rockefeller fredag 19. juni i anledning Rockefellers 40-årsjubileum!\n\nCC Cowboys har i over tre tiår vært en bauta i norsk musikkliv og er et av landets mest betydningsfulle rock"
-  },
-  {
     "id": "rockefeller-2026-06-19-obede",
     "title": "Obede",
     "date": "2026-06-19",
@@ -3918,6 +3758,16 @@
     "source": "rockefeller",
     "url": "https://www.ticketmaster.no/event/2040896893?brand=johndee&camefrom=CFC_NO_Rockefeller_Obede_190626_Billettsalg&utm_campaign=NO_Rockefeller_Obede_190626_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
     "description": "Etter et debutår som satte sitt preg på fanbasen, er Obede klar for sitt andre headliner-show. Fredag 19. juni tar han over John Dee med ny musikk, sulten energi og tekster som sitter igjen.\n\nDet er i"
+  },
+  {
+    "id": "rockefeller-2026-06-19-cc-cowboys",
+    "title": "CC Cowboys",
+    "date": "2026-06-19",
+    "time": "17:00",
+    "category": "konsert",
+    "source": "rockefeller",
+    "url": "https://www.ticketmaster.no/event/204341969?brand=rockefeller&camefrom=CFC_NO_Rockefeller_CC_Cowboys_190626_Billettsalg&utm_campaign=NO_Rockefeller_CC_Cowboys_190626_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
+    "description": "CC Cowboys spiller på Rockefeller fredag 19. juni i anledning Rockefellers 40-årsjubileum!\n\nCC Cowboys har i over tre tiår vært en bauta i norsk musikkliv og er et av landets mest betydningsfulle rock"
   },
   {
     "id": "lasttrain-2026-06-19-decaf----red-annex----vicar",
@@ -4251,7 +4101,7 @@
   },
   {
     "id": "nieuscene-842614021676023",
-    "title": "Dragsug presenterer: Humorhavari 2 i Oslo",
+    "title": "Dragsug presenterer: Humorhavari 2 i OSLO",
     "date": "2026-06-30",
     "time": "19:00",
     "category": "humor",
@@ -4266,7 +4116,7 @@
     "time": "18:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/nb/e/orb_aus__revolver_backyard",
+    "url": "https://revolveroslo.ticketco.events/no/en/e/orb_aus__revolver_backyard",
     "description": ""
   },
   {
@@ -4820,16 +4670,6 @@
     "description": ""
   },
   {
-    "id": "rockefeller-2026-08-20-skunk-anansie",
-    "title": "Skunk Anansie",
-    "date": "2026-08-20",
-    "time": "17:00",
-    "category": "konsert",
-    "source": "rockefeller",
-    "url": "https://www.ticketmaster.no/event/1209538681?brand=sentrumscene&camefrom=CFC_NO_Rockefeller_Skunk_Anansie_200826_Billettsalg&utm_campaign=NO_Rockefeller_Skunk_Anansie_200826_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
-    "description": "De britiske rockeikonene Skunk Anansie kommer til Sentrum Scene torsdag 20. august!\n\nSkunk Anansie, frontet av den karismatiske vokalisten Skin, var med på å skape lyden av 90-tallet med kritikerroste"
-  },
-  {
     "id": "rockefeller-2026-08-20-high-on-fire",
     "title": "High on Fire",
     "date": "2026-08-20",
@@ -4838,6 +4678,16 @@
     "source": "rockefeller",
     "url": "https://www.ticketmaster.no/event/794004853?brand=rockefeller&camefrom=CFC_NO_Rockefeller_High_On_Fire_200826_Billettsalg&utm_campaign=NO_Rockefeller_High_On_Fire_200826_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
     "description": "Den Grammy-vinnende powertrioen High on Fire kommer endelig tilbake til Oslo! Vi har ikke hatt bandet på besøk hos oss siden en utsolgt konsert på John Dee i 2013, så nå var det virkelig på tide med e"
+  },
+  {
+    "id": "rockefeller-2026-08-20-skunk-anansie",
+    "title": "Skunk Anansie",
+    "date": "2026-08-20",
+    "time": "17:00",
+    "category": "konsert",
+    "source": "rockefeller",
+    "url": "https://www.ticketmaster.no/event/1209538681?brand=sentrumscene&camefrom=CFC_NO_Rockefeller_Skunk_Anansie_200826_Billettsalg&utm_campaign=NO_Rockefeller_Skunk_Anansie_200826_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
+    "description": "De britiske rockeikonene Skunk Anansie kommer til Sentrum Scene torsdag 20. august!\n\nSkunk Anansie, frontet av den karismatiske vokalisten Skin, var med på å skape lyden av 90-tallet med kritikerroste"
   },
   {
     "id": "lasttrain-2026-08-20-starr-and-the-czars-supp-link-",
@@ -5166,7 +5016,7 @@
     "time": "18:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/en/e/rock__spesialreiser_25_aar_lydsyn_dk_human_toys_frus_fuzzterminal__revolver",
+    "url": "https://revolveroslo.ticketco.events/no/nb/e/rock__spesialreiser_25_aar_lydsyn_dk_human_toys_frus_fuzzterminal__revolver",
     "description": ""
   },
   {
@@ -5230,16 +5080,6 @@
     "description": ""
   },
   {
-    "id": "rockefeller-2026-09-03-audrey-horne",
-    "title": "Audrey Horne",
-    "date": "2026-09-03",
-    "time": "17:00",
-    "category": "konsert",
-    "source": "rockefeller",
-    "url": "https://www.ticketmaster.no/event/59102719?brand=johndee&camefrom=CFC_NO_Rockefeller_Audrey_Horne_030926_Billettsalg&utm_campaign=NO_Rockefeller_Audrey_Horne_030926_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
-    "description": "Audrey Horne slipper straks et splitter nytt album, og kommer til John Dee 3. september!\n\nPublikum kan som alltid forvente en konsertopplevelse fylt til randen av allsangvennlige låter, duellerende gi"
-  },
-  {
     "id": "rockefeller-2026-09-03-ram-n",
     "title": "Ramón",
     "date": "2026-09-03",
@@ -5248,6 +5088,16 @@
     "source": "rockefeller",
     "url": "https://www.ticketmaster.no/event/255543291?brand=sentrumscene&camefrom=CFC_NO_Rockefeller_Ramon_030926_Billettsalg&utm_campaign=NO_Rockefeller_Ramon_030926_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
     "description": "Ramón kommer til Sentrum Scene 3., 4. og 5. september 2026!\n\nRamón har vært en av de sterkeste stemmene på den norske musikkscenen siden det store gjennombruddet med «ok jeg lover» i 2022. Låten satte"
+  },
+  {
+    "id": "rockefeller-2026-09-03-audrey-horne",
+    "title": "Audrey Horne",
+    "date": "2026-09-03",
+    "time": "17:00",
+    "category": "konsert",
+    "source": "rockefeller",
+    "url": "https://www.ticketmaster.no/event/59102719?brand=johndee&camefrom=CFC_NO_Rockefeller_Audrey_Horne_030926_Billettsalg&utm_campaign=NO_Rockefeller_Audrey_Horne_030926_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
+    "description": "Audrey Horne slipper straks et splitter nytt album, og kommer til John Dee 3. september!\n\nPublikum kan som alltid forvente en konsertopplevelse fylt til randen av allsangvennlige låter, duellerende gi"
   },
   {
     "id": "nieuscene-1237765995153461",
@@ -5400,16 +5250,6 @@
     "description": ""
   },
   {
-    "id": "rockefeller-2026-09-05-h-ndgemeng",
-    "title": "Håndgemeng",
-    "date": "2026-09-05",
-    "time": "17:00",
-    "category": "konsert",
-    "source": "rockefeller",
-    "url": "https://www.ticketmaster.no/event/1518400833?brand=johndee&camefrom=CFC_NO_Rockefeller_Handgemeng_050926_Billettsalg&utm_campaign=NO_Rockefeller_Handgemeng_050926_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
-    "description": "Etter fjorårets øredøvende suksess er Håndgemeng klare for å vende tilbake til åstedet John Dee lørdag 5. september, for sin eneste headliner-konsert i Oslo i 2026! De som deltok på fjorårets kalas ka"
-  },
-  {
     "id": "rockefeller-2026-09-05-ram-n",
     "title": "Ramón",
     "date": "2026-09-05",
@@ -5418,6 +5258,16 @@
     "source": "rockefeller",
     "url": "https://www.ticketmaster.no/event/1566477923?brand=sentrumscene&camefrom=CFC_NO_Rockefeller_Ramon_050926_Billettsalg&utm_campaign=NO_Rockefeller_Ramon_050926_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
     "description": "Ramón kommer til Sentrum Scene 3., 4. og 5. september 2026!\n\nRamón har vært en av de sterkeste stemmene på den norske musikkscenen siden det store gjennombruddet med «ok jeg lover» i 2022. Låten satte"
+  },
+  {
+    "id": "rockefeller-2026-09-05-h-ndgemeng",
+    "title": "Håndgemeng",
+    "date": "2026-09-05",
+    "time": "17:00",
+    "category": "konsert",
+    "source": "rockefeller",
+    "url": "https://www.ticketmaster.no/event/1518400833?brand=johndee&camefrom=CFC_NO_Rockefeller_Handgemeng_050926_Billettsalg&utm_campaign=NO_Rockefeller_Handgemeng_050926_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
+    "description": "Etter fjorårets øredøvende suksess er Håndgemeng klare for å vende tilbake til åstedet John Dee lørdag 5. september, for sin eneste headliner-konsert i Oslo i 2026! De som deltok på fjorårets kalas ka"
   },
   {
     "id": "detnorske-2026-09-05-s-strene-1700",
@@ -5490,13 +5340,23 @@
     "description": ""
   },
   {
+    "id": "parkteatret-2026-09-05-blaksta",
+    "title": "BLAKSTA",
+    "date": "2026-09-05",
+    "time": "19:00",
+    "category": "konsert",
+    "source": "parkteatret",
+    "url": "https://www.ticketmaster.no/event/1605244040?brand=parkteatret",
+    "description": ""
+  },
+  {
     "id": "revolver-2026-09-05-orgivm-satanicvm-pres---ultra-",
     "title": "Orgivm Satanicvm Pres.: Ultra Silvam (se) // Gryla // Revolver",
     "date": "2026-09-05",
     "time": "20:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/nb/e/ultra_silvam_se__gryla__revolver",
+    "url": "https://revolveroslo.ticketco.events/no/en/e/ultra_silvam_se__gryla__revolver",
     "description": ""
   },
   {
@@ -6640,16 +6500,6 @@
     "description": "Etter 5 utsolgte kvelder i februar 2026 vender Bo Kaspers Orkester tilbake til Sentrum Scene, denne gangen med ytterligere 4 jubileumskonserter i september og oktober!\n\n«Vi ska gå hand i hand genom li"
   },
   {
-    "id": "rockefeller-2026-10-02-bo-kaspers-orkester",
-    "title": "Bo Kaspers Orkester",
-    "date": "2026-10-02",
-    "time": "17:00",
-    "category": "konsert",
-    "source": "rockefeller",
-    "url": "https://www.ticketmaster.no/event/1739620708?brand=sentrumscene&camefrom=CFC_NO_Rockefeller_Bo_Kaspers_Orkester_021026_Billettsalg&utm_campaign=NO_Rockefeller_Bo_Kaspers_Orkester_021026_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
-    "description": "Etter 5 utsolgte kvelder i februar 2026 vender Bo Kaspers Orkester tilbake til Sentrum Scene, denne gangen med ytterligere 4 jubileumskonserter i september og oktober!\n\n«Vi ska gå hand i hand genom li"
-  },
-  {
     "id": "rockefeller-2026-10-02-blomst",
     "title": "Blomst",
     "date": "2026-10-02",
@@ -6658,6 +6508,16 @@
     "source": "rockefeller",
     "url": "https://www.ticketmaster.no/event/1228826194?brand=rockefeller&camefrom=CFC_NO_Rockefeller_Blomst_021026_Billettsalg&utm_campaign=NO_Rockefeller_Blomst_021026_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
     "description": "I år spiller Blomst kun én konsert, og den vil du ikke gå glipp av. Dette blir nemlig bandets største show noensinne. Da Blomst skulle feire 15 år i fjor, måtte festen vike for livet selv, da samtlige"
+  },
+  {
+    "id": "rockefeller-2026-10-02-bo-kaspers-orkester",
+    "title": "Bo Kaspers Orkester",
+    "date": "2026-10-02",
+    "time": "17:00",
+    "category": "konsert",
+    "source": "rockefeller",
+    "url": "https://www.ticketmaster.no/event/1739620708?brand=sentrumscene&camefrom=CFC_NO_Rockefeller_Bo_Kaspers_Orkester_021026_Billettsalg&utm_campaign=NO_Rockefeller_Bo_Kaspers_Orkester_021026_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
+    "description": "Etter 5 utsolgte kvelder i februar 2026 vender Bo Kaspers Orkester tilbake til Sentrum Scene, denne gangen med ytterligere 4 jubileumskonserter i september og oktober!\n\n«Vi ska gå hand i hand genom li"
   },
   {
     "id": "lasttrain-2026-10-02-dead-bob---supp-tba",
@@ -6780,6 +6640,16 @@
     "description": "Pernille Sørensen, Live Nelvik & Kristine Riis"
   },
   {
+    "id": "rockefeller-2026-10-08-an-evening-with-the-magic-numb",
+    "title": "An evening with The Magic Numbers",
+    "date": "2026-10-08",
+    "time": "17:00",
+    "category": "konsert",
+    "source": "rockefeller",
+    "url": "https://www.ticketmaster.no/event/472655723?brand=johndee&camefrom=CFC_NO_Rockefeller_The_Magic_Numbers_081026_Billettsalg&utm_campaign=NO_Rockefeller_The_Magic_Numbers_081026_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
+    "description": "Det britiske alternative rock-bandet The Magic Numbers kommer til Oslo og John Dee 8. oktober!\n\nThe Magic Numbers består av de to søskenparene Romeo og Michele Stodart, og Sean og Angela Gannon. De er"
+  },
+  {
     "id": "rockefeller-2026-10-08-yard-act",
     "title": "Yard Act",
     "date": "2026-10-08",
@@ -6798,16 +6668,6 @@
     "source": "rockefeller",
     "url": "https://www.ticketmaster.no/event/254674149?brand=sentrumscene&camefrom=CFC_NO_Rockefeller_Sla_Pa_Ring_141125_Billettsalg&utm_campaign=NO_Rockefeller_Sla_Pa_Ring_141125_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
     "description": "TV-fenomenene Erlend & Steinjo kom med sin særegne og ufiltrerte humor på NRK i 2001 og fikk raskt kultstatus. De leverte improviserte og uforutsigbare humorinnslag og musikkparodier det norske TV-pub"
-  },
-  {
-    "id": "rockefeller-2026-10-08-an-evening-with-the-magic-numb",
-    "title": "An evening with The Magic Numbers",
-    "date": "2026-10-08",
-    "time": "17:00",
-    "category": "konsert",
-    "source": "rockefeller",
-    "url": "https://www.ticketmaster.no/event/472655723?brand=johndee&camefrom=CFC_NO_Rockefeller_The_Magic_Numbers_081026_Billettsalg&utm_campaign=NO_Rockefeller_The_Magic_Numbers_081026_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
-    "description": "Det britiske alternative rock-bandet The Magic Numbers kommer til Oslo og John Dee 8. oktober!\n\nThe Magic Numbers består av de to søskenparene Romeo og Michele Stodart, og Sean og Angela Gannon. De er"
   },
   {
     "id": "latter-2026-10-08-finn-tre-feil-1900",
@@ -7290,16 +7150,6 @@
     "description": "Pernille Sørensen, Live Nelvik & Kristine Riis"
   },
   {
-    "id": "rockefeller-2026-10-24-kakkmaddafakka",
-    "title": "Kakkmaddafakka",
-    "date": "2026-10-24",
-    "time": "17:00",
-    "category": "konsert",
-    "source": "rockefeller",
-    "url": "https://www.ticketmaster.no/event/1751185554?brand=rockefeller&camefrom=CFC_NO_Rockefeller_Kakkmaddafakka_241026_Billettsalg&utm_campaign=NO_Rockefeller_Kakkmaddafakka_241026_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
-    "description": "Kakkmaddafakka kommer til Rockefeller lørdag 24. oktober i forbindelse med at deres ikoniske album *Hest* fyller 15 år, og som seg hør og bør skjer feiringen i hestens år!\n\nBandet vil spille de størst"
-  },
-  {
     "id": "rockefeller-2026-10-24-halva-priset",
     "title": "Halva Priset",
     "date": "2026-10-24",
@@ -7308,6 +7158,16 @@
     "source": "rockefeller",
     "url": "https://www.ticketmaster.no/event/1849794894?brand=sentrumscene&camefrom=CFC_NO_Rockefeller_Halva_Priset_241026_Billettsalg&utm_campaign=NO_Rockefeller_Halva_Priset_241026_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
     "description": "Hej, hallå, det er Halva Priset som bankær på!\n\nOg å banke på – det har de virkelig gjort. Gutta bak Halva Priset, med Petter Katastrofe i spissen, har siden oppstarten i 2020 spilt om lag 200 konsert"
+  },
+  {
+    "id": "rockefeller-2026-10-24-kakkmaddafakka",
+    "title": "Kakkmaddafakka",
+    "date": "2026-10-24",
+    "time": "17:00",
+    "category": "konsert",
+    "source": "rockefeller",
+    "url": "https://www.ticketmaster.no/event/1751185554?brand=rockefeller&camefrom=CFC_NO_Rockefeller_Kakkmaddafakka_241026_Billettsalg&utm_campaign=NO_Rockefeller_Kakkmaddafakka_241026_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
+    "description": "Kakkmaddafakka kommer til Rockefeller lørdag 24. oktober i forbindelse med at deres ikoniske album *Hest* fyller 15 år, og som seg hør og bør skjer feiringen i hestens år!\n\nBandet vil spille de størst"
   },
   {
     "id": "oslonye-2026-10-24-unni-wilhelmsen---30--r-p--eve-1800",
@@ -7390,16 +7250,6 @@
     "description": "De svenske metalvirtuosene Amaranthe kommer tilbake til Oslo og Sentrum Scene 25. oktober etter flere utsolgte konserter hos oss de siste årene, senest i 2024. Denne gangen har de med seg Self Decepti"
   },
   {
-    "id": "rockefeller-2026-10-26-gavin-degraw",
-    "title": "Gavin DeGraw",
-    "date": "2026-10-26",
-    "time": "18:00",
-    "category": "konsert",
-    "source": "rockefeller",
-    "url": "https://www.ticketmaster.no/event/2057579397?brand=rockefeller&camefrom=CFC_NO_Rockefeller_Gavin_Degraw_261026_Billettsalg&utm_campaign=NO_Rockefeller_Gavin_Degraw_261026_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
-    "description": "Gavin DeGraw vender endelig tilbake til Oslo, og denne gangen gjør han tre eksklusive og intime konserter på Rockefeller 26., 27. og 28. oktober 2026!\n\nEtter mange år med utsolgte konserter i hovedsta"
-  },
-  {
     "id": "rockefeller-2026-10-26-europe",
     "title": "Europe",
     "date": "2026-10-26",
@@ -7408,6 +7258,16 @@
     "source": "rockefeller",
     "url": "https://www.ticketmaster.no/event/1202326151?brand=sentrumscene&camefrom=CFC_NO_Rockefeller_Europe_261026_Billettsalg&utm_campaign=NO_Rockefeller_Europe_261026_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
     "description": "Europe kommer til Sentrum Scene 26. oktober 2026 for å feire 40-årsjubileet til legendariske *The Final Countdown*! Konserten blir en musikalsk tidsreise gjennom hele karrieren, og avsluttes med at ba"
+  },
+  {
+    "id": "rockefeller-2026-10-26-gavin-degraw",
+    "title": "Gavin DeGraw",
+    "date": "2026-10-26",
+    "time": "18:00",
+    "category": "konsert",
+    "source": "rockefeller",
+    "url": "https://www.ticketmaster.no/event/2057579397?brand=rockefeller&camefrom=CFC_NO_Rockefeller_Gavin_Degraw_261026_Billettsalg&utm_campaign=NO_Rockefeller_Gavin_Degraw_261026_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
+    "description": "Gavin DeGraw vender endelig tilbake til Oslo, og denne gangen gjør han tre eksklusive og intime konserter på Rockefeller 26., 27. og 28. oktober 2026!\n\nEtter mange år med utsolgte konserter i hovedsta"
   },
   {
     "id": "rockefeller-2026-10-27-gavin-degraw",
@@ -9060,6 +8920,16 @@
     "description": ""
   },
   {
+    "id": "rockefeller-2026-12-13-paris-paloma",
+    "title": "Paris Paloma",
+    "date": "2026-12-13",
+    "time": "18:00",
+    "category": "konsert",
+    "source": "rockefeller",
+    "url": "https://www.ticketmaster.no/event/1139677895?brand=rockefeller&camefrom=CFC_NO_Rockefeller_Paris_Paloma_131226_Billettsalg&utm_campaign=NO_Rockefeller_Paris_Paloma_131226_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
+    "description": "Paris Paloma kommer til Rockefeller 13. desember! Den kritikerroste britiske singer-songwriteren er en av musikkens viktigste feministiske stemmer, og slipper sitt andre album *The Fatal Flaw* 4. sept"
+  },
+  {
     "id": "rockefeller-2026-12-13-brad-williams",
     "title": "Brad Williams",
     "date": "2026-12-13",
@@ -9318,6 +9188,26 @@
     "source": "rockefeller",
     "url": "https://www.ticketmaster.no/event/1836966895?brand=rockefeller&camefrom=CFC_NO_Rockefeller_Hannah_Storm_170126_Billettsalg&utm_campaign=NO_Rockefeller_Hannah_Storm_170126_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
     "description": "**Den planlagte konserten med Hannah Storm på Rockefeller lørdag 17. januar 2026 flyttes til fredag 15. januar 2027. Billettkjøpere mottar informasjon fra post@rockefeller.no til e-postadressen som er"
+  },
+  {
+    "id": "latter-2027-01-15-treretters-1900",
+    "title": "TRERETTERS",
+    "date": "2027-01-15",
+    "time": "19:00",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/178064553",
+    "description": "Kevin Vågenes, Cess og Rasmus Wold"
+  },
+  {
+    "id": "latter-2027-01-16-treretters-1900",
+    "title": "TRERETTERS",
+    "date": "2027-01-16",
+    "time": "19:00",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/580269714",
+    "description": "Kevin Vågenes, Cess og Rasmus Wold"
   },
   {
     "id": "oslonye-2027-01-22-ungen-1900",
