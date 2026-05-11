@@ -1584,6 +1584,18 @@
     "lon": 10.740656
   },
   {
+    "id": "osm-9084751780",
+    "name": "Laboratoriet",
+    "type": "pub",
+    "address": "Harbitzalléen, 0275",
+    "website": "https://www.labskoyen.no",
+    "phone": "",
+    "opening_hours": "Mo-We,Su 11:00-23:00; Th-Sa 11:00-24:00",
+    "description": "",
+    "lat": 59.9244497,
+    "lon": 10.6740575
+  },
+  {
     "id": "osm-13120767823",
     "name": "Langt Langt Borte",
     "type": "bar",
@@ -2007,7 +2019,7 @@
     "id": "osm-1711617554",
     "name": "Oslo Bonanza",
     "type": "pub",
-    "address": "Youngstorget 6, 0181",
+    "address": "Youngstorget, 0181",
     "website": "",
     "phone": "",
     "opening_hours": "",
@@ -2223,7 +2235,7 @@
     "id": "osm-3527824649",
     "name": "Politiker'n",
     "type": "bar",
-    "address": "Youngstorget 6, 0181",
+    "address": "Youngstorget, 0181",
     "website": "http://politikern.no/",
     "phone": "",
     "opening_hours": "",
@@ -2314,6 +2326,18 @@
     "description": "",
     "lat": 59.9192063,
     "lon": 10.7595686
+  },
+  {
+    "id": "osm-12959461597",
+    "name": "Rampen",
+    "type": "bar",
+    "address": "Gerd Kjølaas' plass, 0178",
+    "website": "",
+    "phone": "",
+    "opening_hours": "",
+    "description": "",
+    "lat": 59.9221994,
+    "lon": 10.7519613
   },
   {
     "id": "osm-11101350159",
@@ -3000,18 +3024,6 @@
     "lon": 10.735904
   },
   {
-    "id": "osm-12959461597",
-    "name": "Torget Bar",
-    "type": "bar",
-    "address": "Gerd Kjølaas' plass, 0178",
-    "website": "",
-    "phone": "",
-    "opening_hours": "",
-    "description": "",
-    "lat": 59.9221994,
-    "lon": 10.7519613
-  },
-  {
     "id": "osm-5778266654",
     "name": "Torggata Botaniske",
     "type": "bar",
@@ -3159,7 +3171,7 @@
     "id": "osm-2785846510",
     "name": "Uvisst Bar",
     "type": "bar",
-    "address": "Tordenskiolds gate, 0160",
+    "address": "Tordenskiolds gate 11, 0160",
     "website": "https://www.uvisstbar.no/",
     "phone": "",
     "opening_hours": "We 19:00-01:00; Th 20:00-01:00; Fr-Sa 20:00-03:00",

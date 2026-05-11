@@ -543,7 +543,7 @@
     "id": "osm-rest-3729794525",
     "name": "Bambus Sushi",
     "cuisine": "Asiatisk",
-    "address": "Aud Blegen Svindlands plass, 0191",
+    "address": "Stasjonsallmenningen, 0191",
     "website": "",
     "phone": "",
     "opening_hours": "",
@@ -601,7 +601,7 @@
   },
   {
     "id": "osm-rest-11039584823",
-    "name": "Barramon Pintxos y Vinos",
+    "name": "Barramon",
     "cuisine": "",
     "address": "Gerd Kjølaas' plass, 0178",
     "website": "",
@@ -1018,18 +1018,6 @@
     "description": "",
     "lat": 59.924175,
     "lon": 10.759026
-  },
-  {
-    "id": "osm-rest-10137860304",
-    "name": "Breddos Tacos",
-    "cuisine": "Meksikansk",
-    "address": "Gerd Kjølaas' plass, 0178",
-    "website": "https://breddostacos.com/oslo",
-    "phone": "",
-    "opening_hours": "Mo-Sa 11:30-22:00; Su 11:00-20:00",
-    "description": "",
-    "lat": 59.922403,
-    "lon": 10.7523423
   },
   {
     "id": "osm-rest-11816193712",
@@ -2340,18 +2328,6 @@
     "lon": 10.735454
   },
   {
-    "id": "osm-rest-10692785992",
-    "name": "Fish Masters",
-    "cuisine": "",
-    "address": "Trondheimsveien, 0560",
-    "website": "",
-    "phone": "",
-    "opening_hours": "",
-    "description": "",
-    "lat": 59.9196308,
-    "lon": 10.7649546
-  },
-  {
     "id": "osm-rest-5649066509",
     "name": "Fiskehuset",
     "cuisine": "",
@@ -2451,7 +2427,7 @@
     "id": "osm-rest-292102329",
     "name": "Folkvang",
     "cuisine": "",
-    "address": "Arendalsgata, 0463",
+    "address": "Arendalsgata, 0465",
     "website": "https://folkvangsagene.no/",
     "phone": "+47 98 44 89 00",
     "opening_hours": "",
@@ -3264,18 +3240,6 @@
     "lon": 10.7374338
   },
   {
-    "id": "osm-rest-9084688168",
-    "name": "Hos Alma",
-    "cuisine": "",
-    "address": "Harbitzalléen, 0275",
-    "website": "",
-    "phone": "",
-    "opening_hours": "",
-    "description": "",
-    "lat": 59.9245976,
-    "lon": 10.6745294
-  },
-  {
     "id": "osm-rest-10210423311",
     "name": "Hos Peder",
     "cuisine": "",
@@ -3411,7 +3375,7 @@
     "id": "osm-rest-6376869225",
     "name": "Hy's Sushi og Wok",
     "cuisine": "Thai",
-    "address": "Stålverkskroken, 0576",
+    "address": "Stålverkskroken, 0661",
     "website": "",
     "phone": "",
     "opening_hours": "Mo-Su 14:00-21:15",
@@ -4380,18 +4344,6 @@
     "lon": 10.763699
   },
   {
-    "id": "osm-rest-9084751780",
-    "name": "Laboratoriet",
-    "cuisine": "",
-    "address": "Harbitzalléen, 0275",
-    "website": "",
-    "phone": "",
-    "opening_hours": "",
-    "description": "",
-    "lat": 59.9244497,
-    "lon": 10.6740575
-  },
-  {
     "id": "osm-rest-896829160",
     "name": "Ladegården Kro",
     "cuisine": "",
@@ -4935,7 +4887,7 @@
     "id": "osm-rest-6136462485",
     "name": "Maaltid",
     "cuisine": "",
-    "address": "Sørligata, 0577",
+    "address": "Sørligata 36, 0577",
     "website": "https://www.maaltidtoyen.no/",
     "phone": "",
     "opening_hours": "mo off; Tu-fr 16:00-23:30; Sa 12:00-00:30; Su 12:00-17:00",
@@ -4971,7 +4923,7 @@
     "id": "osm-rest-5652445255",
     "name": "Madonna",
     "cuisine": "",
-    "address": "Operagata, 0194",
+    "address": "Operagata 17, 0194",
     "website": "https://www.madonnaoslo.no/",
     "phone": "+47 22 60 12 00",
     "opening_hours": "Mo-Th 16:00-23:00; Fr-Sa 12:00-24:00",
@@ -5964,6 +5916,18 @@
     "lon": 10.725796
   },
   {
+    "id": "osm-rest-10137860304",
+    "name": "Pascal",
+    "cuisine": "Gresk",
+    "address": "Gerd Kjølaas' plass, 0178",
+    "website": "",
+    "phone": "",
+    "opening_hours": "Mo-Sa 11:30-22:00; Su 11:00-20:00",
+    "description": "",
+    "lat": 59.922403,
+    "lon": 10.7523423
+  },
+  {
     "id": "osm-rest-743380823",
     "name": "Pascal Greek & Grill",
     "cuisine": "",
@@ -6243,10 +6207,10 @@
     "id": "osm-rest-11949532061",
     "name": "Pilestredet Parkservering",
     "cuisine": "",
-    "address": "Pilestredet park, 0176",
+    "address": "Pilestredet park 18",
     "website": "https://www.pilestredetparkservering.no",
     "phone": "",
-    "opening_hours": "",
+    "opening_hours": "Mo-We 15:00-22:00; Th-Fr 15:00-23:00; Sa 12:00-23:00; Su 12:00-22:00",
     "description": "",
     "lat": 59.9200474,
     "lon": 10.7392144
@@ -7296,6 +7260,18 @@
     "lon": 10.763153
   },
   {
+    "id": "osm-rest-13812907181",
+    "name": "Sirkus Renaa",
+    "cuisine": "Italiensk",
+    "address": "Harbitzalléen, 0275",
+    "website": "https://www.sirkusrenaa.no/sirkus-renaa-utsalgssteder-oslo",
+    "phone": "+47 46 50 65 40",
+    "opening_hours": "Mo-Fr 07:30-20:00; Sa 09:00-20:00; Su 09:00-18:00",
+    "description": "",
+    "lat": 59.9245949,
+    "lon": 10.6744453
+  },
+  {
     "id": "osm-rest-470664933",
     "name": "Sjøengen House",
     "cuisine": "",
@@ -7551,7 +7527,7 @@
     "id": "osm-rest-2045384808",
     "name": "Statholderens Mat & Vinkjeller",
     "cuisine": "",
-    "address": "Rådhusgata, 0153",
+    "address": "Rådhusgata, 0151",
     "website": "https://www.statholdergaarden.no/",
     "phone": "+47 22 41 88 00",
     "opening_hours": "Tu-Fr 11:30-24:00; Sa 12:30-24:00",
@@ -7635,7 +7611,7 @@
     "id": "osm-rest-6136462187",
     "name": "Sukhumvit Soup&Grill",
     "cuisine": "Thai",
-    "address": "Munkedamsveien 29, 0251",
+    "address": "Munkedamsveien, 0251",
     "website": "https://sukhumvit.no/",
     "phone": "",
     "opening_hours": "Mo-Sa 11:00-21:00",
@@ -8878,6 +8854,18 @@
     "description": "",
     "lat": 59.9180107,
     "lon": 10.7506116
+  },
+  {
+    "id": "osm-rest-10692785992",
+    "name": "Yalla Habibi",
+    "cuisine": "",
+    "address": "Trondheimsveien, 0560",
+    "website": "",
+    "phone": "",
+    "opening_hours": "",
+    "description": "",
+    "lat": 59.9196308,
+    "lon": 10.7649546
   },
   {
     "id": "osm-rest-2023496836",
