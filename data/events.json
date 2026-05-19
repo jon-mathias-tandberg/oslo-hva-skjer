@@ -1,15 +1,5 @@
 [
   {
-    "id": "meetup-2026-05-18-umbraco-ai-hackathon--building",
-    "title": "Umbraco AI Hackathon: Building the Future of the Backoffice (Together)",
-    "date": "2026-05-18",
-    "time": "14:00",
-    "category": "kultur",
-    "source": "meetup",
-    "url": "https://www.meetup.com/oslo-umbraco-meetup/events/313925028/",
-    "description": "**Vi i Novacare gleder oss til å invitere deg til en hands-on og uformell dag sammen med Umbraco AI hvor vi bygger, utforsker og lærer sammen. Enten du er ekspert på AI eller bare nysgjerrig, er du hj"
-  },
-  {
     "id": "meetup-2026-05-19-dama-meetup---master-data-matu",
     "title": "DAMA meetup:  Master data maturity and artificial intelligence",
     "date": "2026-05-19",
@@ -118,6 +108,16 @@
     "source": "detnorske",
     "url": "https://billettar.detnorsketeatret.no/nn/buyingflow/tickets/38821/88652/",
     "description": ""
+  },
+  {
+    "id": "meetup-2026-05-19-mindful-peace--your-weekly-hou",
+    "title": "Mindful Peace: Your Weekly Hour of Inner Calm",
+    "date": "2026-05-19",
+    "time": "20:30",
+    "category": "kultur",
+    "source": "meetup",
+    "url": "https://www.meetup.com/mindful-peace-europe-reading-club/events/314395756/",
+    "description": "# 🧘‍♂️ Mindful Peace: Zoom Online Reading & Reflection Club\n\n# **Are you looking for a space to find mental clarity, inner peace, and a supportive community?**\n\nWelcome to the **Mindful Peace Online R"
   },
   {
     "id": "meetup-2026-05-20-oslo-clojure-l-nsj",
@@ -328,16 +328,6 @@
     "source": "meetup",
     "url": "https://www.meetup.com/identibeer-oslo/events/314622800/",
     "description": "The May IdentiBeer falls on the 3rd Thursday of the month, and that means there is also OsloSec at the same time!\n\nSo we're joining forces, and no one needs to move between locations this time: See yo"
-  },
-  {
-    "id": "meetup-2026-05-21---english-conversation--meet-f",
-    "title": "🌐 English Conversation: Meet Friends & Learn Daily",
-    "date": "2026-05-21",
-    "time": "17:00",
-    "category": "kultur",
-    "source": "meetup",
-    "url": "https://www.meetup.com/oslo-english/events/314579315/",
-    "description": "🚀 **Stop searching for classes. Start speaking today!**\nWelcome to our free worldwide community. Hosted by English teachers, our daily sessions are fun, supportive, and focused on *real* practice. For"
   },
   {
     "id": "detnorske-2026-05-21-pippip--sirkus-1730",
@@ -596,7 +586,7 @@
     "time": "19:00",
     "category": "kultur",
     "source": "detnorske",
-    "url": "https://www.detnorsketeatret.no/framsyningar/det-har-vore-eit-fantastisk-ar",
+    "url": "https://billettar.detnorsketeatret.no/nn/buyingflow/tickets/46237/94791/",
     "description": ""
   },
   {
@@ -636,7 +626,7 @@
     "time": "20:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/nb/e/moreller__mina_my__revolver",
+    "url": "https://revolveroslo.ticketco.events/no/en/e/moreller__mina_my__revolver",
     "description": ""
   },
   {
@@ -728,16 +718,6 @@
     "source": "rockefeller",
     "url": "https://www.ticketmaster.no/event/1649218734?brand=sentrumscene&camefrom=CFC_NO_Rockefeller_Xzibit_230526_Billettsalg&utm_campaign=NO_Rockefeller_Xzibit_230526_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
     "description": "En av vestkystens mest markante rappere, Xzibit, kommer til Oslo for første gang på 14 år, for å holde en eksklusiv konsert på Sentrum Scene!\n\nMed en karriere som strekker seg over tre tiår, regnes Xz"
-  },
-  {
-    "id": "meetup-2026-05-23---english-conversation--meet-f",
-    "title": "🌐 English Conversation: Meet Friends & Learn Daily",
-    "date": "2026-05-23",
-    "time": "17:00",
-    "category": "kultur",
-    "source": "meetup",
-    "url": "https://www.meetup.com/oslo-english/events/314611290/",
-    "description": "🚀 **Stop searching for classes. Start speaking today!**\nWelcome to our free worldwide community. Hosted by English teachers, our daily sessions are fun, supportive, and focused on *real* practice. For"
   },
   {
     "id": "lasttrain-2026-05-23-robust---svartedauden---piss-d",
@@ -1050,16 +1030,6 @@
     "description": "**Squarehead is hosting this event.**\nThe office is located [two minutes from Nydalen T-bane](https://maps.app.goo.gl/p5APo6XV8ZrsZowJA) in Nydalsveien 28, 0484 Oslo.\n\n**Timetable**\n\n\\- 17:00 : **Food"
   },
   {
-    "id": "meetup-2026-05-27---english-conversation--meet-f",
-    "title": "🌐 English Conversation: Meet Friends & Learn Daily",
-    "date": "2026-05-27",
-    "time": "17:00",
-    "category": "kultur",
-    "source": "meetup",
-    "url": "https://www.meetup.com/oslo-english/events/314676795/",
-    "description": "🚀 **Stop searching for classes. Start speaking today!**\nWelcome to our free worldwide community. Hosted by English teachers, our daily sessions are fun, supportive, and focused on *real* practice. For"
-  },
-  {
     "id": "detnorske-2026-05-27-pippip--sirkus-1730",
     "title": "Pippipå sirkus",
     "date": "2026-05-27",
@@ -1088,6 +1058,16 @@
     "source": "latter",
     "url": "https://www.ticketmaster.no/event/sommerstandup-2025-billetter/1482009627",
     "description": ""
+  },
+  {
+    "id": "meetup-2026-05-27-after-work-mingle---meet-peopl",
+    "title": "After-work mingle — meet people in Oslo",
+    "date": "2026-05-27",
+    "time": "19:00",
+    "category": "kultur",
+    "source": "meetup",
+    "url": "https://www.meetup.com/room-for-more/events/314759088/",
+    "description": "**We’re meeting for a relaxed after-work chat in Oslo.**\n\nThis is a repeat of my first event where i wanted to keep it simple: just show up, grab a drink or something to eat if you like, and meet some"
   },
   {
     "id": "nieuscene-1466491614485373",
@@ -1436,7 +1416,7 @@
     "time": "20:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/en/e/pushwagnergruppen_revolverr",
+    "url": "https://revolveroslo.ticketco.events/no/nb/e/pushwagnergruppen_revolverr",
     "description": ""
   },
   {
@@ -1670,6 +1650,16 @@
     "description": ""
   },
   {
+    "id": "meetup-2026-05-31-s-ndag-skrivetreff",
+    "title": "Søndag Skrivetreff",
+    "date": "2026-05-31",
+    "time": "13:00",
+    "category": "kultur",
+    "source": "meetup",
+    "url": "https://www.meetup.com/oslo-skriveklubb/events/314611778/",
+    "description": "📚✍️ **Velkommen til søndags skrivetreff!**\n\nHar du en tekst du jobber med – kanskje en roman eller novelle? 📝📖\nBli med i Oslo Skriveklubb og skriv sammen med andre engasjerte skribenter i et hyggelig "
+  },
+  {
     "id": "nieuscene-908376255557418",
     "title": "Tryllesøndag med Trylle-Hans",
     "date": "2026-05-31",
@@ -1698,16 +1688,6 @@
     "source": "rockefeller",
     "url": "https://www.ticketmaster.no/event/321530590?brand=rockefeller&camefrom=CFC_NO_Rockefeller_Cabaret_Voltaire_310526_Billettsalg&utm_campaign=NO_Rockefeller_Cabaret_Voltaire_310526_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
     "description": "Legendariske Cabaret Voltaire legger ut på en siste turné, og kommer til Oslo og Rockefeller 31. mai for å feire 50 år siden starten på et av Storbritannias mest innflytelsesrike og banebrytende elekt"
-  },
-  {
-    "id": "meetup-2026-05-31---english-conversation--meet-f",
-    "title": "🌐 English Conversation: Meet Friends & Learn Daily",
-    "date": "2026-05-31",
-    "time": "17:00",
-    "category": "kultur",
-    "source": "meetup",
-    "url": "https://www.meetup.com/oslo-english/events/314747691/",
-    "description": "🚀 **Stop searching for classes. Start speaking today!**\nWelcome to our free worldwide community. Hosted by English teachers, our daily sessions are fun, supportive, and focused on *real* practice. For"
   },
   {
     "id": "detnorske-2026-06-01-det-har-vore-eitfantastisk--r-1300",
@@ -1920,16 +1900,6 @@
     "description": ""
   },
   {
-    "id": "meetup-2026-06-03-after-work-mingle---meet-peopl",
-    "title": "After-work mingle — meet people in Oslo",
-    "date": "2026-06-03",
-    "time": "19:00",
-    "category": "kultur",
-    "source": "meetup",
-    "url": "https://www.meetup.com/room-for-more/events/314759089/",
-    "description": "**We’re meeting for a relaxed after-work chat in Oslo.**\n\nThis is a repeat of my first event where i wanted to keep it simple: just show up, grab a drink or something to eat if you like, and meet some"
-  },
-  {
     "id": "oslonye-2026-06-03-madame-moll-1900",
     "title": "Madame Moll",
     "date": "2026-06-03",
@@ -2020,6 +1990,16 @@
     "description": ""
   },
   {
+    "id": "latter-2026-06-04-sommerstandup-2026-1830",
+    "title": "Sommerstandup 2026",
+    "date": "2026-06-04",
+    "time": "18:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/sommerstandup-2026-billetter/1769678468",
+    "description": ""
+  },
+  {
     "id": "nieuscene-1382328770371189",
     "title": "Torsdagsquiz i nieu sportsbar!",
     "date": "2026-06-04",
@@ -2028,16 +2008,6 @@
     "source": "nieuscene",
     "url": "https://www.facebook.com/events/1382328770371189",
     "description": "Torsdagsquiz i nieu sportsbar, hver uke kl.19:00! Hver torsdag inviterer vi til quiz i sportsbaren på nieu grünerløkka. Temaene varierer, men det blir som regel en god miks av sport og allmennkunnskap, og ulike quizverter hver uke. Møt opp alene eller med laget ditt, det er alltid plass til flere! R"
-  },
-  {
-    "id": "latter-2026-06-04-sommerstandup-2026-1900",
-    "title": "Sommerstandup 2026",
-    "date": "2026-06-04",
-    "time": "19:00",
-    "category": "humor",
-    "source": "latter",
-    "url": "https://www.ticketmaster.no/event/sommerstandup-2026-billetter/1769678468",
-    "description": ""
   },
   {
     "id": "oslonye-2026-06-04-madame-moll-1900",
@@ -2067,6 +2037,16 @@
     "category": "konsert",
     "source": "parkteatret",
     "url": "https://www.ticketmaster.no/event/733746487?brand=parkteatret",
+    "description": ""
+  },
+  {
+    "id": "latter-2026-06-04-sommerstandup-2026-2030",
+    "title": "Sommerstandup 2026",
+    "date": "2026-06-04",
+    "time": "20:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/727225979",
     "description": ""
   },
   {
@@ -2916,7 +2896,7 @@
     "time": "18:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/en/e/paal_flaata__revolver_26",
+    "url": "https://revolveroslo.ticketco.events/no/nb/e/paal_flaata__revolver_26",
     "description": ""
   },
   {
@@ -4860,6 +4840,26 @@
     "description": ""
   },
   {
+    "id": "latter-2026-09-01-standup-p--latter-1830",
+    "title": "Standup på Latter",
+    "date": "2026-09-01",
+    "time": "18:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/1349173660",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
+  },
+  {
+    "id": "latter-2026-09-02-standup-p--latter-1830",
+    "title": "Standup på Latter",
+    "date": "2026-09-02",
+    "time": "18:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/12827343",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
+  },
+  {
     "id": "operaen-2026-09-02-romeo-og-julie-1900",
     "title": "Romeo og Julie",
     "date": "2026-09-02",
@@ -4898,6 +4898,16 @@
     "source": "rockefeller",
     "url": "https://www.ticketmaster.no/event/59102719?brand=johndee&camefrom=CFC_NO_Rockefeller_Audrey_Horne_030926_Billettsalg&utm_campaign=NO_Rockefeller_Audrey_Horne_030926_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
     "description": "Audrey Horne slipper straks et splitter nytt album, og kommer til John Dee 3. september!\n\nPublikum kan som alltid forvente en konsertopplevelse fylt til randen av allsangvennlige låter, duellerende gi"
+  },
+  {
+    "id": "latter-2026-09-03-standup-p--latter-1830",
+    "title": "Standup på Latter",
+    "date": "2026-09-03",
+    "time": "18:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/210615800",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
   },
   {
     "id": "nieuscene-1237765995153461",
@@ -4988,6 +4998,16 @@
     "source": "rockefeller",
     "url": "https://www.ticketmaster.no/event/46642421?brand=johndee&camefrom=CFC_NO_Rockefeller_Reform94_040926_Billettsalg&utm_campaign=NO_Rockefeller_Reform94_040926_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
     "description": "Gikk du glipp av 90-tallet, eller bare lengter tilbake? DJ Reform94 inntar John Dee fredag 4. september!\n\nDJ Reform94 lager diskotek som på 90-tallet på John Dee. Vi skrur lys og lyd til maks og invit"
+  },
+  {
+    "id": "latter-2026-09-04-standup-p--latter-1830",
+    "title": "Standup på Latter",
+    "date": "2026-09-04",
+    "time": "18:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/1012597035",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
   },
   {
     "id": "detnorske-2026-09-04-les-mis-rables-1830",
@@ -5120,6 +5140,16 @@
     "description": ""
   },
   {
+    "id": "latter-2026-09-05-standup-p--latter-1830",
+    "title": "Standup på Latter",
+    "date": "2026-09-05",
+    "time": "18:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/233137840",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
+  },
+  {
     "id": "nieuscene-1273149744723090",
     "title": "Espen Abrahamsen - Avantgarde",
     "date": "2026-09-05",
@@ -5220,6 +5250,16 @@
     "description": "Gjennom en karriere som strekker seg over fire tiår og utallige sjangre, har Devin Townsend oppnådd kultstatus i den progressive metal-verdenen. 7. september kommer han tilbake til Oslo og Sentrum Sce"
   },
   {
+    "id": "latter-2026-09-08-standup-p--latter-1830",
+    "title": "Standup på Latter",
+    "date": "2026-09-08",
+    "time": "18:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/223898162",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
+  },
+  {
     "id": "detnorske-2026-09-08-s-strene-1900",
     "title": "Søstrene",
     "date": "2026-09-08",
@@ -5258,6 +5298,16 @@
     "source": "oslonye",
     "url": "https://www.ticketmaster.no/event/616489262?language=no-no&track=DiscoveryAPI&camefrom=OsloNye&subchannel_id=1",
     "description": ""
+  },
+  {
+    "id": "latter-2026-09-09-standup-p--latter-1830",
+    "title": "Standup på Latter",
+    "date": "2026-09-09",
+    "time": "18:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/418077356",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
   },
   {
     "id": "latter-2026-09-09-finn-tre-feil-1900",
@@ -5338,6 +5388,16 @@
     "source": "detnorske",
     "url": "https://billettar.detnorsketeatret.no/nn/buyingflow/tickets/46215/93850/",
     "description": ""
+  },
+  {
+    "id": "latter-2026-09-10-standup-p--latter-2030",
+    "title": "Standup på Latter",
+    "date": "2026-09-10",
+    "time": "20:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/1416692357",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
   },
   {
     "id": "rockefeller-2026-09-11-papaya---radioresepsjonen-20--",
@@ -5428,6 +5488,16 @@
     "source": "detnorske",
     "url": "https://billettar.detnorsketeatret.no/nn/buyingflow/tickets/46255/93931/",
     "description": ""
+  },
+  {
+    "id": "latter-2026-09-11-standup-p--latter-2030",
+    "title": "Standup på Latter",
+    "date": "2026-09-11",
+    "time": "20:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/1631229781",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
   },
   {
     "id": "rockefeller-2026-09-12-papaya---radioresepsjonen-20--",
@@ -5530,6 +5600,16 @@
     "description": "Hvordan ser det ut når en advokat og en elektriker gjør et standupshow sammen? \"Master eller fagbrev\" er et humorshow om våre livsvalg - om karrierevalg og identitet. Showet ledes av Eivind Abrahamsen som er advokat, og Emil Grønmo som er elektriker. Eivind og Emil har hatt mange, lange samtaler om "
   },
   {
+    "id": "latter-2026-09-12-standup-p--latter-2030",
+    "title": "Standup på Latter",
+    "date": "2026-09-12",
+    "time": "20:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/1806071899",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
+  },
+  {
     "id": "nieuscene-1538771150525140",
     "title": "Formula 1 Watch Party • nieu sportsbar",
     "date": "2026-09-13",
@@ -5620,6 +5700,16 @@
     "description": "Alison Moyet legger ut på en unik headliner-turné som utelukkende vil bestå av låter fra Yazoo-katalogen, i tillegg til utvalgte spor fra hennes kritikerroste soloalbum innen elektronika – *the minute"
   },
   {
+    "id": "latter-2026-09-15-standup-p--latter-1830",
+    "title": "Standup på Latter",
+    "date": "2026-09-15",
+    "time": "18:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/2036670215",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
+  },
+  {
     "id": "detnorske-2026-09-15-2002-ntoro-yume-1930",
     "title": "2002 ntoro yume",
     "date": "2026-09-15",
@@ -5658,6 +5748,16 @@
     "source": "nieuscene",
     "url": "https://www.facebook.com/events/957065053343778",
     "description": "Pantomime for blinde» – nytt show med Martin Beyer-Olsen I sitt splitter nye humorshow inviterer Martin Beyer-Olsen deg inn i et univers der all støy – fra nyhetsvarsler, forventninger og din egen indre kommentator – blir plukket fra hverandre. Resultatet er «Pantomime for blinde» – et sonisk standu"
+  },
+  {
+    "id": "latter-2026-09-16-standup-p--latter-1830",
+    "title": "Standup på Latter",
+    "date": "2026-09-16",
+    "time": "18:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/567135442",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
   },
   {
     "id": "detnorske-2026-09-16-les-mis-rables-1830",
@@ -5718,6 +5818,16 @@
     "source": "nieuscene",
     "url": "https://www.facebook.com/events/855735274161312",
     "description": "Pantomime for blinde» – nytt show med Martin Beyer-Olsen I sitt splitter nye humorshow inviterer Martin Beyer-Olsen deg inn i et univers der all støy – fra nyhetsvarsler, forventninger og din egen indre kommentator – blir plukket fra hverandre. Resultatet er «Pantomime for blinde» – et sonisk standu"
+  },
+  {
+    "id": "latter-2026-09-17-standup-p--latter-1830",
+    "title": "Standup på Latter",
+    "date": "2026-09-17",
+    "time": "18:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/919666633",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
   },
   {
     "id": "nieuscene-2458998277934634",
@@ -5870,6 +5980,16 @@
     "description": ""
   },
   {
+    "id": "latter-2026-09-18-standup-p--latter-2030",
+    "title": "Standup på Latter",
+    "date": "2026-09-18",
+    "time": "20:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/796926903",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
+  },
+  {
     "id": "latter-2026-09-18-kaktus-2100",
     "title": "Kaktus",
     "date": "2026-09-18",
@@ -5960,6 +6080,16 @@
     "description": ""
   },
   {
+    "id": "latter-2026-09-19-standup-p--latter-2030",
+    "title": "Standup på Latter",
+    "date": "2026-09-19",
+    "time": "20:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/1223634682",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
+  },
+  {
     "id": "latter-2026-09-19-kaktus-2100",
     "title": "Kaktus",
     "date": "2026-09-19",
@@ -6020,6 +6150,16 @@
     "description": ""
   },
   {
+    "id": "latter-2026-09-22-standup-p--latter-2030",
+    "title": "Standup på Latter",
+    "date": "2026-09-22",
+    "time": "20:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/1627392762",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
+  },
+  {
     "id": "latter-2026-09-23-finn-tre-feil-1900",
     "title": "Finn tre feil",
     "date": "2026-09-23",
@@ -6038,6 +6178,16 @@
     "source": "parkteatret",
     "url": "https://www.ticketmaster.no/event/924811506?brand=parkteatret",
     "description": ""
+  },
+  {
+    "id": "latter-2026-09-23-standup-p--latter-2030",
+    "title": "Standup på Latter",
+    "date": "2026-09-23",
+    "time": "20:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/268059827",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
   },
   {
     "id": "rockefeller-2026-09-24-drake-milligan",
@@ -6068,6 +6218,16 @@
     "source": "detnorske",
     "url": "https://billettar.detnorsketeatret.no/nn/buyingflow/tickets/46602/94658/",
     "description": ""
+  },
+  {
+    "id": "latter-2026-09-24-standup-p--latter-1830",
+    "title": "Standup på Latter",
+    "date": "2026-09-24",
+    "time": "18:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/652120916",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
   },
   {
     "id": "latter-2026-09-24-finn-tre-feil-1900",
@@ -6200,6 +6360,16 @@
     "description": ""
   },
   {
+    "id": "latter-2026-09-25-standup-p--latter-2030",
+    "title": "Standup på Latter",
+    "date": "2026-09-25",
+    "time": "20:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/356425165",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
+  },
+  {
     "id": "latter-2026-09-25-kaktus-2100",
     "title": "Kaktus",
     "date": "2026-09-25",
@@ -6300,6 +6470,16 @@
     "description": ""
   },
   {
+    "id": "latter-2026-09-26-standup-p--latter-2030",
+    "title": "Standup på Latter",
+    "date": "2026-09-26",
+    "time": "20:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/1921763141",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
+  },
+  {
     "id": "latter-2026-09-26-kaktus-2100",
     "title": "Kaktus",
     "date": "2026-09-26",
@@ -6330,16 +6510,6 @@
     "description": ""
   },
   {
-    "id": "rockefeller-2026-09-29-myrath",
-    "title": "Myrath",
-    "date": "2026-09-29",
-    "time": "17:00",
-    "category": "konsert",
-    "source": "rockefeller",
-    "url": "https://www.ticketmaster.no/event/181141349?brand=johndee&camefrom=CFC_NO_Rockefeller_Myrath_290926_Billettsalg&utm_campaign=NO_Rockefeller_Myrath_290926_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
-    "description": "Myrath kommer til Oslo og John Dee 29. september! Det tunisiske bandet er kjent for å være pionerer innen «blazing desert metal», en unik miks av progressiv metal, power metal og orientalsk metal, med"
-  },
-  {
     "id": "rockefeller-2026-09-29-bo-kaspers-orkester",
     "title": "Bo Kaspers Orkester",
     "date": "2026-09-29",
@@ -6350,6 +6520,16 @@
     "description": "Etter 5 utsolgte kvelder i februar 2026 vender Bo Kaspers Orkester tilbake til Sentrum Scene, denne gangen med ytterligere 4 jubileumskonserter i september og oktober!\n\n«Vi ska gå hand i hand genom li"
   },
   {
+    "id": "rockefeller-2026-09-29-myrath",
+    "title": "Myrath",
+    "date": "2026-09-29",
+    "time": "17:00",
+    "category": "konsert",
+    "source": "rockefeller",
+    "url": "https://www.ticketmaster.no/event/181141349?brand=johndee&camefrom=CFC_NO_Rockefeller_Myrath_290926_Billettsalg&utm_campaign=NO_Rockefeller_Myrath_290926_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
+    "description": "Myrath kommer til Oslo og John Dee 29. september! Det tunisiske bandet er kjent for å være pionerer innen «blazing desert metal», en unik miks av progressiv metal, power metal og orientalsk metal, med"
+  },
+  {
     "id": "detnorske-2026-09-29-frankenstein-1800",
     "title": "Frankenstein",
     "date": "2026-09-29",
@@ -6358,6 +6538,16 @@
     "source": "detnorske",
     "url": "https://billettar.detnorsketeatret.no/nn/buyingflow/tickets/46602/94660/",
     "description": ""
+  },
+  {
+    "id": "latter-2026-09-29-standup-p--latter-1830",
+    "title": "Standup på Latter",
+    "date": "2026-09-29",
+    "time": "18:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/145540274",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
   },
   {
     "id": "rockefeller-2026-09-30-grant-lee-phillips",
@@ -6390,6 +6580,16 @@
     "description": ""
   },
   {
+    "id": "latter-2026-09-30-standup-p--latter-1830",
+    "title": "Standup på Latter",
+    "date": "2026-09-30",
+    "time": "18:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/1254412012",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
+  },
+  {
     "id": "blaa-2026-10-01-sessa--br-",
     "title": "Sessa (BR)",
     "date": "2026-10-01",
@@ -6408,6 +6608,16 @@
     "source": "rockefeller",
     "url": "https://www.ticketmaster.no/event/1505430819?brand=sentrumscene&camefrom=CFC_NO_Rockefeller_Bo_Kaspers_Orkester_011026_Billettsalg&utm_campaign=NO_Rockefeller_Bo_Kaspers_Orkester_011026_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
     "description": "Etter 5 utsolgte kvelder i februar 2026 vender Bo Kaspers Orkester tilbake til Sentrum Scene, denne gangen med ytterligere 4 jubileumskonserter i september og oktober!\n\n«Vi ska gå hand i hand genom li"
+  },
+  {
+    "id": "latter-2026-10-01-standup-p--latter-1830",
+    "title": "Standup på Latter",
+    "date": "2026-10-01",
+    "time": "18:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/1637439303",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
   },
   {
     "id": "rockefeller-2026-10-02-bo-kaspers-orkester",
@@ -6440,6 +6650,16 @@
     "description": "Dead Bob is the solo incarnation of John Wright, drummer of long time and apparently legendary, but now retired, Canadian punk band No Means No (NMN). Wright has spent 50 years drumming, 45 years song"
   },
   {
+    "id": "latter-2026-10-02-standup-p--latter-1830",
+    "title": "Standup på Latter",
+    "date": "2026-10-02",
+    "time": "18:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/225960541",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
+  },
+  {
     "id": "latter-2026-10-02-finn-tre-feil-1900",
     "title": "Finn tre feil",
     "date": "2026-10-02",
@@ -6468,6 +6688,16 @@
     "source": "revolver",
     "url": "https://revolveroslo.ticketco.events/no/nb/e/upploppet_se__mud_grief_se__revolver",
     "description": ""
+  },
+  {
+    "id": "latter-2026-10-03-standup-p--latter-1830",
+    "title": "Standup på Latter",
+    "date": "2026-10-03",
+    "time": "18:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/411484863",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
   },
   {
     "id": "latter-2026-10-03-finn-tre-feil-1900",
@@ -6530,6 +6760,16 @@
     "description": "Den australske singer-songwriteren Stu Larsen tar med seg sitt nye prosjekt «Solitude» til Himmel (over Blå) i Oslo 6. oktober.\nBilletter er i salg fredag 27. februar kl. 10.00.\n\nI en nådeløs og rastl"
   },
   {
+    "id": "latter-2026-10-06-standup-p--latter-1830",
+    "title": "Standup på Latter",
+    "date": "2026-10-06",
+    "time": "18:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/1377542758",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
+  },
+  {
     "id": "rockefeller-2026-10-07-havok",
     "title": "Havok",
     "date": "2026-10-07",
@@ -6538,6 +6778,16 @@
     "source": "rockefeller",
     "url": "https://www.ticketmaster.no/event/881351369?brand=johndee&camefrom=CFC_NO_Rockefeller_Havok_071026_Billettsalg&utm_campaign=NO_Rockefeller_Havok_071026_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
     "description": "Det amerikanske thrash metal-bandet Havok kommer til Oslo og John Dee 7. oktober, og med seg har de Blood Red Throne, Xonor og Eradikated som support!\n\nColorado-kvartetten Havok har flere titalls mill"
+  },
+  {
+    "id": "latter-2026-10-07-standup-p--latter-1830",
+    "title": "Standup på Latter",
+    "date": "2026-10-07",
+    "time": "18:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/1455259262",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
   },
   {
     "id": "latter-2026-10-07-finn-tre-feil-1900",
@@ -6560,6 +6810,16 @@
     "description": ""
   },
   {
+    "id": "rockefeller-2026-10-08-yard-act",
+    "title": "Yard Act",
+    "date": "2026-10-08",
+    "time": "17:00",
+    "category": "konsert",
+    "source": "rockefeller",
+    "url": "https://www.ticketmaster.no/event/1254436022?brand=rockefeller&camefrom=CFC_NO_Rockefeller_Yard_Act_081026_Billettsalg&utm_campaign=NO_Rockefeller_Yard_Act_081026_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
+    "description": "Yard Act kommer til Oslo og Rockefeller 8. oktober! \n\nSiden de inntok folks bevissthet i 2020, har Leeds-kvartetten etablert seg som en av de store britiske indie-suksessene så langt dette tiåret. Med"
+  },
+  {
     "id": "rockefeller-2026-10-08-erlend---steinjo-presenterer--",
     "title": "Erlend & Steinjo presenterer: Slå på ring – LIVE",
     "date": "2026-10-08",
@@ -6580,14 +6840,14 @@
     "description": "Det britiske alternative rock-bandet The Magic Numbers kommer til Oslo og John Dee 8. oktober!\n\nThe Magic Numbers består av de to søskenparene Romeo og Michele Stodart, og Sean og Angela Gannon. De er"
   },
   {
-    "id": "rockefeller-2026-10-08-yard-act",
-    "title": "Yard Act",
+    "id": "latter-2026-10-08-standup-p--latter-1830",
+    "title": "Standup på Latter",
     "date": "2026-10-08",
-    "time": "17:00",
-    "category": "konsert",
-    "source": "rockefeller",
-    "url": "https://www.ticketmaster.no/event/1254436022?brand=rockefeller&camefrom=CFC_NO_Rockefeller_Yard_Act_081026_Billettsalg&utm_campaign=NO_Rockefeller_Yard_Act_081026_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
-    "description": "Yard Act kommer til Oslo og Rockefeller 8. oktober! \n\nSiden de inntok folks bevissthet i 2020, har Leeds-kvartetten etablert seg som en av de store britiske indie-suksessene så langt dette tiåret. Med"
+    "time": "18:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/1043668102",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
   },
   {
     "id": "latter-2026-10-08-finn-tre-feil-1900",
@@ -6650,14 +6910,14 @@
     "description": "Pernille Sørensen, Live Nelvik & Kristine Riis"
   },
   {
-    "id": "rockefeller-2026-10-10-tora-trio",
-    "title": "Tora Trio",
-    "date": "2026-10-10",
-    "time": "17:00",
-    "category": "konsert",
-    "source": "rockefeller",
-    "url": "https://www.ticketmaster.no/event/1151311263?brand=johndee&camefrom=CFC_NO_Rockefeller_Tora_Trio_101026_Billettsalg&utm_campaign=NO_Rockefeller_Tora_Trio_101026_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
-    "description": "Tora Dahle Aagård inviterer til en intim og eksklusiv konsertopplevelse hvor gitaren hennes får spille hovedrollen. Hun beveger seg bort fra de store sceniske popbandproduksjonene hvor hun til enhver "
+    "id": "latter-2026-10-09-standup-p--latter-2030",
+    "title": "Standup på Latter",
+    "date": "2026-10-09",
+    "time": "20:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/850562788",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
   },
   {
     "id": "rockefeller-2026-10-10-cat-power",
@@ -6668,6 +6928,16 @@
     "source": "rockefeller",
     "url": "https://www.ticketmaster.no/event/1637857511?brand=sentrumscene&camefrom=CFC_NO_Rockefeller_Cat_Power_101026_Billettsalg&utm_campaign=NO_Rockefeller_Cat_Power_101026_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
     "description": "Cat Power kommer til Sentrum Scene lørdag 10. oktober 2026 for å markere 20-årsjubileet for sitt banebrytende album *The Greatest*! Konsertene på denne turneen blir helt spesielle, og *The Greatest* s"
+  },
+  {
+    "id": "rockefeller-2026-10-10-tora-trio",
+    "title": "Tora Trio",
+    "date": "2026-10-10",
+    "time": "17:00",
+    "category": "konsert",
+    "source": "rockefeller",
+    "url": "https://www.ticketmaster.no/event/1151311263?brand=johndee&camefrom=CFC_NO_Rockefeller_Tora_Trio_101026_Billettsalg&utm_campaign=NO_Rockefeller_Tora_Trio_101026_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
+    "description": "Tora Dahle Aagård inviterer til en intim og eksklusiv konsertopplevelse hvor gitaren hennes får spille hovedrollen. Hun beveger seg bort fra de store sceniske popbandproduksjonene hvor hun til enhver "
   },
   {
     "id": "latter-2026-10-10-finn-tre-feil-1900",
@@ -6698,6 +6968,16 @@
     "source": "parkteatret",
     "url": "https://www.ticketmaster.no/event/1824874966?brand=parkteatret",
     "description": ""
+  },
+  {
+    "id": "latter-2026-10-10-standup-p--latter-2030",
+    "title": "Standup på Latter",
+    "date": "2026-10-10",
+    "time": "20:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/1119809698",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
   },
   {
     "id": "rockefeller-2026-10-11-pub-choir",
@@ -6760,6 +7040,16 @@
     "description": ""
   },
   {
+    "id": "latter-2026-10-13-standup-p--latter-2030",
+    "title": "Standup på Latter",
+    "date": "2026-10-13",
+    "time": "20:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/947360192",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
+  },
+  {
     "id": "rockefeller-2026-10-14-marko-hietala",
     "title": "Marko Hietala",
     "date": "2026-10-14",
@@ -6780,14 +7070,24 @@
     "description": "Me kjenner ho frå tv-programmet «Eides språksjov», som gjorde språk til laurdagsunderhalding. Nå har Eide gått laiv, og med seg på scenen har ho pianist Sjur Hjeltnes og seniorkonsulent Halvor Folgerø"
   },
   {
-    "id": "latter-2026-10-14-looking-for-trouble-1900",
-    "title": "Looking For Trouble",
+    "id": "latter-2026-10-14-standup-p--latter-1830",
+    "title": "Standup på Latter",
+    "date": "2026-10-14",
+    "time": "18:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/1375371931",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
+  },
+  {
+    "id": "latter-2026-10-14-dylan-moran--looking-for-troub-1900",
+    "title": "Dylan Moran: Looking For Trouble",
     "date": "2026-10-14",
     "time": "19:00",
     "category": "humor",
     "source": "latter",
     "url": "https://www.ticketmaster.no/event/1133378800",
-    "description": "Dylan Moran"
+    "description": ""
   },
   {
     "id": "rockefeller-2026-10-15-stvw",
@@ -6830,14 +7130,14 @@
     "description": ""
   },
   {
-    "id": "rockefeller-2026-10-16-t-fl",
-    "title": "TØFL",
-    "date": "2026-10-16",
-    "time": "17:00",
-    "category": "konsert",
-    "source": "rockefeller",
-    "url": "https://www.ticketmaster.no/event/904293093?brand=rockefeller&camefrom=CFC_NO_Rockefeller_TOFL_161026_Billettsalg&utm_campaign=NO_Rockefeller_TOFL_161026_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
-    "description": "TØFL slipper ny musikk og annonserer sin «Eg e deg»-turné! Enorm energi, relaterbare tekster og rungende allsang. Skillet mellom publikum og bandet opphører, og det er som om hele salen strekker seg m"
+    "id": "latter-2026-10-15-standup-p--latter-2030",
+    "title": "Standup på Latter",
+    "date": "2026-10-15",
+    "time": "20:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/1934779143",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
   },
   {
     "id": "rockefeller-2026-10-16-syl",
@@ -6848,6 +7148,16 @@
     "source": "rockefeller",
     "url": "https://www.ticketmaster.no/event/1388487185?brand=johndee&camefrom=CFC_NO_Rockefeller_SYL_161026_Billettsalg&utm_campaign=NO_Rockefeller_SYL_161026_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
     "description": "Det danske hardcorebandet SYL inntar John Dee fredag 16. oktober!\n\nPå kort tid har SYL markert seg som et av de mest kompromissløse og intense nye navnene på den danske undergrunnsscenen. De er særlig"
+  },
+  {
+    "id": "rockefeller-2026-10-16-t-fl",
+    "title": "TØFL",
+    "date": "2026-10-16",
+    "time": "17:00",
+    "category": "konsert",
+    "source": "rockefeller",
+    "url": "https://www.ticketmaster.no/event/904293093?brand=rockefeller&camefrom=CFC_NO_Rockefeller_TOFL_161026_Billettsalg&utm_campaign=NO_Rockefeller_TOFL_161026_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
+    "description": "TØFL slipper ny musikk og annonserer sin «Eg e deg»-turné! Enorm energi, relaterbare tekster og rungende allsang. Skillet mellom publikum og bandet opphører, og det er som om hele salen strekker seg m"
   },
   {
     "id": "latter-2026-10-16-lykkelig-deprimert-1830",
@@ -6878,6 +7188,16 @@
     "source": "parkteatret",
     "url": "https://www.ticketmaster.no/artist/sondre-lerche-med-band-til-parkteatret-billetter/1393364",
     "description": ""
+  },
+  {
+    "id": "latter-2026-10-16-standup-p--latter-2030",
+    "title": "Standup på Latter",
+    "date": "2026-10-16",
+    "time": "20:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/1349779983",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
   },
   {
     "id": "latter-2026-10-16-dr--bergland---p--d-d-og-liv-2100",
@@ -6930,6 +7250,16 @@
     "description": ""
   },
   {
+    "id": "latter-2026-10-17-standup-p--latter-2030",
+    "title": "Standup på Latter",
+    "date": "2026-10-17",
+    "time": "20:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/942562554",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
+  },
+  {
     "id": "latter-2026-10-17-dr--bergland---p--d-d-og-liv-2100",
     "title": "Dr. Bergland - På død og liv",
     "date": "2026-10-17",
@@ -6960,6 +7290,16 @@
     "description": ""
   },
   {
+    "id": "latter-2026-10-20-standup-p--latter-2030",
+    "title": "Standup på Latter",
+    "date": "2026-10-20",
+    "time": "20:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/661472884",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
+  },
+  {
     "id": "rockefeller-2026-10-21-hanne-boel-med-band",
     "title": "Hanne Boel med band",
     "date": "2026-10-21",
@@ -6968,6 +7308,16 @@
     "source": "rockefeller",
     "url": "https://www.ticketmaster.no/event/731228995?brand=sentrumscene&camefrom=CFC_NO_Rockefeller_Hanne_Boel_211026_Billettsalg&utm_campaign=NO_Rockefeller_Hanne_Boel_211026_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
     "description": "Hanne Boel er i en kontinuerlig kreativ prosess, og i disse dager jobber hun med nytt materiale som etter hvert skal bli til et nytt album.\n\nHanne prøver en velprøvd strategi fra tidligere tider, der "
+  },
+  {
+    "id": "latter-2026-10-21-standup-p--latter-1830",
+    "title": "Standup på Latter",
+    "date": "2026-10-21",
+    "time": "18:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/477676823",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
   },
   {
     "id": "oslonye-2026-10-21-it-s-britney--bitch-1900",
@@ -7030,6 +7380,16 @@
     "description": ""
   },
   {
+    "id": "latter-2026-10-22-standup-p--latter-2030",
+    "title": "Standup på Latter",
+    "date": "2026-10-22",
+    "time": "20:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/401965527",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
+  },
+  {
     "id": "latter-2026-10-22-finn-tre-feil-2100",
     "title": "Finn tre feil",
     "date": "2026-10-22",
@@ -7078,6 +7438,16 @@
     "source": "parkteatret",
     "url": "https://www.ticketmaster.no/artist/sondre-lerche-med-band-til-parkteatret-billetter/1393364",
     "description": ""
+  },
+  {
+    "id": "latter-2026-10-23-standup-p--latter-2030",
+    "title": "Standup på Latter",
+    "date": "2026-10-23",
+    "time": "20:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/574797233",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
   },
   {
     "id": "latter-2026-10-23-finn-tre-feil-2100",
@@ -7160,6 +7530,16 @@
     "description": ""
   },
   {
+    "id": "latter-2026-10-24-standup-p--latter-2030",
+    "title": "Standup på Latter",
+    "date": "2026-10-24",
+    "time": "20:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/1666089647",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
+  },
+  {
     "id": "latter-2026-10-24-finn-tre-feil-2100",
     "title": "Finn tre feil",
     "date": "2026-10-24",
@@ -7230,6 +7610,16 @@
     "description": ""
   },
   {
+    "id": "latter-2026-10-27-standup-p--latter-2030",
+    "title": "Standup på Latter",
+    "date": "2026-10-27",
+    "time": "20:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/310056599",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
+  },
+  {
     "id": "rockefeller-2026-10-28-gavin-degraw",
     "title": "Gavin DeGraw",
     "date": "2026-10-28",
@@ -7248,6 +7638,16 @@
     "source": "latter",
     "url": "https://www.ticketmaster.no/event/finn-tre-feil-billetter/1711600220",
     "description": "Pernille Sørensen, Live Nelvik & Kristine Riis"
+  },
+  {
+    "id": "latter-2026-10-28-standup-p--latter-2030",
+    "title": "Standup på Latter",
+    "date": "2026-10-28",
+    "time": "20:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/746014120",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
   },
   {
     "id": "rockefeller-2026-10-29-zimmer90",
@@ -7278,6 +7678,16 @@
     "source": "latter",
     "url": "https://www.ticketmaster.no/event/finn-tre-feil-billetter/2021964838",
     "description": "Pernille Sørensen, Live Nelvik & Kristine Riis"
+  },
+  {
+    "id": "latter-2026-10-29-standup-p--latter-2030",
+    "title": "Standup på Latter",
+    "date": "2026-10-29",
+    "time": "20:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/699900865",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
   },
   {
     "id": "rockefeller-2026-10-30-tyske-ludder",
@@ -7320,6 +7730,16 @@
     "description": "Pernille Sørensen, Live Nelvik & Kristine Riis"
   },
   {
+    "id": "latter-2026-10-30-standup-p--latter-2030",
+    "title": "Standup på Latter",
+    "date": "2026-10-30",
+    "time": "20:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/1259462034",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
+  },
+  {
     "id": "rockefeller-2026-10-31-g-te",
     "title": "Gåte",
     "date": "2026-10-31",
@@ -7348,6 +7768,16 @@
     "source": "latter",
     "url": "https://www.ticketmaster.no/event/finn-tre-feil-billetter/2013223518",
     "description": "Pernille Sørensen, Live Nelvik & Kristine Riis"
+  },
+  {
+    "id": "latter-2026-10-31-standup-p--latter-2030",
+    "title": "Standup på Latter",
+    "date": "2026-10-31",
+    "time": "20:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/2097607637",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
   },
   {
     "id": "rockefeller-2026-11-01-gloryhammer",
@@ -7400,6 +7830,16 @@
     "description": "Lewi Bergrud\nThor-Erik Fjellvang\nmed band\n\nSalmer på Pøbb har siden starten i 2022 tatt Norge med storm. Nå legger ensemblet ut på sin tredje norgesturné – og tirsdag 3. november er de tilbake på Rock"
   },
   {
+    "id": "latter-2026-11-03-standup-p--latter-1830",
+    "title": "Standup på Latter",
+    "date": "2026-11-03",
+    "time": "18:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/413652145",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
+  },
+  {
     "id": "parkteatret-2026-11-03-halina-rice",
     "title": "Halina Rice",
     "date": "2026-11-03",
@@ -7440,6 +7880,16 @@
     "description": ""
   },
   {
+    "id": "latter-2026-11-04-standup-p--latter-2030",
+    "title": "Standup på Latter",
+    "date": "2026-11-04",
+    "time": "20:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/2067437884",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
+  },
+  {
     "id": "rockefeller-2026-11-05-stephen-wilson-jr-",
     "title": "Stephen Wilson Jr.",
     "date": "2026-11-05",
@@ -7468,6 +7918,16 @@
     "source": "latter",
     "url": "https://www.ticketmaster.no/event/finn-tre-feil-billetter/1439046871",
     "description": "Pernille Sørensen, Live Nelvik & Kristine Riis"
+  },
+  {
+    "id": "latter-2026-11-05-standup-p--latter-2030",
+    "title": "Standup på Latter",
+    "date": "2026-11-05",
+    "time": "20:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/702233044",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
   },
   {
     "id": "latter-2026-11-05-julelatter-2026-2100",
@@ -7508,6 +7968,16 @@
     "source": "latter",
     "url": "https://www.ticketmaster.no/event/finn-tre-feil-billetter/1153563869",
     "description": "Pernille Sørensen, Live Nelvik & Kristine Riis"
+  },
+  {
+    "id": "latter-2026-11-06-standup-p--latter-2030",
+    "title": "Standup på Latter",
+    "date": "2026-11-06",
+    "time": "20:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/1502851638",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
   },
   {
     "id": "latter-2026-11-06-julelatter-2026-2100",
@@ -7560,6 +8030,16 @@
     "description": "Pernille Sørensen, Live Nelvik & Kristine Riis"
   },
   {
+    "id": "latter-2026-11-07-standup-p--latter-2030",
+    "title": "Standup på Latter",
+    "date": "2026-11-07",
+    "time": "20:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/1209559117",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
+  },
+  {
     "id": "latter-2026-11-07-julelatter-2026-2100",
     "title": "Julelatter 2026",
     "date": "2026-11-07",
@@ -7600,6 +8080,16 @@
     "description": "Josiah and the Bonnevilles kommer til John Dee 10. november!\n\nDen populære americana-artisten Josiah Leming fra Morristown, Tennessee har en sjelden evne til å skrive låter folk kjenner seg igjen i. D"
   },
   {
+    "id": "latter-2026-11-10-standup-p--latter-1830",
+    "title": "Standup på Latter",
+    "date": "2026-11-10",
+    "time": "18:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/1537240739",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
+  },
+  {
     "id": "latter-2026-11-10-harm---hegseth-10--r--med-podd-1900",
     "title": "Harm & Hegseth 10 ÅR! Med podd, P(an)ikk og Psykiatri",
     "date": "2026-11-10",
@@ -7628,6 +8118,16 @@
     "source": "rockefeller",
     "url": "https://www.ticketmaster.no/event/1356208476?brand=rockefeller&camefrom=CFC_NO_Rockefeller_The_Wallflower_111126_Billettsalg&utm_campaign=NO_Rockefeller_The_Wallflower_111126_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
     "description": "Det amerikanske rockebandet The Wallflowers kommer til Oslo og Rockefeller 11. november for å fremføre sitt kritikerroste album *Bringing Down the Horse*, samt Tom Petty & The Heartbreakers-albumet *L"
+  },
+  {
+    "id": "latter-2026-11-11-standup-p--latter-1830",
+    "title": "Standup på Latter",
+    "date": "2026-11-11",
+    "time": "18:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/1957526405",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
   },
   {
     "id": "latter-2026-11-11-julelatter-2026-1900",
@@ -7660,6 +8160,16 @@
     "description": ""
   },
   {
+    "id": "latter-2026-11-12-standup-p--latter-1830",
+    "title": "Standup på Latter",
+    "date": "2026-11-12",
+    "time": "18:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/977909874",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
+  },
+  {
     "id": "latter-2026-11-12-finn-tre-feil-1900",
     "title": "Finn tre feil",
     "date": "2026-11-12",
@@ -7690,6 +8200,16 @@
     "description": ""
   },
   {
+    "id": "rockefeller-2026-11-13-the-good-the-bad-and-the-zugly",
+    "title": "The Good The Bad and The Zugly",
+    "date": "2026-11-13",
+    "time": "18:00",
+    "category": "konsert",
+    "source": "rockefeller",
+    "url": "https://www.ticketmaster.no/event/1178382539?brand=sentrumscene&camefrom=CFC_NO_Rockefeller_GBZ_131126_Billettsalg&utm_campaign=NO_Rockefeller_GBZ_131126_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
+    "description": "**The Good The Bad and The Zugly har i over et tiår levert beryktede liveopptredener og nådeløs punk med bekmørk, satirisk snert. Fredag 13. november inntar de Sentrum Scene sammen med legendariske Am"
+  },
+  {
     "id": "rockefeller-2026-11-13-delillos",
     "title": "deLillos",
     "date": "2026-11-13",
@@ -7700,14 +8220,14 @@
     "description": "Rockefeller er stolte av å presentere deLillos’ *Suser avgårde* i anledning albumets og Rockefellers 40-årsjubileum! Fredag 13. og lørdag 14. november spiller deLillos albumet i sin helhet, i tillegg "
   },
   {
-    "id": "rockefeller-2026-11-13-the-good-the-bad-and-the-zugly",
-    "title": "The Good The Bad and The Zugly",
+    "id": "latter-2026-11-13-standup-p--latter-1830",
+    "title": "Standup på Latter",
     "date": "2026-11-13",
-    "time": "18:00",
-    "category": "konsert",
-    "source": "rockefeller",
-    "url": "https://www.ticketmaster.no/event/1178382539?brand=sentrumscene&camefrom=CFC_NO_Rockefeller_GBZ_131126_Billettsalg&utm_campaign=NO_Rockefeller_GBZ_131126_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
-    "description": "**The Good The Bad and The Zugly har i over et tiår levert beryktede liveopptredener og nådeløs punk med bekmørk, satirisk snert. Fredag 13. november inntar de Sentrum Scene sammen med legendariske Am"
+    "time": "18:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/1112970221",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
   },
   {
     "id": "latter-2026-11-13-finn-tre-feil-1900",
@@ -7800,6 +8320,16 @@
     "description": ""
   },
   {
+    "id": "latter-2026-11-14-standup-p--latter-1830",
+    "title": "Standup på Latter",
+    "date": "2026-11-14",
+    "time": "18:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/531121546",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
+  },
+  {
     "id": "latter-2026-11-14-finn-tre-feil-1900",
     "title": "Finn tre feil",
     "date": "2026-11-14",
@@ -7830,6 +8360,16 @@
     "description": "The Sisters of Mercy kommer til Rockefeller 15. november! Ingen laget industriell rock like fengende som Andrew Eldritch og bandet hans på 80-tallet. I over fire tiår har The Sisters of Mercy vært en "
   },
   {
+    "id": "latter-2026-11-17-standup-p--latter-1830",
+    "title": "Standup på Latter",
+    "date": "2026-11-17",
+    "time": "18:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/1412697133",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
+  },
+  {
     "id": "rockefeller-2026-11-18-archspire",
     "title": "Archspire",
     "date": "2026-11-18",
@@ -7838,6 +8378,16 @@
     "source": "rockefeller",
     "url": "https://www.ticketmaster.no/event/2052213861?brand=johndee&camefrom=CFC_NO_Rockefeller_Archspire_140626_Billettsalg&utm_campaign=NO_Rockefeller_Archspire_140626_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
     "description": "Archspire kommer til Oslo og John Dee onsdag 18. november på sin «European Vacation»-turné! Canadierne spiller teknisk death metal med lynets hastighet, og med sitt splitter nye album *Too Fast to Die"
+  },
+  {
+    "id": "latter-2026-11-18-standup-p--latter-1830",
+    "title": "Standup på Latter",
+    "date": "2026-11-18",
+    "time": "18:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/1272121090",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
   },
   {
     "id": "latter-2026-11-18-julelatter-2026-1900",
@@ -7880,6 +8430,16 @@
     "description": ""
   },
   {
+    "id": "latter-2026-11-19-standup-p--latter-2030",
+    "title": "Standup på Latter",
+    "date": "2026-11-19",
+    "time": "20:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/22514115",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
+  },
+  {
     "id": "latter-2026-11-19-julelatter-2026-2100",
     "title": "Julelatter 2026",
     "date": "2026-11-19",
@@ -7890,16 +8450,6 @@
     "description": ""
   },
   {
-    "id": "rockefeller-2026-11-20-dirty-oppland",
-    "title": "Dirty Oppland",
-    "date": "2026-11-20",
-    "time": "18:00",
-    "category": "konsert",
-    "source": "rockefeller",
-    "url": "https://www.ticketmaster.no/event/1909151456?brand=rockefeller&camefrom=CFC_NO_Rockefeller_Dirty_Oppland_201126_Billettsalg&utm_campaign=NO_Rockefeller_Dirty_Oppland_201126_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
-    "description": "«Vi spiller igjen opp til dans i en av Oslos storstuer! Vi har de siste årene prøvd å sentrere ideene våre rundt et stort show i Oslo. Nå sist, på Sentrum Scene, hadde vi blant annet olympiske seremon"
-  },
-  {
     "id": "rockefeller-2026-11-20-the-dogs",
     "title": "The Dogs",
     "date": "2026-11-20",
@@ -7908,6 +8458,16 @@
     "source": "rockefeller",
     "url": "https://www.ticketmaster.no/event/589353665?brand=johndee&camefrom=CFC_NO_Rockefeller_The%2BDogs_JD201126_ordinaer_Billettsalg&utm_campaign=NO_Rockefeller_The%2BDogs_JD201126_ordinaer_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
     "description": "**UT PÅ TUR, BARE SUR**\n**The Dogs er tilbake igjen!**\n\nNy skive med The Dogs kommer rett over sommeren, så selvsagt skal det turneres litt også! Vi lar frontmann Kristopher Schau redegjøre for oversk"
+  },
+  {
+    "id": "rockefeller-2026-11-20-dirty-oppland",
+    "title": "Dirty Oppland",
+    "date": "2026-11-20",
+    "time": "18:00",
+    "category": "konsert",
+    "source": "rockefeller",
+    "url": "https://www.ticketmaster.no/event/1909151456?brand=rockefeller&camefrom=CFC_NO_Rockefeller_Dirty_Oppland_201126_Billettsalg&utm_campaign=NO_Rockefeller_Dirty_Oppland_201126_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
+    "description": "«Vi spiller igjen opp til dans i en av Oslos storstuer! Vi har de siste årene prøvd å sentrere ideene våre rundt et stort show i Oslo. Nå sist, på Sentrum Scene, hadde vi blant annet olympiske seremon"
   },
   {
     "id": "latter-2026-11-20-finn-tre-feil-1900",
@@ -7928,6 +8488,16 @@
     "source": "parkteatret",
     "url": "https://www.ticketmaster.no/event/1662964138?brand=parkteatret",
     "description": ""
+  },
+  {
+    "id": "latter-2026-11-20-standup-p--latter-2030",
+    "title": "Standup på Latter",
+    "date": "2026-11-20",
+    "time": "20:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/490207374",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
   },
   {
     "id": "latter-2026-11-20-julelatter-2026-2100",
@@ -8010,6 +8580,16 @@
     "description": ""
   },
   {
+    "id": "latter-2026-11-21-standup-p--latter-2030",
+    "title": "Standup på Latter",
+    "date": "2026-11-21",
+    "time": "20:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/283494587",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
+  },
+  {
     "id": "latter-2026-11-21-julelatter-2026-2100",
     "title": "Julelatter 2026",
     "date": "2026-11-21",
@@ -8028,6 +8608,16 @@
     "source": "rockefeller",
     "url": "https://www.ticketmaster.no/event/788411676?brand=johndee&camefrom=CFC_NO_Rockefeller_Glaive_221126_Billettsalg&utm_campaign=NO_Rockefeller_Glaive_221126_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
     "description": "Den amerikanske singer-songwriteren glaive kommer til Oslo og John Dee 22. november! Han er i fremste rekke blant den nye generasjonen av moderne og innovative popartister. \n\nglaive annonserer nå en o"
+  },
+  {
+    "id": "latter-2026-11-24-standup-p--latter-1830",
+    "title": "Standup på Latter",
+    "date": "2026-11-24",
+    "time": "18:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/2042850880",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
   },
   {
     "id": "latter-2026-11-24-harm---hegseth-10--r--med-podd-1900",
@@ -8080,6 +8670,16 @@
     "description": ""
   },
   {
+    "id": "latter-2026-11-25-standup-p--latter-2030",
+    "title": "Standup på Latter",
+    "date": "2026-11-25",
+    "time": "20:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/969770698",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
+  },
+  {
     "id": "latter-2026-11-25-julelatter-2026-2100",
     "title": "Julelatter 2026",
     "date": "2026-11-25",
@@ -8090,16 +8690,6 @@
     "description": ""
   },
   {
-    "id": "rockefeller-2026-11-26-vamp",
-    "title": "Vamp",
-    "date": "2026-11-26",
-    "time": "18:00",
-    "category": "konsert",
-    "source": "rockefeller",
-    "url": "https://www.ticketmaster.no/event/1345416503?brand=rockefeller&camefrom=CFC_NO_Rockefeller_Vamp_261126_Billettsalg&utm_campaign=NO_Rockefeller_Vamp_261126_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
-    "description": "Vamp med stjernelag kommer til Rockefeller 26. november, som en del av vårt 40-årsjubileum! Denne konsertopplevelsen vil du ikke gå glipp av!\n\nDenne gangen har Vamp utvidet besetningen med et formidab"
-  },
-  {
     "id": "rockefeller-2026-11-26-the-sheepdogs",
     "title": "The Sheepdogs",
     "date": "2026-11-26",
@@ -8108,6 +8698,16 @@
     "source": "rockefeller",
     "url": "https://www.ticketmaster.no/event/1554626555?brand=johndee&camefrom=CFC_NO_Rockefeller_The_Sheepdogs_261126_Billettsalg&utm_campaign=NO_Rockefeller_The_Sheepdogs_261126_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
     "description": "The Sheepdogs er Canadas ledende navn innen rock ’n’ roll-underholdning, og kommer tilbake til John Dee torsdag 26. november 2026! Bandet fra Saskatoon har vunnet JUNO Awards fire ganger, og har flere"
+  },
+  {
+    "id": "rockefeller-2026-11-26-vamp",
+    "title": "Vamp",
+    "date": "2026-11-26",
+    "time": "18:00",
+    "category": "konsert",
+    "source": "rockefeller",
+    "url": "https://www.ticketmaster.no/event/1345416503?brand=rockefeller&camefrom=CFC_NO_Rockefeller_Vamp_261126_Billettsalg&utm_campaign=NO_Rockefeller_Vamp_261126_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
+    "description": "Vamp med stjernelag kommer til Rockefeller 26. november, som en del av vårt 40-årsjubileum! Denne konsertopplevelsen vil du ikke gå glipp av!\n\nDenne gangen har Vamp utvidet besetningen med et formidab"
   },
   {
     "id": "oslonye-2026-11-26-sn-fall-1800",
@@ -8138,6 +8738,16 @@
     "source": "latter",
     "url": "https://www.ticketmaster.no/event/finn-tre-feil-billetter/1847652641",
     "description": "Pernille Sørensen, Live Nelvik & Kristine Riis"
+  },
+  {
+    "id": "latter-2026-11-26-standup-p--latter-2030",
+    "title": "Standup på Latter",
+    "date": "2026-11-26",
+    "time": "20:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/816300916",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
   },
   {
     "id": "latter-2026-11-26-julelatter-2026-2100",
@@ -8198,6 +8808,16 @@
     "source": "latter",
     "url": "https://www.ticketmaster.no/event/finn-tre-feil-billetter/1769946422",
     "description": "Pernille Sørensen, Live Nelvik & Kristine Riis"
+  },
+  {
+    "id": "latter-2026-11-27-standup-p--latter-2030",
+    "title": "Standup på Latter",
+    "date": "2026-11-27",
+    "time": "20:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/1170192551",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
   },
   {
     "id": "latter-2026-11-27-julelatter-2026-2100",
@@ -8280,6 +8900,16 @@
     "description": "Pernille Sørensen, Live Nelvik & Kristine Riis"
   },
   {
+    "id": "latter-2026-11-28-standup-p--latter-2030",
+    "title": "Standup på Latter",
+    "date": "2026-11-28",
+    "time": "20:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/1302060072",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
+  },
+  {
     "id": "latter-2026-11-28-julelatter-2026-2100",
     "title": "Julelatter 2026",
     "date": "2026-11-28",
@@ -8288,16 +8918,6 @@
     "source": "latter",
     "url": "https://www.ticketmaster.no/event/julelatter-2026-billetter/1992764172",
     "description": ""
-  },
-  {
-    "id": "rockefeller-2026-11-29-david-eugene-edwards",
-    "title": "David Eugene Edwards",
-    "date": "2026-11-29",
-    "time": "18:00",
-    "category": "konsert",
-    "source": "rockefeller",
-    "url": "https://www.ticketmaster.no/event/1317617028?brand=johndee&camefrom=CFC_NO_Rockefeller_David_Eugene_Edwards_291126_Billettsalg&utm_campaign=NO_Rockefeller_David_Eugene_Edwards_291126_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
-    "description": "Den amerikanske singer-songwriteren David Eugene Edwards kommer tilbake til John Dee 29. november! Han er kjent fra 16 Horsepower og Wovenhand, og har hatt en stor innflytelse på en hel generasjon art"
   },
   {
     "id": "rockefeller-2026-11-29-bi-2",
@@ -8310,6 +8930,16 @@
     "description": "Det belarusiske rockebandet Bi-2 er aktuelle med det nye albumet «Journey Around the Sun», og legger ut på en stor verdensturné som blant annet tar dem til Oslo og Rockefeller 29. november! Konserten "
   },
   {
+    "id": "rockefeller-2026-11-29-david-eugene-edwards",
+    "title": "David Eugene Edwards",
+    "date": "2026-11-29",
+    "time": "18:00",
+    "category": "konsert",
+    "source": "rockefeller",
+    "url": "https://www.ticketmaster.no/event/1317617028?brand=johndee&camefrom=CFC_NO_Rockefeller_David_Eugene_Edwards_291126_Billettsalg&utm_campaign=NO_Rockefeller_David_Eugene_Edwards_291126_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
+    "description": "Den amerikanske singer-songwriteren David Eugene Edwards kommer tilbake til John Dee 29. november! Han er kjent fra 16 Horsepower og Wovenhand, og har hatt en stor innflytelse på en hel generasjon art"
+  },
+  {
     "id": "rockefeller-2026-11-30-artemas",
     "title": "Artemas",
     "date": "2026-11-30",
@@ -8318,6 +8948,16 @@
     "source": "rockefeller",
     "url": "https://www.ticketmaster.no/event/1243727137?brand=rockefeller&camefrom=CFC_NO_Rockefeller_Artemas_301126_Billettsalg&utm_campaign=NO_Rockefeller_Artemas_301126_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
     "description": "Den britiske singer-songwriteren og produsenten Artemas kommer til Oslo og Rockefeller 30. november! Han har på kort tid etablert seg som en av de mest spennende nye stemmene innen alternativ pop. Art"
+  },
+  {
+    "id": "latter-2026-12-01-standup-p--latter-1830",
+    "title": "Standup på Latter",
+    "date": "2026-12-01",
+    "time": "18:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/899722771",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
   },
   {
     "id": "oslonye-2026-12-01-dr-mmen-om-en-hvit-jul-1900",
@@ -8380,6 +9020,16 @@
     "description": ""
   },
   {
+    "id": "latter-2026-12-02-standup-p--latter-2030",
+    "title": "Standup på Latter",
+    "date": "2026-12-02",
+    "time": "20:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/590433705",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
+  },
+  {
     "id": "oslonye-2026-12-03-sn-fall-1800",
     "title": "Snøfall",
     "date": "2026-12-03",
@@ -8418,6 +9068,16 @@
     "source": "oslonye",
     "url": "https://www.ticketmaster.no/event/584717432?language=no-no&track=DiscoveryAPI&camefrom=OsloNye&subchannel_id=1",
     "description": ""
+  },
+  {
+    "id": "latter-2026-12-03-standup-p--latter-2030",
+    "title": "Standup på Latter",
+    "date": "2026-12-03",
+    "time": "20:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/251000277",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
   },
   {
     "id": "latter-2026-12-03-finn-tre-feil-2100",
@@ -8478,6 +9138,16 @@
     "source": "oslonye",
     "url": "https://www.ticketmaster.no/event/1557946127?language=no-no&track=DiscoveryAPI&camefrom=OsloNye&subchannel_id=1",
     "description": ""
+  },
+  {
+    "id": "latter-2026-12-04-standup-p--latter-2030",
+    "title": "Standup på Latter",
+    "date": "2026-12-04",
+    "time": "20:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/1579700336",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
   },
   {
     "id": "latter-2026-12-04-finn-tre-feil-2100",
@@ -8590,6 +9260,16 @@
     "description": "OM DØD DRØM:\nDød Drøm ble startet våren 2023, og har på kort tid markert seg som et band med både trøkk og sjel. Musikken beveger seg fritt mellom rock og punk, med klare innslag av blues, folk og boo"
   },
   {
+    "id": "latter-2026-12-05-standup-p--latter-2030",
+    "title": "Standup på Latter",
+    "date": "2026-12-05",
+    "time": "20:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/849500911",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
+  },
+  {
     "id": "latter-2026-12-05-finn-tre-feil-2100",
     "title": "Finn tre feil",
     "date": "2026-12-05",
@@ -8618,6 +9298,16 @@
     "source": "rockefeller",
     "url": "https://www.ticketmaster.no/event/1143930002?brand=johndee&camefrom=CFC_NO_Rockefeller_Blow_071226_Billettsalg&utm_campaign=NO_Rockefeller_Blow_071226_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
     "description": "Mandag 7. desember 2026 fyller den norsk-ættede amerikanske sangeren, låtskriveren, skuespilleren og historiefortelleren Tom Waits 77 år.\n\nTradisjonen tro – for syttende gang – feirer Blow og musikals"
+  },
+  {
+    "id": "latter-2026-12-08-standup-p--latter-1830",
+    "title": "Standup på Latter",
+    "date": "2026-12-08",
+    "time": "18:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/1604403614",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
   },
   {
     "id": "oslonye-2026-12-08-dr-mmen-om-en-hvit-jul-1900",
@@ -8658,6 +9348,16 @@
     "source": "oslonye",
     "url": "https://www.ticketmaster.no/event/261533349?language=no-no&track=DiscoveryAPI&camefrom=OsloNye&subchannel_id=1",
     "description": ""
+  },
+  {
+    "id": "latter-2026-12-09-standup-p--latter-2030",
+    "title": "Standup på Latter",
+    "date": "2026-12-09",
+    "time": "20:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/1275515400",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
   },
   {
     "id": "latter-2026-12-09-julelatter-2026-2100",
@@ -8718,6 +9418,16 @@
     "source": "oslonye",
     "url": "https://www.ticketmaster.no/event/357505715?language=no-no&track=DiscoveryAPI&camefrom=OsloNye&subchannel_id=1",
     "description": ""
+  },
+  {
+    "id": "latter-2026-12-10-standup-p--latter-2030",
+    "title": "Standup på Latter",
+    "date": "2026-12-10",
+    "time": "20:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/1562366220",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
   },
   {
     "id": "latter-2026-12-10-julelatter-2026-2100",
@@ -8798,6 +9508,16 @@
     "source": "parkteatret",
     "url": "",
     "description": ""
+  },
+  {
+    "id": "latter-2026-12-11-standup-p--latter-2030",
+    "title": "Standup på Latter",
+    "date": "2026-12-11",
+    "time": "20:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/1885284967",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
   },
   {
     "id": "latter-2026-12-11-julelatter-2026-2100",
@@ -8900,6 +9620,16 @@
     "description": ""
   },
   {
+    "id": "latter-2026-12-12-standup-p--latter-2030",
+    "title": "Standup på Latter",
+    "date": "2026-12-12",
+    "time": "20:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/541326239",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
+  },
+  {
     "id": "latter-2026-12-12-julelatter-2026-2100",
     "title": "Julelatter 2026",
     "date": "2026-12-12",
@@ -8950,6 +9680,16 @@
     "description": "Brad Williams kommer til Sentrum Scene søndag 13. desember 2026 med *The Tall Tales Tour*! Hans siste standup-spesial *Starfish* gikk viralt med over 7,5 millioner visninger på YouTube, og har gjort h"
   },
   {
+    "id": "latter-2026-12-15-standup-p--latter-1830",
+    "title": "Standup på Latter",
+    "date": "2026-12-15",
+    "time": "18:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/1244776360",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
+  },
+  {
     "id": "oslonye-2026-12-15-dr-mmen-om-en-hvit-jul-1900",
     "title": "Drømmen om en hvit jul",
     "date": "2026-12-15",
@@ -8968,6 +9708,16 @@
     "source": "rockefeller",
     "url": "https://www.ticketmaster.no/event/1056387405?brand=sentrumscene&camefrom=CFC_NO_Rockefeller_Cory_Wong_161226_Billettsalg&utm_campaign=NO_Rockefeller_Cory_Wong_161226_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
     "description": "Den Grammy-nominerte supergitaristen, låtskriveren og produsenten Cory Wong er klar for Sentrum Scene onsdag 16. desember! Med seg har han Mark Lettieri, Henrik Linder, Ariel Posen, Kevin Gastonguay o"
+  },
+  {
+    "id": "latter-2026-12-16-standup-p--latter-1830",
+    "title": "Standup på Latter",
+    "date": "2026-12-16",
+    "time": "18:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/401903145",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
   },
   {
     "id": "latter-2026-12-16-julelatter-2026-1900",
@@ -9008,6 +9758,16 @@
     "source": "oslonye",
     "url": "https://www.ticketmaster.no/event/415454032?language=no-no&track=DiscoveryAPI&camefrom=OsloNye&subchannel_id=1",
     "description": ""
+  },
+  {
+    "id": "latter-2026-12-17-standup-p--latter-1830",
+    "title": "Standup på Latter",
+    "date": "2026-12-17",
+    "time": "18:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/371186710",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
   },
   {
     "id": "latter-2026-12-17-finn-tre-feil-1900",
@@ -9058,6 +9818,16 @@
     "source": "oslonye",
     "url": "https://www.ticketmaster.no/event/1257484586?language=no-no&track=DiscoveryAPI&camefrom=OsloNye&subchannel_id=1",
     "description": ""
+  },
+  {
+    "id": "latter-2026-12-18-standup-p--latter-1830",
+    "title": "Standup på Latter",
+    "date": "2026-12-18",
+    "time": "18:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/648224179",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
   },
   {
     "id": "latter-2026-12-18-finn-tre-feil-1900",
@@ -9138,6 +9908,16 @@
     "source": "oslonye",
     "url": "https://www.ticketmaster.no/event/440850797?language=no-no&track=DiscoveryAPI&camefrom=OsloNye&subchannel_id=1",
     "description": ""
+  },
+  {
+    "id": "latter-2026-12-19-standup-p--latter-1830",
+    "title": "Standup på Latter",
+    "date": "2026-12-19",
+    "time": "18:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/27560831",
+    "description": "5 nye komikere hver uke - tirsdag til lørdag!"
   },
   {
     "id": "latter-2026-12-19-finn-tre-feil-1900",
@@ -9330,6 +10110,16 @@
     "description": "Ondt Blod fra Kirkenes har siden 2013 levert stor rock og frådende hardcore på nordnorsk. De er aktuelle med det kritikerroste nye albumet *Bauta*, og spilte nylig en utsolgt releasekonsert på John De"
   },
   {
+    "id": "rockefeller-2027-02-21-bernth",
+    "title": "Bernth",
+    "date": "2027-02-21",
+    "time": "18:00",
+    "category": "konsert",
+    "source": "rockefeller",
+    "url": "https://www.ticketmaster.no/event/1634926682?brand=johndee&camefrom=CFC_NO_Rockefeller_Bernth_210227_Billettsalg&utm_campaign=NO_Rockefeller_Bernth_210227_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
+    "description": "Det er på tide å flykte fra internett – igjen. Bernth tar med seg «Escape The Internet Tour II» til John Dee søndag 21. februar! Med seg har han tre musikere som alle på hver sin måte har flyttet gren"
+  },
+  {
     "id": "rockefeller-2027-02-23-whitechapel",
     "title": "Whitechapel",
     "date": "2027-02-23",
@@ -9338,6 +10128,16 @@
     "source": "rockefeller",
     "url": "https://www.ticketmaster.no/event/1292610417?brand=rockefeller&camefrom=CFC_NO_Rockefeller_Whitechapel_230227_Billettsalg&utm_campaign=NO_Rockefeller_Whitechapel_230227_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
     "description": "Det amerikanske deathcore-bandet Whitechapel annonserer sin Burn Forever European Tour, og tar med seg Sylosis, 200 Stab Wounds og Tribal Gaze. Vi snakker med andre ord om en kraftpakke av dimensjoner"
+  },
+  {
+    "id": "parkteatret-2027-02-26-stefan-sundstr-m",
+    "title": "Stefan Sundström",
+    "date": "2027-02-26",
+    "time": "20:00",
+    "category": "konsert",
+    "source": "parkteatret",
+    "url": "https://www.ticketmaster.no/event/781854000?brand=parkteatret",
+    "description": ""
   },
   {
     "id": "detnorske-2027-03-06-nglag-rd-1800",
