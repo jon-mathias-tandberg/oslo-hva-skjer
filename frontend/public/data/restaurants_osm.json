@@ -987,7 +987,7 @@
     "id": "osm-rest-5652443563",
     "name": "Brasserie Rivoli",
     "cuisine": "Fransk",
-    "address": "Operagata 3, 0194",
+    "address": "Operagata, 0194",
     "website": "https://www.rivoli.no/",
     "phone": "+47 21 42 05 90",
     "opening_hours": "Tu-Fr 11:30-23:00; Mo 16:30-23:00; Sa-Su 14:30-23:00",
@@ -3516,6 +3516,18 @@
     "lon": 10.7417721
   },
   {
+    "id": "osm-rest-13852419422",
+    "name": "Izgara",
+    "cuisine": "Turkish",
+    "address": "Brugata 3, 0186",
+    "website": "https://order.ninito.no/no/group/izgara-tyrkisk-restaurant/oslo",
+    "phone": "",
+    "opening_hours": "Mo-Sa 11:00-21:30",
+    "description": "",
+    "lat": 59.9143835,
+    "lon": 10.7537977
+  },
+  {
     "id": "osm-rest-12701729101",
     "name": "J2 Restaurant BBQ",
     "cuisine": "Barbecue;Korean",
@@ -4863,7 +4875,7 @@
     "id": "osm-rest-6136462485",
     "name": "Maaltid",
     "cuisine": "",
-    "address": "Sørligata 36, 0577",
+    "address": "Sørligata, 0577",
     "website": "https://www.maaltidtoyen.no/",
     "phone": "",
     "opening_hours": "mo off; Tu-fr 16:00-23:30; Sa 12:00-00:30; Su 12:00-17:00",
@@ -4899,7 +4911,7 @@
     "id": "osm-rest-5652445255",
     "name": "Madonna",
     "cuisine": "",
-    "address": "Operagata, 0194",
+    "address": "Operagata 17, 0194",
     "website": "https://www.madonnaoslo.no/",
     "phone": "+47 22 60 12 00",
     "opening_hours": "Mo-Th 16:00-23:00; Fr-Sa 12:00-24:00",
@@ -6612,6 +6624,18 @@
     "lon": 10.7423909
   },
   {
+    "id": "osm-rest-13853422116",
+    "name": "Restaurant 5555",
+    "cuisine": "",
+    "address": "Øvre Vaskegang, 0186",
+    "website": "",
+    "phone": "",
+    "opening_hours": "",
+    "description": "",
+    "lat": 59.9174264,
+    "lon": 10.7601673
+  },
+  {
     "id": "osm-rest-12520076132",
     "name": "Restaurant Betong",
     "cuisine": "Nordisk",
@@ -6723,7 +6747,7 @@
     "id": "osm-rest-2785920497",
     "name": "Risbolle",
     "cuisine": "Thai",
-    "address": "Dronningens gate, 0154",
+    "address": "Dronningens gate 24, 0154",
     "website": "https://www.risbolle.no/",
     "phone": "",
     "opening_hours": "Mo-Sa 11:00-22:00; Su 13:30-21:00",
