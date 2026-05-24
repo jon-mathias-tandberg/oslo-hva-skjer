@@ -1,205 +1,5 @@
 [
   {
-    "id": "oslonye-2026-05-22-dead-theater---deus-ex-machina-2000",
-    "title": "DEAD THEATER – DEUS EX MACHINA",
-    "date": "2026-05-22",
-    "time": "20:00",
-    "category": "kultur",
-    "source": "oslonye",
-    "url": "https://www.ticketmaster.no/event/1420656276?language=no-no&track=DiscoveryAPI&camefrom=OsloNye&subchannel_id=1",
-    "description": ""
-  },
-  {
-    "id": "meetup-2026-05-23-bodyweight-workout-in-oslo",
-    "title": "Bodyweight workout in Oslo",
-    "date": "2026-05-23",
-    "time": "13:00",
-    "category": "kultur",
-    "source": "meetup",
-    "url": "https://www.meetup.com/room-for-more/events/314797343/",
-    "description": "**Details**\n\nWe’re meeting for a relaxed outdoor workout at a calisthenics park in Oslo.\n\n**I want to keep it simple:** show up in clothes you can move in, we use the bars together, and you go at your"
-  },
-  {
-    "id": "nieuscene-1362910541892121",
-    "title": "Ein samtale med Lars Berrum",
-    "date": "2026-05-23",
-    "time": "14:00",
-    "category": "humor",
-    "source": "nieuscene",
-    "url": "https://www.facebook.com/events/1362910541892121",
-    "description": "Lars. Gjest. Tema. Samtale. Dørene åpner: 13:30 Showstart: 14:00 Aldersgrense: 18 år Pris: 150,-"
-  },
-  {
-    "id": "blaa-2026-05-23-love---mercy-2026",
-    "title": "Love & Mercy 2026",
-    "date": "2026-05-23",
-    "time": "16:00",
-    "category": "konsert",
-    "source": "blaa",
-    "url": "https://www.ticketmaster.no/event/845679687?fbclid=IwY2xjawRSsBVleHRuA2FlbQIxMABicmlkETFRR3BHVkRVdGFEQ05GZjVnc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHs99Izuma3W_rWIAIgmGR8l-xOKIQsO_Xy3VrpV8A3TRTRmwtZ-C6SSP1CCm_aem_PVCgaRCiCYPcxKWAc__r6A",
-    "description": "(NO)\nLOVE & MERCY-fest er et musikk- og kunstprosjekt med en hensikt der overskuddet går til arbeid med mental helse.\nFesten startet i 2025 initiert av Torgeir Waldemar og Marit Soldal. Gjennom sitt v"
-  },
-  {
-    "id": "rockefeller-2026-05-23-blodsmak---subtrees---l-do",
-    "title": "Blodsmak + SubTrees + Lüdo",
-    "date": "2026-05-23",
-    "time": "17:00",
-    "category": "konsert",
-    "source": "rockefeller",
-    "url": "https://www.ticketmaster.no/event/1559895284?brand=johndee&camefrom=CFC_NO_Rockefeller_Blodsmak_230526_Billettsalg&utm_campaign=NO_Rockefeller_Blodsmak_230526_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
-    "description": "Lørdag 23. mai er det klart for en hardtslående (pinse)aften på John Dee! Det blir blytung, energisk folkrock fra Blodsmak, groovy, twisted metal fra SubTrees, og hard, sår post-hardcore fra Lüdo!\n\n**"
-  },
-  {
-    "id": "rockefeller-2026-05-23-xzibit",
-    "title": "Xzibit",
-    "date": "2026-05-23",
-    "time": "17:00",
-    "category": "konsert",
-    "source": "rockefeller",
-    "url": "https://www.ticketmaster.no/event/1649218734?brand=sentrumscene&camefrom=CFC_NO_Rockefeller_Xzibit_230526_Billettsalg&utm_campaign=NO_Rockefeller_Xzibit_230526_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
-    "description": "En av vestkystens mest markante rappere, Xzibit, kommer til Oslo for første gang på 14 år, for å holde en eksklusiv konsert på Sentrum Scene!\n\nMed en karriere som strekker seg over tre tiår, regnes Xz"
-  },
-  {
-    "id": "meetup-2026-05-23---english-conversation--meet-f",
-    "title": "🌐 English Conversation: Meet Friends & Learn Daily",
-    "date": "2026-05-23",
-    "time": "17:00",
-    "category": "kultur",
-    "source": "meetup",
-    "url": "https://www.meetup.com/oslo-english/events/314892267/",
-    "description": "🚀 **Stop searching for classes. Start speaking today!**\nWelcome to our free worldwide community. Hosted by English teachers, our daily sessions are fun, supportive, and focused on *real* practice. For"
-  },
-  {
-    "id": "lasttrain-2026-05-23-robust---svartedauden---piss-d",
-    "title": "ROBUST / SVARTEDAUDEN / PISS DRAWER (18+)",
-    "date": "2026-05-23",
-    "time": "18:00",
-    "category": "konsert",
-    "source": "lasttrain",
-    "url": "https://tikkio.com/events/64110",
-    "description": "ROBUST\nRobust er et punkeband fra selveste Halden!\nMed inspirasjon fra lokal scenen og andre store band i punk og grunge verden tar “The mighty J-dean” ansvar som perkusjonist, “Mat-hi-ass-erasmus” på"
-  },
-  {
-    "id": "nieuscene-956281357209158",
-    "title": "Bennys Lekeland",
-    "date": "2026-05-23",
-    "time": "18:30",
-    "category": "humor",
-    "source": "nieuscene",
-    "url": "https://www.facebook.com/events/956281357209158",
-    "description": "Velkommen til Bennys Lekeland - showet der alt kan skje! Benjamin Kvaale styrer skuta, men bare i starten - for utover showet dukker det opp andre karakterer og parodier som tar seg av jobben som konferansier! Med på scenen er det alltid en herlig miks av gjester, som leverer både standup, impro, ka"
-  },
-  {
-    "id": "nieuscene-1767833424179055",
-    "title": "nieu show",
-    "date": "2026-05-23",
-    "time": "18:30",
-    "category": "humor",
-    "source": "nieuscene",
-    "url": "https://www.facebook.com/events/1767833424179055",
-    "description": "Hver helg kommer en ny nieu-venn og samler forskjellige folk til en skrattemild idiotkveld med fokus på humor. Blir det stand up? Blir det impro? Blir det burlesque? Bare en måte å finne ut det på. Kom å få den kulturelle magesekken din stappa full! Kan bli læ10s dette! Dørene åpner: 20:45 Showstart"
-  },
-  {
-    "id": "latter-2026-05-23-sommerstandup-2026-1830",
-    "title": "Sommerstandup 2026",
-    "date": "2026-05-23",
-    "time": "18:30",
-    "category": "humor",
-    "source": "latter",
-    "url": "https://www.ticketmaster.no/event/sommerstandup-2026-billetter/652657600",
-    "description": ""
-  },
-  {
-    "id": "nieuscene-936600098856288",
-    "title": "Oslo Zoo med Martha Leivestad",
-    "date": "2026-05-23",
-    "time": "19:00",
-    "category": "humor",
-    "source": "nieuscene",
-    "url": "https://www.facebook.com/events/936600098856288",
-    "description": "Denne kvelden forvandles scenen til en ekte dyrehage når en Martha Leivestad inviterer til klubbkveld på nieu grünerløkka. Martha slipper løs Henrik Fladseth, Espen Abrahamsen og Mirela Valenzuela, og vi kan love både brøling og uforutsigbare innslag fra alle kanter. Det blir standup, kaos og en kve"
-  },
-  {
-    "id": "nieuscene-925242457016864",
-    "title": "nieudagsgodt med Odin Eiriksson",
-    "date": "2026-05-23",
-    "time": "19:30",
-    "category": "humor",
-    "source": "nieuscene",
-    "url": "https://www.facebook.com/events/925242457016864",
-    "description": "På lørdag tar Odin med seg en haug med godteri og en drøss av sine favorittkomikere opp til nieu. Det blir stand up, det blir premier, sanger laget på sparket. Det blir godt..Det blir nieudagsgodt! Få deg en bubblizz i nebbet og nyt noen av Oslos beste komikere! Dørene åpner: 19:15 Showstart: 19:30 "
-  },
-  {
-    "id": "parkteatret-2026-05-23-flammer-dance-band",
-    "title": "Flammer Dance Band",
-    "date": "2026-05-23",
-    "time": "20:00",
-    "category": "konsert",
-    "source": "parkteatret",
-    "url": "https://www.ticketmaster.no/event/1841027999?brand=parkteatret",
-    "description": ""
-  },
-  {
-    "id": "latter-2026-05-23-sommerstandup-2026-2030",
-    "title": "Sommerstandup 2026",
-    "date": "2026-05-23",
-    "time": "20:30",
-    "category": "humor",
-    "source": "latter",
-    "url": "https://www.ticketmaster.no/event/575433734",
-    "description": ""
-  },
-  {
-    "id": "blaa-2026-05-23-annette-k--purpurrpurple-",
-    "title": "Annette K (Purpurrpurple)",
-    "date": "2026-05-23",
-    "time": "21:00",
-    "category": "konsert",
-    "source": "blaa",
-    "url": "https://www.ticketmaster.no/event/959839400",
-    "description": ""
-  },
-  {
-    "id": "nieuscene-667265623114838",
-    "title": "Henrik Farley: Alle følelsene // UTSOLGT",
-    "date": "2026-05-23",
-    "time": "21:00",
-    "category": "humor",
-    "source": "nieuscene",
-    "url": "https://www.facebook.com/events/667265623114838",
-    "description": "“Alle Følelsene” er et følelsesladd, ufølsomt show om følelser og er Henrik Farley sitt første soloshow. Dette showet er en reise gjennom menneskets forskjellige følelser og hva som trigger dem (hos Henrik), alt fra glede til frykt. Showet kombinerer nesten alle humorsjangre som Henrik har jobbet me"
-  },
-  {
-    "id": "nieuscene-990890543266628",
-    "title": "nieu show",
-    "date": "2026-05-23",
-    "time": "21:00",
-    "category": "humor",
-    "source": "nieuscene",
-    "url": "https://www.facebook.com/events/990890543266628",
-    "description": "Hver helg kommer en ny nieu-venn og samler forskjellige folk til en skrattemild idiotkveld med fokus på humor. Blir det stand up? Blir det impro? Blir det burlesque? Bare en måte å finne ut det på. Kom å få den kulturelle magesekken din stappa full! Kan bli læ10s dette! Dørene åpner: 20:45 Showstart"
-  },
-  {
-    "id": "nieuscene-853884030295576",
-    "title": "Karaokekveld med Didrik // GRATIS",
-    "date": "2026-05-23",
-    "time": "23:00",
-    "category": "humor",
-    "source": "nieuscene",
-    "url": "https://www.facebook.com/events/853884030295576",
-    "description": "Didrik inviterer til en uforglemmelig karaokekveld på nieu scene! Karaokestart: 23:00 Pris: Gratis! Alder: 20 år"
-  },
-  {
-    "id": "nieuscene-984870087573662",
-    "title": "Karaoke med Didrik - Musikal edition!",
-    "date": "2026-05-23",
-    "time": "23:00",
-    "category": "humor",
-    "source": "nieuscene",
-    "url": "https://www.facebook.com/events/984870087573662",
-    "description": "Kom og syng musikallåter med Didrik! Gratis - starter 23:00. Blir lættis! Id: 20 år"
-  },
-  {
     "id": "meetup-2026-05-24-shopbot-cnc-theory-and-practic",
     "title": "Shopbot CNC theory and practical",
     "date": "2026-05-24",
@@ -240,6 +40,26 @@
     "description": "(Meetup says full, but we’ve got room! **Join the waitlist and just show up** ☺️)\n\nHalla friends, let’s head east and hike in Østmarka!\n\n🥾 **Moderate hike:** • 10.8 km • 4–5 h • elevation gain 339 m\n📍"
   },
   {
+    "id": "meetup-2026-05-24-s-ndag-skrivetreff",
+    "title": "Søndag Skrivetreff",
+    "date": "2026-05-24",
+    "time": "13:00",
+    "category": "kultur",
+    "source": "meetup",
+    "url": "https://www.meetup.com/oslo-skriveklubb/events/314611756/",
+    "description": "📚✍️ **Velkommen til søndags skrivetreff!**\n\nHar du en tekst du jobber med – kanskje en roman eller novelle? 📝📖\nBli med i Oslo Skriveklubb og skriv sammen med andre engasjerte skribenter i et hyggelig "
+  },
+  {
+    "id": "meetup-2026-05-24-armorworkshop---cosplay",
+    "title": "ArmorWorkshop - Cosplay",
+    "date": "2026-05-24",
+    "time": "13:00",
+    "category": "kultur",
+    "source": "meetup",
+    "url": "https://www.meetup.com/bitraf/events/314624115/",
+    "description": "ArmorWorkshop – bygg, fiks og mod rustning.\n\nHar du cosplay-rustning, screen-accurate armor eller kamp-/treningsutstyr som trenger montering, justering eller reparasjon? Eller har du lyst til å komme "
+  },
+  {
     "id": "parkteatret-2026-05-24-txt-full-av-kraft",
     "title": "TxT Full av Kraft",
     "date": "2026-05-24",
@@ -256,7 +76,7 @@
     "time": "18:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/nb/e/the_cruel_intentons_releasefestkonsertlisteningparty__revolver",
+    "url": "https://revolveroslo.ticketco.events/no/en/e/the_cruel_intentons_releasefestkonsertlisteningparty__revolver",
     "description": ""
   },
   {
@@ -278,16 +98,6 @@
     "source": "nieuscene",
     "url": "https://www.facebook.com/events/930749822745690",
     "description": "Formula 1 Watch Party på Nieu Sportsbar Denne søndagen kan du se Canadian Grand Prix LIVE hos oss på Nieu Sportsbar kl. 20.00. Side Chick serverer wings, fries og digg mat mellom lapsene, så du slipper å gå sulten gjennom løpet. Det er gratis og åpent for alle. Vi tar ikke bordreservasjoner, så det "
-  },
-  {
-    "id": "meetup-2026-05-25-online-morning-group-for-women",
-    "title": "Online morning group for women-resonance and tools from iopt",
-    "date": "2026-05-25",
-    "time": "10:00",
-    "category": "kultur",
-    "source": "meetup",
-    "url": "https://www.meetup.com/iopt-workshops-and-self-development-workshops/events/314639190/",
-    "description": "Morning group for women. I invite you to a group with focus on deep connections, coming closer to yourself and the present moment in a safe space. To lay the groundwork for your friday and weekend.\n\nW"
   },
   {
     "id": "operaen-2026-05-25-figaros-bryllup-1800",
@@ -380,6 +190,16 @@
     "description": "Venez nous rejoindre pour une pause-café où nous pouvons parler en français dans un environnement décontracté! :)"
   },
   {
+    "id": "meetup-2026-05-26-tuesday-board-game-evening",
+    "title": "Tuesday board-game evening",
+    "date": "2026-05-26",
+    "time": "18:30",
+    "category": "kultur",
+    "source": "meetup",
+    "url": "https://www.meetup.com/room-for-more/events/314876808/",
+    "description": "We’re doing a relaxing Tuesday board-game evening at **No Stress in central Oslo**.\n\nJust come and sit down with the group(s), play a board game or just chat, have fun with it, and meet other nice att"
+  },
+  {
     "id": "latter-2026-05-26-sommerstandup-2026-1830",
     "title": "Sommerstandup 2026",
     "date": "2026-05-26",
@@ -410,14 +230,14 @@
     "description": ""
   },
   {
-    "id": "detnorske-2026-05-26-da-vi-var-yngre-1900",
-    "title": "Da vi var yngre",
+    "id": "meetup-2026-05-26-mindful-peace--your-weekly-hou",
+    "title": "Mindful Peace: Your Weekly Hour of Inner Calm",
     "date": "2026-05-26",
-    "time": "19:00",
+    "time": "20:30",
     "category": "kultur",
-    "source": "detnorske",
-    "url": "https://billettar.detnorsketeatret.no/nn/buyingflow/tickets/34146/92694/",
-    "description": ""
+    "source": "meetup",
+    "url": "https://www.meetup.com/mindful-peace-europe-reading-club/events/314906005/",
+    "description": "# 🧘‍♂️ Mindful Peace: Zoom Online Reading & Reflection Club\n\n# **Are you looking for a space to find mental clarity, inner peace, and a supportive community?**\n\nWelcome to the **Mindful Peace Online R"
   },
   {
     "id": "oslonye-2026-05-27-bok-og-ballade-1300",
@@ -468,6 +288,16 @@
     "source": "latter",
     "url": "https://www.ticketmaster.no/event/sommerstandup-2025-billetter/1482009627",
     "description": ""
+  },
+  {
+    "id": "meetup-2026-05-27--cs--ai-online--seminar--nerc-",
+    "title": "(CS)²AI Online™ Seminar: NERC CIP Review Process-Updates & Getting Involved",
+    "date": "2026-05-27",
+    "time": "19:00",
+    "category": "kultur",
+    "source": "meetup",
+    "url": "https://www.meetup.com/oslo-cyber-security-for-control-systems/events/314904092/",
+    "description": "Reserve a seat to join the discussion: [https://events.zoom.us/ev/AiY4s8ZxbWzP--eQeWMA0dXQ1tD1v-ggdQiSukdqsBf960NJ-YR2~AkavJI1zweFRQl8Cm53EgVc5V2hSL_IFjeO33-haL4JliLVB7l32BDFXWiMTMnczTTgyFdnHhPeptQSbY"
   },
   {
     "id": "meetup-2026-05-27-after-work-mingle---meet-peopl",
@@ -670,16 +500,6 @@
     "description": ""
   },
   {
-    "id": "detnorske-2026-05-28-da-vi-var-yngre-1900",
-    "title": "Da vi var yngre",
-    "date": "2026-05-28",
-    "time": "19:00",
-    "category": "kultur",
-    "source": "detnorske",
-    "url": "https://billettar.detnorsketeatret.no/nn/buyingflow/tickets/34146/92695/",
-    "description": ""
-  },
-  {
     "id": "parkteatret-2026-05-28-marlen-tj-svoll",
     "title": "Marlen Tjøsvoll",
     "date": "2026-05-28",
@@ -856,7 +676,7 @@
     "time": "20:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/en/e/pushwagnergruppen_revolverr",
+    "url": "https://revolveroslo.ticketco.events/no/nb/e/pushwagnergruppen_revolverr",
     "description": ""
   },
   {
@@ -1090,16 +910,6 @@
     "description": ""
   },
   {
-    "id": "meetup-2026-05-31-online-morning-group-for-women",
-    "title": "Online morning group for women-resonance and tools from iopt",
-    "date": "2026-05-31",
-    "time": "10:00",
-    "category": "kultur",
-    "source": "meetup",
-    "url": "https://www.meetup.com/iopt-workshops-and-self-development-workshops/events/314732066/",
-    "description": "Morning group for women. I invite you to a group with focus on deep connections, coming closer to yourself and the present moment in a safe space. To lay the groundwork for your friday and weekend.\n\nW"
-  },
-  {
     "id": "blaa-2026-05-31-frank-znort-quartet",
     "title": "Frank Znort Quartet",
     "date": "2026-05-31",
@@ -1260,16 +1070,6 @@
     "description": ""
   },
   {
-    "id": "meetup-2026-06-02-rencontre-du-mardi-",
-    "title": "Rencontre du Mardi!",
-    "date": "2026-06-02",
-    "time": "17:30",
-    "category": "kultur",
-    "source": "meetup",
-    "url": "https://www.meetup.com/oslo-french-language-meetup/events/314769578/",
-    "description": "Venez nous rejoindre pour une pause-café où nous pouvons parler en français dans un environnement décontracté! :)"
-  },
-  {
     "id": "latter-2026-06-02-sommerstandup-2026-1830",
     "title": "Sommerstandup 2026",
     "date": "2026-06-02",
@@ -1298,26 +1098,6 @@
     "source": "operaen",
     "url": "https://www.operaen.no/forestillinger/figaros-bryllup-opera/",
     "description": ""
-  },
-  {
-    "id": "detnorske-2026-06-02-da-vi-var-yngre-1900",
-    "title": "Da vi var yngre",
-    "date": "2026-06-02",
-    "time": "19:00",
-    "category": "kultur",
-    "source": "detnorske",
-    "url": "https://billettar.detnorsketeatret.no/nn/buyingflow/tickets/34146/92696/",
-    "description": ""
-  },
-  {
-    "id": "meetup-2026-06-03-online-morning-group-for-women",
-    "title": "Online morning group for women-resonance and tools from iopt",
-    "date": "2026-06-03",
-    "time": "10:00",
-    "category": "kultur",
-    "source": "meetup",
-    "url": "https://www.meetup.com/iopt-workshops-and-self-development-workshops/events/314781114/",
-    "description": "Morning group for women. I invite you to a group with focus on deep connections, coming closer to yourself and the present moment in a safe space. To lay the groundwork for your friday and weekend.\n\nW"
   },
   {
     "id": "oslonye-2026-06-03-bok-og-ballade-1300",
@@ -1390,16 +1170,6 @@
     "description": "We are now collaborating with **Spilloteket**! That means we will have a whole floor to ourselves with up to 40 folks, and 2 tables dedicated to featured long games. If you want to be a part of the lo"
   },
   {
-    "id": "meetup-2026-06-03-scala-pils",
-    "title": "Scala-Pils",
-    "date": "2026-06-03",
-    "time": "18:00",
-    "category": "kultur",
-    "source": "meetup",
-    "url": "https://www.meetup.com/scalabin/events/314786302/",
-    "description": "Vi fortsetter med første onsdag i måneden. Programmeringssnakk og godt øl i godt selskap - håper å se mange av dere der!"
-  },
-  {
     "id": "lasttrain-2026-06-03-ronny-p-bel---sirkus-uten-dire",
     "title": "Ronny pøbel - Sirkus uten direktør kommer til Last Train. Support: Nogozone",
     "date": "2026-06-03",
@@ -1418,6 +1188,16 @@
     "source": "latter",
     "url": "https://www.ticketmaster.no/event/sommerstandup-2025-billetter/1129706114",
     "description": ""
+  },
+  {
+    "id": "meetup-2026-06-03-online-evening-group-for-women",
+    "title": "Online evening group for women- with tools from the method of IOPT",
+    "date": "2026-06-03",
+    "time": "19:00",
+    "category": "kultur",
+    "source": "meetup",
+    "url": "https://www.meetup.com/iopt-workshops-and-self-development-workshops/events/314787785/",
+    "description": "Join us for an enlightening workshop on self-love and self-acceptance, where you will learn practical tools and techniques to cultivate a deeper sense of love and acceptance for yourself. This worksho"
   },
   {
     "id": "meetup-2026-06-03-after-work-mingle---meet-peopl",
@@ -1440,16 +1220,6 @@
     "description": ""
   },
   {
-    "id": "detnorske-2026-06-03-da-vi-var-yngre-1900",
-    "title": "Da vi var yngre",
-    "date": "2026-06-03",
-    "time": "19:00",
-    "category": "kultur",
-    "source": "detnorske",
-    "url": "https://billettar.detnorsketeatret.no/nn/buyingflow/tickets/34146/92697/",
-    "description": ""
-  },
-  {
     "id": "meetup-2026-06-04-n-r-ki-m-ter-virkeligheten",
     "title": "Når KI møter virkeligheten",
     "date": "2026-06-04",
@@ -1458,16 +1228,6 @@
     "source": "meetup",
     "url": "https://www.meetup.com/systek-frokost-fag/events/314799141/",
     "description": "**Velkommen til Frokost & Fag**\n\nDet mangler ikke på praten om kunstig intelligens. Nye verktøy og visjoner dukker opp hver eneste uke, men hvor ofte snakker vi egentlig om hvordan det fungerer når st"
-  },
-  {
-    "id": "meetup-2026-06-04-lean-coffee--fysisk-m-te--",
-    "title": "Lean Coffee (fysisk møte!)",
-    "date": "2026-06-04",
-    "time": "08:00",
-    "category": "kultur",
-    "source": "meetup",
-    "url": "https://www.meetup.com/leancoffeeoslo/events/314750889/",
-    "description": "**Velkommen til Lean Coffee!**\n\nVi fortsetter morgentradisjonen med regelmessige møter over en kopp kaffe hos Stockfleths i Prinsens gate (i kvadraturen i Oslo).\n\nHer loves relevante og engasjerende t"
   },
   {
     "id": "detnorske-2026-06-04-lunsj-lyrikk-1200",
@@ -1700,23 +1460,13 @@
     "description": "Du vet når livet gir deg en på trynet? Sånn skikkelig på trynet på trynet. Sånn absolutt-alle-planer-du-noensinne-har-hatt-må-legges-om-og-byttes-ut-på-trynet? Det kan være kjæresten som ikke ville være kjæreste lenger eller bilen som havna i grøfta. Eller kanskje jobben du mista, barnet du aldri fi"
   },
   {
-    "id": "detnorske-2026-06-05-da-vi-var-yngre-1900",
-    "title": "Da vi var yngre",
-    "date": "2026-06-05",
-    "time": "19:00",
-    "category": "kultur",
-    "source": "detnorske",
-    "url": "https://billettar.detnorsketeatret.no/nn/buyingflow/tickets/34146/92698/",
-    "description": ""
-  },
-  {
     "id": "revolver-2026-06-05-pjolterguys----krass----terror",
     "title": "PJOLTERGUYS // KRASS // TERRORFETT  // SKYGGESIDEN // Revolver",
     "date": "2026-06-05",
     "time": "19:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/en/e/pjolterguys__krass__terrorfett___skyggesiden__revolver",
+    "url": "https://revolveroslo.ticketco.events/no/nb/e/pjolterguys__krass__terrorfett___skyggesiden__revolver",
     "description": ""
   },
   {
@@ -1890,6 +1640,16 @@
     "description": "Didrik inviterer til en uforglemmelig karaokekveld på nieu scene! Karaokestart: 23:00 Pris: Gratis! Alder: 20 år"
   },
   {
+    "id": "meetup-2026-06-07-online-morning-group-for-women",
+    "title": "Online morning group for women-resonance and tools from iopt",
+    "date": "2026-06-07",
+    "time": "10:00",
+    "category": "kultur",
+    "source": "meetup",
+    "url": "https://www.meetup.com/iopt-workshops-and-self-development-workshops/events/314841890/",
+    "description": "Morning group for women. I invite you to a group with focus on deep connections, coming closer to yourself and the present moment in a safe space. To lay the groundwork for your friday and weekend.\n\nW"
+  },
+  {
     "id": "blaa-2026-06-07-frank-znort-quartet",
     "title": "Frank Znort Quartet",
     "date": "2026-06-07",
@@ -1938,6 +1698,16 @@
     "source": "lasttrain",
     "url": "https://tikkio.com/events/61534",
     "description": "Eel Men fra Nord-London er tilbake I Oslo etter smått en fantastisk konsert på Kafé Hærverk, som gikk mange hus forbi i fjor!\n\nBandet ble dannet i 2021 og de leverer en glimrende mod-punk-miks som får"
+  },
+  {
+    "id": "meetup-2026-06-08-online-morning-group-for-women",
+    "title": "Online morning group for women-resonance and tools from iopt",
+    "date": "2026-06-08",
+    "time": "10:00",
+    "category": "kultur",
+    "source": "meetup",
+    "url": "https://www.meetup.com/iopt-workshops-and-self-development-workshops/events/314857607/",
+    "description": "Morning group for women. I invite you to a group with focus on deep connections, coming closer to yourself and the present moment in a safe space. To lay the groundwork for your friday and weekend.\n\nW"
   },
   {
     "id": "detnorske-2026-06-08-pelicot-rettssaka-1800",
@@ -3180,16 +2950,6 @@
     "description": "*Stort lerret - Stadionlyd - Alle rettigheter - Stor kapasitet*\n\nSe kampen med likesinnede og opplev VM-stemning under sommerens store fotballfest!\n \nVi tilbyr gode fasiliteter med godt drikke, god pl"
   },
   {
-    "id": "rockefeller-2026-06-24-fotball-vm--bosnia---qatar---m",
-    "title": "Fotball-VM: Bosnia - Qatar / Marokko - Haiti",
-    "date": "2026-06-24",
-    "time": "18:00",
-    "category": "konsert",
-    "source": "rockefeller",
-    "url": "https://www.rockefeller.no/events/fotball-vm:-bosnia---qatar-/-marokko---haiti/zRouuyMnZr",
-    "description": "*Stort lerret - Stadionlyd - Alle rettigheter - Stor kapasitet*\n\nSe kampen med likesinnede og opplev VM-stemning under sommerens store fotballfest!\n \nVi tilbyr gode fasiliteter med godt drikke, god pl"
-  },
-  {
     "id": "rockefeller-2026-06-24-fotball-vm--sveits---canada---",
     "title": "Fotball-VM: Sveits - Canada / Skottland - Brasil",
     "date": "2026-06-24",
@@ -3197,6 +2957,16 @@
     "category": "konsert",
     "source": "rockefeller",
     "url": "https://www.rockefeller.no/events/fotball-vm:-sveits---canada-/-skottland---brasil/j5OKvEgpWh",
+    "description": "*Stort lerret - Stadionlyd - Alle rettigheter - Stor kapasitet*\n\nSe kampen med likesinnede og opplev VM-stemning under sommerens store fotballfest!\n \nVi tilbyr gode fasiliteter med godt drikke, god pl"
+  },
+  {
+    "id": "rockefeller-2026-06-24-fotball-vm--bosnia---qatar---m",
+    "title": "Fotball-VM: Bosnia - Qatar / Marokko - Haiti",
+    "date": "2026-06-24",
+    "time": "18:00",
+    "category": "konsert",
+    "source": "rockefeller",
+    "url": "https://www.rockefeller.no/events/fotball-vm:-bosnia---qatar-/-marokko---haiti/zRouuyMnZr",
     "description": "*Stort lerret - Stadionlyd - Alle rettigheter - Stor kapasitet*\n\nSe kampen med likesinnede og opplev VM-stemning under sommerens store fotballfest!\n \nVi tilbyr gode fasiliteter med godt drikke, god pl"
   },
   {
@@ -4210,16 +3980,6 @@
     "description": ""
   },
   {
-    "id": "rockefeller-2026-08-15-fagernes-yacht-klubb",
-    "title": "Fagernes Yacht Klubb",
-    "date": "2026-08-15",
-    "time": "20:00",
-    "category": "konsert",
-    "source": "rockefeller",
-    "url": "https://www.ticketmaster.no/event/299439833?brand=sentrumscene&camefrom=CFC_NO_Rockefeller_Fagernes_Yacht_Klubb_150826_Billettsalg&utm_campaign=NO_Rockefeller_Fagernes_Yacht_Klubb_150826_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
-    "description": "Vi gjentar suksessen med Fagernes Yacht Klubb på Sentrum Scene, som en del av Øyanatt! Lørdag 15. august skal bandet lage storstilt fest, med lyden av saltvann, solskinn og sommer. Det blir udødelige "
-  },
-  {
     "id": "rockefeller-2026-08-15-v--christie---svebbe",
     "title": "V. Christie + Svebbe",
     "date": "2026-08-15",
@@ -4228,6 +3988,16 @@
     "source": "rockefeller",
     "url": "https://www.ticketmaster.no/event/223211522?brand=johndee&camefrom=CFC_NO_Rockefeller_Oyanatt_V_Christie_Svebbe_150826_Billettsalg&utm_campaign=NO_Rockefeller_Oyanatt_V_Christie_Svebbe_150826_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
     "description": "De fremadstormende DJ-ene V. Christie og Svebbe kommer til John Dee lørdag 15. august, som en del av Øyanatt!\n\n**V. Christie:**\nV. Christie er artistaliaset til Vebjørn Christie; en norsk DJ og produs"
+  },
+  {
+    "id": "rockefeller-2026-08-15-fagernes-yacht-klubb",
+    "title": "Fagernes Yacht Klubb",
+    "date": "2026-08-15",
+    "time": "20:00",
+    "category": "konsert",
+    "source": "rockefeller",
+    "url": "https://www.ticketmaster.no/event/299439833?brand=sentrumscene&camefrom=CFC_NO_Rockefeller_Fagernes_Yacht_Klubb_150826_Billettsalg&utm_campaign=NO_Rockefeller_Fagernes_Yacht_Klubb_150826_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
+    "description": "Vi gjentar suksessen med Fagernes Yacht Klubb på Sentrum Scene, som en del av Øyanatt! Lørdag 15. august skal bandet lage storstilt fest, med lyden av saltvann, solskinn og sommer. Det blir udødelige "
   },
   {
     "id": "parkteatret-2026-08-15-lindstr-m",
@@ -4280,16 +4050,6 @@
     "description": ""
   },
   {
-    "id": "rockefeller-2026-08-20-high-on-fire",
-    "title": "High on Fire",
-    "date": "2026-08-20",
-    "time": "17:00",
-    "category": "konsert",
-    "source": "rockefeller",
-    "url": "https://www.ticketmaster.no/event/794004853?brand=rockefeller&camefrom=CFC_NO_Rockefeller_High_On_Fire_200826_Billettsalg&utm_campaign=NO_Rockefeller_High_On_Fire_200826_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
-    "description": "Den Grammy-vinnende powertrioen High on Fire kommer endelig tilbake til Oslo! Vi har ikke hatt bandet på besøk hos oss siden en utsolgt konsert på John Dee i 2013, så nå var det virkelig på tide med e"
-  },
-  {
     "id": "rockefeller-2026-08-20-skunk-anansie",
     "title": "Skunk Anansie",
     "date": "2026-08-20",
@@ -4298,6 +4058,16 @@
     "source": "rockefeller",
     "url": "https://www.ticketmaster.no/event/1209538681?brand=sentrumscene&camefrom=CFC_NO_Rockefeller_Skunk_Anansie_200826_Billettsalg&utm_campaign=NO_Rockefeller_Skunk_Anansie_200826_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
     "description": "De britiske rockeikonene Skunk Anansie kommer til Sentrum Scene torsdag 20. august!\n\nSkunk Anansie, frontet av den karismatiske vokalisten Skin, var med på å skape lyden av 90-tallet med kritikerroste"
+  },
+  {
+    "id": "rockefeller-2026-08-20-high-on-fire",
+    "title": "High on Fire",
+    "date": "2026-08-20",
+    "time": "17:00",
+    "category": "konsert",
+    "source": "rockefeller",
+    "url": "https://www.ticketmaster.no/event/794004853?brand=rockefeller&camefrom=CFC_NO_Rockefeller_High_On_Fire_200826_Billettsalg&utm_campaign=NO_Rockefeller_High_On_Fire_200826_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
+    "description": "Den Grammy-vinnende powertrioen High on Fire kommer endelig tilbake til Oslo! Vi har ikke hatt bandet på besøk hos oss siden en utsolgt konsert på John Dee i 2013, så nå var det virkelig på tide med e"
   },
   {
     "id": "lasttrain-2026-08-20-starr-and-the-czars-supp-link-",
@@ -5146,7 +4916,7 @@
     "time": "20:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/en/e/ultra_silvam_se__gryla__revolver",
+    "url": "https://revolveroslo.ticketco.events/no/nb/e/ultra_silvam_se__gryla__revolver",
     "description": ""
   },
   {
@@ -6106,7 +5876,7 @@
     "time": "20:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/nb/e/black_market_karma_uk__revolver",
+    "url": "https://revolveroslo.ticketco.events/no/en/e/black_market_karma_uk__revolver",
     "description": ""
   },
   {
@@ -7536,7 +7306,7 @@
     "time": "20:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/en/e/ulrika_spacek_uk__revolver",
+    "url": "https://revolveroslo.ticketco.events/no/nb/e/ulrika_spacek_uk__revolver",
     "description": ""
   },
   {
