@@ -987,7 +987,7 @@
     "id": "osm-rest-5652443563",
     "name": "Brasserie Rivoli",
     "cuisine": "Fransk",
-    "address": "Operagata, 0194",
+    "address": "Operagata 3, 0194",
     "website": "https://www.rivoli.no/",
     "phone": "+47 21 42 05 90",
     "opening_hours": "Tu-Fr 11:30-23:00; Mo 16:30-23:00; Sa-Su 14:30-23:00",
@@ -1870,6 +1870,18 @@
     "description": "",
     "lat": 59.9166247,
     "lon": 10.7527997
+  },
+  {
+    "id": "osm-rest-13872627474",
+    "name": "District 4",
+    "cuisine": "",
+    "address": "Arendalsgata 8, 0463",
+    "website": "https://district4.no/",
+    "phone": "+47 97 27 72 95",
+    "opening_hours": "",
+    "description": "",
+    "lat": 59.9380406,
+    "lon": 10.7529922
   },
   {
     "id": "osm-rest-977584923",
@@ -4911,7 +4923,7 @@
     "id": "osm-rest-5652445255",
     "name": "Madonna",
     "cuisine": "",
-    "address": "Operagata 17, 0194",
+    "address": "Operagata, 0194",
     "website": "https://www.madonnaoslo.no/",
     "phone": "+47 22 60 12 00",
     "opening_hours": "Mo-Th 16:00-23:00; Fr-Sa 12:00-24:00",
@@ -7623,7 +7635,7 @@
     "id": "osm-rest-6136462187",
     "name": "Sukhumvit Soup&Grill",
     "cuisine": "Thai",
-    "address": "Munkedamsveien, 0251",
+    "address": "Munkedamsveien 29, 0251",
     "website": "https://sukhumvit.no/",
     "phone": "",
     "opening_hours": "Mo-Sa 11:00-21:00",
@@ -8674,6 +8686,18 @@
     "description": "",
     "lat": 59.923502,
     "lon": 10.757423
+  },
+  {
+    "id": "osm-rest-13872519339",
+    "name": "Villa Paradiso Tivoli",
+    "cuisine": "Italiensk",
+    "address": "Ivan Bjørndals gate 25, 0472",
+    "website": "https://www.villaparadiso.no/restauranter/tivoli",
+    "phone": "+47 22 35 40 60",
+    "opening_hours": "",
+    "description": "",
+    "lat": 59.9382755,
+    "lon": 10.7636341
   },
   {
     "id": "osm-rest-2045251453",
