@@ -96,6 +96,18 @@
     "lon": 10.8819281
   },
   {
+    "id": "osm-13888585333",
+    "name": "Angst",
+    "type": "bar",
+    "address": "Strøget, 0155",
+    "website": "",
+    "phone": "",
+    "opening_hours": "",
+    "description": "",
+    "lat": 59.913967,
+    "lon": 10.748585
+  },
+  {
     "id": "osm-7926331276",
     "name": "Art Bar",
     "type": "bar",
@@ -159,7 +171,7 @@
     "id": "osm-6136462029",
     "name": "Bar Albatross",
     "type": "bar",
-    "address": "Torshovgata, 0474",
+    "address": "Torshovgata 5A, 0476",
     "website": "",
     "phone": "",
     "opening_hours": "",
@@ -1251,7 +1263,7 @@
     "id": "osm-2785849016",
     "name": "Heidis Beer Bar",
     "type": "bar",
-    "address": "Fridtjof Nansens plass, 0160",
+    "address": "Fridtjof Nansens plass 8, 0160",
     "website": "",
     "phone": "",
     "opening_hours": "",
@@ -2019,7 +2031,7 @@
     "id": "osm-4157612842",
     "name": "Oslo Bar & Bowling",
     "type": "bar",
-    "address": "Torggata 14, 0181",
+    "address": "Hammersborggata, 0179",
     "website": "",
     "phone": "",
     "opening_hours": "",
@@ -2247,7 +2259,7 @@
     "id": "osm-3527824649",
     "name": "Politiker'n",
     "type": "bar",
-    "address": "Youngstorget 6, 0181",
+    "address": "Youngstorget, 0181",
     "website": "http://politikern.no/",
     "phone": "",
     "opening_hours": "",
@@ -3166,18 +3178,6 @@
     "description": "",
     "lat": 59.9414799,
     "lon": 10.7226895
-  },
-  {
-    "id": "osm-4487513892",
-    "name": "Uhørt",
-    "type": "bar",
-    "address": "Strøget, 0155",
-    "website": "https://www.uhortistroget.no",
-    "phone": "",
-    "opening_hours": "Su-Th 11:00-01:00; Fr-Sa 11:00-03:30",
-    "description": "",
-    "lat": 59.914047,
-    "lon": 10.748477
   },
   {
     "id": "osm-12974816786",
