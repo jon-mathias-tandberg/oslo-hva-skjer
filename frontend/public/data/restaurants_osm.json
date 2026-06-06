@@ -1716,6 +1716,18 @@
     "lon": 10.72262
   },
   {
+    "id": "osm-rest-11524415477",
+    "name": "Delicatessen Sandvika",
+    "cuisine": "Tapas",
+    "address": "Rådmann Halmrasts vei 11, 1337",
+    "website": "https://delicatessen.no/sandvika/",
+    "phone": "22467200",
+    "opening_hours": "",
+    "description": "",
+    "lat": 59.891508,
+    "lon": 10.525069
+  },
+  {
     "id": "osm-rest-658841477",
     "name": "Den Glade Gris",
     "cuisine": "",
@@ -6771,7 +6783,7 @@
     "id": "osm-rest-2785920497",
     "name": "Risbolle",
     "cuisine": "Thai",
-    "address": "Dronningens gate, 0154",
+    "address": "Dronningens gate 24, 0154",
     "website": "https://www.risbolle.no/",
     "phone": "",
     "opening_hours": "Mo-Sa 11:00-22:00; Su 13:30-21:00",
