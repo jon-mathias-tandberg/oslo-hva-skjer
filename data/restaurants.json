@@ -84,12 +84,6 @@
     "url": "https://vink.aftenposten.no/artikkel/V6xonJ/baren-vil-ikke-servere-gratis-vann-provoserende"
   },
   {
-    "id": "vink--alle--peker-p--henne-f-r--rets-michelin",
-    "title": "«Alle» peker på henne før årets Michelin-utdeling",
-    "source": "vink",
-    "url": "https://vink.aftenposten.no/artikkel/K8Pn65/alle-peker-paa-henne-foer-aarets-michelin-utdeling"
-  },
-  {
     "id": "vink-renate-reinsve-briljerer-i-ny-horrorfilm",
     "title": "Renate Reinsve briljerer i ny horrorfilm",
     "source": "vink",
@@ -130,12 +124,6 @@
     "title": "Det er bare digg pizza. Man trenger ikke tenke så mye.",
     "source": "vink",
     "url": "https://vink.aftenposten.no/artikkel/ln4Xz3/god-pizza-uten-dilldall-for-under-200-kroner-ja-takk"
-  },
-  {
-    "id": "vink-det-er-en-ren-fryd---ha-dem-tilbake-p--h",
-    "title": "Det er en ren fryd å ha dem tilbake på hesten",
-    "source": "vink",
-    "url": "https://vink.aftenposten.no/artikkel/7pVamB/anmeldelse-av-dutton-ranch-oppfolger-til-yellowstone-med-kelly-reilly-cole-hauser-ed-harris-annette-bening"
   },
   {
     "id": "vink-tenkt-om-de-hadde-lagt-litt-mer-arbeid-i",
@@ -262,5 +250,17 @@
     "title": "De var kjent for sine luksuspizzaer. Hva har skjedd?",
     "source": "vink",
     "url": "https://vink.aftenposten.no/artikkel/e771dR/noe-har-skjedd-med-vinoteket"
+  },
+  {
+    "id": "vink-hit-kan-du-trygt-g--for--l-og-en-burger",
+    "title": "Hit kan du trygt gå for øl og en burger",
+    "source": "vink",
+    "url": "https://vink.aftenposten.no/artikkel/wrrg0L/bristol-pub-er-et-trygyt-valg-for-ol-og-en-burger"
+  },
+  {
+    "id": "vink-foreldre-eller-besteforeldre-p--bes-k--h",
+    "title": "Foreldre eller besteforeldre på besøk? Her bør dere spise.",
+    "source": "vink",
+    "url": "https://vink.aftenposten.no/artikkel/gkkWQ1/hit-tar-du-med-svigers-foreldre-og-besteforeldre-paa-middag"
   }
 ]
