@@ -1,55 +1,5 @@
 [
   {
-    "id": "blaa-2026-06-07-frank-znort-quartet",
-    "title": "Frank Znort Quartet",
-    "date": "2026-06-07",
-    "time": "14:00",
-    "category": "konsert",
-    "source": "blaa",
-    "url": "https://www.blaaoslo.no/events/frank-znort-quartet/NAQFkgqquC",
-    "description": "Frank Znort Quartet er sitt eget unike univers og Oslos upolerte perle av en skatt. Med sin livsbejaende tilnærming til sjangre, låter, mennesker og generelt drøyt bra stemning har dette storbandet st"
-  },
-  {
-    "id": "meetup-2026-06-08-agent-vol-4---legal-tech-meetu",
-    "title": "Agent vol 4 & Legal tech meetup # 24",
-    "date": "2026-06-08",
-    "time": "16:00",
-    "category": "kultur",
-    "source": "meetup",
-    "url": "https://www.meetup.com/oslo-legal-tech/events/315022298/",
-    "description": "## Juss × Agenter — The Legalese Edition\n\nPå neste meetup slår vi oss sammen med det populære Agent meetup (tidligere Open Claw Meetup) og kjører en \"Legalise\" edition sammen!\n\n**Obs!** Påmelding sikr"
-  },
-  {
-    "id": "meetup-2026-06-08-wwdc26-keynote---apple-event-w",
-    "title": "WWDC26 Keynote - Apple Event Watch Party",
-    "date": "2026-06-08",
-    "time": "18:00",
-    "category": "kultur",
-    "source": "meetup",
-    "url": "https://www.meetup.com/swift-and-friends/events/314992438/",
-    "description": "Velkommen til Apple Event Watch Party på Brygg! ✨\n\nSwift & Friends er en meetup-gruppe for folk som liker å utvikle på Apple sin plattform. Vår julaften er WWDC der alle presenterer alt det nye som vi"
-  },
-  {
-    "id": "operaen-2026-06-08-romeo-og-julie-1900",
-    "title": "Romeo og Julie",
-    "date": "2026-06-08",
-    "time": "19:00",
-    "category": "kultur",
-    "source": "operaen",
-    "url": "https://www.operaen.no/forestillinger/romeo-og-julie-ballett/",
-    "description": ""
-  },
-  {
-    "id": "parkteatret-2026-06-08-don-west",
-    "title": "Don West",
-    "date": "2026-06-08",
-    "time": "19:00",
-    "category": "konsert",
-    "source": "parkteatret",
-    "url": "https://www.parkteatret.no/arrangement/don-west-2",
-    "description": ""
-  },
-  {
     "id": "rockefeller-2026-06-09-foo-fighters-merch-shop",
     "title": "Foo Fighters merch shop",
     "date": "2026-06-09",
@@ -130,16 +80,6 @@
     "description": "**Konserten med Elio Mei på John Dee 09.06.26 er dessverre avlyst. Billettkjøpere mottar informasjon på e-post fra post@rockefeller.no til e-postadressen tilknyttet billettkjøperens Ticketmaster-konto"
   },
   {
-    "id": "meetup-2026-06-09-our-next-ai---mlops-community-",
-    "title": "Our next AI + MLOps Community Oslo ",
-    "date": "2026-06-09",
-    "time": "17:00",
-    "category": "kultur",
-    "source": "meetup",
-    "url": "https://www.meetup.com/ai-mlops-oslo-community/events/315050967/",
-    "description": "**📅 Agenda**\n\n**🍕 17:00 – 17:15 (15 min)**\n**Arrival & Grab Food**\nDoors open. Welcome, check-in, and grab a slice of pizza before we begin!\n\n**🎤 17:15 – 17:25 (10 min)**\n**Community Welcome**\n***Artu"
-  },
-  {
     "id": "meetup-2026-06-09---english-conversation--meet-f",
     "title": "🌐 English Conversation: Meet Friends & Learn Daily",
     "date": "2026-06-09",
@@ -148,6 +88,16 @@
     "source": "meetup",
     "url": "https://www.meetup.com/oslo-english/events/314876576/",
     "description": "🚀 **Stop searching for classes. Start speaking today!**\nWelcome to our free worldwide community. Hosted by English teachers, our daily sessions are fun, supportive, and focused on *real* practice. For"
+  },
+  {
+    "id": "meetup-2026-06-09-our-next-ai---mlops-community-",
+    "title": "Our next AI + MLOps Community Oslo ",
+    "date": "2026-06-09",
+    "time": "17:00",
+    "category": "kultur",
+    "source": "meetup",
+    "url": "https://www.meetup.com/ai-mlops-oslo-community/events/315050967/",
+    "description": "**📅 Agenda**\n\n**🍕 17:00 – 17:15 (15 min)**\n**Arrival & Grab Food**\nDoors open. Welcome, check-in, and grab a slice of pizza before we begin!\n\n**🎤 17:15 – 17:25 (10 min)**\n**Community Welcome**\n***Artu"
   },
   {
     "id": "meetup-2026-06-09-vibe-coding-the-classical-musi",
@@ -217,7 +167,7 @@
     "category": "kultur",
     "source": "meetup",
     "url": "https://www.meetup.com/wordpress-oslo/events/314417147/",
-    "description": "Velkommen til Oslo WordPress Meetup hos Dekode, på Nova House (Karl Johans gate 16).\n\n**Program**\n\n**Storskala WooCommerce**\nBjørn Johansen, CTO i tights.no, deler om deres erfaringer med å kjøre WooC"
+    "description": "Velkommen til Oslo WordPress Meetup hos Dekode, på Nova House (Karl Johans gate 16) -\n\n**Program**\n\n**Storskala WooCommerce**\nBjørn Johansen, CTO i tights.no, deler om deres erfaringer med å kjøre Woo"
   },
   {
     "id": "latter-2026-06-09-sommerstandup-2026-1830",
@@ -376,7 +326,7 @@
     "time": "18:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/en/e/luke_elliot__revolver_bakgaard",
+    "url": "https://revolveroslo.ticketco.events/no/nb/e/luke_elliot__revolver_bakgaard",
     "description": ""
   },
   {
@@ -390,6 +340,16 @@
     "description": "Sted: Rebel (Teknologihuset 2.0), møterom Kim, Universitetsgata 2, Oslo.\nMøterom Kim ligger i andre etasje: opp trappen (eller heis), til venstre og langt bortover gangen. Du blir fulgt inn. Rebel lig"
   },
   {
+    "id": "nieuscene-2221651905317504",
+    "title": "Espen tenker høyt",
+    "date": "2026-06-10",
+    "time": "18:30",
+    "category": "humor",
+    "source": "nieuscene",
+    "url": "https://www.facebook.com/events/2221651905317504",
+    "description": "Espen Abrahamsen skal ha soloshow til høsten og trenger å sortere tankene og teste ut nye. Han tenker tanker høyt. Dørene åpner: 18:15 Showstart: 18:30 Aldersgrense: 18 år Pris: 99,- Med forbehold om endring i programmet. Kjøpte billetter refunderes ikke."
+  },
+  {
     "id": "latter-2026-06-10-sommerstandup-2026-1830",
     "title": "Sommerstandup 2026",
     "date": "2026-06-10",
@@ -398,16 +358,6 @@
     "source": "latter",
     "url": "https://www.ticketmaster.no/event/sommerstandup-2025-billetter/868258728",
     "description": ""
-  },
-  {
-    "id": "meetup-2026-06-10-online-evening-group-for-women",
-    "title": "Online evening group for women- with tools from the method of IOPT",
-    "date": "2026-06-10",
-    "time": "19:00",
-    "category": "kultur",
-    "source": "meetup",
-    "url": "https://www.meetup.com/iopt-workshops-and-self-development-workshops/events/314895105/",
-    "description": "Join us for an enlightening workshop on self-love and self-acceptance, where you will learn practical tools and techniques to cultivate a deeper sense of love and acceptance for yourself. This worksho"
   },
   {
     "id": "meetup-2026-06-10-speed-dating---popular-night--",
@@ -428,6 +378,16 @@
     "source": "nieuscene",
     "url": "https://www.facebook.com/events/1401925341482932",
     "description": "After the resounding success of his previous show, “Tragedy Plus Time”, Ed Byrne returns with a collection of his finest jokes. In the 33 years that Ed has been working as a stand-up comic, he has accrued an impressive back catalogue of hilarious comedy bits. In this very special show Ed picks his f"
+  },
+  {
+    "id": "nieuscene-1569329954772979",
+    "title": "Magnus Devolds Sommerquiz",
+    "date": "2026-06-10",
+    "time": "19:00",
+    "category": "humor",
+    "source": "nieuscene",
+    "url": "https://www.facebook.com/events/1569329954772979",
+    "description": "Endelig sommer. Mindre klær, mer sol og viktigst av alt, en quiz du tror du har kontroll på. Magnus Devold inviterer til sommerquiz på nieu torshov. Det blir spørsmål om litt av hvert, akkurat passe vanskelig, og garantert noen runder hvor selvtilliten ryker litt underveis. Ta med venner, kollegaer "
   },
   {
     "id": "operaen-2026-06-10-romeo-og-julie-1900",
@@ -460,16 +420,6 @@
     "description": ""
   },
   {
-    "id": "nieuscene-2221651905317504",
-    "title": "Espen tenker høyt",
-    "date": "2026-06-10",
-    "time": "19:30",
-    "category": "humor",
-    "source": "nieuscene",
-    "url": "https://www.facebook.com/events/2221651905317504",
-    "description": "Espen Abrahamsen skal ha soloshow til høsten og trenger å sortere tankene og teste ut nye. Han tenker tanker høyt. Dørene åpner: 19:15 Showstart: 19:30 Aldersgrense: 18 år Pris: 99,- Med forbehold om endring i programmet. Kjøpte billetter refunderes ikke."
-  },
-  {
     "id": "detnorske-2026-06-10-15--r-1930",
     "title": "15 år",
     "date": "2026-06-10",
@@ -478,16 +428,6 @@
     "source": "detnorske",
     "url": "https://www.detnorsketeatret.no/framsyningar/15-ar",
     "description": ""
-  },
-  {
-    "id": "nieuscene-1569329954772979",
-    "title": "Magnus Devolds Sommerquiz",
-    "date": "2026-06-10",
-    "time": "20:00",
-    "category": "humor",
-    "source": "nieuscene",
-    "url": "https://www.facebook.com/events/1569329954772979",
-    "description": "Endelig sommer. Mindre klær, mer sol og viktigst av alt, en quiz du tror du har kontroll på. Magnus Devold inviterer til sommerquiz på nieu torshov. Det blir spørsmål om litt av hvert, akkurat passe vanskelig, og garantert noen runder hvor selvtilliten ryker litt underveis. Ta med venner, kollegaer "
   },
   {
     "id": "detnorske-2026-06-10-det-har-vore-eitfantastisk--r-2000",
@@ -618,6 +558,16 @@
     "source": "nieuscene",
     "url": "https://www.facebook.com/events/1626081458482629",
     "description": "Espen Abrahamsen skal ha soloshow til høsten og trenger å sortere tankene og teste ut nye. Han tenker tanker høyt. Dørene åpner: 20:45 Showstart: 21:00 Aldersgrense: 18 år Pris: 99,- Med forbehold om endring i programmet. Kjøpte billetter refunderes ikke."
+  },
+  {
+    "id": "blaa-2026-06-12-non-dos-festival-2026",
+    "title": "NON DOS festival 2026",
+    "date": "2026-06-12",
+    "time": "13:00",
+    "category": "konsert",
+    "source": "blaa",
+    "url": "https://www.ticketmaster.no/event/1533106800",
+    "description": "Møt Europas beste vin-, sider- og brusprodusenter, og bli kjent med Skandinavia største utvalg av sake.\nBli kjent med og smak produktene fra 18 unike produsenter fra Italia, Frankrike, Østerrike, Tysk"
   },
   {
     "id": "rockefeller-2026-06-12-staal",
@@ -760,6 +710,16 @@
     "description": ""
   },
   {
+    "id": "nieuscene-988613903911096",
+    "title": "Usensurert - et trygt rom med utrygge vitser",
+    "date": "2026-06-12",
+    "time": "19:30",
+    "category": "humor",
+    "source": "nieuscene",
+    "url": "https://www.facebook.com/events/988613903911096",
+    "description": "Klar for en komedieopplevelse uten filter? Er du lei av familievennlig og politisk korrekt humor uten tæl? Da er du på rett sted! Usensurert er et standup-show hvor komikerne får fritt spillerom til å utforske mørke, sære og rare hjørner av humoruniverset sitt, uten sensur. Vi er stolte av å levere "
+  },
+  {
     "id": "detnorske-2026-06-12-wo-o-lf-women-1930",
     "title": "Wo(o)lf Women",
     "date": "2026-06-12",
@@ -900,8 +860,8 @@
     "description": ""
   },
   {
-    "id": "blaa-2026-06-13-sam-prekop---john-mcentire",
-    "title": "Sam Prekop & John McEntire",
+    "id": "blaa-2026-06-13-sam-prekop---john-mcentire---g",
+    "title": "Sam Prekop & John McEntire + Gouldian Finch",
     "date": "2026-06-13",
     "time": "18:00",
     "category": "konsert",
@@ -936,7 +896,7 @@
     "time": "18:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/nb/e/paal_flaata__revolver_26",
+    "url": "https://revolveroslo.ticketco.events/no/en/e/paal_flaata__revolver_26",
     "description": ""
   },
   {
@@ -1028,6 +988,16 @@
     "source": "nieuscene",
     "url": "https://www.facebook.com/events/1697645854919912",
     "description": "Flinke Piker står bak spakene, danseklare som alltid, med en lidenskap for musikk og et svakt hjerte for ikoniske låtreferanser. De tar vorsstemningen med seg hele veien inn i natta med en spilleliste full av nostalgiske popbangers og sassy RnB-favoritter. Kom alene, med vennene dine eller med kjære"
+  },
+  {
+    "id": "meetup-2026-06-14-heartfulness-meditasjon-gr-ner",
+    "title": "Heartfulness meditasjon Grünerløkka",
+    "date": "2026-06-14",
+    "time": "09:50",
+    "category": "kultur",
+    "source": "meetup",
+    "url": "https://www.meetup.com/heartfulness-meditation-oslo-meetup/events/315099806/",
+    "description": "Velkommen til Heartfulness avspenning og meditasjon på hjertet - et pust i hverdagen. Fred starter med deg.\n(In english follows)\n\nMeditasjonen starter kl 10\nDørene åpner kl 9:50\nGratis deltagelse\n\nHea"
   },
   {
     "id": "blaa-2026-06-14-frank-znort-quartet",
@@ -1300,16 +1270,6 @@
     "description": "Men I Trust kommer til Sentrum Scene onsdag 17. juni! Trioen, som består av Emma Proulx (gitar og vokal), Jessy Caron (gitar og bass) og Dragos Chiriac (keyboard), serverer en deilig miks av drømmepop"
   },
   {
-    "id": "meetup-2026-06-17--rsm-te",
-    "title": "Årsmøte",
-    "date": "2026-06-17",
-    "time": "17:30",
-    "category": "kultur",
-    "source": "meetup",
-    "url": "https://www.meetup.com/oslo-software-architecture/events/314953731/",
-    "description": "Oslo Software Architecture (OSWA) arrangerer årsmøte. Hvis du vil vite mer om hvordan OSWA drives og være med å påvirke hvilken retning stiftelsen skal gå i, så oppfordres du til å møte på dette årsmø"
-  },
-  {
     "id": "meetup-2026-06-17-wednesday-boardgame-night-",
     "title": "Wednesday BoardGame Night!",
     "date": "2026-06-17",
@@ -1340,24 +1300,24 @@
     "description": ""
   },
   {
-    "id": "meetup-2026-06-17-after-work-mingle---meet-peopl",
-    "title": "After-work mingle — meet people in Oslo",
-    "date": "2026-06-17",
-    "time": "19:00",
-    "category": "kultur",
-    "source": "meetup",
-    "url": "https://www.meetup.com/room-for-more/events/314997594/",
-    "description": "**We’re meeting for a relaxed after-work chat in Oslo.**\n\nThis is a repeat of my first event where i wanted to keep it simple: just show up, grab a drink or something to eat if you like, and meet some"
-  },
-  {
     "id": "nieuscene-2076257366285929",
     "title": "Magnus Devolds Sommerquiz",
     "date": "2026-06-17",
-    "time": "20:00",
+    "time": "19:00",
     "category": "humor",
     "source": "nieuscene",
     "url": "https://www.facebook.com/events/2076257366285929",
     "description": "Endelig sommer. Mindre klær, mer sol og viktigst av alt, en quiz du tror du har kontroll på. Magnus Devold inviterer til sommerquiz på nieu torshov. Det blir spørsmål om litt av hvert, akkurat passe vanskelig, og garantert noen runder hvor selvtilliten ryker litt underveis. Ta med venner, kollegaer "
+  },
+  {
+    "id": "meetup-2026-06-18-lean-coffee--fysisk-m-te--",
+    "title": "Lean Coffee (fysisk møte!)",
+    "date": "2026-06-18",
+    "time": "08:00",
+    "category": "kultur",
+    "source": "meetup",
+    "url": "https://www.meetup.com/leancoffeeoslo/events/314756386/",
+    "description": "**Velkommen til Lean Coffee!**\n\nVi fortsetter morgentradisjonen med regelmessige møter over en kopp kaffe hos Stockfleths i Prinsens gate (i kvadraturen i Oslo).\n\nHer loves relevante og engasjerende t"
   },
   {
     "id": "rockefeller-2026-06-18-fotball-vm--tsjekkia---s-r-afr",
@@ -1388,6 +1348,16 @@
     "source": "meetup",
     "url": "https://www.meetup.com/oslosec/events/315085433/",
     "description": "Come join us for OsloSec!\n\nThis month we are at Prindsen Hage!\nhttps://www.prindsenhage.no/mattilbud-i-prindsen-hage\n\nThere is no agenda, just a casual gathering to engage with the local InfoSec commu"
+  },
+  {
+    "id": "meetup-2026-06-18--rsm-te",
+    "title": "Årsmøte",
+    "date": "2026-06-18",
+    "time": "17:30",
+    "category": "kultur",
+    "source": "meetup",
+    "url": "https://www.meetup.com/oslo-software-architecture/events/314953731/",
+    "description": "Oslo Software Architecture (OSWA) arrangerer årsmøte. Hvis du vil vite mer om hvordan OSWA drives og være med å påvirke hvilken retning stiftelsen skal gå i, så oppfordres du til å møte på dette årsmø"
   },
   {
     "id": "lasttrain-2026-06-18-s-nne-dager---slippfest",
@@ -1530,6 +1500,16 @@
     "description": ""
   },
   {
+    "id": "meetup-2026-06-19-online-evening-group-for-women",
+    "title": "Online evening group for women- with tools from the method of IOPT",
+    "date": "2026-06-19",
+    "time": "19:00",
+    "category": "kultur",
+    "source": "meetup",
+    "url": "https://www.meetup.com/iopt-workshops-and-self-development-workshops/events/315027157/",
+    "description": "Join us for an enlightening workshop on self-love and self-acceptance, where you will learn practical tools and techniques to cultivate a deeper sense of love and acceptance for yourself. This worksho"
+  },
+  {
     "id": "nieuscene-1976043023028508",
     "title": "Shades of Gay",
     "date": "2026-06-19",
@@ -1666,7 +1646,7 @@
     "time": "20:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/en/e/molten_gold__fuzzterminal__janteloven__revolver",
+    "url": "https://revolveroslo.ticketco.events/no/nb/e/molten_gold__fuzzterminal__janteloven__revolver",
     "description": ""
   },
   {
@@ -1698,6 +1678,16 @@
     "source": "nieuscene",
     "url": "https://www.facebook.com/events/963875389677945",
     "description": "Hver helg kommer en ny nieu-venn og samler forskjellige folk til en skrattemild idiotkveld med fokus på humor. Blir det stand up? Blir det impro? Blir det burlesque? Bare en måte å finne ut det på. Kom å få den kulturelle magesekken din stappa full! Kan bli læ10s dette! Dørene åpner: 20:45 Showstart"
+  },
+  {
+    "id": "meetup-2026-06-21-heartfulness-meditasjon-gr-ner",
+    "title": "Heartfulness meditasjon Grünerløkka",
+    "date": "2026-06-21",
+    "time": "09:50",
+    "category": "kultur",
+    "source": "meetup",
+    "url": "https://www.meetup.com/heartfulness-meditation-oslo-meetup/events/315099827/",
+    "description": "Velkommen til Heartfulness avspenning og meditasjon på hjertet - et pust i hverdagen. Fred starter med deg.\n(In english follows)\n\nMeditasjonen starter kl 10\nDørene åpner kl 9:50\nGratis deltagelse\n\nHea"
   },
   {
     "id": "nieuscene-1391654166083966",
@@ -1778,6 +1768,16 @@
     "source": "meetup",
     "url": "https://www.meetup.com/room-for-more/events/315103086/",
     "description": "**Welcome to our Monday board-game evening at No Stress in Strøget, Oslo.**\n\nJust come as you are, sit down with the group, play a board game or just chat, and meet other nice attendees.\n\n**This is a "
+  },
+  {
+    "id": "meetup-2026-06-22-fpga-aften-2026-uke-26",
+    "title": "FPGA-aften 2026 uke 26",
+    "date": "2026-06-22",
+    "time": "19:15",
+    "category": "kultur",
+    "source": "meetup",
+    "url": "https://www.meetup.com/bitraf/events/314946144/",
+    "description": "Vi leker med, og deler kunnskap om, feltprogrammerbare portmatriser.\nTa gjerne med egne prosjeker for å vise fram.\nAlle som er interesserte i FPGA er velkomne.\nDe som er nye på Bitraf får en introduks"
   },
   {
     "id": "rockefeller-2026-06-22-fotball-vm--frankrike---irak--",
@@ -1880,16 +1880,6 @@
     "description": "# 🧘‍♂️ Mindful Peace: Zoom Online Reading & Reflection Club\n\n# **Are you looking for a space to find mental clarity, inner peace, and a supportive community?**\n\nWelcome to the **Mindful Peace Online R"
   },
   {
-    "id": "meetup-2026-06-24-online-morning-group-for-women",
-    "title": "Online morning group for women-resonance and tools from iopt",
-    "date": "2026-06-24",
-    "time": "10:00",
-    "category": "kultur",
-    "source": "meetup",
-    "url": "https://www.meetup.com/iopt-workshops-and-self-development-workshops/events/315099347/",
-    "description": "Morning group for women. I invite you to a group with focus on deep connections, coming closer to yourself and the present moment in a safe space. To lay the groundwork for your friday and weekend.\n\nW"
-  },
-  {
     "id": "meetup-2026-06-24-microsoft-build---localhost--o",
     "title": "Microsoft Build //localhost: Oslo with Azure User Group Norway",
     "date": "2026-06-24",
@@ -1938,16 +1928,6 @@
     "source": "latter",
     "url": "https://www.ticketmaster.no/event/sommerstandup-2026-billetter/1798546633",
     "description": ""
-  },
-  {
-    "id": "meetup-2026-06-24-online-evening-group-for-women",
-    "title": "Online evening group for women- with tools from the method of IOPT",
-    "date": "2026-06-24",
-    "time": "19:00",
-    "category": "kultur",
-    "source": "meetup",
-    "url": "https://www.meetup.com/iopt-workshops-and-self-development-workshops/events/315105725/",
-    "description": "Join us for an enlightening workshop on self-love and self-acceptance, where you will learn practical tools and techniques to cultivate a deeper sense of love and acceptance for yourself. This worksho"
   },
   {
     "id": "nieuscene-1573417351062876",
@@ -2050,6 +2030,16 @@
     "description": "Siden 2012 har Christian Mikkelsen, Emil Lystvedt Berntsen, Leo Magnus de la Nuez og Olav Svarstad Haugland spilt improteater med ambisjonen om å bare ha det moro. Nå er de klare for bare å ha det moro enda mere enn hva de har hatt det moro før. På mange måter Bare Moroere Impro? Så vil du bare ha d"
   },
   {
+    "id": "meetup-2026-06-26-online-morning-group-for-women",
+    "title": "Online morning group for women-resonance and tools from iopt",
+    "date": "2026-06-26",
+    "time": "10:00",
+    "category": "kultur",
+    "source": "meetup",
+    "url": "https://www.meetup.com/iopt-workshops-and-self-development-workshops/events/315130441/",
+    "description": "Morning group for women. I invite you to a group with focus on deep connections, coming closer to yourself and the present moment in a safe space. To lay the groundwork for your friday and weekend.\n\nW"
+  },
+  {
     "id": "rockefeller-2026-06-26-fotball-vm--norge---frankrike",
     "title": "Fotball-VM: Norge - Frankrike",
     "date": "2026-06-26",
@@ -2100,16 +2090,6 @@
     "description": "For June, our theme is experimental literature. Our book selection is The Waves, by English novelist Virginia Woolf.\n\nWoolf is an influential modernist writers from the early 20th century. The Waves i"
   },
   {
-    "id": "meetup-2026-06-26-online-evening-group-for-women",
-    "title": "Online evening group for women- with tools from the method of IOPT",
-    "date": "2026-06-26",
-    "time": "19:00",
-    "category": "kultur",
-    "source": "meetup",
-    "url": "https://www.meetup.com/iopt-workshops-and-self-development-workshops/events/315135527/",
-    "description": "Join us for an enlightening workshop on self-love and self-acceptance, where you will learn practical tools and techniques to cultivate a deeper sense of love and acceptance for yourself. This worksho"
-  },
-  {
     "id": "nieuscene-1005098982091898",
     "title": "Galvan tenker høyt",
     "date": "2026-06-26",
@@ -2118,6 +2098,16 @@
     "source": "nieuscene",
     "url": "https://www.facebook.com/events/1005098982091898",
     "description": "Et prøveshow av Galvan Mehidi. Han tenker tanker høyt. Dørene åpner: 18:45 Showstart: 19:00 Aldersgrense: 18 år Pris: 99,- Med forbehold om endring i programmet. Kjøpte billetter refunderes ikke."
+  },
+  {
+    "id": "nieuscene-1500351345170349",
+    "title": "HVA HVIS  med Sara Grette",
+    "date": "2026-06-26",
+    "time": "19:30",
+    "category": "humor",
+    "source": "nieuscene",
+    "url": "https://www.facebook.com/events/1500351345170349",
+    "description": "Hva hvis du ikke satt å leste denne teksten akkurat nå, men heller satt i fengsel på Bahamas? Eller at du ikke dro på festen hvor du møtte kjæresten, tok en helt annen karrierevei eller befant deg på Titanic? Improvisatøren Sara Grette inviterer til HVA HVIS- et helt improvisert, køddent og uforutsi"
   },
   {
     "id": "nieuscene-839991985847640",
@@ -2160,6 +2150,26 @@
     "description": "Join me for an online creative writing workshop! ✨\nWe’ll explore a series of creative writing exercises together, take time to write, and then share and discuss our thoughts and reflections in a suppo"
   },
   {
+    "id": "meetup-2026-06-27-bodyweight-workout-in-oslo",
+    "title": "Bodyweight workout in Oslo",
+    "date": "2026-06-27",
+    "time": "13:00",
+    "category": "kultur",
+    "source": "meetup",
+    "url": "https://www.meetup.com/room-for-more/events/314889505/",
+    "description": "**Details**\n\nWe’re meeting for a relaxed outdoor workout at a calisthenics park in Oslo.\n\n**I want to keep it simple:** show up in clothes you can move in, we use the bars together, and you go at your"
+  },
+  {
+    "id": "nieuscene-926768663713604",
+    "title": "Comedy Gold - English Standup",
+    "date": "2026-06-27",
+    "time": "18:30",
+    "category": "humor",
+    "source": "nieuscene",
+    "url": "https://www.facebook.com/events/926768663713604",
+    "description": "Comedy Gold is a monthly English stand-up comedy show at nieu scene in Oslo, showcasing a fresh mix of local and international comedians. Expect sharp wit, big laughs, and a cozy vibe in Oslo's best stand up venue. Held once a month, it's your go-to spot for a night of hilarious entertainment. Doors"
+  },
+  {
     "id": "latter-2026-06-27-sommerstandup-2026-1830",
     "title": "Sommerstandup 2026",
     "date": "2026-06-27",
@@ -2188,6 +2198,16 @@
     "source": "nieuscene",
     "url": "https://www.facebook.com/events/1157216483237053",
     "description": "OMG! Klokka nærmer seg sommer og XTZ inviterer hele Norges befolking til tidenes sommeravslutning på Nieu Grünerløkka! Det blir et CRAZY IMPROSHOW som DU ikke vil gå glipp av. Musikk, LODD, PREMIER, alt du elsker med sommeravslutning!! Kaanskje lærerne har laget en liten rap? Dette er 4. år på rad X"
+  },
+  {
+    "id": "nieuscene-2045867179660254",
+    "title": "Usensurert - et trygt rom med utrygge vitser",
+    "date": "2026-06-27",
+    "time": "19:30",
+    "category": "humor",
+    "source": "nieuscene",
+    "url": "https://www.facebook.com/events/2045867179660254",
+    "description": "Klar for en komedieopplevelse uten filter? Er du lei av familievennlig og politisk korrekt humor uten tæl? Da er du på rett sted! Usensurert er et standup-show hvor komikerne får fritt spillerom til å utforske mørke, sære og rare hjørner av humoruniverset sitt, uten sensur. Vi er stolte av å levere "
   },
   {
     "id": "lasttrain-2026-06-27-wild-willy-s-gang-in-concert",
@@ -2341,7 +2361,7 @@
   },
   {
     "id": "revolver-2026-07-01-o-r-b--aus-----revolver-backya",
-    "title": "O.R.B (aus) // Revolver backyard",
+    "title": "O.R.B (aus) // Revolver Backyard",
     "date": "2026-07-01",
     "time": "18:00",
     "category": "konsert",
@@ -2996,7 +3016,7 @@
     "time": "20:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/en/e/horrifier__inchoation__stabber__revolver",
+    "url": "https://revolveroslo.ticketco.events/no/nb/e/horrifier__inchoation__stabber__revolver",
     "description": ""
   },
   {
@@ -3220,6 +3240,16 @@
     "description": "Bristol-baserte Tara Clerkin Trio har gjort seg bemerket de siste årene med sterke utgivelser på det anerkjente plateselskapet World of Echo, og girer nå opp til slipp av nytt album i juni, kalt Somew"
   },
   {
+    "id": "lasttrain-2026-08-15-gr-mphr---au--supp--maggot-far",
+    "title": "GRÜMPHRÖ (AU) SUPP: MAGGOT FARM",
+    "date": "2026-08-15",
+    "time": "18:00",
+    "category": "konsert",
+    "source": "lasttrain",
+    "url": "https://tikkio.com/events/64524",
+    "description": "GRÜMPHRÖ (AU)\nSUPP: MAGGOT FARM\n\nFor første gang drar svartmetallistene fra Østerrike til Norge, og turen da blir til Last Train!\n\nPå kveldens meny kan man finne det beste av europeisk hedenskap, I de"
+  },
+  {
     "id": "latter-2026-08-15-sommerstandup-2026-1830",
     "title": "Sommerstandup 2026",
     "date": "2026-08-15",
@@ -3326,7 +3356,7 @@
     "time": "18:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/en/e/lee_brains_us__revolver_bakgaard",
+    "url": "https://revolveroslo.ticketco.events/no/nb/e/lee_brains_us__revolver_bakgaard",
     "description": ""
   },
   {
@@ -3706,7 +3736,7 @@
     "time": "18:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/en/e/ekkolodd__revolver_bakgaard2",
+    "url": "https://revolveroslo.ticketco.events/no/nb/e/ekkolodd__revolver_bakgaard2",
     "description": ""
   },
   {
@@ -3816,7 +3846,7 @@
     "time": "18:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/nb/e/rock__spesialreiser_25_aar_lydsyn_dk_human_toys_frus_fuzzterminal__revolver",
+    "url": "https://revolveroslo.ticketco.events/no/en/e/rock__spesialreiser_25_aar_lydsyn_dk_human_toys_frus_fuzzterminal__revolver",
     "description": ""
   },
   {
@@ -4890,6 +4920,16 @@
     "description": ""
   },
   {
+    "id": "parkteatret-2026-09-15-the-bad-plus",
+    "title": "The Bad Plus",
+    "date": "2026-09-15",
+    "time": "19:00",
+    "category": "konsert",
+    "source": "parkteatret",
+    "url": "https://www.ticketmaster.no/event/1420710980?brand=parkteatret",
+    "description": ""
+  },
+  {
     "id": "detnorske-2026-09-15-2002-ntoro-yume-1930",
     "title": "2002 ntoro yume",
     "date": "2026-09-15",
@@ -5000,16 +5040,6 @@
     "description": "5 nye komikere hver uke - tirsdag til lørdag!"
   },
   {
-    "id": "nieuscene-874985061666027",
-    "title": "Verdens beste show 3",
-    "date": "2026-09-17",
-    "time": "19:00",
-    "category": "humor",
-    "source": "nieuscene",
-    "url": "https://www.facebook.com/events/874985061666027",
-    "description": "BMI (Bare Moro Impro) har i over en dekade levert humor i sin pureste form til de heldige som har innløst billett. Christian Mikkelsen (humoretaten), Emil Lystvedt Berntsen (Ensjø Nybygg Mannskor) og Olav Svarstad Haugland (250-bussen) tar over Cosmopolite høsten 2026 med oppfølgeren til publikumssu"
-  },
-  {
     "id": "nieuscene-2458998277934634",
     "title": "Veslevoksen",
     "date": "2026-09-17",
@@ -5018,6 +5048,16 @@
     "source": "nieuscene",
     "url": "https://www.facebook.com/events/2458998277934634",
     "description": "Veslevoksen - et standupshow om å være 9, 33 og 84 år samtidig. Hannah Christin Lerfaldet (33) har alltid vært ekstremt veslevoksen. Som 9 år gammel jente med en sjel på 84 år har hun skrevet ned sine innerste tanker, drømmer og forelskelser. Noe er kleint. Noe er rørende. Alt skal frem i lyset. Reg"
+  },
+  {
+    "id": "nieuscene-874985061666027",
+    "title": "Verdens beste show 3",
+    "date": "2026-09-17",
+    "time": "19:00",
+    "category": "humor",
+    "source": "nieuscene",
+    "url": "https://www.facebook.com/events/874985061666027",
+    "description": "BMI (Bare Moro Impro) har i over en dekade levert humor i sin pureste form til de heldige som har innløst billett. Christian Mikkelsen (humoretaten), Emil Lystvedt Berntsen (Ensjø Nybygg Mannskor) og Olav Svarstad Haugland (250-bussen) tar over Cosmopolite høsten 2026 med oppfølgeren til publikumssu"
   },
   {
     "id": "latter-2026-09-17-finn-tre-feil-1900",
@@ -6510,16 +6550,6 @@
     "description": "5 nye komikere hver uke - tirsdag til lørdag!"
   },
   {
-    "id": "nieuscene-978411398046523",
-    "title": "Fredrik Fornes - Mitt liv som ansatt",
-    "date": "2026-10-14",
-    "time": "19:00",
-    "category": "humor",
-    "source": "nieuscene",
-    "url": "https://www.facebook.com/events/978411398046523",
-    "description": "MITT LIV SOM ANSATT – ET HUMORSHOW OM KONTORLIVET Fredrik Fornes er foredragsholder, forfatter – og Norges største arbeidslivsinfluenser. Med sine satiriske videoer om kontorkulturens finurligheter har han på rekordtid fått over 100 000 følgere og millioner av visninger på Instagram. Der peker han n"
-  },
-  {
     "id": "latter-2026-10-14-dylan-moran--looking-for-troub-1900",
     "title": "Dylan Moran: Looking For Trouble",
     "date": "2026-10-14",
@@ -7096,7 +7126,7 @@
     "time": "20:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/sv/e/ulrika_spacek_uk__revolver",
+    "url": "https://revolveroslo.ticketco.events/no/nb/e/ulrika_spacek_uk__revolver",
     "description": ""
   },
   {
@@ -7346,7 +7376,7 @@
     "time": "20:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/en/e/bolverk_releaseparty__supp_vingulmork__vexmortem__revolver",
+    "url": "https://revolveroslo.ticketco.events/no/nb/e/bolverk_releaseparty__supp_vingulmork__vexmortem__revolver",
     "description": ""
   },
   {
@@ -7630,16 +7660,6 @@
     "description": "Pernille Sørensen, Live Nelvik & Kristine Riis"
   },
   {
-    "id": "nieuscene-1161947299349196",
-    "title": "Master eller fagbrev med Eivind Abrahamsen og Emil Grønmo",
-    "date": "2026-11-06",
-    "time": "19:30",
-    "category": "humor",
-    "source": "nieuscene",
-    "url": "https://www.facebook.com/events/1161947299349196",
-    "description": "Hvordan ser det ut når en advokat og en elektriker gjør et standupshow sammen? \"Master eller fagbrev\" er et humorshow om våre livsvalg - om karrierevalg og identitet. Showet ledes av Eivind Abrahamsen som er advokat, og Emil Grønmo som er elektriker. Eivind og Emil har hatt mange, lange samtaler om "
-  },
-  {
     "id": "latter-2026-11-06-standup-p--latter-2030",
     "title": "Standup på Latter",
     "date": "2026-11-06",
@@ -7918,16 +7938,6 @@
     "source": "latter",
     "url": "https://www.ticketmaster.no/event/standup-pa-latter-billetter/1112970221",
     "description": "5 nye komikere hver uke - tirsdag til lørdag!"
-  },
-  {
-    "id": "nieuscene-1205142521428698",
-    "title": "\"Men har du prøvd yoga?\" - et standupshow om å skli på isen",
-    "date": "2026-11-13",
-    "time": "19:00",
-    "category": "humor",
-    "source": "nieuscene",
-    "url": "https://www.facebook.com/events/1205142521428698",
-    "description": "Du vet når livet gir deg en på trynet? Sånn skikkelig på trynet på trynet. Sånn absolutt-alle-planer-du-noensinne-har-hatt-må-legges-om-og-byttes-ut-på-trynet? Det kan være kjæresten som ikke ville være kjæreste lenger eller bilen som havna i grøfta. Eller kanskje jobben du mista, barnet du aldri fi"
   },
   {
     "id": "latter-2026-11-13-finn-tre-feil-1900",
@@ -8540,6 +8550,16 @@
     "description": ""
   },
   {
+    "id": "revolver-2026-11-26-tramhaus--nl-----revolver",
+    "title": "Tramhaus (NL) // Revolver",
+    "date": "2026-11-26",
+    "time": "20:00",
+    "category": "konsert",
+    "source": "revolver",
+    "url": "https://revolveroslo.ticketco.events/no/en/e/tramhous_nl__revolver",
+    "description": ""
+  },
+  {
     "id": "latter-2026-11-26-standup-p--latter-2030",
     "title": "Standup på Latter",
     "date": "2026-11-26",
@@ -8618,16 +8638,6 @@
     "source": "latter",
     "url": "https://www.ticketmaster.no/event/finn-tre-feil-billetter/1769946422",
     "description": "Pernille Sørensen, Live Nelvik & Kristine Riis"
-  },
-  {
-    "id": "revolver-2026-11-27-tramhaus--nl-----revolver",
-    "title": "Tramhaus (NL) // Revolver",
-    "date": "2026-11-27",
-    "time": "20:00",
-    "category": "konsert",
-    "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/en/e/tramhous_nl__revolver",
-    "description": ""
   },
   {
     "id": "latter-2026-11-27-standup-p--latter-2030",
