@@ -612,6 +612,18 @@
     "lon": 10.7803576
   },
   {
+    "id": "osm-12431036401",
+    "name": "Buteco Ipanema",
+    "type": "bar",
+    "address": "Strøget, 0155",
+    "website": "",
+    "phone": "",
+    "opening_hours": "",
+    "description": "",
+    "lat": 59.9134528,
+    "lon": 10.7494308
+  },
+  {
     "id": "osm-293476776",
     "name": "Bydelskroa",
     "type": "pub",
@@ -867,7 +879,7 @@
     "id": "osm-34693422",
     "name": "Dubliner",
     "type": "pub",
-    "address": "Rådhusgata, 0153",
+    "address": "Rådhusgata, 0157",
     "website": "",
     "phone": "",
     "opening_hours": "",
@@ -1275,7 +1287,7 @@
     "id": "osm-2785849016",
     "name": "Heidis Beer Bar",
     "type": "bar",
-    "address": "Fridtjof Nansens plass 8, 0160",
+    "address": "Fridtjof Nansens plass, 0160",
     "website": "",
     "phone": "",
     "opening_hours": "",
@@ -1539,7 +1551,7 @@
     "id": "osm-2785637669",
     "name": "Kniven",
     "type": "pub",
-    "address": "Møllergata, 0179",
+    "address": "Møllergata 32B, 0179",
     "website": "",
     "phone": "",
     "opening_hours": "",
@@ -1932,6 +1944,18 @@
     "lon": 10.7601441
   },
   {
+    "id": "osm-13951392738",
+    "name": "No stress",
+    "type": "bar",
+    "address": "Strøget, 0155",
+    "website": "",
+    "phone": "",
+    "opening_hours": "",
+    "description": "",
+    "lat": 59.9137166,
+    "lon": 10.7487099
+  },
+  {
     "id": "osm-7702403161",
     "name": "O'Reillys",
     "type": "pub",
@@ -2031,7 +2055,7 @@
     "id": "osm-4157612842",
     "name": "Oslo Bar & Bowling",
     "type": "bar",
-    "address": "Hammersborggata, 0179",
+    "address": "Torggata 14, 0181",
     "website": "",
     "phone": "",
     "opening_hours": "",
@@ -2182,18 +2206,6 @@
     "description": "",
     "lat": 59.915404,
     "lon": 10.7407526
-  },
-  {
-    "id": "osm-5815361153",
-    "name": "Perestrojka",
-    "type": "bar",
-    "address": "Strøget, 0155",
-    "website": "",
-    "phone": "",
-    "opening_hours": "",
-    "description": "",
-    "lat": 59.9135458,
-    "lon": 10.7491595
   },
   {
     "id": "osm-9664478251",
@@ -2580,6 +2592,18 @@
     "lon": 10.7562911
   },
   {
+    "id": "osm-13951407390",
+    "name": "Sip",
+    "type": "bar",
+    "address": "Strøget, 0155",
+    "website": "",
+    "phone": "",
+    "opening_hours": "",
+    "description": "",
+    "lat": 59.9137179,
+    "lon": 10.7490325
+  },
+  {
     "id": "osm-315230165",
     "name": "Sir Winston",
     "type": "pub",
@@ -2590,18 +2614,6 @@
     "description": "",
     "lat": 59.911778,
     "lon": 10.746518
-  },
-  {
-    "id": "osm-12431036401",
-    "name": "Sjappa",
-    "type": "bar",
-    "address": "Strøget, 0155",
-    "website": "",
-    "phone": "",
-    "opening_hours": "",
-    "description": "",
-    "lat": 59.9134528,
-    "lon": 10.7494308
   },
   {
     "id": "osm-12036743706",
