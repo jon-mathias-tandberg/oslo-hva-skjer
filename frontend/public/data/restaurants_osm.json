@@ -2352,6 +2352,18 @@
     "lon": 10.735454
   },
   {
+    "id": "osm-rest-13974136886",
+    "name": "Fish Me Oslo",
+    "cuisine": "Fish;Seafood",
+    "address": "Brynjulf Bulls plass, 0037",
+    "website": "https://fishme.no/",
+    "phone": "",
+    "opening_hours": "",
+    "description": "",
+    "lat": 59.9110127,
+    "lon": 10.7311018
+  },
+  {
     "id": "osm-rest-5649066509",
     "name": "Fiskehuset",
     "cuisine": "",
@@ -6771,7 +6783,7 @@
     "id": "osm-rest-2785920497",
     "name": "Risbolle",
     "cuisine": "Thai",
-    "address": "Dronningens gate, 0154",
+    "address": "Dronningens gate 24, 0154",
     "website": "https://www.risbolle.no/",
     "phone": "",
     "opening_hours": "Mo-Sa 11:00-22:00; Su 13:30-21:00",
