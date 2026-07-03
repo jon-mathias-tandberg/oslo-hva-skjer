@@ -336,18 +336,6 @@
     "lon": 10.7589651
   },
   {
-    "id": "osm-3607116666",
-    "name": "BD57",
-    "type": "pub",
-    "address": "Markveien, 0550",
-    "website": "https://www.brewdog.com/uk/grunerlokka",
-    "phone": "",
-    "opening_hours": "Mo 15:00-23:00; Tu-Fr 15:00-01:00; Sa 12:00-01:00; Su 12:00-23:00",
-    "description": "",
-    "lat": 59.9199499,
-    "lon": 10.7572416
-  },
-  {
     "id": "osm-12116692500",
     "name": "Becco",
     "type": "bar",
@@ -802,6 +790,18 @@
     "description": "",
     "lat": 59.927151,
     "lon": 10.7384826
+  },
+  {
+    "id": "osm-3607116666",
+    "name": "Crafty Dog Oslo",
+    "type": "pub",
+    "address": "Markveien 57",
+    "website": "",
+    "phone": "",
+    "opening_hours": "Mo 15:00-23:00; Tu-Fr 15:00-01:00; Sa 12:00-01:00; Su 12:00-23:00",
+    "description": "",
+    "lat": 59.9199499,
+    "lon": 10.7572416
   },
   {
     "id": "osm-2949645533",
@@ -1539,7 +1539,7 @@
     "id": "osm-2785637669",
     "name": "Kniven",
     "type": "pub",
-    "address": "Møllergata, 0179",
+    "address": "Møllergata 32B, 0179",
     "website": "",
     "phone": "",
     "opening_hours": "",
@@ -2043,7 +2043,7 @@
     "id": "osm-4157612842",
     "name": "Oslo Bar & Bowling",
     "type": "bar",
-    "address": "Hammersborggata, 0179",
+    "address": "Torggata 14, 0181",
     "website": "",
     "phone": "",
     "opening_hours": "",
