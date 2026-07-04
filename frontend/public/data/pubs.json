@@ -171,7 +171,7 @@
     "id": "osm-6136462029",
     "name": "Bar Albatross",
     "type": "bar",
-    "address": "Torshovgata 5A, 0476",
+    "address": "Torshovgata, 0474",
     "website": "",
     "phone": "",
     "opening_hours": "",
@@ -1846,6 +1846,18 @@
     "description": "",
     "lat": 59.9102579,
     "lon": 10.7611342
+  },
+  {
+    "id": "osm-13986167025",
+    "name": "Mer Kaos",
+    "type": "bar",
+    "address": "Sørengkaia, 0194",
+    "website": "",
+    "phone": "",
+    "opening_hours": "",
+    "description": "",
+    "lat": 59.9009531,
+    "lon": 10.7517573
   },
   {
     "id": "osm-13645864460",
