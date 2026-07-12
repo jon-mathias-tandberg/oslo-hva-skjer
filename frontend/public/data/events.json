@@ -1,95 +1,5 @@
 [
   {
-    "id": "blaa-2026-07-11-norge---england",
-    "title": "Norge - England",
-    "date": "2026-07-11",
-    "time": "10:00",
-    "category": "konsert",
-    "source": "blaa",
-    "url": "https://www.blaaoslo.no/events/norge---england/NX9pXn46Wb",
-    "description": "VI GJØR DET IGJEN\n\nVi viser Norge - England i Brenneriveien, i tillegg til uteserveringen og inne på Blå og Himmel.\n\nGratis inngang\n\nSamme opplegg som sist - ta med noe å sitte på og kom tidlig for å "
-  },
-  {
-    "id": "meetup-2026-07-11-changed-to----frognerseteren--",
-    "title": "Changed to: 🟢 Frognerseteren - Vettakollen - Sognsvann Hike & Picnic!",
-    "date": "2026-07-11",
-    "time": "11:00",
-    "category": "kultur",
-    "source": "meetup",
-    "url": "https://www.meetup.com/socialoslo/events/315542393/",
-    "description": "Hi everyone! 👋\n\nI've decided to switch Saturday's event to a picnic & hike instead. 🥾🧺🌲\n\n📍 Location: Frognerseteren T-bane Station\n🕚 What time: 11:00\n\nWe'll hike from Frognerseteren via Vettakollen an"
-  },
-  {
-    "id": "meetup-2026-07-11-the-autonomy-paradox--why-gove",
-    "title": "The autonomy paradox: why governing AI agents is what sets them free",
-    "date": "2026-07-11",
-    "time": "11:00",
-    "category": "kultur",
-    "source": "meetup",
-    "url": "https://www.meetup.com/com4ai/events/314884963/",
-    "description": "Abstract: Autonomous AI agents are no longer a research concept, they are scheduling meetings, writing code, and executing workflows right now. But autonomy without governance is a liability, not a fe"
-  },
-  {
-    "id": "nieuscene-4547926415446432",
-    "title": "Norge - England på nieu!🇳🇴🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-    "date": "2026-07-11",
-    "time": "16:00",
-    "category": "humor",
-    "source": "nieuscene",
-    "url": "https://www.facebook.com/events/4547926415446432",
-    "description": "NORGE – ENGLAND PÅ NIEU Kvartfinale. Folkefest. Fullt hus. Vi gleder oss til å vise Norge–England på hele huset, og håper dere vil være med oss på en ny historisk kveld! Dørene åpner kl. 16:00 Praktisk informasjon: - Kun drop-in – ingen bordreservasjoner. - Kampen vises på hele huset, både inne og u"
-  },
-  {
-    "id": "nieuscene-968228132903012",
-    "title": "Norge - England på nieu!🇳🇴🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-    "date": "2026-07-11",
-    "time": "16:00",
-    "category": "humor",
-    "source": "nieuscene",
-    "url": "https://www.facebook.com/events/968228132903012",
-    "description": "NORGE – ENGLAND PÅ NIEU Kvartfinale. Folkefest. Fullt hus. Vi gleder oss til å vise Norge–England på hele huset, og håper dere vil være med oss på en ny historisk kveld! Dørene åpner kl. 16:00 Praktisk informasjon: - Kun drop-in – ingen bordreservasjoner. - Kampen vises på hele huset, både inne og u"
-  },
-  {
-    "id": "meetup-2026-07-11-saturday-is-hackurday-",
-    "title": "Saturday is hackurday!",
-    "date": "2026-07-11",
-    "time": "18:00",
-    "category": "kultur",
-    "source": "meetup",
-    "url": "https://www.meetup.com/hackeriet/events/315356037/",
-    "description": "We have resumed our hangouts! You are very welcome to join if you are vaccinated.\n===\n\nOur weekly Saturday hacker hangouts are open to everyone! This is where we work on our projects and socialize. We"
-  },
-  {
-    "id": "latter-2026-07-11-sommerstandup-2026-1830",
-    "title": "Sommerstandup 2026",
-    "date": "2026-07-11",
-    "time": "18:30",
-    "category": "humor",
-    "source": "latter",
-    "url": "https://www.ticketmaster.no/event/sommerstandup-2026-billetter/547151928",
-    "description": ""
-  },
-  {
-    "id": "nieuscene-1006113858735476",
-    "title": "Standup på Løkka // AVLYST",
-    "date": "2026-07-11",
-    "time": "20:00",
-    "category": "humor",
-    "source": "nieuscene",
-    "url": "https://www.facebook.com/events/1006113858735476",
-    "description": "Vi inviterer en krem konfransier til standup kveld på nieu grünerløkka. Konfransieren slipper løs noen favorittkomikere og vi kan love masse gjøgling, variasjon og uforutsigbare innslag fra alle kanter. Det blir standup, kaos og en kveld der alt kan skje! Dørene åpner: 19:30 Showstart: 20:00 Aldersg"
-  },
-  {
-    "id": "blaa-2026-07-11-bitter-babe--tratratrax----lov",
-    "title": "Bitter Babe (TraTraTrax) & Loveshy",
-    "date": "2026-07-11",
-    "time": "21:59",
-    "category": "konsert",
-    "source": "blaa",
-    "url": "https://www.ticketmaster.no/event/439889665",
-    "description": "Vi åpner dørene etter Norge - England.\n\nBitter Babe er en Miami-født Paris-basert produsent, artist og DJ. Hun er resident på velkjent NTS Radio, har turnert internasjonalt siden 2023, og opptrådt på "
-  },
-  {
     "id": "meetup-2026-07-12-heartfulness-meditasjon-gr-ner",
     "title": "Heartfulness meditasjon Grünerløkka",
     "date": "2026-07-12",
@@ -270,6 +180,16 @@
     "description": "Hi everyone 🤍\n\nWe’re gathering again for another Puzzle & Chill — back at Deichman Bjørvika.\n🧩 **17 April, 18:00–21:00**\n📍 Meeting room: Apalløkka, 3th floor.\n\n**If you’re new,** you’re very welcome 😊"
   },
   {
+    "id": "meetup-2026-07-17-prusa-3d-printer-course",
+    "title": "PRUSA 3D printer course",
+    "date": "2026-07-17",
+    "time": "18:00",
+    "category": "kultur",
+    "source": "meetup",
+    "url": "https://www.meetup.com/bitraf/events/315630922/",
+    "description": "**The only requirement for the course, is that you choose a time you can actually attend and cancel in advance if you can't attend.**\n\nThis is the introduction course to 3D-printing, for people who wa"
+  },
+  {
     "id": "latter-2026-07-17-sommerstandup-2026-1830",
     "title": "Sommerstandup 2026",
     "date": "2026-07-17",
@@ -360,14 +280,14 @@
     "description": "Fredfades er en norsk produsent, DJ og platesamler som gjennom sine uttallige mikser (Discogs, NTS, Boiler Room, MCDE, Truhsmix +++) og klubbsett har vist seg å være en av landets største kjennere av "
   },
   {
-    "id": "meetup-2026-07-19-shopbot-cnc-theory-and-practic",
-    "title": "Shopbot CNC theory and practical",
+    "id": "meetup-2026-07-19-online-morning-group-for-women",
+    "title": "Online morning group for women-resonance and tools from iopt",
     "date": "2026-07-19",
-    "time": "11:00",
+    "time": "10:00",
     "category": "kultur",
     "source": "meetup",
-    "url": "https://www.meetup.com/bitraf/events/315497518/",
-    "description": "This course is necessary for new users of the Shopbot CNC at Bitraf to establish baseline knowledge & safety standards that everyone can expect from each other.\n\nIt will be held in English.\n\nThis cour"
+    "url": "https://www.meetup.com/iopt-workshops-and-self-development-workshops/events/315465986/",
+    "description": "Morning group for women. I invite you to a group with focus on deep connections, coming closer to yourself and the present moment in a safe space. To lay the groundwork for your friday and weekend.\n\nW"
   },
   {
     "id": "blaa-2026-07-19-frank-znort-quartet",
@@ -620,16 +540,6 @@
     "description": "Formula 1 Watch Party på Nieu Sportsbar Denne søndagen kan du se Hungarian Grand Prix LIVE hos oss på Nieu Sportsbar kl. 15.00. Side Chick serverer wings, fries og digg mat mellom lapsene, så du slipper å gå sulten gjennom løpet. Det er gratis og åpent for alle. Vi tar ikke bordreservasjoner, så det"
   },
   {
-    "id": "meetup-2026-07-27-online-morning-group-for-women",
-    "title": "Online morning group for women-resonance and tools from iopt",
-    "date": "2026-07-27",
-    "time": "10:00",
-    "category": "kultur",
-    "source": "meetup",
-    "url": "https://www.meetup.com/iopt-workshops-and-self-development-workshops/events/315582584/",
-    "description": "Morning group for women. I invite you to a group with focus on deep connections, coming closer to yourself and the present moment in a safe space. To lay the groundwork for your friday and weekend.\n\nW"
-  },
-  {
     "id": "meetup-2026-07-27-online-evening-group-for-women",
     "title": "Online evening group for women- with tools from the method of IOPT",
     "date": "2026-07-27",
@@ -660,6 +570,16 @@
     "description": "# 🧘‍♂️ Mindful Peace: Zoom Online Reading & Reflection Club\n\n# **Are you looking for a space to find mental clarity, inner peace, and a supportive community?**\n\nWelcome to the **Mindful Peace Online R"
   },
   {
+    "id": "meetup-2026-07-29-online-morning-group-for-women",
+    "title": "Online morning group for women-resonance and tools from iopt",
+    "date": "2026-07-29",
+    "time": "10:00",
+    "category": "kultur",
+    "source": "meetup",
+    "url": "https://www.meetup.com/iopt-workshops-and-self-development-workshops/events/315611269/",
+    "description": "Morning group for women. I invite you to a group with focus on deep connections, coming closer to yourself and the present moment in a safe space. To lay the groundwork for your friday and weekend.\n\nW"
+  },
+  {
     "id": "meetup-2026-07-29-wednesday-boardgame-night-",
     "title": "Wednesday BoardGame Night!",
     "date": "2026-07-29",
@@ -680,14 +600,14 @@
     "description": ""
   },
   {
-    "id": "meetup-2026-07-29-online-evening-group-for-women",
-    "title": "Online evening group for women- with tools from the method of IOPT",
-    "date": "2026-07-29",
-    "time": "19:00",
+    "id": "meetup-2026-07-30-lean-coffee--fysisk-m-te--",
+    "title": "Lean Coffee (fysisk møte!)",
+    "date": "2026-07-30",
+    "time": "08:00",
     "category": "kultur",
     "source": "meetup",
-    "url": "https://www.meetup.com/iopt-workshops-and-self-development-workshops/events/315617134/",
-    "description": "Join us for an enlightening workshop on self-love and self-acceptance, where you will learn practical tools and techniques to cultivate a deeper sense of love and acceptance for yourself. This worksho"
+    "url": "https://www.meetup.com/leancoffeeoslo/events/315625368/",
+    "description": "**Velkommen til Lean Coffee!**\n\nVi fortsetter morgentradisjonen med regelmessige møter over en kopp kaffe hos Stockfleths i Prinsens gate (i kvadraturen i Oslo).\n\nHer loves relevante og engasjerende t"
   },
   {
     "id": "meetup-2026-07-30-making-a-rust-based-flight-con",
@@ -1150,6 +1070,16 @@
     "description": "Frank Znort Quartet er sitt eget unike univers og Oslos upolerte perle av en skatt. Med sin livsbejaende tilnærming til sjangre, låter, mennesker og generelt drøyt bra stemning har dette storbandet st"
   },
   {
+    "id": "meetup-2026-08-10-ensj--writing-caf----skrivekaf",
+    "title": "Ensjø Writing café / Skrivekafé",
+    "date": "2026-08-10",
+    "time": "18:45",
+    "category": "kultur",
+    "source": "meetup",
+    "url": "https://www.meetup.com/oslo-writing-cafe-skrivekafe/events/315505960/",
+    "description": "Welcome to the Writing café!\n\nYou'll now find us in the loft at *Nabolagshuset, Petersborg* på **Ensjø**.\n\n**OBS! Please note that this meeting is on the second floor, accessible only by stairs. There"
+  },
+  {
     "id": "rockefeller-2026-08-11--ya-tirsdag",
     "title": "Øya-tirsdag",
     "date": "2026-08-11",
@@ -1246,7 +1176,7 @@
     "time": "23:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/en/e/shitkid_se__revolver_x_oeyanatt",
+    "url": "https://revolveroslo.ticketco.events/no/nb/e/shitkid_se__revolver_x_oeyanatt",
     "description": ""
   },
   {
@@ -1316,7 +1246,7 @@
     "time": "23:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/nb/e/vero_se__revolver_x_oeyanatt",
+    "url": "https://revolveroslo.ticketco.events/no/en/e/vero_se__revolver_x_oeyanatt",
     "description": ""
   },
   {
@@ -1586,7 +1516,7 @@
     "time": "18:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/nb/e/lee_brains_us__revolver_bakgaard",
+    "url": "https://revolveroslo.ticketco.events/no/en/e/lee_brains_us__revolver_bakgaard",
     "description": ""
   },
   {
@@ -1956,7 +1886,7 @@
     "time": "18:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/nb/e/silver_lining__revolver_bakgaard",
+    "url": "https://revolveroslo.ticketco.events/no/en/e/silver_lining__revolver_bakgaard",
     "description": ""
   },
   {
@@ -2066,7 +1996,7 @@
     "time": "18:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/nb/e/ekkolodd__revolver_bakgaard2",
+    "url": "https://revolveroslo.ticketco.events/no/en/e/ekkolodd__revolver_bakgaard2",
     "description": ""
   },
   {
@@ -2268,6 +2198,16 @@
     "source": "nieuscene",
     "url": "https://www.facebook.com/events/1689004822054255",
     "description": "Oslos mest elleville trylleshow for hele familien er endelig tilbake, og denne gangen i nye og større lokaler på splitter nye nieu Grünerløkka! Tryllekunstner Hans Henrik Verpe er tre ganger norgesmester i trylling og kombinerer humor og magi på en grensesprengende og unik måte som gjør at du nærmes"
+  },
+  {
+    "id": "lasttrain-2026-08-30-r-s-25--r---thee-gravemen--s--",
+    "title": "R&S 25 år – Thee Gravemen (S)/High Tension Girls/Invisible hand.",
+    "date": "2026-08-30",
+    "time": "16:00",
+    "category": "konsert",
+    "source": "lasttrain",
+    "url": "https://www.lasttrain.no/events/r&s-25-år-–-thee-gravemen-(s)/high-tension-girls/invisible-hand./nhuB7Maz08",
+    "description": "R&S 25 år – Thee Gravemen (S)/High Tension Girls/Invisible hand.\n\nEndre tekst til:\nRock & Spesialreiser har holdt på i 25 år med å reise til, eller arrangere konserter som ligger i gata garage/punk el"
   },
   {
     "id": "rockefeller-2026-08-30-ron-sexsmith-and-band",
@@ -2686,7 +2626,7 @@
     "time": "20:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/en/e/ultra_silvam_se__gryla__revolver",
+    "url": "https://revolveroslo.ticketco.events/no/nb/e/ultra_silvam_se__gryla__revolver",
     "description": ""
   },
   {
@@ -6206,7 +6146,7 @@
     "time": "20:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/en/e/bolverk_releaseparty__supp_vingulmork__vexmortem__revolver",
+    "url": "https://revolveroslo.ticketco.events/no/nb/e/bolverk_releaseparty__supp_vingulmork__vexmortem__revolver",
     "description": ""
   },
   {
@@ -7176,7 +7116,7 @@
     "time": "20:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/en/e/bombus__mass_worship__revolver",
+    "url": "https://revolveroslo.ticketco.events/no/nb/e/bombus__mass_worship__revolver",
     "description": ""
   },
   {
@@ -7716,7 +7656,7 @@
     "time": "20:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/en/e/tramhous_nl__revolver",
+    "url": "https://revolveroslo.ticketco.events/no/nb/e/tramhous_nl__revolver",
     "description": ""
   },
   {
