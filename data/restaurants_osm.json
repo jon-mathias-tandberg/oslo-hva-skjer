@@ -2748,18 +2748,6 @@
     "lon": 10.7501007
   },
   {
-    "id": "osm-rest-4775886935",
-    "name": "Git Bit",
-    "cuisine": "",
-    "address": "Parkveien, 0350",
-    "website": "",
-    "phone": "",
-    "opening_hours": "",
-    "description": "",
-    "lat": 59.922415,
-    "lon": 10.731694
-  },
-  {
     "id": "osm-rest-263710833",
     "name": "Glade Pinner",
     "cuisine": "Kinesisk",
@@ -3900,6 +3888,18 @@
     "lon": 10.781102
   },
   {
+    "id": "osm-rest-4775886935",
+    "name": "Kanpai Izakaya",
+    "cuisine": "Sushi",
+    "address": "Parkveien, 0350",
+    "website": "https://www.kanpai.no/",
+    "phone": "+47 91 30 82 48",
+    "opening_hours": "Tu-Sa 16:00-23:00; Su 16:00-22:00",
+    "description": "",
+    "lat": 59.922415,
+    "lon": 10.731694
+  },
+  {
     "id": "osm-rest-3932053252",
     "name": "Kantine",
     "cuisine": "",
@@ -4911,7 +4911,7 @@
     "id": "osm-rest-6136462485",
     "name": "Maaltid",
     "cuisine": "",
-    "address": "Sørligata 36, 0577",
+    "address": "Sørligata, 0577",
     "website": "https://www.maaltidtoyen.no/",
     "phone": "",
     "opening_hours": "mo off; Tu-fr 16:00-23:30; Sa 12:00-00:30; Su 12:00-17:00",
@@ -4947,7 +4947,7 @@
     "id": "osm-rest-5652445255",
     "name": "Madonna",
     "cuisine": "",
-    "address": "Operagata 17, 0194",
+    "address": "Operagata, 0194",
     "website": "https://www.madonnaoslo.no/",
     "phone": "+47 22 60 12 00",
     "opening_hours": "Mo-Th 16:00-23:00; Fr-Sa 12:00-24:00",
@@ -6994,6 +6994,18 @@
     "description": "",
     "lat": 59.9455872,
     "lon": 10.7723684
+  },
+  {
+    "id": "osm-rest-14024421702",
+    "name": "Sabrura Sticks & Sushi - Stortorvet",
+    "cuisine": "Sushi",
+    "address": "Grensen 4",
+    "website": "http://sabrurasushi.no/restauranter/ost-norge/sabrura-stortorvet",
+    "phone": "+47 40 45 43 10",
+    "opening_hours": "Mo-Sa 10:00-23:00; Su 12:00-23:00",
+    "description": "",
+    "lat": 59.913441,
+    "lon": 10.7439667
   },
   {
     "id": "osm-rest-10250800075",
