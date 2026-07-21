@@ -90,7 +90,7 @@
     "address": "Hallings gate, 0176",
     "website": "https://www.albertine-indisk.no/",
     "phone": "",
-    "opening_hours": "Mo,Tu 14:00-23:00; We-Sa 12:00-23:00",
+    "opening_hours": "Mo-Th 14:00-23:00; Fr,Sa 13:00-23:00",
     "description": "",
     "lat": 59.922396,
     "lon": 10.739063
@@ -1719,7 +1719,7 @@
     "id": "osm-rest-11524415477",
     "name": "Delicatessen Sandvika",
     "cuisine": "Tapas",
-    "address": "Rådmann Halmrasts vei 11, 1337",
+    "address": "Rådmann Halmrasts vei, 1337",
     "website": "https://delicatessen.no/sandvika/",
     "phone": "+47 22 46 72 00",
     "opening_hours": "",
@@ -3890,7 +3890,7 @@
   {
     "id": "osm-rest-4775886935",
     "name": "Kanpai Izakaya",
-    "cuisine": "Sushi",
+    "cuisine": "Japansk",
     "address": "Parkveien, 0350",
     "website": "https://www.kanpai.no/",
     "phone": "+47 91 30 82 48",
@@ -4911,7 +4911,7 @@
     "id": "osm-rest-6136462485",
     "name": "Maaltid",
     "cuisine": "",
-    "address": "Sørligata, 0577",
+    "address": "Sørligata 36, 0577",
     "website": "https://www.maaltidtoyen.no/",
     "phone": "",
     "opening_hours": "mo off; Tu-fr 16:00-23:30; Sa 12:00-00:30; Su 12:00-17:00",
@@ -4947,7 +4947,7 @@
     "id": "osm-rest-5652445255",
     "name": "Madonna",
     "cuisine": "",
-    "address": "Operagata, 0194",
+    "address": "Operagata 17, 0194",
     "website": "https://www.madonnaoslo.no/",
     "phone": "+47 22 60 12 00",
     "opening_hours": "Mo-Th 16:00-23:00; Fr-Sa 12:00-24:00",
@@ -5936,8 +5936,8 @@
     "phone": "+47 22 55 00 20",
     "opening_hours": "Mo-Fr 09:00-17:30; Sa 10:00-17:30; Su 11:00-17:30",
     "description": "",
-    "lat": 59.915095,
-    "lon": 10.725796
+    "lat": 59.9151421,
+    "lon": 10.7259301
   },
   {
     "id": "osm-rest-10137860304",
@@ -6783,7 +6783,7 @@
     "id": "osm-rest-2785920497",
     "name": "Risbolle",
     "cuisine": "Thai",
-    "address": "Dronningens gate, 0154",
+    "address": "Dronningens gate 24, 0154",
     "website": "https://www.risbolle.no/",
     "phone": "",
     "opening_hours": "Mo-Sa 11:00-22:00; Su 13:30-21:00",
@@ -7431,7 +7431,7 @@
     "id": "osm-rest-2046008740",
     "name": "Smalhans",
     "cuisine": "",
-    "address": "Ullevålsveien, 0169",
+    "address": "Ullevålsveien, 0170",
     "website": "https://www.smalhans.no/",
     "phone": "+47 22 69 60 00",
     "opening_hours": "Mo 16:00-22:00; Tu 16:00-00:30, We-Sa 11:00-00:30, Su 12:00-22:00",
@@ -7906,6 +7906,18 @@
     "description": "",
     "lat": 59.921441,
     "lon": 10.716124
+  },
+  {
+    "id": "osm-rest-3441434849",
+    "name": "Sushi of Life",
+    "cuisine": "Sushi",
+    "address": "Munkedamsveien, 0161",
+    "website": "",
+    "phone": "",
+    "opening_hours": "",
+    "description": "",
+    "lat": 59.9142361,
+    "lon": 10.7315189
   },
   {
     "id": "osm-rest-10013718382",
