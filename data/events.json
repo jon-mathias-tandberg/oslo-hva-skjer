@@ -1,35 +1,5 @@
 [
   {
-    "id": "latter-2026-07-21-sommerstandup-2026-1830",
-    "title": "Sommerstandup 2026",
-    "date": "2026-07-21",
-    "time": "18:30",
-    "category": "humor",
-    "source": "latter",
-    "url": "https://www.ticketmaster.no/event/sommerstandup-2026-billetter/1997310349",
-    "description": ""
-  },
-  {
-    "id": "meetup-2026-07-21-at-crow-bar-oslo-writers--coll",
-    "title": "AT Crow BAR\nOslo Writers' Collective: Tuesday Social Writing",
-    "date": "2026-07-21",
-    "time": "18:45",
-    "category": "kultur",
-    "source": "meetup",
-    "url": "https://www.meetup.com/oslo-skriveklubb/events/315653494/",
-    "description": "**🌈** Meet other writers 🍻 Drink tasty beverages 🌱 Overcome writer's block\n\nWe’re on the first floor of Crow bar 🐦‍⬛ look for smiling faces and people with laptop or pen and paper\n\nSend us a message i"
-  },
-  {
-    "id": "meetup-2026-07-21-mindful-peace--your-weekly-hou",
-    "title": "Mindful Peace: Your Weekly Hour of Inner Calm",
-    "date": "2026-07-21",
-    "time": "20:30",
-    "category": "kultur",
-    "source": "meetup",
-    "url": "https://www.meetup.com/mindful-peace-europe-reading-club/events/315555109/",
-    "description": "# 🧘‍♂️ Mindful Peace: Zoom Online Reading & Reflection Club\n\n# **Are you looking for a space to find mental clarity, inner peace, and a supportive community?**\n\nWelcome to the **Mindful Peace Online R"
-  },
-  {
     "id": "meetup-2026-07-22-lasercutter--basic-use-and-saf",
     "title": "Lasercutter: basic use and safety ",
     "date": "2026-07-22",
@@ -108,16 +78,6 @@
     "source": "nieuscene",
     "url": "https://www.facebook.com/events/1966915037274588",
     "description": "nieu Torshov inviterer til sommershow på Prindsens Hage! Vi har samlet de beste av de beste til et nieudelig sommershow! Kom og nyt denne deilige sommerkvelden, og en meget god latter! Dørene åpner: 18:30 Showstart: 19:00 Aldersgrense: 18 år Pris: 250,- Med forbehold om endring i programmet. Kjøpte "
-  },
-  {
-    "id": "meetup-2026-07-24-autodesk-fusion--3d-modeling--",
-    "title": "Autodesk Fusion, 3D modeling (paid course)",
-    "date": "2026-07-24",
-    "time": "17:00",
-    "category": "kultur",
-    "source": "meetup",
-    "url": "https://www.meetup.com/bitraf/events/315631029/",
-    "description": "Autodesk Fusion setup and basics (English, Paid course)\n\n*This course is recommended for people with basic understanding of 3D design. However, this is a basics course, so everyone is welcome.*\n\nThe c"
   },
   {
     "id": "meetup-2026-07-24-heartfulness-meditasjon-torsho",
@@ -270,6 +230,16 @@
     "description": "Frank Znort Quartet er sitt eget unike univers og Oslos upolerte perle av en skatt. Med sin livsbejaende tilnærming til sjangre, låter, mennesker og generelt drøyt bra stemning har dette storbandet st"
   },
   {
+    "id": "nieuscene-1348358630105732",
+    "title": "Brann - Vålerenga",
+    "date": "2026-07-26",
+    "time": "14:30",
+    "category": "humor",
+    "source": "nieuscene",
+    "url": "https://www.facebook.com/events/1348358630105732",
+    "description": "Brann – VIF  på nieu sportsbar! Søndag 26. juli viser vi kampen mellom Brann og Vålerenga i Sportsbaren! Samle vennegjengen og få med deg kampen i skikkelig fotballstemning. Kampstart: 14:30 Nieu Sportsbar, Grünerløkka Kom tidlig for å sikre deg en god plass, vi gleder oss til kampdag!"
+  },
+  {
     "id": "nieuscene-1597368121433844",
     "title": "Formula 1 Watch Party • nieu sportsbar",
     "date": "2026-07-26",
@@ -278,6 +248,16 @@
     "source": "nieuscene",
     "url": "https://www.facebook.com/events/1597368121433844",
     "description": "Formula 1 Watch Party på Nieu Sportsbar Denne søndagen kan du se Hungarian Grand Prix LIVE hos oss på Nieu Sportsbar kl. 15.00. Side Chick serverer wings, fries og digg mat mellom lapsene, så du slipper å gå sulten gjennom løpet. Det er gratis og åpent for alle. Vi tar ikke bordreservasjoner, så det"
+  },
+  {
+    "id": "meetup-2026-07-27-online-evening-group-for-women",
+    "title": "Online evening group for women- with tools from the method of IOPT",
+    "date": "2026-07-27",
+    "time": "19:00",
+    "category": "kultur",
+    "source": "meetup",
+    "url": "https://www.meetup.com/iopt-workshops-and-self-development-workshops/events/315587329/",
+    "description": "Join us for an enlightening workshop on self-love and self-acceptance, where you will learn practical tools and techniques to cultivate a deeper sense of love and acceptance for yourself. This worksho"
   },
   {
     "id": "latter-2026-07-28-sommerstandup-2026-1830",
@@ -300,14 +280,14 @@
     "description": "# 🧘‍♂️ Mindful Peace: Zoom Online Reading & Reflection Club\n\n# **Are you looking for a space to find mental clarity, inner peace, and a supportive community?**\n\nWelcome to the **Mindful Peace Online R"
   },
   {
-    "id": "meetup-2026-07-29-online-morning-group-for-women",
-    "title": "Online morning group for women-resonance and tools from iopt",
+    "id": "lasttrain-2026-07-29-bluegrass-jam",
+    "title": "BLUEGRASS JAM",
     "date": "2026-07-29",
-    "time": "10:00",
-    "category": "kultur",
-    "source": "meetup",
-    "url": "https://www.meetup.com/iopt-workshops-and-self-development-workshops/events/315611269/",
-    "description": "Morning group for women. I invite you to a group with focus on deep connections, coming closer to yourself and the present moment in a safe space. To lay the groundwork for your friday and weekend.\n\nW"
+    "time": "16:00",
+    "category": "konsert",
+    "source": "lasttrain",
+    "url": "https://www.lasttrain.no/events/bluegrass-jam/2xhpXNRYWZ",
+    "description": ""
   },
   {
     "id": "meetup-2026-07-29-wednesday-boardgame-night-",
@@ -430,16 +410,6 @@
     "description": "https://open.spotify.com/playlist/5modtweTre19s11hTSBPF2?si=D6ZlQr_cSn-yeRzRDkY8Sw&pi=6giPXKdKSjOyd"
   },
   {
-    "id": "nieuscene-1353022656686889",
-    "title": "Standup på Løkka",
-    "date": "2026-07-31",
-    "time": "21:00",
-    "category": "humor",
-    "source": "nieuscene",
-    "url": "https://www.facebook.com/events/1353022656686889",
-    "description": "Vi inviterer en krem konfransier til standup kveld på nieu grünerløkka. Konfransieren slipper løs noen favorittkomikere og vi kan love masse gjøgling, variasjon og uforutsigbare innslag fra alle kanter. Det blir standup, kaos og en kveld der alt kan skje! Dørene åpner: 20:30 Showstart: 21:00 Aldersg"
-  },
-  {
     "id": "nieuscene-3950768951892828",
     "title": "A Passion For Passion",
     "date": "2026-07-31",
@@ -448,6 +418,16 @@
     "source": "nieuscene",
     "url": "https://www.facebook.com/events/3950768951892828",
     "description": "Alice Fraser (The Bugle, Amazon Prime, BBC News Quiz) has fallen in love... with romance novels. She's written a delirious love letter to the genre and now she has to live with the consequences. If you love romance novels, or if you have no idea how anyone could love romance novels, this is the show"
+  },
+  {
+    "id": "nieuscene-1353022656686889",
+    "title": "Standup på Løkka",
+    "date": "2026-07-31",
+    "time": "21:00",
+    "category": "humor",
+    "source": "nieuscene",
+    "url": "https://www.facebook.com/events/1353022656686889",
+    "description": "Vi inviterer en krem konfransier til standup kveld på nieu grünerløkka. Konfransieren slipper løs noen favorittkomikere og vi kan love masse gjøgling, variasjon og uforutsigbare innslag fra alle kanter. Det blir standup, kaos og en kveld der alt kan skje! Dørene åpner: 20:30 Showstart: 21:00 Aldersg"
   },
   {
     "id": "meetup-2026-08-01---1st-of-august--saturday----g",
@@ -540,6 +520,26 @@
     "description": "Hver helg kommer en ny nieu-venn og samler forskjellige folk til en skrattemild idiotkveld med fokus på humor. Blir det stand up? Blir det impro? Blir det burlesque? Bare en måte å finne ut det på. Kom å få den kulturelle magesekken din stappa full! Kan bli læ10s dette! Dørene åpner: 20:45 Showstart"
   },
   {
+    "id": "meetup-2026-08-02-online-morning-group-for-women",
+    "title": "Online morning group for women-resonance and tools from iopt",
+    "date": "2026-08-02",
+    "time": "10:00",
+    "category": "kultur",
+    "source": "meetup",
+    "url": "https://www.meetup.com/iopt-workshops-and-self-development-workshops/events/315663584/",
+    "description": "Morning group for women. I invite you to a group with focus on deep connections, coming closer to yourself and the present moment in a safe space. To lay the groundwork for your friday and weekend.\n\nW"
+  },
+  {
+    "id": "meetup-2026-08-02-armorworkshop---cosplay",
+    "title": "ArmorWorkshop - Cosplay",
+    "date": "2026-08-02",
+    "time": "13:00",
+    "category": "kultur",
+    "source": "meetup",
+    "url": "https://www.meetup.com/bitraf/events/315664649/",
+    "description": "ArmorWorkshop – bygg, fiks og mod rustning.\n\nHar du cosplay-rustning, screen-accurate armor eller kamp-/treningsutstyr som trenger montering, justering eller reparasjon? Eller har du lyst til å komme "
+  },
+  {
     "id": "blaa-2026-08-02-frank-znort-quartet",
     "title": "Frank Znort Quartet",
     "date": "2026-08-02",
@@ -588,16 +588,6 @@
     "source": "latter",
     "url": "https://www.ticketmaster.no/event/sommerstandup-2026-billetter/42294329",
     "description": ""
-  },
-  {
-    "id": "meetup-2026-08-05-online-morning-group-for-women",
-    "title": "Online morning group for women-resonance and tools from iopt",
-    "date": "2026-08-05",
-    "time": "10:00",
-    "category": "kultur",
-    "source": "meetup",
-    "url": "https://www.meetup.com/iopt-workshops-and-self-development-workshops/events/315705477/",
-    "description": "Morning group for women. I invite you to a group with focus on deep connections, coming closer to yourself and the present moment in a safe space. To lay the groundwork for your friday and weekend.\n\nW"
   },
   {
     "id": "meetup-2026-08-05-wednesday-boardgame-night-",
@@ -708,16 +698,6 @@
     "source": "latter",
     "url": "https://www.ticketmaster.no/event/1192640738",
     "description": ""
-  },
-  {
-    "id": "meetup-2026-08-07-online-evening-group-for-women",
-    "title": "Online evening group for women- with tools from the method of IOPT",
-    "date": "2026-08-07",
-    "time": "19:00",
-    "category": "kultur",
-    "source": "meetup",
-    "url": "https://www.meetup.com/iopt-workshops-and-self-development-workshops/events/315737974/",
-    "description": "Join us for an enlightening workshop on self-love and self-acceptance, where you will learn practical tools and techniques to cultivate a deeper sense of love and acceptance for yourself. This worksho"
   },
   {
     "id": "nieuscene-1012811768017866",
@@ -908,6 +888,16 @@
     "source": "nieuscene",
     "url": "https://www.facebook.com/events/973922638975465",
     "description": "Hver helg kommer en ny nieu-venn og samler forskjellige folk til en skrattemild idiotkveld med fokus på humor. Blir det stand up? Blir det impro? Blir det burlesque? Bare en måte å finne ut det på. Kom å få den kulturelle magesekken din stappa full! Kan bli læ10s dette! Dørene åpner: 20:45 Showstart"
+  },
+  {
+    "id": "meetup-2026-08-09-online-morning-group-for-women",
+    "title": "Online morning group for women-resonance and tools from iopt",
+    "date": "2026-08-09",
+    "time": "10:00",
+    "category": "kultur",
+    "source": "meetup",
+    "url": "https://www.meetup.com/iopt-workshops-and-self-development-workshops/events/315757672/",
+    "description": "Morning group for women. I invite you to a group with focus on deep connections, coming closer to yourself and the present moment in a safe space. To lay the groundwork for your friday and weekend.\n\nW"
   },
   {
     "id": "blaa-2026-08-09-frank-znort-quartet",
@@ -1116,7 +1106,7 @@
     "time": "23:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/en/e/vero_se__revolver_x_oeyanatt",
+    "url": "https://revolveroslo.ticketco.events/no/nb/e/vero_se__revolver_x_oeyanatt",
     "description": ""
   },
   {
@@ -1236,7 +1226,7 @@
     "time": "23:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/nb/e/supermodel_us__revolver_x_oeyanatt",
+    "url": "https://revolveroslo.ticketco.events/no/en/e/supermodel_us__revolver_x_oeyanatt",
     "description": ""
   },
   {
@@ -1346,7 +1336,7 @@
     "time": "23:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/en/e/boy_with_apple_se__revolver_x_oeyanatt",
+    "url": "https://revolveroslo.ticketco.events/no/nb/e/boy_with_apple_se__revolver_x_oeyanatt",
     "description": ""
   },
   {
@@ -1450,6 +1440,26 @@
     "description": "Oslos hyggeligste og mest folkelig quiz! Som alltid er det 40 deilige, varierte spørsmål i alle mulige kategorier som du og ditt lag skal forsøke å svare på. Det er alltid premie til vinnerlaget, men også til et heldig lag som velges ut av et eller annet digitalt verktøy i løpet av kvelden. De seks "
   },
   {
+    "id": "meetup-2026-08-20-data-breakfast---kill-your-etl",
+    "title": "Data Breakfast – Kill Your ETL: One Platform for Transactions, Analytics, and AI",
+    "date": "2026-08-20",
+    "time": "08:30",
+    "category": "kultur",
+    "source": "meetup",
+    "url": "https://www.meetup.com/data-engineering-oslo/events/315188633/",
+    "description": "Most data organisations run complex platforms with three to five separate databases and a lot of data movement: transactional database, data warehouse, streaming layer, vector store, maybe a feature s"
+  },
+  {
+    "id": "meetup-2026-08-20-data-breakfast---the-case-for-",
+    "title": "Data Breakfast – The Case for One Data Platform, Not Three",
+    "date": "2026-08-20",
+    "time": "08:30",
+    "category": "kultur",
+    "source": "meetup",
+    "url": "https://www.meetup.com/oslo-data-science/events/315188649/",
+    "description": "Most data organisations run complex platforms with three to five separate databases and a lot of data movement: transactional database, data warehouse, streaming layer, vector store, maybe a feature s"
+  },
+  {
     "id": "blaa-2026-08-20-sukkerspinn-release-gig",
     "title": "Sukkerspinn release gig",
     "date": "2026-08-20",
@@ -1478,6 +1488,16 @@
     "source": "rockefeller",
     "url": "https://www.ticketmaster.no/event/1209538681?brand=sentrumscene&camefrom=CFC_NO_Rockefeller_Skunk_Anansie_200826_Billettsalg&utm_campaign=NO_Rockefeller_Skunk_Anansie_200826_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
     "description": "De britiske rockeikonene Skunk Anansie kommer til Sentrum Scene torsdag 20. august!\n\nSkunk Anansie, frontet av den karismatiske vokalisten Skin, var med på å skape lyden av 90-tallet med kritikerroste"
+  },
+  {
+    "id": "meetup-2026-08-20-product-transformation--in-the",
+    "title": "Product transformation  in the public sector",
+    "date": "2026-08-20",
+    "time": "17:30",
+    "category": "kultur",
+    "source": "meetup",
+    "url": "https://www.meetup.com/producttank-oslo/events/315511587/",
+    "description": "How do you transform products in organizations that hundreds of thousands of people depend on every day? Join product leaders from the Norwegian Police and NAV as they share candid lessons from modern"
   },
   {
     "id": "lasttrain-2026-08-20-starr-and-the-czars--us--supp-",
@@ -2036,7 +2056,7 @@
     "time": "18:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/nb/e/rock__spesialreiser_25_aar_lydsyn_dk_human_toys_frus_fuzzterminal__revolver",
+    "url": "https://revolveroslo.ticketco.events/no/en/e/rock__spesialreiser_25_aar_lydsyn_dk_human_toys_frus_fuzzterminal__revolver",
     "description": ""
   },
   {
@@ -2566,7 +2586,7 @@
     "time": "20:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/nb/e/ultra_silvam_se__gryla__revolver",
+    "url": "https://revolveroslo.ticketco.events/no/en/e/ultra_silvam_se__gryla__revolver",
     "description": ""
   },
   {
@@ -2740,16 +2760,6 @@
     "description": "Andrea Løvland"
   },
   {
-    "id": "nieuscene-2148076229309910",
-    "title": "Torsdagsquiz i nieu sportsbar!",
-    "date": "2026-09-10",
-    "time": "19:00",
-    "category": "humor",
-    "source": "nieuscene",
-    "url": "https://www.facebook.com/events/2148076229309910",
-    "description": "Torsdagsquiz i nieu sportsbar, hver uke kl.19:00! Hver torsdag inviterer vi til quiz i sportsbaren på nieu grünerløkka. Temaene varierer, men det blir som regel en god miks av sport og allmennkunnskap, og ulike quizverter hver uke. Møt opp alene eller med laget ditt, det er alltid plass til flere! R"
-  },
-  {
     "id": "nieuscene-2061705504629743",
     "title": "The Comedy Store på Nieu!",
     "date": "2026-09-10",
@@ -2758,6 +2768,16 @@
     "source": "nieuscene",
     "url": "https://www.facebook.com/events/2061705504629743",
     "description": "The Comedy Store kommer til nieu grünerløkka! Standupklubben blir ofte omtalt som fødestedet for standup i Storbritannia og har vært springbrett for utallige komikere, blant andre Michael McIntyre, Eddie Izzard, Jimmy Carr – og mange flere. Nå kommer The Comedy Store til Oslo, og det blir en kveld m"
+  },
+  {
+    "id": "nieuscene-2148076229309910",
+    "title": "Torsdagsquiz i nieu sportsbar!",
+    "date": "2026-09-10",
+    "time": "19:00",
+    "category": "humor",
+    "source": "nieuscene",
+    "url": "https://www.facebook.com/events/2148076229309910",
+    "description": "Torsdagsquiz i nieu sportsbar, hver uke kl.19:00! Hver torsdag inviterer vi til quiz i sportsbaren på nieu grünerløkka. Temaene varierer, men det blir som regel en god miks av sport og allmennkunnskap, og ulike quizverter hver uke. Møt opp alene eller med laget ditt, det er alltid plass til flere! R"
   },
   {
     "id": "latter-2026-09-10-finn-tre-feil-1900",
@@ -6130,23 +6150,23 @@
     "description": ""
   },
   {
-    "id": "revolver-2026-10-30--bolverk--releaseparty----supp",
-    "title": ":BOLVERK: Releaseparty // Supp.: Vingulmork - VEXMORTEM // Revolver",
-    "date": "2026-10-30",
-    "time": "20:00",
-    "category": "konsert",
-    "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/en/e/bolverk_releaseparty__supp_vingulmork__vexmortem__revolver",
-    "description": ""
-  },
-  {
     "id": "revolver-2026-10-30-the-howlers--uk-----revolver",
     "title": "The Howlers (uk) // Revolver",
     "date": "2026-10-30",
     "time": "20:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/en/e/the_howlers_uk__revolver",
+    "url": "https://revolveroslo.ticketco.events/no/nb/e/the_howlers_uk__revolver",
+    "description": ""
+  },
+  {
+    "id": "revolver-2026-10-30--bolverk--releaseparty----supp",
+    "title": ":BOLVERK: Releaseparty // Supp.: Vingulmork - VEXMORTEM // Revolver",
+    "date": "2026-10-30",
+    "time": "20:00",
+    "category": "konsert",
+    "source": "revolver",
+    "url": "https://revolveroslo.ticketco.events/no/nb/e/bolverk_releaseparty__supp_vingulmork__vexmortem__revolver",
     "description": ""
   },
   {
@@ -7106,7 +7126,7 @@
     "time": "20:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/en/e/bombus__mass_worship__revolver",
+    "url": "https://revolveroslo.ticketco.events/no/nb/e/bombus__mass_worship__revolver",
     "description": ""
   },
   {
@@ -7666,7 +7686,7 @@
     "time": "20:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/nb/e/tramhous_nl__revolver",
+    "url": "https://revolveroslo.ticketco.events/no/en/e/tramhous_nl__revolver",
     "description": ""
   },
   {

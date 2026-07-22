@@ -963,7 +963,7 @@
     "id": "osm-rest-5652443563",
     "name": "Brasserie Rivoli",
     "cuisine": "Fransk",
-    "address": "Operagata 3, 0194",
+    "address": "Operagata, 0194",
     "website": "https://www.rivoli.no/",
     "phone": "+47 21 42 05 90",
     "opening_hours": "Tu-Fr 11:30-23:00; Mo 16:30-23:00; Sa-Su 14:30-23:00",
@@ -3042,7 +3042,7 @@
     "address": "St. Olavs plass, 0165",
     "website": "https://www.happolati.no/",
     "phone": "+47 47 97 80 87",
-    "opening_hours": "Tu-Sa 17:00-22:00",
+    "opening_hours": "Tu-Th 17:00-18:00+; Fr,Sa 17:00-24:00+",
     "description": "",
     "lat": 59.918231,
     "lon": 10.740284
@@ -3210,7 +3210,7 @@
     "address": "Hammersborggata, 0184",
     "website": "",
     "phone": "",
-    "opening_hours": "",
+    "opening_hours": "Tu-Sa 13:00-21:00; Su 14:00-21:00; Mo off",
     "description": "",
     "lat": 59.9149195,
     "lon": 10.7522288
@@ -3838,18 +3838,6 @@
     "description": "",
     "lat": 59.910269,
     "lon": 10.740319
-  },
-  {
-    "id": "osm-rest-10116843917",
-    "name": "Kain Neo-Filipino Bistro",
-    "cuisine": "Filipino",
-    "address": "Hammersborggata, 0184",
-    "website": "https://www.kain-oslo.com",
-    "phone": "+47 92 03 31 25",
-    "opening_hours": "Tu-Fr 16:00-22:00; Sa 14:00-22:00",
-    "description": "",
-    "lat": 59.9150321,
-    "lon": 10.7520916
   },
   {
     "id": "osm-rest-9267053722",
@@ -4947,7 +4935,7 @@
     "id": "osm-rest-5652445255",
     "name": "Madonna",
     "cuisine": "",
-    "address": "Operagata 17, 0194",
+    "address": "Operagata, 0194",
     "website": "https://www.madonnaoslo.no/",
     "phone": "+47 22 60 12 00",
     "opening_hours": "Mo-Th 16:00-23:00; Fr-Sa 12:00-24:00",
@@ -5892,18 +5880,6 @@
     "lon": 10.7703904
   },
   {
-    "id": "osm-rest-13009650940",
-    "name": "Panu",
-    "cuisine": "",
-    "address": "St. Olavs gate, 0165",
-    "website": "https://restaurant-panu.com",
-    "phone": "",
-    "opening_hours": "",
-    "description": "",
-    "lat": 59.9179746,
-    "lon": 10.7406651
-  },
-  {
     "id": "osm-rest-10204149141",
     "name": "Pao Bar & BBQ",
     "cuisine": "Thai",
@@ -6783,7 +6759,7 @@
     "id": "osm-rest-2785920497",
     "name": "Risbolle",
     "cuisine": "Thai",
-    "address": "Dronningens gate 24, 0154",
+    "address": "Dronningens gate, 0154",
     "website": "https://www.risbolle.no/",
     "phone": "",
     "opening_hours": "Mo-Sa 11:00-22:00; Su 13:30-21:00",
@@ -7212,6 +7188,18 @@
     "lon": 10.7395251
   },
   {
+    "id": "osm-rest-10116843917",
+    "name": "Sea Sushi",
+    "cuisine": "",
+    "address": "Hammersborggata, 0184",
+    "website": "",
+    "phone": "",
+    "opening_hours": "Mo-Sa 15:00-21:00; Su off",
+    "description": "",
+    "lat": 59.9150321,
+    "lon": 10.7520916
+  },
+  {
     "id": "osm-rest-1940306128",
     "name": "Sea Sushi Bar",
     "cuisine": "Asiatisk",
@@ -7431,7 +7419,7 @@
     "id": "osm-rest-2046008740",
     "name": "Smalhans",
     "cuisine": "",
-    "address": "Ullevålsveien, 0170",
+    "address": "Ullevålsveien, 0169",
     "website": "https://www.smalhans.no/",
     "phone": "+47 22 69 60 00",
     "opening_hours": "Mo 16:00-22:00; Tu 16:00-00:30, We-Sa 11:00-00:30, Su 12:00-22:00",
@@ -7671,7 +7659,7 @@
     "id": "osm-rest-6136462187",
     "name": "Sukhumvit Soup&Grill",
     "cuisine": "Thai",
-    "address": "Munkedamsveien, 0251",
+    "address": "Munkedamsveien 29, 0251",
     "website": "https://sukhumvit.no/",
     "phone": "",
     "opening_hours": "Mo-Sa 11:00-21:00",

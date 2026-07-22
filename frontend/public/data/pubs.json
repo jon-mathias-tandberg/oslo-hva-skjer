@@ -1044,6 +1044,18 @@
     "lon": 10.7352908
   },
   {
+    "id": "osm-14031969241",
+    "name": "Frokostkjelleren",
+    "type": "bar",
+    "address": "Universitetsplassen, 0161",
+    "website": "",
+    "phone": "",
+    "opening_hours": "",
+    "description": "Studentbar for jussen",
+    "lat": 59.9153965,
+    "lon": 10.735286
+  },
+  {
     "id": "osm-8091977096",
     "name": "Fru Burums",
     "type": "pub",
@@ -1344,6 +1356,18 @@
     "lon": 10.7518079
   },
   {
+    "id": "osm-358485760",
+    "name": "https://sorai-online.com/e/372742/il-barbera?c=osl",
+    "type": "pub",
+    "address": "Filipstad brygge, 0250",
+    "website": "http://www.ilbarbera.no/",
+    "phone": "+47 21 66 84 40",
+    "opening_hours": "Mo-We 16:00-01:00; Th 16:00-03:00; Fr 14:00-03:00; Sa-Su 16:00-03:00",
+    "description": "",
+    "lat": 59.910555,
+    "lon": 10.723674
+  },
+  {
     "id": "osm-12085970032",
     "name": "Hub bar",
     "type": "bar",
@@ -1414,18 +1438,6 @@
     "description": "",
     "lat": 59.9153047,
     "lon": 10.7556771
-  },
-  {
-    "id": "osm-358485760",
-    "name": "Il Barbera",
-    "type": "pub",
-    "address": "Filipstad brygge, 0250",
-    "website": "http://www.ilbarbera.no/",
-    "phone": "+47 21 66 84 40",
-    "opening_hours": "Mo-We 16:00-01:00; Th 16:00-03:00; Fr 14:00-03:00; Sa-Su 16:00-03:00",
-    "description": "",
-    "lat": 59.910555,
-    "lon": 10.723674
   },
   {
     "id": "osm-292143391",
@@ -2055,7 +2067,7 @@
     "id": "osm-4157612842",
     "name": "Oslo Bar & Bowling",
     "type": "bar",
-    "address": "Torggata 14, 0181",
+    "address": "Hammersborggata, 0179",
     "website": "",
     "phone": "",
     "opening_hours": "",
@@ -3162,7 +3174,7 @@
     "address": "Universitetsgata, 0164",
     "website": "",
     "phone": "",
-    "opening_hours": "Mo-We 11:00-18:00, Th 11:00-24:00+, Fr 11:00-03:00, Sa 12:00-03:00",
+    "opening_hours": "Mo-We 11:00-21:00; Th 11:00-23:00; Fr 11:00-24:00; Sa 12:00-24:00; Su 13:00-20:00",
     "description": "",
     "lat": 59.9175124,
     "lon": 10.7393976
