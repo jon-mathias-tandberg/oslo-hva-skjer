@@ -1719,7 +1719,7 @@
     "id": "osm-rest-11524415477",
     "name": "Delicatessen Sandvika",
     "cuisine": "Tapas",
-    "address": "Rådmann Halmrasts vei 11, 1337",
+    "address": "Rådmann Halmrasts vei, 1337",
     "website": "https://delicatessen.no/sandvika/",
     "phone": "+47 22 46 72 00",
     "opening_hours": "",
@@ -1995,7 +1995,7 @@
     "id": "osm-rest-11378298623",
     "name": "Eat Thai",
     "cuisine": "Thai",
-    "address": "Prinsens gate, 0153",
+    "address": "Prinsens gate, 0157",
     "website": "",
     "phone": "",
     "opening_hours": "",
@@ -3022,6 +3022,18 @@
     "description": "",
     "lat": 59.9144449,
     "lon": 10.7325386
+  },
+  {
+    "id": "osm-rest-5865107652",
+    "name": "halvbroren",
+    "cuisine": "",
+    "address": "Olav Vs gate, 0161",
+    "website": "",
+    "phone": "",
+    "opening_hours": "",
+    "description": "",
+    "lat": 59.9142363,
+    "lon": 10.7324549
   },
   {
     "id": "osm-rest-1960935484",
@@ -4935,7 +4947,7 @@
     "id": "osm-rest-5652445255",
     "name": "Madonna",
     "cuisine": "",
-    "address": "Operagata 17, 0194",
+    "address": "Operagata, 0194",
     "website": "https://www.madonnaoslo.no/",
     "phone": "+47 22 60 12 00",
     "opening_hours": "Mo-Th 16:00-23:00; Fr-Sa 12:00-24:00",
@@ -7659,7 +7671,7 @@
     "id": "osm-rest-6136462187",
     "name": "Sukhumvit Soup&Grill",
     "cuisine": "Thai",
-    "address": "Munkedamsveien 29, 0251",
+    "address": "Munkedamsveien, 0251",
     "website": "https://sukhumvit.no/",
     "phone": "",
     "opening_hours": "Mo-Sa 11:00-21:00",
@@ -8962,6 +8974,18 @@
     "description": "",
     "lat": 59.9092003,
     "lon": 10.7256717
+  },
+  {
+    "id": "osm-rest-6841796311",
+    "name": "Yoyo Dumplings & Noodles",
+    "cuisine": "Nudler",
+    "address": "Waldemar Thranes gate, 0458",
+    "website": "",
+    "phone": "",
+    "opening_hours": "",
+    "description": "",
+    "lat": 59.9280977,
+    "lon": 10.7536558
   },
   {
     "id": "osm-rest-12669751801",
