@@ -78,12 +78,6 @@
     "url": "https://vink.aftenposten.no/artikkel/JO7yeb/anmeldelse-av-christopher-nolans-the-odyssey-med-matt-damon-en-meget-betimelig-blockbuster"
   },
   {
-    "id": "vink--rets-beste-nye-tv-serier---s--langt",
-    "title": "Årets beste nye TV-serier - så langt",
-    "source": "vink",
-    "url": "https://vink.aftenposten.no/artikkel/d4k32B/arets-beste-nye-tv-serier---sa-langt"
-  },
-  {
     "id": "vink-et-varierende-m-ltid-med-h-y-partyfaktor",
     "title": "Et varierende måltid med høy partyfaktor",
     "source": "vink",
@@ -262,5 +256,11 @@
     "title": "Det er bare digg pizza. Man trenger ikke tenke så mye.",
     "source": "vink",
     "url": "https://vink.aftenposten.no/artikkel/ln4Xz3/god-pizza-uten-dilldall-for-under-200-kroner-ja-takk"
+  },
+  {
+    "id": "vink-det-er-istid-igjen-",
+    "title": "Det er istid igjen!",
+    "source": "vink",
+    "url": "https://vink.aftenposten.no/artikkel/bOXAW3/det-er-istid-igjen"
   }
 ]

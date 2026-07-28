@@ -1,15 +1,5 @@
 [
   {
-    "id": "meetup-2026-07-27-monday-social-board-game-eveni",
-    "title": "Monday social board-game evening",
-    "date": "2026-07-27",
-    "time": "19:00",
-    "category": "kultur",
-    "source": "meetup",
-    "url": "https://www.meetup.com/room-for-more/events/315587118/",
-    "description": "**Welcome to our Monday board-game evening at No Stress in Strøget, Oslo.**\n\nJust come as you are, sit down with the group, play a board game or just chat, and meet other nice attendees.\n\n**This is a "
-  },
-  {
     "id": "meetup-2026-07-28-room-for-more-nordmarka-hike",
     "title": "Room for More Nordmarka Hike",
     "date": "2026-07-28",
@@ -90,6 +80,16 @@
     "description": ""
   },
   {
+    "id": "meetup-2026-07-29-after-work-mingle---meet-peopl",
+    "title": "After-work mingle — meet people in Oslo",
+    "date": "2026-07-29",
+    "time": "19:00",
+    "category": "kultur",
+    "source": "meetup",
+    "url": "https://www.meetup.com/room-for-more/events/315617074/",
+    "description": "**We’re meeting for a relaxed after-work chat in Oslo.**\n\n*This is a repeat of my first event where I wanted to keep it simple: the only purpose here is to connect with new people and have a good time"
+  },
+  {
     "id": "meetup-2026-07-30-lean-coffee--fysisk-m-te--",
     "title": "Lean Coffee (fysisk møte!)",
     "date": "2026-07-30",
@@ -160,6 +160,16 @@
     "description": "nieu Torshov inviterer til sommershow på Prindsens Hage! Vi har samlet de beste av de beste til et nieudelig sommershow! Kom og nyt denne deilige sommerkvelden, og en meget god latter! Dørene åpner: 18:30 Showstart: 19:00 Aldersgrense: 18 år Pris: 250,- Med forbehold om endring i programmet. Kjøpte "
   },
   {
+    "id": "latter-2026-07-30-sommerstandup-2026-2030",
+    "title": "Sommerstandup 2026",
+    "date": "2026-07-30",
+    "time": "20:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/266201054",
+    "description": ""
+  },
+  {
     "id": "rockefeller-2026-07-31-baaba-maal-med-dande-lenol",
     "title": "Baaba Maal med Dande Lenol",
     "date": "2026-07-31",
@@ -190,6 +200,16 @@
     "description": "nieu Torshov inviterer til sommershow på Prindsens Hage! Vi har samlet de beste av de beste til et nieudelig sommershow! Kom og nyt denne deilige sommerkvelden, og en meget god latter! Dørene åpner: 18:30 Showstart: 19:00 Aldersgrense: 18 år Pris: 250,- Med forbehold om endring i programmet. Kjøpte "
   },
   {
+    "id": "latter-2026-07-31-sommerstandup-2026-2030",
+    "title": "Sommerstandup 2026",
+    "date": "2026-07-31",
+    "time": "20:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/552575991",
+    "description": ""
+  },
+  {
     "id": "blaa-2026-07-31-annette-k--purpurrpurple-",
     "title": "Annette K (Purpurrpurple)",
     "date": "2026-07-31",
@@ -200,16 +220,6 @@
     "description": "https://open.spotify.com/playlist/5modtweTre19s11hTSBPF2?si=D6ZlQr_cSn-yeRzRDkY8Sw&pi=6giPXKdKSjOyd"
   },
   {
-    "id": "nieuscene-1353022656686889",
-    "title": "Standup på Løkka",
-    "date": "2026-07-31",
-    "time": "21:00",
-    "category": "humor",
-    "source": "nieuscene",
-    "url": "https://www.facebook.com/events/1353022656686889",
-    "description": "Vi inviterer en krem konfransier til standup kveld på nieu grünerløkka. Konfransieren slipper løs noen favorittkomikere og vi kan love masse gjøgling, variasjon og uforutsigbare innslag fra alle kanter. Det blir standup, kaos og en kveld der alt kan skje! Dørene åpner: 20:30 Showstart: 21:00 Aldersg"
-  },
-  {
     "id": "nieuscene-3950768951892828",
     "title": "A Passion For Passion",
     "date": "2026-07-31",
@@ -218,6 +228,16 @@
     "source": "nieuscene",
     "url": "https://www.facebook.com/events/3950768951892828",
     "description": "Alice Fraser (The Bugle, Amazon Prime, BBC News Quiz) has fallen in love... with romance novels. She's written a delirious love letter to the genre and now she has to live with the consequences. If you love romance novels, or if you have no idea how anyone could love romance novels, this is the show"
+  },
+  {
+    "id": "nieuscene-1353022656686889",
+    "title": "Standup på Løkka",
+    "date": "2026-07-31",
+    "time": "21:00",
+    "category": "humor",
+    "source": "nieuscene",
+    "url": "https://www.facebook.com/events/1353022656686889",
+    "description": "Vi inviterer en krem konfransier til standup kveld på nieu grünerløkka. Konfransieren slipper løs noen favorittkomikere og vi kan love masse gjøgling, variasjon og uforutsigbare innslag fra alle kanter. Det blir standup, kaos og en kveld der alt kan skje! Dørene åpner: 20:30 Showstart: 21:00 Aldersg"
   },
   {
     "id": "meetup-2026-08-01---1st-of-august--saturday----g",
@@ -310,6 +330,16 @@
     "description": "Vi inviterer en krem konfransier til standup kveld på nieu grünerløkka. Konfransieren slipper løs noen favorittkomikere og vi kan love masse gjøgling, variasjon og uforutsigbare innslag fra alle kanter. Det blir standup, kaos og en kveld der alt kan skje! Dørene åpner: 19:30 Showstart: 20:00 Aldersg"
   },
   {
+    "id": "latter-2026-08-01-sommerstandup-2026-2030",
+    "title": "Sommerstandup 2026",
+    "date": "2026-08-01",
+    "time": "20:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/1962276859",
+    "description": ""
+  },
+  {
     "id": "blaa-2026-08-01-shapednoise--it----chosen1",
     "title": "Shapednoise (IT) & Chosen1",
     "date": "2026-08-01",
@@ -320,16 +350,6 @@
     "description": "Shapednoise is the project of Berlin-based, Sicilian-born producer, DJ, and sound artist Nino Pedone. Known for blending industrial textures, experimental electronics, hardcore, hip-hop, and club musi"
   },
   {
-    "id": "nieuscene-2876969372656030",
-    "title": "Vors med Taume og Nuutti",
-    "date": "2026-08-01",
-    "time": "21:00",
-    "category": "humor",
-    "source": "nieuscene",
-    "url": "https://www.facebook.com/events/2876969372656030",
-    "description": "Taume & Nuutti inviterer til byens sykeste vors – og du er på gjestelista. Live Tinder. Live Omegle. Drikkeleker. Finne Waldo. Konkurranser. Kaos. Dette er ikke standup. Dette er ikke en vanlig kveld. Dette er vorset som gjør resten av festen til en nedtur. Dørene åpner: 18:45 Showstart: 19:00 Alder"
-  },
-  {
     "id": "nieuscene-1496596538424241",
     "title": "nieu show",
     "date": "2026-08-01",
@@ -338,6 +358,16 @@
     "source": "nieuscene",
     "url": "https://www.facebook.com/events/1496596538424241",
     "description": "Hver helg kommer en ny nieu-venn og samler forskjellige folk til en skrattemild idiotkveld med fokus på humor. Blir det stand up? Blir det impro? Blir det burlesque? Bare en måte å finne ut det på. Kom å få den kulturelle magesekken din stappa full! Kan bli læ10s dette! Dørene åpner: 20:45 Showstart"
+  },
+  {
+    "id": "nieuscene-2876969372656030",
+    "title": "Vors med Taume og Nuutti",
+    "date": "2026-08-01",
+    "time": "21:00",
+    "category": "humor",
+    "source": "nieuscene",
+    "url": "https://www.facebook.com/events/2876969372656030",
+    "description": "Taume & Nuutti inviterer til byens sykeste vors – og du er på gjestelista. Live Tinder. Live Omegle. Drikkeleker. Finne Waldo. Konkurranser. Kaos. Dette er ikke standup. Dette er ikke en vanlig kveld. Dette er vorset som gjør resten av festen til en nedtur. Dørene åpner: 18:45 Showstart: 19:00 Alder"
   },
   {
     "id": "meetup-2026-08-02-heartfulness-meditasjon-gr-ner",
@@ -710,6 +740,16 @@
     "description": "Hver helg kommer en ny nieu-venn og samler forskjellige folk til en skrattemild idiotkveld med fokus på humor. Blir det stand up? Blir det impro? Blir det burlesque? Bare en måte å finne ut det på. Kom å få den kulturelle magesekken din stappa full! Kan bli læ10s dette! Dørene åpner: 20:45 Showstart"
   },
   {
+    "id": "latter-2026-08-08-b-nnslam-2230",
+    "title": "Bånnslam",
+    "date": "2026-08-08",
+    "time": "22:30",
+    "category": "humor",
+    "source": "latter",
+    "url": "https://www.ticketmaster.no/event/1659236846",
+    "description": "- et latenight show med Alon og Marko"
+  },
+  {
     "id": "meetup-2026-08-09-heartfulness-meditasjon-gr-ner",
     "title": "Heartfulness meditasjon Grünerløkka",
     "date": "2026-08-09",
@@ -718,6 +758,16 @@
     "source": "meetup",
     "url": "https://www.meetup.com/heartfulness-meditation-oslo-meetup/events/315833949/",
     "description": "Velkommen til Heartfulness avspenning og meditasjon på hjertet - et pust i hverdagen. Fred starter med deg.\n(In english follows)\n\nMeditasjonen starter kl 10\nDørene åpner kl 9:50\nGratis deltagelse\n\nHea"
+  },
+  {
+    "id": "meetup-2026-08-09-online-morning-group-for-women",
+    "title": "Online morning group for women-resonance and tools from iopt",
+    "date": "2026-08-09",
+    "time": "10:00",
+    "category": "kultur",
+    "source": "meetup",
+    "url": "https://www.meetup.com/iopt-workshops-and-self-development-workshops/events/315757672/",
+    "description": "Morning group for women. I invite you to a group with focus on deep connections, coming closer to yourself and the present moment in a safe space. To lay the groundwork for your friday and weekend.\n\nW"
   },
   {
     "id": "blaa-2026-08-09-frank-znort-quartet",
@@ -738,16 +788,6 @@
     "source": "nieuscene",
     "url": "https://www.facebook.com/events/1572437617806941",
     "description": "Bakpå? Fylleangst? Gira på å reparere en sliten søndag? Kom så! Mert inviterer et lite knippe favorittkomikere til å komme og jøgle på nieu scene. Det er hemmelig line-up, men blir kun med de beste folka i bransja, så meget blir det. Dørene åpner: 18:45 Showstart: 19:00 Aldersgrense: 18 år Pris: 160"
-  },
-  {
-    "id": "meetup-2026-08-10-online-morning-group-for-women",
-    "title": "Online morning group for women-resonance and tools from iopt",
-    "date": "2026-08-10",
-    "time": "10:00",
-    "category": "kultur",
-    "source": "meetup",
-    "url": "https://www.meetup.com/iopt-workshops-and-self-development-workshops/events/315772324/",
-    "description": "Morning group for women. I invite you to a group with focus on deep connections, coming closer to yourself and the present moment in a safe space. To lay the groundwork for your friday and weekend.\n\nW"
   },
   {
     "id": "meetup-2026-08-10-ensj--writing-caf----skrivekaf",
@@ -806,7 +846,7 @@
     "time": "19:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/nb/e/oeya__tirsdag_x_revolver",
+    "url": "https://revolveroslo.ticketco.events/no/en/e/oeya__tirsdag_x_revolver",
     "description": ""
   },
   {
@@ -990,6 +1030,16 @@
     "description": ""
   },
   {
+    "id": "meetup-2026-08-14-online-morning-group-for-women",
+    "title": "Online morning group for women-resonance and tools from iopt",
+    "date": "2026-08-14",
+    "time": "10:00",
+    "category": "kultur",
+    "source": "meetup",
+    "url": "https://www.meetup.com/iopt-workshops-and-self-development-workshops/events/315830191/",
+    "description": "Morning group for women. I invite you to a group with focus on deep connections, coming closer to yourself and the present moment in a safe space. To lay the groundwork for your friday and weekend.\n\nW"
+  },
+  {
     "id": "meetup-2026-08-14-skrivehelg-i-randen----",
     "title": "Skrivehelg i Randen ✍️🌿",
     "date": "2026-08-14",
@@ -1028,16 +1078,6 @@
     "source": "latter",
     "url": "https://www.ticketmaster.no/event/sommerstandup-2026-billetter/685930320",
     "description": ""
-  },
-  {
-    "id": "meetup-2026-08-14-online-evening-group-for-women",
-    "title": "Online evening group for women- with tools from the method of IOPT",
-    "date": "2026-08-14",
-    "time": "19:00",
-    "category": "kultur",
-    "source": "meetup",
-    "url": "https://www.meetup.com/iopt-workshops-and-self-development-workshops/events/315834383/",
-    "description": "Join us for an enlightening workshop on self-love and self-acceptance, where you will learn practical tools and techniques to cultivate a deeper sense of love and acceptance for yourself. This worksho"
   },
   {
     "id": "nieuscene-2141598383364044",
@@ -1116,7 +1156,7 @@
     "time": "23:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/en/e/supermodel_us__revolver_x_oeyanatt",
+    "url": "https://revolveroslo.ticketco.events/no/nb/e/supermodel_us__revolver_x_oeyanatt",
     "description": ""
   },
   {
@@ -1138,6 +1178,16 @@
     "source": "meetup",
     "url": "https://www.meetup.com/takeaphotowalkoslo/events/315753148/",
     "description": "We’ll be tracing a scenic route along the **Akerselva river**, cutting straight through the vibrant neighborhood of **Grünerløkka**.\n\nThis route offers an incredible contrast of textures, making it pe"
+  },
+  {
+    "id": "meetup-2026-08-15-saturday-is-hackurday-",
+    "title": "Saturday is hackurday!",
+    "date": "2026-08-15",
+    "time": "18:00",
+    "category": "kultur",
+    "source": "meetup",
+    "url": "https://www.meetup.com/hackeriet/events/315846106/",
+    "description": "We have resumed our hangouts! You are very welcome to join if you are vaccinated.\n===\n\nOur weekly Saturday hacker hangouts are open to everyone! This is where we work on our projects and socialize. We"
   },
   {
     "id": "lasttrain-2026-08-15-gr-mphr---au--supp--maggot-far",
@@ -1336,7 +1386,7 @@
     "time": "18:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/en/e/lee_brains_us__revolver_bakgaard",
+    "url": "https://revolveroslo.ticketco.events/no/nb/e/lee_brains_us__revolver_bakgaard",
     "description": ""
   },
   {
@@ -1496,7 +1546,7 @@
     "time": "20:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/nb/e/shadow_cave_riot_x_sloss__revolver",
+    "url": "https://revolveroslo.ticketco.events/no/en/e/shadow_cave_riot_x_sloss__revolver",
     "description": ""
   },
   {
@@ -1771,13 +1821,13 @@
   },
   {
     "id": "meetup-2026-08-25-it-takes-a-village-to-raise-an",
-    "title": "It Takes a Village to Raise an AI Agent",
+    "title": "It Takes a Village to Raise an AI Agent — A Governance Playbook",
     "date": "2026-08-25",
     "time": "16:30",
     "category": "kultur",
     "source": "meetup",
     "url": "https://www.meetup.com/agentbrew/events/315819069/",
-    "description": "No AI agent grows up on its own. What it does gets shaped by the data it learns from, the tools it can reach, the people who build it, the policies it runs under, and the organization that puts it to "
+    "description": "Someone has to own what the agent does. On 25 August, we figure out who.\n\nNo AI agent grows up on its own. What it does gets shaped by the data it learns from, the tools it can reach, the people who b"
   },
   {
     "id": "rockefeller-2026-08-25-raga-rockers",
@@ -1830,13 +1880,23 @@
     "description": ""
   },
   {
+    "id": "meetup-2026-08-26-iaas-forum--paas-vs--cloud-nat",
+    "title": "IaaS Forum: PaaS vs. Cloud Native: Må vi ofre sikkerhet for flyttbarhet?",
+    "date": "2026-08-26",
+    "time": "08:30",
+    "category": "kultur",
+    "source": "meetup",
+    "url": "https://www.meetup.com/techangelist-by-oracle/events/315168132/",
+    "description": "Proprietære PaaS-tjenester gir ofte høy grad av innebygget sikkerhet og governance. Samtidig kan de skape lock-in og gjøre løsninger vanskeligere å flytte ved endrede krav, exit-strategi eller behov f"
+  },
+  {
     "id": "revolver-2026-08-26-silver-lining----revolver-bakg",
     "title": "Silver Lining // Revolver Bakgård",
     "date": "2026-08-26",
     "time": "18:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/en/e/silver_lining__revolver_bakgaard",
+    "url": "https://revolveroslo.ticketco.events/no/nb/e/silver_lining__revolver_bakgaard",
     "description": ""
   },
   {
@@ -1926,7 +1986,7 @@
     "time": "20:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/sv/e/erik_lindo__slippfest__revolver",
+    "url": "https://revolveroslo.ticketco.events/no/nb/e/erik_lindo__slippfest__revolver",
     "description": ""
   },
   {
@@ -1946,7 +2006,7 @@
     "time": "18:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/nb/e/ekkolodd__revolver_bakgaard2",
+    "url": "https://revolveroslo.ticketco.events/no/en/e/ekkolodd__revolver_bakgaard2",
     "description": ""
   },
   {
@@ -2056,7 +2116,7 @@
     "time": "18:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/en/e/rock__spesialreiser_25_aar_lydsyn_dk_human_toys_frus_fuzzterminal__revolver",
+    "url": "https://revolveroslo.ticketco.events/no/nb/e/rock__spesialreiser_25_aar_lydsyn_dk_human_toys_frus_fuzzterminal__revolver",
     "description": ""
   },
   {
@@ -2161,12 +2221,12 @@
   },
   {
     "id": "lasttrain-2026-08-30-r-s-25--r---thee-gravemen--s--",
-    "title": "R&S 25 år – Thee Gravemen (S)/High Tension Girls/Invisible hand.",
+    "title": "R&S 25 år – Thee Gravemen (S) / High Tension Girls / Invisible hand",
     "date": "2026-08-30",
     "time": "16:00",
     "category": "konsert",
     "source": "lasttrain",
-    "url": "https://www.lasttrain.no/events/r&s-25-år-–-thee-gravemen-(s)/high-tension-girls/invisible-hand./nhuB7Maz08",
+    "url": "https://www.lasttrain.no/events/r&s-25-år-–-thee-gravemen-(s)-/-high-tension-girls-/-invisible-hand/nhuB7Maz08",
     "description": "R&S 25 år – Thee Gravemen (S)/High Tension Girls/Invisible hand.\n\nEndre tekst til:\nRock & Spesialreiser har holdt på i 25 år med å reise til, eller arrangere konserter som ligger i gata garage/punk el"
   },
   {
@@ -2208,6 +2268,16 @@
     "source": "nieuscene",
     "url": "https://www.facebook.com/events/985805323820459",
     "description": "Prøveforestilling av soloshowet til Espen Abrahamsen - Avantgarde. Dørene åpner: 19:15 Showstart: 19:30 Aldersgrense: 18 år Pris: 200 Med forbehold om endring i programmet. Kjøpte billetter refunderes ikke."
+  },
+  {
+    "id": "blaa-2026-09-01-oslo-queer-line-dance",
+    "title": "Oslo Queer Line Dance",
+    "date": "2026-09-01",
+    "time": "17:00",
+    "category": "konsert",
+    "source": "blaa",
+    "url": "https://www.blaaoslo.no/events/oslo-queer-line-dance/4Llz6P17kq",
+    "description": "Regular Class (tirsdager)\nVi fortsetter Sesong 4 av OQLD, med undervisning stort sett annen hver tirsdag utover høsten. Dørene åpner 19:15, line dance fra 19:30 til ca. 22:30. Hvert kurs er en selvste"
   },
   {
     "id": "lasttrain-2026-09-01-music-quiz--last-train--tirsda",
@@ -2280,16 +2350,6 @@
     "description": "5 nye komikere hver uke - tirsdag til lørdag!"
   },
   {
-    "id": "nieuscene-1237765995153461",
-    "title": "Espen Abrahamsen - Avantgarde",
-    "date": "2026-09-03",
-    "time": "19:00",
-    "category": "humor",
-    "source": "nieuscene",
-    "url": "https://www.facebook.com/events/1237765995153461",
-    "description": "Espen Abrahamsen er endelig klar med sitt første helaftens standupshow. Du kjenner ham fra TV og podkaster, men det er på scenen Espen virkelig briljerer. Sidendebuten på standupscenen i 2020 har målet vært klart, et eget show og en Norgesturné. I dette showet får du Espens helt særegne blanding av "
-  },
-  {
     "id": "nieuscene-2052208609038317",
     "title": "Torsdagsquiz i nieu sportsbar!",
     "date": "2026-09-03",
@@ -2298,6 +2358,16 @@
     "source": "nieuscene",
     "url": "https://www.facebook.com/events/2052208609038317",
     "description": "Torsdagsquiz i nieu sportsbar, hver uke kl.19:00! Hver torsdag inviterer vi til quiz i sportsbaren på nieu grünerløkka. Temaene varierer, men det blir som regel en god miks av sport og allmennkunnskap, og ulike quizverter hver uke. Møt opp alene eller med laget ditt, det er alltid plass til flere! R"
+  },
+  {
+    "id": "nieuscene-1237765995153461",
+    "title": "Espen Abrahamsen - Avantgarde",
+    "date": "2026-09-03",
+    "time": "19:00",
+    "category": "humor",
+    "source": "nieuscene",
+    "url": "https://www.facebook.com/events/1237765995153461",
+    "description": "Espen Abrahamsen er endelig klar med sitt første helaftens standupshow. Du kjenner ham fra TV og podkaster, men det er på scenen Espen virkelig briljerer. Sidendebuten på standupscenen i 2020 har målet vært klart, et eget show og en Norgesturné. I dette showet får du Espens helt særegne blanding av "
   },
   {
     "id": "operaen-2026-09-03-romeo-og-julie-1900",
@@ -2780,16 +2850,6 @@
     "description": "Andrea Løvland"
   },
   {
-    "id": "nieuscene-2061705504629743",
-    "title": "The Comedy Store på Nieu!",
-    "date": "2026-09-10",
-    "time": "19:00",
-    "category": "humor",
-    "source": "nieuscene",
-    "url": "https://www.facebook.com/events/2061705504629743",
-    "description": "The Comedy Store kommer til nieu grünerløkka! Standupklubben blir ofte omtalt som fødestedet for standup i Storbritannia og har vært springbrett for utallige komikere, blant andre Michael McIntyre, Eddie Izzard, Jimmy Carr – og mange flere. Nå kommer The Comedy Store til Oslo, og det blir en kveld m"
-  },
-  {
     "id": "nieuscene-2148076229309910",
     "title": "Torsdagsquiz i nieu sportsbar!",
     "date": "2026-09-10",
@@ -2798,6 +2858,16 @@
     "source": "nieuscene",
     "url": "https://www.facebook.com/events/2148076229309910",
     "description": "Torsdagsquiz i nieu sportsbar, hver uke kl.19:00! Hver torsdag inviterer vi til quiz i sportsbaren på nieu grünerløkka. Temaene varierer, men det blir som regel en god miks av sport og allmennkunnskap, og ulike quizverter hver uke. Møt opp alene eller med laget ditt, det er alltid plass til flere! R"
+  },
+  {
+    "id": "nieuscene-2061705504629743",
+    "title": "The Comedy Store på Nieu!",
+    "date": "2026-09-10",
+    "time": "19:00",
+    "category": "humor",
+    "source": "nieuscene",
+    "url": "https://www.facebook.com/events/2061705504629743",
+    "description": "The Comedy Store kommer til nieu grünerløkka! Standupklubben blir ofte omtalt som fødestedet for standup i Storbritannia og har vært springbrett for utallige komikere, blant andre Michael McIntyre, Eddie Izzard, Jimmy Carr – og mange flere. Nå kommer The Comedy Store til Oslo, og det blir en kveld m"
   },
   {
     "id": "latter-2026-09-10-finn-tre-feil-1900",
@@ -3218,6 +3288,16 @@
     "source": "nieuscene",
     "url": "https://www.facebook.com/events/1024105113932200",
     "description": "à tous les francophones d'Oslo! SHOW PÅ FRANSK Soirée exclusive de stand up en francais avec Cécile Moroni Retrouvez-nous pour une soirée de stand up en français pour rire et vous détendre dans un des quartiers les plus vibrants de la ville Quoi de mieux que de rire dans sa propre langue? Doors: 20:"
+  },
+  {
+    "id": "blaa-2026-09-16-oslo-queer-line-dance",
+    "title": "Oslo Queer Line Dance",
+    "date": "2026-09-16",
+    "time": "17:00",
+    "category": "konsert",
+    "source": "blaa",
+    "url": "https://www.blaaoslo.no/events/oslo-queer-line-dance/3oBH3Fgnde",
+    "description": "Regular Class (tirsdager)\nVi fortsetter Sesong 4 av OQLD, med undervisning stort sett annen hver tirsdag utover høsten. Dørene åpner 19:15, line dance fra 19:30 til ca. 22:30. Hvert kurs er en selvste"
   },
   {
     "id": "rockefeller-2026-09-16-alessandro-cortini",
@@ -4090,6 +4170,16 @@
     "description": ""
   },
   {
+    "id": "lasttrain-2026-09-26-black-grouse-----takt",
+    "title": "Black Grouse // Ütakt",
+    "date": "2026-09-26",
+    "time": "18:00",
+    "category": "konsert",
+    "source": "lasttrain",
+    "url": "https://tikkio.com/events/64604",
+    "description": "Black Grouse er et rockeband fra Mjøsas østbredd som oppsto i en mørk kjellerpub i 2022. Musikken beveger seg i landskapet mellom tungrock og punk, og leverer røffe riff, fengende soloer og mye energi"
+  },
+  {
     "id": "nieuscene-26856650537325265",
     "title": "Steikje Løye med Oskar Fjørtoft & Ravi",
     "date": "2026-09-26",
@@ -4097,7 +4187,7 @@
     "category": "humor",
     "source": "nieuscene",
     "url": "https://www.facebook.com/events/26856650537325265",
-    "description": "Gjør deg klar for å se landets gøyeste komikere hylle våre kjendisgjester! Oskar Fjørtoft tar med seg showet Steikje Løye til nieu Grünerløkka, showet som tidligere har hyllet blan…"
+    "description": "Gjør deg klar for å se landets gøyeste komikere hylle våre kjendisgjester! Oskar Fjørtoft tar med seg showet Steikje Løye til nieu Grünerløkka, showet som tidligere har hyllet blant andre Erna Solberg, Morten Ramm, Else Kåss Furuseth, Kjetil Rekdal og Pernille Sørensen. Steikje Løye er showet som hy"
   },
   {
     "id": "latter-2026-09-26-finn-tre-feil-1900",
@@ -4228,6 +4318,16 @@
     "source": "blaa",
     "url": "https://www.ticketmaster.no/event/kelly-moran-billetter/1714508081",
     "description": "Kelly Moran er pianist og produsent som gjennom hele karrieren har utforsket pianoets lydlige muligheter til det ytterste. Som en anerkjent og svært ettertraktet komponist har hun samarbeidet med en r"
+  },
+  {
+    "id": "blaa-2026-09-29-oslo-queer-line-dance",
+    "title": "Oslo Queer Line Dance",
+    "date": "2026-09-29",
+    "time": "17:00",
+    "category": "konsert",
+    "source": "blaa",
+    "url": "https://www.blaaoslo.no/events/oslo-queer-line-dance/gO9QtnUEfv",
+    "description": "Regular Class (tirsdager)\nVi fortsetter Sesong 4 av OQLD, med undervisning stort sett annen hver tirsdag utover høsten. Dørene åpner 19:15, line dance fra 19:30 til ca. 22:30. Hvert kurs er en selvste"
   },
   {
     "id": "rockefeller-2026-09-29-myrath",
@@ -4546,7 +4646,7 @@
     "time": "20:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/en/e/boylotion__plastik_noir__dj_batplanet__revolver",
+    "url": "https://revolveroslo.ticketco.events/no/nb/e/boylotion__plastik_noir__dj_batplanet__revolver",
     "description": ""
   },
   {
@@ -4640,6 +4740,16 @@
     "description": "5 nye komikere hver uke - tirsdag til lørdag!"
   },
   {
+    "id": "blaa-2026-10-07-oslo-queer-line-dance",
+    "title": "Oslo Queer Line Dance",
+    "date": "2026-10-07",
+    "time": "17:00",
+    "category": "konsert",
+    "source": "blaa",
+    "url": "https://www.blaaoslo.no/events/oslo-queer-line-dance/UqibPBvAkB",
+    "description": "Regular Class (tirsdager)\nVi fortsetter Sesong 4 av OQLD, med undervisning stort sett annen hver tirsdag utover høsten. Dørene åpner 19:15, line dance fra 19:30 til ca. 22:30. Hvert kurs er en selvste"
+  },
+  {
     "id": "rockefeller-2026-10-07-havok",
     "title": "Havok",
     "date": "2026-10-07",
@@ -4730,6 +4840,16 @@
     "description": "5 nye komikere hver uke - tirsdag til lørdag!"
   },
   {
+    "id": "nieuscene-957213373754737",
+    "title": "Torsdagsquiz i nieu sportsbar!",
+    "date": "2026-10-08",
+    "time": "19:00",
+    "category": "humor",
+    "source": "nieuscene",
+    "url": "https://www.facebook.com/events/957213373754737",
+    "description": "Torsdagsquiz i nieu sportsbar, hver uke kl.19:00! Hver torsdag inviterer vi til quiz i sportsbaren på nieu grünerløkka. Temaene varierer, men det blir som regel en god miks av sport og allmennkunnskap, og ulike quizverter hver uke. Møt opp alene eller med laget ditt, det er alltid plass til flere! R"
+  },
+  {
     "id": "latter-2026-10-08-finn-tre-feil-1900",
     "title": "Finn tre feil",
     "date": "2026-10-08",
@@ -4788,6 +4908,26 @@
     "source": "rockefeller",
     "url": "https://www.ticketmaster.no/event/1133673660?brand=rockefeller&camefrom=CFC_NO_Rockefeller_Laibach_091026_Billettsalg&utm_campaign=NO_Rockefeller_Laibach_091026_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
     "description": "Det legendariske avantgarde-bandet Laibach kommer tilbake til Oslo! Fredag 9. oktober inntar de Rockefeller for en kveld som både byr på nytt materiale, samt utvalgte låter fra hele deres omfattende k"
+  },
+  {
+    "id": "nieuscene-2129344291175959",
+    "title": "Pantomime for blinde",
+    "date": "2026-10-09",
+    "time": "18:30",
+    "category": "humor",
+    "source": "nieuscene",
+    "url": "https://www.facebook.com/events/2129344291175959",
+    "description": "Pantomime for blinde» – nytt show med Martin Beyer-Olsen I sitt splitter nye humorshow inviterer Martin Beyer-Olsen deg inn i et univers der all støy – fra nyhetsvarsler, forventninger og din egen indre kommentator – blir plukket fra hverandre. Resultatet er «Pantomime for blinde» – et sonisk standu"
+  },
+  {
+    "id": "nieuscene-1408037764311850",
+    "title": "Something Got Wrong – Et soloshow av Vegar Tryggeseid (PREMIERE!)",
+    "date": "2026-10-09",
+    "time": "19:00",
+    "category": "humor",
+    "source": "nieuscene",
+    "url": "https://www.facebook.com/events/1408037764311850",
+    "description": "PREMIERE! Vegar Tryggeseids tredje soloshow – skrevet under hans opphold i Amman, hovedstaden i Jordan – er kanskje hans enkleste og mest tilgjengelige, som er basically garanti for at du kjenner deg i det på scenen! Det handler rett og slett om ting som ikke går din vei, både enkle hverdagslige tin"
   },
   {
     "id": "latter-2026-10-09-finn-tre-feil-1900",
@@ -5008,6 +5148,16 @@
     "source": "rockefeller",
     "url": "https://www.ticketmaster.no/event/1540022427?brand=sentrumscene&camefrom=CFC_NO_Rockefeller_Simple_Plan_131026_Billettsalg&utm_campaign=NO_Rockefeller_Simple_Plan_131026_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
     "description": "Det canadiske rockebandet Simple Plan kommer til Oslo og Sentrum Scene 13. oktober 2026!\n\nDebutalbumet *No Pads, No Helmets…Just Balls* fra 2002 leverte megahitene «I’d Do Anything», «I’m Just A Kid»,"
+  },
+  {
+    "id": "blaa-2026-10-13-oslo-queer-line-dance",
+    "title": "Oslo Queer Line Dance",
+    "date": "2026-10-13",
+    "time": "17:00",
+    "category": "konsert",
+    "source": "blaa",
+    "url": "https://www.blaaoslo.no/events/oslo-queer-line-dance/BpkFizNzE5",
+    "description": "Regular Class (tirsdager)\nVi fortsetter Sesong 4 av OQLD, med undervisning stort sett annen hver tirsdag utover høsten. Dørene åpner 19:15, line dance fra 19:30 til ca. 22:30. Hvert kurs er en selvste"
   },
   {
     "id": "rockefeller-2026-10-13-drink-the-sea",
@@ -5930,6 +6080,16 @@
     "description": ""
   },
   {
+    "id": "blaa-2026-10-27-oslo-queer-line-dance",
+    "title": "Oslo Queer Line Dance",
+    "date": "2026-10-27",
+    "time": "18:00",
+    "category": "konsert",
+    "source": "blaa",
+    "url": "https://www.blaaoslo.no/events/oslo-queer-line-dance/Hpti6UOBOc",
+    "description": "Regular Class (tirsdager)\nVi fortsetter Sesong 4 av OQLD, med undervisning stort sett annen hver tirsdag utover høsten. Dørene åpner 19:15, line dance fra 19:30 til ca. 22:30. Hvert kurs er en selvste"
+  },
+  {
     "id": "rockefeller-2026-10-27-gavin-degraw",
     "title": "Gavin DeGraw",
     "date": "2026-10-27",
@@ -6170,16 +6330,6 @@
     "description": ""
   },
   {
-    "id": "revolver-2026-10-30--bolverk--releaseparty----supp",
-    "title": ":BOLVERK: Releaseparty // Supp.: Vingulmork - VEXMORTEM // Revolver",
-    "date": "2026-10-30",
-    "time": "20:00",
-    "category": "konsert",
-    "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/nb/e/bolverk_releaseparty__supp_vingulmork__vexmortem__revolver",
-    "description": ""
-  },
-  {
     "id": "revolver-2026-10-30-the-howlers--uk-----revolver",
     "title": "The Howlers (uk) // Revolver",
     "date": "2026-10-30",
@@ -6187,6 +6337,16 @@
     "category": "konsert",
     "source": "revolver",
     "url": "https://revolveroslo.ticketco.events/no/en/e/the_howlers_uk__revolver",
+    "description": ""
+  },
+  {
+    "id": "revolver-2026-10-30--bolverk--releaseparty----supp",
+    "title": ":BOLVERK: Releaseparty // Supp.: Vingulmork - VEXMORTEM // Revolver",
+    "date": "2026-10-30",
+    "time": "20:00",
+    "category": "konsert",
+    "source": "revolver",
+    "url": "https://revolveroslo.ticketco.events/no/en/e/bolverk_releaseparty__supp_vingulmork__vexmortem__revolver",
     "description": ""
   },
   {
@@ -6327,7 +6487,7 @@
     "category": "konsert",
     "source": "rockefeller",
     "url": "https://www.ticketmaster.no/event/1127408662?brand=rockefeller&camefrom=CFC_NO_Rockefeller_Gloryhammer_011126_Billettsalg&utm_campaign=NO_Rockefeller_Gloryhammer_011126_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
-    "description": "Det britiske power metal-bandet Gloryhammer kommer til Oslo i 2026 på sin «5th Album Release Tour», og tar med seg både et splitter nytt album og et oppgradert liveshow til Rockefeller 1. november! \n\n"
+    "description": "Det britiske power metal-bandet Gloryhammer kommer til Oslo i 2026 på sin «Wrath of Kor-Virliath European Tour», og tar med seg både et splitter nytt album og et oppgradert liveshow til Rockefeller 1."
   },
   {
     "id": "rockefeller-2026-11-01-jovanotti",
@@ -6398,6 +6558,16 @@
     "source": "parkteatret",
     "url": "https://www.ticketmaster.no/event/1357234225?brand=parkteatret",
     "description": ""
+  },
+  {
+    "id": "blaa-2026-11-04-oslo-queer-line-dance",
+    "title": "Oslo Queer Line Dance",
+    "date": "2026-11-04",
+    "time": "17:00",
+    "category": "konsert",
+    "source": "blaa",
+    "url": "https://www.blaaoslo.no/events/oslo-queer-line-dance/uKDZ6JR0XH",
+    "description": "Regular Class (tirsdager)\nVi fortsetter Sesong 4 av OQLD, med undervisning stort sett annen hver tirsdag utover høsten. Dørene åpner 19:15, line dance fra 19:30 til ca. 22:30. Hvert kurs er en selvste"
   },
   {
     "id": "latter-2026-11-04-alle-gode-ting-er-tre-1830",
@@ -6748,6 +6918,16 @@
     "source": "parkteatret",
     "url": "https://www.ticketmaster.no/event/227141458?brand=parkteatret",
     "description": ""
+  },
+  {
+    "id": "blaa-2026-11-10-oslo-queer-line-dance",
+    "title": "Oslo Queer Line Dance",
+    "date": "2026-11-10",
+    "time": "18:00",
+    "category": "konsert",
+    "source": "blaa",
+    "url": "https://www.blaaoslo.no/events/oslo-queer-line-dance/TY5HI1qHXf",
+    "description": "Regular Class (tirsdager)\nVi fortsetter Sesong 4 av OQLD, med undervisning stort sett annen hver tirsdag utover høsten. Dørene åpner 19:15, line dance fra 19:30 til ca. 22:30. Hvert kurs er en selvste"
   },
   {
     "id": "rockefeller-2026-11-10-josiah-and-the-bonnevilles",
@@ -7146,7 +7326,7 @@
     "time": "20:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/en/e/bombus__mass_worship__revolver",
+    "url": "https://revolveroslo.ticketco.events/no/nb/e/bombus__mass_worship__revolver",
     "description": ""
   },
   {
@@ -7530,6 +7710,16 @@
     "description": ""
   },
   {
+    "id": "blaa-2026-11-24-oslo-queer-line-dance",
+    "title": "Oslo Queer Line Dance",
+    "date": "2026-11-24",
+    "time": "18:00",
+    "category": "konsert",
+    "source": "blaa",
+    "url": "https://www.blaaoslo.no/events/oslo-queer-line-dance/YqE9ARekjv",
+    "description": "Regular Class (tirsdager)\nVi fortsetter Sesong 4 av OQLD, med undervisning stort sett annen hver tirsdag utover høsten. Dørene åpner 19:15, line dance fra 19:30 til ca. 22:30. Hvert kurs er en selvste"
+  },
+  {
     "id": "rockefeller-2026-11-24-cabal---employed-to-serve",
     "title": "CABAL & Employed To Serve",
     "date": "2026-11-24",
@@ -7706,7 +7896,7 @@
     "time": "20:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/en/e/tramhous_nl__revolver",
+    "url": "https://revolveroslo.ticketco.events/no/nb/e/tramhous_nl__revolver",
     "description": ""
   },
   {
@@ -8016,8 +8206,18 @@
     "time": "20:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/nb/e/wyatt_e__five_the_hierophant__revolver",
+    "url": "https://revolveroslo.ticketco.events/no/en/e/wyatt_e__five_the_hierophant__revolver",
     "description": ""
+  },
+  {
+    "id": "blaa-2026-12-02-oslo-queer-line-dance",
+    "title": "Oslo Queer Line Dance",
+    "date": "2026-12-02",
+    "time": "18:00",
+    "category": "konsert",
+    "source": "blaa",
+    "url": "https://www.blaaoslo.no/events/oslo-queer-line-dance/hYnVYhAAiD",
+    "description": "Regular Class (tirsdager)\nVi fortsetter Sesong 4 av OQLD, med undervisning stort sett annen hver tirsdag utover høsten. Dørene åpner 19:15, line dance fra 19:30 til ca. 22:30. Hvert kurs er en selvste"
   },
   {
     "id": "rockefeller-2026-12-02-allt",
@@ -8056,7 +8256,7 @@
     "time": "19:00",
     "category": "konsert",
     "source": "parkteatret",
-    "url": "https://www.ticketmaster.no/event/642096114?brand=parkteatret",
+    "url": "https://www.parkteatret.no/arrangement/kare-and-the-cavemen-2",
     "description": ""
   },
   {
@@ -8408,6 +8608,16 @@
     "source": "rockefeller",
     "url": "https://www.ticketmaster.no/event/1143930002?brand=johndee&camefrom=CFC_NO_Rockefeller_Blow_071226_Billettsalg&utm_campaign=NO_Rockefeller_Blow_071226_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
     "description": "Mandag 7. desember 2026 fyller den norsk-ættede amerikanske sangeren, låtskriveren, skuespilleren og historiefortelleren Tom Waits 77 år.\n\nTradisjonen tro – for syttende gang – feirer Blow og musikals"
+  },
+  {
+    "id": "blaa-2026-12-08-oslo-queer-line-dance",
+    "title": "Oslo Queer Line Dance",
+    "date": "2026-12-08",
+    "time": "18:00",
+    "category": "konsert",
+    "source": "blaa",
+    "url": "https://www.blaaoslo.no/events/oslo-queer-line-dance/0nzlI3vrc1",
+    "description": "Regular Class (tirsdager)\nVi fortsetter Sesong 4 av OQLD, med undervisning stort sett annen hver tirsdag utover høsten. Dørene åpner 19:15, line dance fra 19:30 til ca. 22:30. Hvert kurs er en selvste"
   },
   {
     "id": "latter-2026-12-08-standup-p--latter-1830",
@@ -9838,5 +10048,15 @@
     "source": "parkteatret",
     "url": "https://www.ticketmaster.no/event/687333819?brand=parkteatret",
     "description": ""
+  },
+  {
+    "id": "rockefeller-2027-11-26-kanonenfieber",
+    "title": "Kanonenfieber",
+    "date": "2027-11-26",
+    "time": "18:00",
+    "category": "konsert",
+    "source": "rockefeller",
+    "url": "https://www.ticketmaster.no/event/2033513064?brand=rockefeller&camefrom=CFC_NO_Rockefeller%2BSentrum%2BScene%2BJohn%2BDee_Kanonenfieber_261127_Billettsalg&utm_campaign=NO_Rockefeller%2BSentrum%2BScene%2BJohn%2BDee_Kanonenfieber_261127_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
+    "description": "Det tyske black metal-bandet Kanonenfieber kommer til Rockefeller fredag 26. november 2027, for å levere en historietime i verdensklasse!\n\nKanonenfieber er et konsept som ble skapt i 2020 av multitale"
   }
 ]
