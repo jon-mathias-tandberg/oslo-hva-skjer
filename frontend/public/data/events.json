@@ -1,45 +1,5 @@
 [
   {
-    "id": "meetup-2026-07-28-room-for-more-nordmarka-hike",
-    "title": "Room for More Nordmarka Hike",
-    "date": "2026-07-28",
-    "time": "11:00",
-    "category": "kultur",
-    "source": "meetup",
-    "url": "https://www.meetup.com/room-for-more/events/315816808/",
-    "description": "**Someone in the group (Denis) reached out with the idea for a relaxed hike through Nordmarka, and put together basically the whole plan on his own!**\n\nReally appreciate the initiative, so I'm helping"
-  },
-  {
-    "id": "latter-2026-07-28-sommerstandup-2026-1830",
-    "title": "Sommerstandup 2026",
-    "date": "2026-07-28",
-    "time": "18:30",
-    "category": "humor",
-    "source": "latter",
-    "url": "https://www.ticketmaster.no/event/sommerstandup-2026-billetter/632289240",
-    "description": ""
-  },
-  {
-    "id": "meetup-2026-07-28-at-crow-bar-oslo-writers--coll",
-    "title": "AT Crow BAR\nOslo Writers' Collective: Tuesday Social Writing",
-    "date": "2026-07-28",
-    "time": "18:45",
-    "category": "kultur",
-    "source": "meetup",
-    "url": "https://www.meetup.com/oslo-skriveklubb/events/315818069/",
-    "description": "**🌈** Meet other writers 🍻 Drink tasty beverages 🌱 Overcome writer's block\n\nWe’re on the first floor of Crow bar 🐦‍⬛ look for smiling faces and people with laptop or pen and paper\n\nSend us a message i"
-  },
-  {
-    "id": "meetup-2026-07-28-mindful-peace--your-weekly-hou",
-    "title": "Mindful Peace: Your Weekly Hour of Inner Calm",
-    "date": "2026-07-28",
-    "time": "20:30",
-    "category": "kultur",
-    "source": "meetup",
-    "url": "https://www.meetup.com/mindful-peace-europe-reading-club/events/315555111/",
-    "description": "# 🧘‍♂️ Mindful Peace: Zoom Online Reading & Reflection Club\n\n# **Are you looking for a space to find mental clarity, inner peace, and a supportive community?**\n\nWelcome to the **Mindful Peace Online R"
-  },
-  {
     "id": "lasttrain-2026-07-29-bluegrass-jam",
     "title": "BLUEGRASS JAM",
     "date": "2026-07-29",
@@ -460,6 +420,16 @@
     "description": ""
   },
   {
+    "id": "meetup-2026-08-05-after-work-mingle---meet-peopl",
+    "title": "After-work mingle — meet people in Oslo",
+    "date": "2026-08-05",
+    "time": "19:00",
+    "category": "kultur",
+    "source": "meetup",
+    "url": "https://www.meetup.com/room-for-more/events/315548941/",
+    "description": "**We’re meeting for a relaxed after-work chat in Oslo.**\n\n*This is a repeat of my first event where I wanted to keep it simple: the only purpose here is to connect with new people and have a good time"
+  },
+  {
     "id": "nieuscene-1542685443912295",
     "title": "Musikkquiz med Kriss",
     "date": "2026-08-05",
@@ -538,6 +508,16 @@
     "source": "latter",
     "url": "https://www.ticketmaster.no/event/1829727707",
     "description": ""
+  },
+  {
+    "id": "meetup-2026-08-07-game-dev-gathering---summer-vi",
+    "title": "Game Dev Gathering - Summer Vibes Edition II",
+    "date": "2026-08-07",
+    "time": "18:00",
+    "category": "kultur",
+    "source": "meetup",
+    "url": "https://www.meetup.com/game-developers-oslo/events/315862432/",
+    "description": "Summer Party - Round II\n\nWe're again meeting up at the terrace bar of Revier to have drinks directly under the rays of the sun. I know it sounds scary but I hope you can make it!\n\nDate: August 7th, Fr"
   },
   {
     "id": "latter-2026-08-07-sommerstandup-2026-1830",
@@ -687,7 +667,7 @@
     "category": "konsert",
     "source": "rockefeller",
     "url": "https://www.ticketmaster.no/event/1450533178?brand=johndee&camefrom=CFC_NO_Rockefeller_Big_Latin_Party_080826_Billettsalg&utm_campaign=NO_Rockefeller_Big_Latin_Party_080826_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
-    "description": "**Big Latin Party er tilbake på John Dee lørdag 8. august!**\n\nBli med på sommerens råeste danseopplevelse når John Dee igjen forvandles til Oslos største latinoklubb. Er du klar for en natt fylt med l"
+    "description": "**Støttekonsert for de jordskjelvrammede i Venezuela**\n\nRadio Latin-Amerika inviterer til Big Latin Party og konsert hvor du kan danse, kose deg og samtidig bidra til en viktig sak.\n\nLive Band: Bare H"
   },
   {
     "id": "rockefeller-2026-08-08-cupid",
@@ -716,7 +696,7 @@
     "time": "20:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/nb/e/horrifier__inchoation__stabber__revolver",
+    "url": "https://revolveroslo.ticketco.events/no/en/e/horrifier__inchoation__stabber__revolver",
     "description": ""
   },
   {
@@ -728,6 +708,16 @@
     "source": "latter",
     "url": "https://www.ticketmaster.no/event/2025775065",
     "description": ""
+  },
+  {
+    "id": "blaa-2026-08-08-fredfades-b2b-richard-fribert-",
+    "title": "Fredfades b2b Richard Fribert (SE/FR)",
+    "date": "2026-08-08",
+    "time": "21:00",
+    "category": "konsert",
+    "source": "blaa",
+    "url": "https://www.ticketmaster.no/event/1119928438",
+    "description": "Når gatefesten takker for seg, skrur vi opp intensiteten og flytter energien inn i hovedsalen for nok en B2B i regi av vår egen Fredfades. To platesamlere og musikkarkeologer i toppklasse samles bak s"
   },
   {
     "id": "nieuscene-973922638975465",
@@ -758,16 +748,6 @@
     "source": "meetup",
     "url": "https://www.meetup.com/heartfulness-meditation-oslo-meetup/events/315833949/",
     "description": "Velkommen til Heartfulness avspenning og meditasjon på hjertet - et pust i hverdagen. Fred starter med deg.\n(In english follows)\n\nMeditasjonen starter kl 10\nDørene åpner kl 9:50\nGratis deltagelse\n\nHea"
-  },
-  {
-    "id": "meetup-2026-08-09-online-morning-group-for-women",
-    "title": "Online morning group for women-resonance and tools from iopt",
-    "date": "2026-08-09",
-    "time": "10:00",
-    "category": "kultur",
-    "source": "meetup",
-    "url": "https://www.meetup.com/iopt-workshops-and-self-development-workshops/events/315757672/",
-    "description": "Morning group for women. I invite you to a group with focus on deep connections, coming closer to yourself and the present moment in a safe space. To lay the groundwork for your friday and weekend.\n\nW"
   },
   {
     "id": "blaa-2026-08-09-frank-znort-quartet",
@@ -926,7 +906,7 @@
     "time": "23:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/en/e/shitkid_se__revolver_x_oeyanatt",
+    "url": "https://revolveroslo.ticketco.events/no/nb/e/shitkid_se__revolver_x_oeyanatt",
     "description": ""
   },
   {
@@ -1026,7 +1006,7 @@
     "time": "23:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/en/e/vero_se__revolver_x_oeyanatt",
+    "url": "https://revolveroslo.ticketco.events/no/nb/e/vero_se__revolver_x_oeyanatt",
     "description": ""
   },
   {
@@ -1276,7 +1256,7 @@
     "time": "23:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/en/e/boy_with_apple_se__revolver_x_oeyanatt",
+    "url": "https://revolveroslo.ticketco.events/no/nb/e/boy_with_apple_se__revolver_x_oeyanatt",
     "description": ""
   },
   {
@@ -1288,6 +1268,16 @@
     "source": "meetup",
     "url": "https://www.meetup.com/heartfulness-meditation-oslo-meetup/events/315833958/",
     "description": "Velkommen til Heartfulness avspenning og meditasjon på hjertet - et pust i hverdagen. Fred starter med deg.\n(In english follows)\n\nMeditasjonen starter kl 10\nDørene åpner kl 9:50\nGratis deltagelse\n\nHea"
+  },
+  {
+    "id": "meetup-2026-08-16-online-morning-group-for-women",
+    "title": "Online morning group for women-resonance and tools from iopt",
+    "date": "2026-08-16",
+    "time": "10:00",
+    "category": "kultur",
+    "source": "meetup",
+    "url": "https://www.meetup.com/iopt-workshops-and-self-development-workshops/events/315855766/",
+    "description": "Morning group for women. I invite you to a group with focus on deep connections, coming closer to yourself and the present moment in a safe space. To lay the groundwork for your friday and weekend.\n\nW"
   },
   {
     "id": "blaa-2026-08-16-frank-znort-quartet",
@@ -1468,6 +1458,16 @@
     "source": "meetup",
     "url": "https://www.meetup.com/producttank-oslo/events/315511587/",
     "description": "How do you transform products in organizations that hundreds of thousands of people depend on every day? Join product leaders from the Norwegian Police and NAV as they share candid lessons from modern"
+  },
+  {
+    "id": "meetup-2026-08-20-dinner-at-foodie",
+    "title": "Dinner at Foodie",
+    "date": "2026-08-20",
+    "time": "18:00",
+    "category": "kultur",
+    "source": "meetup",
+    "url": "https://www.meetup.com/eat-with-us/events/315865300/",
+    "description": "Let's try **Foodie** this time.\n\n**Why we're going:** They serve up amazing, flavorful Sichuan dishes, dim sum, and great vibes. Check out the menu and let me know if you can make it!\n\n**The Details:*"
   },
   {
     "id": "lasttrain-2026-08-20-starr-and-the-czars--us--supp-",
@@ -1986,7 +1986,7 @@
     "time": "20:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/nb/e/erik_lindo__slippfest__revolver",
+    "url": "https://revolveroslo.ticketco.events/no/en/e/erik_lindo__slippfest__revolver",
     "description": ""
   },
   {
@@ -2006,7 +2006,7 @@
     "time": "18:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/en/e/ekkolodd__revolver_bakgaard2",
+    "url": "https://revolveroslo.ticketco.events/no/nb/e/ekkolodd__revolver_bakgaard2",
     "description": ""
   },
   {
@@ -2350,16 +2350,6 @@
     "description": "5 nye komikere hver uke - tirsdag til lørdag!"
   },
   {
-    "id": "nieuscene-2052208609038317",
-    "title": "Torsdagsquiz i nieu sportsbar!",
-    "date": "2026-09-03",
-    "time": "19:00",
-    "category": "humor",
-    "source": "nieuscene",
-    "url": "https://www.facebook.com/events/2052208609038317",
-    "description": "Torsdagsquiz i nieu sportsbar, hver uke kl.19:00! Hver torsdag inviterer vi til quiz i sportsbaren på nieu grünerløkka. Temaene varierer, men det blir som regel en god miks av sport og allmennkunnskap, og ulike quizverter hver uke. Møt opp alene eller med laget ditt, det er alltid plass til flere! R"
-  },
-  {
     "id": "nieuscene-1237765995153461",
     "title": "Espen Abrahamsen - Avantgarde",
     "date": "2026-09-03",
@@ -2368,6 +2358,16 @@
     "source": "nieuscene",
     "url": "https://www.facebook.com/events/1237765995153461",
     "description": "Espen Abrahamsen er endelig klar med sitt første helaftens standupshow. Du kjenner ham fra TV og podkaster, men det er på scenen Espen virkelig briljerer. Sidendebuten på standupscenen i 2020 har målet vært klart, et eget show og en Norgesturné. I dette showet får du Espens helt særegne blanding av "
+  },
+  {
+    "id": "nieuscene-2052208609038317",
+    "title": "Torsdagsquiz i nieu sportsbar!",
+    "date": "2026-09-03",
+    "time": "19:00",
+    "category": "humor",
+    "source": "nieuscene",
+    "url": "https://www.facebook.com/events/2052208609038317",
+    "description": "Torsdagsquiz i nieu sportsbar, hver uke kl.19:00! Hver torsdag inviterer vi til quiz i sportsbaren på nieu grünerløkka. Temaene varierer, men det blir som regel en god miks av sport og allmennkunnskap, og ulike quizverter hver uke. Møt opp alene eller med laget ditt, det er alltid plass til flere! R"
   },
   {
     "id": "operaen-2026-09-03-romeo-og-julie-1900",
@@ -2426,7 +2426,7 @@
     "time": "20:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/nb/e/mothaars__reptile_brains__revolver",
+    "url": "https://revolveroslo.ticketco.events/no/en/e/mothaars__reptile_brains__revolver",
     "description": ""
   },
   {
@@ -2727,6 +2727,16 @@
     "category": "kultur",
     "source": "operaen",
     "url": "https://www.operaen.no/forestillinger/figaros-bryllup-opera/",
+    "description": ""
+  },
+  {
+    "id": "parkteatret-2026-09-06-guri-egge--sophisticated-lady-",
+    "title": "Guri Egge: Sophisticated Lady?",
+    "date": "2026-09-06",
+    "time": "17:30",
+    "category": "konsert",
+    "source": "parkteatret",
+    "url": "https://www.ticketmaster.no/event/1721207875?brand=parkteatret",
     "description": ""
   },
   {
@@ -3410,16 +3420,6 @@
     "description": "Torsdagsquiz i nieu sportsbar, hver uke kl.19:00! Hver torsdag inviterer vi til quiz i sportsbaren på nieu grünerløkka. Temaene varierer, men det blir som regel en god miks av sport og allmennkunnskap, og ulike quizverter hver uke. Møt opp alene eller med laget ditt, det er alltid plass til flere! R"
   },
   {
-    "id": "nieuscene-874985061666027",
-    "title": "Verdens beste show 3",
-    "date": "2026-09-17",
-    "time": "19:00",
-    "category": "humor",
-    "source": "nieuscene",
-    "url": "https://www.facebook.com/events/874985061666027",
-    "description": "BMI (Bare Moro Impro) har i over en dekade levert humor i sin pureste form til de heldige som har innløst billett. Christian Mikkelsen (humoretaten), Emil Lystvedt Berntsen (Ensjø Nybygg Mannskor) og Olav Svarstad Haugland (250-bussen) tar over Cosmopolite høsten 2026 med oppfølgeren til publikumssu"
-  },
-  {
     "id": "nieuscene-2458998277934634",
     "title": "Veslevoksen",
     "date": "2026-09-17",
@@ -3428,6 +3428,16 @@
     "source": "nieuscene",
     "url": "https://www.facebook.com/events/2458998277934634",
     "description": "Veslevoksen - et standupshow om å være 9, 33 og 84 år samtidig. Hannah Christin Lerfaldet (33) har alltid vært ekstremt veslevoksen. Som 9 år gammel jente med en sjel på 84 år har hun skrevet ned sine innerste tanker, drømmer og forelskelser. Noe er kleint. Noe er rørende. Alt skal frem i lyset. Reg"
+  },
+  {
+    "id": "nieuscene-874985061666027",
+    "title": "Verdens beste show 3",
+    "date": "2026-09-17",
+    "time": "19:00",
+    "category": "humor",
+    "source": "nieuscene",
+    "url": "https://www.facebook.com/events/874985061666027",
+    "description": "BMI (Bare Moro Impro) har i over en dekade levert humor i sin pureste form til de heldige som har innløst billett. Christian Mikkelsen (humoretaten), Emil Lystvedt Berntsen (Ensjø Nybygg Mannskor) og Olav Svarstad Haugland (250-bussen) tar over Cosmopolite høsten 2026 med oppfølgeren til publikumssu"
   },
   {
     "id": "latter-2026-09-17-finn-tre-feil-1900",
@@ -3826,7 +3836,7 @@
     "time": "20:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/nb/e/black_market_karma_uk__revolver",
+    "url": "https://revolveroslo.ticketco.events/no/en/e/black_market_karma_uk__revolver",
     "description": ""
   },
   {
@@ -4148,16 +4158,6 @@
     "source": "rockefeller",
     "url": "https://www.ticketmaster.no/event/208250488?brand=johndee&camefrom=CFC_NO_Rockefeller_Pilgrim_260926_Billettsalg&utm_campaign=NO_Rockefeller_Pilgrim_260926_Billettsalg&utm_content=NO&utm_medium=referral&utm_source=Website",
     "description": "Det myteomspunnede bandet Pilgrim kommer til John Dee lørdag 26. september!\n\nPilgrim gikk den 720 km lange pilegrimsturen til Santiago de Compostela for inspirasjon til prosjektet og bandet nå kalt «P"
-  },
-  {
-    "id": "parkteatret-2026-09-26-guri-egge--sophisticated-lady-",
-    "title": "Guri Egge: Sophisticated Lady?",
-    "date": "2026-09-26",
-    "time": "17:30",
-    "category": "konsert",
-    "source": "parkteatret",
-    "url": "https://www.ticketmaster.no/event/1721207875?brand=parkteatret",
-    "description": ""
   },
   {
     "id": "oslonye-2026-09-26-p-klederen-1800",
@@ -4646,7 +4646,7 @@
     "time": "20:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/nb/e/boylotion__plastik_noir__dj_batplanet__revolver",
+    "url": "https://revolveroslo.ticketco.events/no/en/e/boylotion__plastik_noir__dj_batplanet__revolver",
     "description": ""
   },
   {
@@ -6330,6 +6330,16 @@
     "description": ""
   },
   {
+    "id": "revolver-2026-10-30--bolverk--releaseparty----supp",
+    "title": ":BOLVERK: Releaseparty // Supp.: Vingulmork - VEXMORTEM // Revolver",
+    "date": "2026-10-30",
+    "time": "20:00",
+    "category": "konsert",
+    "source": "revolver",
+    "url": "https://revolveroslo.ticketco.events/no/nb/e/bolverk_releaseparty__supp_vingulmork__vexmortem__revolver",
+    "description": ""
+  },
+  {
     "id": "revolver-2026-10-30-the-howlers--uk-----revolver",
     "title": "The Howlers (uk) // Revolver",
     "date": "2026-10-30",
@@ -6337,16 +6347,6 @@
     "category": "konsert",
     "source": "revolver",
     "url": "https://revolveroslo.ticketco.events/no/en/e/the_howlers_uk__revolver",
-    "description": ""
-  },
-  {
-    "id": "revolver-2026-10-30--bolverk--releaseparty----supp",
-    "title": ":BOLVERK: Releaseparty // Supp.: Vingulmork - VEXMORTEM // Revolver",
-    "date": "2026-10-30",
-    "time": "20:00",
-    "category": "konsert",
-    "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/en/e/bolverk_releaseparty__supp_vingulmork__vexmortem__revolver",
     "description": ""
   },
   {
@@ -7896,7 +7896,7 @@
     "time": "20:00",
     "category": "konsert",
     "source": "revolver",
-    "url": "https://revolveroslo.ticketco.events/no/nb/e/tramhous_nl__revolver",
+    "url": "https://revolveroslo.ticketco.events/no/en/e/tramhous_nl__revolver",
     "description": ""
   },
   {
