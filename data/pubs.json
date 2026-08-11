@@ -930,7 +930,7 @@
     "address": "Grønlandsleiret, 0190",
     "website": "",
     "phone": "",
-    "opening_hours": "",
+    "opening_hours": "Mo-Su 14:00-00:30",
     "description": "",
     "lat": 59.9109629,
     "lon": 10.7670207
@@ -1551,7 +1551,7 @@
     "id": "osm-2785637669",
     "name": "Kniven",
     "type": "pub",
-    "address": "Møllergata, 0179",
+    "address": "Møllergata 32B, 0179",
     "website": "",
     "phone": "",
     "opening_hours": "",
@@ -1926,7 +1926,7 @@
     "address": "Toftes gate, 0556",
     "website": "",
     "phone": "",
-    "opening_hours": "",
+    "opening_hours": "Mo-Th 13:00-03:30, Fr-Su 12:00-03:30",
     "description": "",
     "lat": 59.9270609,
     "lon": 10.7612567
@@ -2226,7 +2226,7 @@
     "address": "Helgesens gate, 0566",
     "website": "https://www.facebook.com/perlarodelokka",
     "phone": "+47 93 88 64 83",
-    "opening_hours": "Su-Th 08:00-17:00, Fr 14:00-01:00",
+    "opening_hours": "Su-Th 17:00-01:00, Fr,Sa 15:00-01:00",
     "description": "",
     "lat": 59.922576,
     "lon": 10.769543
@@ -2826,7 +2826,7 @@
     "address": "Seilduksgata, 0553",
     "website": "https://www.facebook.com/tamarabaroslo/",
     "phone": "",
-    "opening_hours": "Mo-Th 16:00-01:00; Fr,Sa 16:00-03:00; Su 12:00-01:00",
+    "opening_hours": "Mo-We 16:00-24:00, Th 16:00-01:00, Fr,Sa 15:00-03:00, Su 15:00-24:00",
     "description": "",
     "lat": 59.9256497,
     "lon": 10.7612976
