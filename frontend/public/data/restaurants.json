@@ -102,12 +102,6 @@
     "url": "https://vink.aftenposten.no/artikkel/Rj4rK8/poelse-i-vaffel-oelbongstafett-og-bygdetrap"
   },
   {
-    "id": "vink-dette-er-tom-hollands-beste-spider-man-f",
-    "title": "Dette er Tom Hollands beste Spider-Man-film",
-    "source": "vink",
-    "url": "https://vink.aftenposten.no/artikkel/K8bGoE/anmeldelse-av-spider-man-brand-new-day-med-tom-holland-zendaya-sadie-sink"
-  },
-  {
     "id": "vink-man-kan-man-ikke-be-om-s--mye-mer",
     "title": "Man kan man ikke be om så mye mer",
     "source": "vink",
@@ -262,5 +256,11 @@
     "title": "Glem alle andre kebaber. Du trenger bare denne.",
     "source": "vink",
     "url": "https://vink.aftenposten.no/artikkel/e75vXM/kebaben-pa-zarathustra-er-den-eneste-du-trenger"
+  },
+  {
+    "id": "vink-steven-spielberg-kan-fortsatt-trylle",
+    "title": "Steven Spielberg kan fortsatt trylle",
+    "source": "vink",
+    "url": "https://vink.aftenposten.no/artikkel/vrwQJV/anmeldelse-av-disclosure-day-av-steven-spielberg-med-emily-blunt-josh-oconnor-colin-firth"
   }
 ]
