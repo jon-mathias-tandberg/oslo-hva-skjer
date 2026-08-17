@@ -12,6 +12,18 @@
     "lon": 10.7370026
   },
   {
+    "id": "osm-2785333241",
+    "name": "100 Oslo",
+    "type": "bar",
+    "address": "Munkedamsveien 100, 0270",
+    "website": "",
+    "phone": "",
+    "opening_hours": "",
+    "description": "",
+    "lat": 59.912666,
+    "lon": 10.710053
+  },
+  {
     "id": "osm-11105786805",
     "name": "3KT",
     "type": "bar",
@@ -171,7 +183,7 @@
     "id": "osm-6136462029",
     "name": "Bar Albatross",
     "type": "bar",
-    "address": "Torshovgata, 0474",
+    "address": "Torshovgata 5A, 0476",
     "website": "",
     "phone": "",
     "opening_hours": "",
@@ -1536,6 +1548,18 @@
     "lon": 10.7349777
   },
   {
+    "id": "osm-4343892495",
+    "name": "Kissa",
+    "type": "bar",
+    "address": "Torggata 35",
+    "website": "",
+    "phone": "",
+    "opening_hours": "",
+    "description": "",
+    "lat": 59.9174041,
+    "lon": 10.7542231
+  },
+  {
     "id": "osm-2125314713",
     "name": "Kjøkken og Bar",
     "type": "bar",
@@ -1551,7 +1575,7 @@
     "id": "osm-2785637669",
     "name": "Kniven",
     "type": "pub",
-    "address": "Møllergata 32B, 0179",
+    "address": "Møllergata, 0179",
     "website": "",
     "phone": "",
     "opening_hours": "",
@@ -1938,7 +1962,7 @@
     "address": "Søndre gate, 0550",
     "website": "https://www.nedrelokka.com",
     "phone": "",
-    "opening_hours": "Tu 16:00-01:00, We-Sa 16:00-03:00",
+    "opening_hours": "Mo-Th 16:00-01:00, Fr,Sa 16:00-03:00; Su off",
     "description": "",
     "lat": 59.9187295,
     "lon": 10.7592117
@@ -2067,7 +2091,7 @@
     "id": "osm-4157612842",
     "name": "Oslo Bar & Bowling",
     "type": "bar",
-    "address": "Hammersborggata, 0179",
+    "address": "Torggata 14, 0181",
     "website": "",
     "phone": "",
     "opening_hours": "",
@@ -2583,7 +2607,7 @@
     "id": "osm-853486526",
     "name": "Shamrock",
     "type": "pub",
-    "address": "Schleppegrells gate 32",
+    "address": "Schleppegrells gate, 0557",
     "website": "",
     "phone": "",
     "opening_hours": "13:00-01:00",
