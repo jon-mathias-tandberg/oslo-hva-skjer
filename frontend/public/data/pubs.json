@@ -15,7 +15,7 @@
     "id": "osm-2785333241",
     "name": "100 Oslo",
     "type": "bar",
-    "address": "Munkedamsveien 100, 0270",
+    "address": "Drammensveien, 0271",
     "website": "",
     "phone": "",
     "opening_hours": "",
@@ -183,7 +183,7 @@
     "id": "osm-6136462029",
     "name": "Bar Albatross",
     "type": "bar",
-    "address": "Torshovgata, 0474",
+    "address": "Torshovgata 5A, 0476",
     "website": "",
     "phone": "",
     "opening_hours": "",
@@ -322,18 +322,6 @@
     "description": "",
     "lat": 59.9166528,
     "lon": 10.7565059
-  },
-  {
-    "id": "osm-1523679571",
-    "name": "Bar Tomo",
-    "type": "bar",
-    "address": "Thorvald Meyers gate, 0555",
-    "website": "",
-    "phone": "",
-    "opening_hours": "",
-    "description": "",
-    "lat": 59.9247834,
-    "lon": 10.7593654
   },
   {
     "id": "osm-3409107012",
@@ -514,6 +502,18 @@
     "description": "",
     "lat": 59.9153473,
     "lon": 10.7389289
+  },
+  {
+    "id": "osm-14119113305",
+    "name": "Brostein",
+    "type": "bar",
+    "address": "St. Halvards gate 23",
+    "website": "https://brosteinbar.no/",
+    "phone": "",
+    "opening_hours": "Mo-Su: 15:00-01:00",
+    "description": "",
+    "lat": 59.906024,
+    "lon": 10.7707574
   },
   {
     "id": "osm-5005278659",
@@ -1260,6 +1260,18 @@
     "lon": 10.759363
   },
   {
+    "id": "osm-1523679571",
+    "name": "Guilty Pleasure",
+    "type": "bar",
+    "address": "Thorvald Meyers gate, 0555",
+    "website": "",
+    "phone": "",
+    "opening_hours": "",
+    "description": "",
+    "lat": 59.9247834,
+    "lon": 10.7593654
+  },
+  {
     "id": "osm-12520076135",
     "name": "Hammerhai",
     "type": "bar",
@@ -1575,7 +1587,7 @@
     "id": "osm-2785637669",
     "name": "Kniven",
     "type": "pub",
-    "address": "Møllergata, 0179",
+    "address": "Møllergata 32B, 0179",
     "website": "",
     "phone": "",
     "opening_hours": "",
@@ -2091,7 +2103,7 @@
     "id": "osm-4157612842",
     "name": "Oslo Bar & Bowling",
     "type": "bar",
-    "address": "Torggata 14, 0181",
+    "address": "Hammersborggata, 0179",
     "website": "",
     "phone": "",
     "opening_hours": "",
