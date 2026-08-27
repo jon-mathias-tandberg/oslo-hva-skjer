@@ -73,10 +73,10 @@
   },
   {
     "id": "osm-rest-2181335078",
-    "name": "Albertine Indisk Tandoori",
-    "cuisine": "Indisk",
+    "name": "Albertine Spiseri",
+    "cuisine": "Middelhavet",
     "address": "Hallings gate, 0176",
-    "website": "https://www.albertine-indisk.no/",
+    "website": "https://www.albertinespiseri.no/",
     "phone": "",
     "opening_hours": "Mo-Th 14:00-23:00; Fr,Sa 13:00-23:00",
     "description": "",
@@ -1695,7 +1695,7 @@
     "id": "osm-rest-11524415477",
     "name": "Delicatessen Sandvika",
     "cuisine": "Tapas",
-    "address": "Rådmann Halmrasts vei, 1337",
+    "address": "Rådmann Halmrasts vei 11, 1337",
     "website": "https://delicatessen.no/sandvika/",
     "phone": "+47 22 46 72 00",
     "opening_hours": "",
@@ -1750,6 +1750,18 @@
     "description": "",
     "lat": 59.8106304,
     "lon": 10.8036892
+  },
+  {
+    "id": "osm-rest-14125728410",
+    "name": "Der Peppern Gror",
+    "cuisine": "",
+    "address": "Bryggetorget, 0250",
+    "website": "",
+    "phone": "",
+    "opening_hours": "",
+    "description": "",
+    "lat": 59.9095375,
+    "lon": 10.7248057
   },
   {
     "id": "osm-rest-12630098201",
@@ -2246,11 +2258,11 @@
   {
     "id": "osm-rest-9708640822",
     "name": "Eufemia Bar",
-    "cuisine": "",
+    "cuisine": "Nordisk",
     "address": "Dronning Eufemias gate, 0050",
-    "website": "https://eufemiabar.no",
+    "website": "https://eufemiabar.no/",
     "phone": "+47 24 10 30 00",
-    "opening_hours": "Su-Mo 11:00-23:00; Tu-Sa 11:00-00:00",
+    "opening_hours": "Mo 12:00-23:30; Tu-Sa 12:00-00:30; Su 12:00-23:30",
     "description": "",
     "lat": 59.9093447,
     "lon": 10.7527129
@@ -3936,6 +3948,18 @@
     "lon": 10.7622672
   },
   {
+    "id": "osm-rest-14125723695",
+    "name": "Kenzai",
+    "cuisine": "Kinesisk",
+    "address": "Tjuvholmen allé, 0252",
+    "website": "",
+    "phone": "",
+    "opening_hours": "",
+    "description": "",
+    "lat": 59.9088634,
+    "lon": 10.7227774
+  },
+  {
     "id": "osm-rest-12881298926",
     "name": "Keyser Social",
     "cuisine": "",
@@ -5286,7 +5310,7 @@
     "address": "Thorvald Meyers gate, 0552",
     "website": "https://www.muchomas.no/",
     "phone": "",
-    "opening_hours": "Tu-Fr 16:00-21:00; Sa 14:00-22:00; Su 14:00-21:00",
+    "opening_hours": "Tu-Th 16:00-21:00; Sa 13:00-22:00; Su 13:00-21:00; Fr 15:00-22:00",
     "description": "",
     "lat": 59.924171,
     "lon": 10.759395
@@ -7369,7 +7393,7 @@
   },
   {
     "id": "osm-rest-9573613717",
-    "name": "Skaal",
+    "name": "SKAAL Matbar",
     "cuisine": "",
     "address": "Grüners gate, 0554",
     "website": "https://www.skaalmatbar.no",
@@ -7707,7 +7731,7 @@
     "id": "osm-rest-6136462187",
     "name": "Sukhumvit Soup&Grill",
     "cuisine": "Thai",
-    "address": "Munkedamsveien 29, 0251",
+    "address": "Munkedamsveien, 0251",
     "website": "https://sukhumvit.no/",
     "phone": "",
     "opening_hours": "Mo-Sa 11:00-21:00",
@@ -8269,7 +8293,7 @@
   },
   {
     "id": "osm-rest-292143398",
-    "name": "Theka",
+    "name": "Theka - Indian Street Food & Bar",
     "cuisine": "Indisk",
     "address": "Grüners gate, 0554",
     "website": "https://theka.no/",
