@@ -1892,8 +1892,8 @@
     "phone": "",
     "opening_hours": "",
     "description": "",
-    "lat": 59.942366,
-    "lon": 10.8116849
+    "lat": 59.942418,
+    "lon": 10.8117479
   },
   {
     "id": "osm-rest-973804256",
@@ -3560,8 +3560,8 @@
     "phone": "",
     "opening_hours": "Mo-Sa 11:00-21:30",
     "description": "",
-    "lat": 59.9143835,
-    "lon": 10.7537977
+    "lat": 59.9143122,
+    "lon": 10.7541626
   },
   {
     "id": "osm-rest-12701729101",
@@ -4028,8 +4028,8 @@
     "phone": "",
     "opening_hours": "",
     "description": "",
-    "lat": 59.9143252,
-    "lon": 10.7540886
+    "lat": 59.9143973,
+    "lon": 10.7538299
   },
   {
     "id": "osm-rest-11185426255",
@@ -4270,6 +4270,18 @@
     "description": "",
     "lat": 59.9104104,
     "lon": 10.7448223
+  },
+  {
+    "id": "osm-rest-2484254221",
+    "name": "L'Atelier",
+    "cuisine": "",
+    "address": "Niels Juels gate, 0272",
+    "website": "",
+    "phone": "",
+    "opening_hours": "",
+    "description": "",
+    "lat": 59.91261,
+    "lon": 10.710141
   },
   {
     "id": "osm-rest-12927973433",
@@ -4923,7 +4935,7 @@
     "id": "osm-rest-6136462485",
     "name": "Maaltid",
     "cuisine": "",
-    "address": "Sørligata 36, 0577",
+    "address": "Sørligata, 0577",
     "website": "https://www.maaltidtoyen.no/",
     "phone": "",
     "opening_hours": "mo off; Tu-fr 16:00-23:30; Sa 12:00-00:30; Su 12:00-17:00",
@@ -4959,7 +4971,7 @@
     "id": "osm-rest-5652445255",
     "name": "Madonna",
     "cuisine": "",
-    "address": "Operagata 17, 0194",
+    "address": "Operagata, 0194",
     "website": "https://www.madonnaoslo.no/",
     "phone": "+47 22 60 12 00",
     "opening_hours": "Mo-Th 16:00-23:00; Fr-Sa 12:00-24:00",
@@ -5806,6 +5818,18 @@
     "description": "",
     "lat": 59.9134946,
     "lon": 10.7860401
+  },
+  {
+    "id": "osm-rest-14128784487",
+    "name": "Osteria de Campo",
+    "cuisine": "Italiensk",
+    "address": "Bygdøy allé, 0265",
+    "website": "",
+    "phone": "",
+    "opening_hours": "",
+    "description": "",
+    "lat": 59.918209,
+    "lon": 10.7063127
   },
   {
     "id": "osm-rest-4340314913",
@@ -6795,7 +6819,7 @@
     "id": "osm-rest-2785920497",
     "name": "Risbolle",
     "cuisine": "Thai",
-    "address": "Dronningens gate 24, 0154",
+    "address": "Dronningens gate, 0154",
     "website": "https://www.risbolle.no/",
     "phone": "",
     "opening_hours": "Mo-Sa 11:00-22:00; Su 13:30-21:00",
@@ -7332,18 +7356,6 @@
     "lon": 10.766587
   },
   {
-    "id": "osm-rest-2484254221",
-    "name": "Silk Road",
-    "cuisine": "Asiatisk",
-    "address": "Niels Juels gate, 0272",
-    "website": "https://silkroadoslo.com",
-    "phone": "",
-    "opening_hours": "We-Th 17:00-23:00; Fr-Sa 17:00-24:00",
-    "description": "",
-    "lat": 59.91261,
-    "lon": 10.710141
-  },
-  {
     "id": "osm-rest-5878291587",
     "name": "Silver Chopsticks & Sushi",
     "cuisine": "Asiatisk",
@@ -7479,7 +7491,7 @@
     "id": "osm-rest-2046008740",
     "name": "Smalhans",
     "cuisine": "",
-    "address": "Ullevålsveien, 0169",
+    "address": "Ullevålsveien, 0170",
     "website": "https://www.smalhans.no/",
     "phone": "+47 22 69 60 00",
     "opening_hours": "Mo 16:00-22:00; Tu 16:00-00:30, We-Sa 11:00-00:30, Su 12:00-22:00",
