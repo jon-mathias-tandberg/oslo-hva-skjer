@@ -951,7 +951,7 @@
     "id": "osm-rest-5652443563",
     "name": "Brasserie Rivoli",
     "cuisine": "Fransk",
-    "address": "Operagata, 0194",
+    "address": "Operagata 3, 0194",
     "website": "https://www.rivoli.no/",
     "phone": "+47 21 42 05 90",
     "opening_hours": "Tu-Fr 11:30-23:00; Mo 16:30-23:00; Sa-Su 14:30-23:00",
@@ -1695,7 +1695,7 @@
     "id": "osm-rest-11524415477",
     "name": "Delicatessen Sandvika",
     "cuisine": "Tapas",
-    "address": "Rådmann Halmrasts vei 11, 1337",
+    "address": "Rådmann Halmrasts vei, 1337",
     "website": "https://delicatessen.no/sandvika/",
     "phone": "+47 22 46 72 00",
     "opening_hours": "",
@@ -4959,7 +4959,7 @@
     "id": "osm-rest-5652445255",
     "name": "Madonna",
     "cuisine": "",
-    "address": "Operagata, 0194",
+    "address": "Operagata 17, 0194",
     "website": "https://www.madonnaoslo.no/",
     "phone": "+47 22 60 12 00",
     "opening_hours": "Mo-Th 16:00-23:00; Fr-Sa 12:00-24:00",
@@ -5062,6 +5062,18 @@
     "description": "",
     "lat": 59.911053,
     "lon": 10.74671
+  },
+  {
+    "id": "osm-rest-9705547310",
+    "name": "Marani",
+    "cuisine": "Georgian",
+    "address": "Sørengkaia, 0194",
+    "website": "https://www.newflavours.no/",
+    "phone": "",
+    "opening_hours": "Mo-Su 14:00-00:00",
+    "description": "",
+    "lat": 59.903215,
+    "lon": 10.754208
   },
   {
     "id": "osm-rest-14068952832",
@@ -5292,6 +5304,18 @@
     "lon": 10.7497238
   },
   {
+    "id": "osm-rest-11802372432",
+    "name": "Mr. Bowl",
+    "cuisine": "",
+    "address": "Professor Dahls gate, 0355",
+    "website": "",
+    "phone": "",
+    "opening_hours": "",
+    "description": "",
+    "lat": 59.923778,
+    "lon": 10.7253586
+  },
+  {
     "id": "osm-rest-3454582815",
     "name": "Mr. Fish",
     "cuisine": "Sushi",
@@ -5446,18 +5470,6 @@
     "description": "",
     "lat": 59.9089247,
     "lon": 10.7233745
-  },
-  {
-    "id": "osm-rest-9705547310",
-    "name": "New Flavors of India",
-    "cuisine": "Indisk",
-    "address": "Sørengkaia, 0194",
-    "website": "https://www.newflavours.no/",
-    "phone": "",
-    "opening_hours": "Mo-Su 14:00-00:00",
-    "description": "",
-    "lat": 59.903215,
-    "lon": 10.754208
   },
   {
     "id": "osm-rest-4738519185",
@@ -6807,7 +6819,7 @@
     "id": "osm-rest-2785920497",
     "name": "Risbolle",
     "cuisine": "Thai",
-    "address": "Dronningens gate, 0154",
+    "address": "Dronningens gate 24, 0154",
     "website": "https://www.risbolle.no/",
     "phone": "",
     "opening_hours": "Mo-Sa 11:00-22:00; Su 13:30-21:00",
@@ -7731,7 +7743,7 @@
     "id": "osm-rest-6136462187",
     "name": "Sukhumvit Soup&Grill",
     "cuisine": "Thai",
-    "address": "Munkedamsveien, 0251",
+    "address": "Munkedamsveien 29, 0251",
     "website": "https://sukhumvit.no/",
     "phone": "",
     "opening_hours": "Mo-Sa 11:00-21:00",
