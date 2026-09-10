@@ -1,15 +1,15 @@
 [
   {
+    "id": "vink-dette-m--man-jo-bare-elske",
+    "title": "Dette må man jo bare elske",
+    "source": "vink",
+    "url": "https://vink.aftenposten.no/artikkel/V6e2m1/marani-pa-sorenga-serverer-georgisk-mat-som-er-lett-a-like"
+  },
+  {
     "id": "vink-gr-nerl-kkas-beste-spisesteder",
     "title": "Grünerløkkas beste spisesteder",
     "source": "vink",
     "url": "https://vink.aftenposten.no/artikkel/m0yAqL/de-aller-beste-spisestedene-pa-grunerlokka"
-  },
-  {
-    "id": "vink-de-vet---steke-en-entrec-te--de-vet-ogs-",
-    "title": "De vet å steke en entrecôte. De vet også å ta seg betalt.",
-    "source": "vink",
-    "url": "https://vink.aftenposten.no/artikkel/k0ebJB/mye-bra-mat-hos-brasserie-hansken-men-prisene-er-stive"
   },
   {
     "id": "vink-kremen-av-kremen--ja--dette-er-oslos-bes",
@@ -40,6 +40,12 @@
     "title": "Lurer du på hva som åpner her? Vi har oversikten.",
     "source": "vink",
     "url": "https://vink.aftenposten.no/artikkel/5pW1PE/disse-restauranten-apner-i-oslo-hosten-2026"
+  },
+  {
+    "id": "vink-de-vet---steke-en-entrec-te--de-vet-ogs-",
+    "title": "De vet å steke en entrecôte. De vet også å ta seg betalt.",
+    "source": "vink",
+    "url": "https://vink.aftenposten.no/artikkel/k0ebJB/mye-bra-mat-hos-brasserie-hansken-men-prisene-er-stive"
   },
   {
     "id": "vink-disse-seriene-gleder-vi-oss-til-i-h-st",
@@ -256,11 +262,5 @@
     "title": "En urgammel råvare er tilbake: – Når én bestiller det, følger folk etter.",
     "source": "vink",
     "url": "https://vink.aftenposten.no/artikkel/3pRjmd/hedonistisk-og-ganske-ekstrem"
-  },
-  {
-    "id": "vink-det-er-bare---sikre-seg-bord-f-r-de-sten",
-    "title": "Det er bare å sikre seg bord før de stenger igjen",
-    "source": "vink",
-    "url": "https://vink.aftenposten.no/artikkel/PdjeO0/pa-solsiden-fikk-vi-en-av-byens-beste-fiskeretter"
   }
 ]
