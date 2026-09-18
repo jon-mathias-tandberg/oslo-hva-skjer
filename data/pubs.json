@@ -144,18 +144,6 @@
     "lon": 10.74901
   },
   {
-    "id": "osm-13087080542",
-    "name": "B54",
-    "type": "bar",
-    "address": "Bogstadveien, 0366",
-    "website": "",
-    "phone": "",
-    "opening_hours": "",
-    "description": "",
-    "lat": 59.9279118,
-    "lon": 10.7182452
-  },
-  {
     "id": "osm-12967125814",
     "name": "Baba Bar",
     "type": "bar",
@@ -171,7 +159,7 @@
     "id": "osm-6136462029",
     "name": "Bar Albatross",
     "type": "bar",
-    "address": "Torshovgata 5A, 0476",
+    "address": "Torshovgata, 0474",
     "website": "",
     "phone": "",
     "opening_hours": "",
@@ -507,10 +495,10 @@
     "id": "osm-14119113305",
     "name": "Brostein",
     "type": "bar",
-    "address": "St. Halvards gate 17, 0192",
+    "address": "St. Halvards gate, 0656",
     "website": "https://brosteinbar.no/",
     "phone": "",
-    "opening_hours": "Mo-Su: 15:00-01:00",
+    "opening_hours": "Mo-Su 15:00-01:00",
     "description": "",
     "lat": 59.9060053,
     "lon": 10.7705928
@@ -1599,7 +1587,7 @@
     "id": "osm-2785637669",
     "name": "Kniven",
     "type": "pub",
-    "address": "Møllergata 32B, 0179",
+    "address": "Møllergata, 0179",
     "website": "",
     "phone": "",
     "opening_hours": "",
@@ -2106,7 +2094,7 @@
     "address": "Rosteds gate, 0178",
     "website": "",
     "phone": "",
-    "opening_hours": "Tu-Fr 17:00-01:00, Sa 17:00-01:00; Su 17:00-01:00; 16 Aug-16 Sep closed",
+    "opening_hours": "Tu-Fr 17:00-01:00, Sa 17:00-01:00; Su 17:00-01:00; Aug16-Sep 16 closed",
     "description": "",
     "lat": 59.9194501,
     "lon": 10.7500951
@@ -2115,7 +2103,7 @@
     "id": "osm-4157612842",
     "name": "Oslo Bar & Bowling",
     "type": "bar",
-    "address": "Torggata 14, 0181",
+    "address": "Hammersborggata, 0179",
     "website": "",
     "phone": "",
     "opening_hours": "",
@@ -2746,6 +2734,18 @@
     "description": "",
     "lat": 59.9163008,
     "lon": 10.7500281
+  },
+  {
+    "id": "osm-13087080542",
+    "name": "Spillbaren",
+    "type": "bar",
+    "address": "Bogstadveien, 0366",
+    "website": "",
+    "phone": "",
+    "opening_hours": "",
+    "description": "",
+    "lat": 59.9279118,
+    "lon": 10.7182452
   },
   {
     "id": "osm-13317552073",
