@@ -468,6 +468,18 @@
     "lon": 10.752288
   },
   {
+    "id": "osm-rest-14200859701",
+    "name": "Bamboo Skøyen",
+    "cuisine": "Asiatisk",
+    "address": "Karenslyst allé 30",
+    "website": "https://bamboorestaurant.no/",
+    "phone": "",
+    "opening_hours": "Mo-Su 11:00-21:00",
+    "description": "",
+    "lat": 59.9204136,
+    "lon": 10.6828542
+  },
+  {
     "id": "osm-rest-11978785929",
     "name": "Bambus Lambertseter",
     "cuisine": "Asiatisk",
@@ -963,7 +975,7 @@
     "id": "osm-rest-5652443563",
     "name": "Brasserie Rivoli",
     "cuisine": "Fransk",
-    "address": "Operagata 3, 0194",
+    "address": "Operagata, 0194",
     "website": "https://www.rivoli.no/",
     "phone": "+47 21 42 05 90",
     "opening_hours": "Tu-Fr 11:30-23:00; Mo 16:30-23:00; Sa-Su 14:30-23:00",
@@ -2370,7 +2382,7 @@
     "address": "Brynjulf Bulls plass, 0037",
     "website": "https://fishme.no/",
     "phone": "",
-    "opening_hours": "",
+    "opening_hours": "Mo-Su 12:00-22:00",
     "description": "",
     "lat": 59.9110127,
     "lon": 10.7311018
@@ -4923,7 +4935,7 @@
     "id": "osm-rest-6136462485",
     "name": "Maaltid",
     "cuisine": "",
-    "address": "Sørligata, 0577",
+    "address": "Sørligata 36, 0577",
     "website": "https://www.maaltidtoyen.no/",
     "phone": "",
     "opening_hours": "Mo off; Tu-Fr 16:00-23:30; Sa 12:00-00:30; Su 12:00-17:00",
@@ -4971,7 +4983,7 @@
     "id": "osm-rest-8044390472",
     "name": "Madserud gård",
     "cuisine": "",
-    "address": "Madserud allé, 0268",
+    "address": "Madserud allé, 0274",
     "website": "",
     "phone": "",
     "opening_hours": "",
@@ -5074,6 +5086,18 @@
     "description": "",
     "lat": 59.9032057,
     "lon": 10.7542066
+  },
+  {
+    "id": "osm-rest-14200854401",
+    "name": "Marani",
+    "cuisine": "Georgian",
+    "address": "Sørengkaia 69",
+    "website": "https://www.marani.no/",
+    "phone": "",
+    "opening_hours": "Mo-Su 13:00-23:00",
+    "description": "",
+    "lat": 59.9033002,
+    "lon": 10.7543297
   },
   {
     "id": "osm-rest-310780987",
@@ -6819,7 +6843,7 @@
     "id": "osm-rest-2785920497",
     "name": "Risbolle",
     "cuisine": "Thai",
-    "address": "Dronningens gate 24, 0154",
+    "address": "Dronningens gate, 0154",
     "website": "https://www.risbolle.no/",
     "phone": "",
     "opening_hours": "Mo-Sa 11:00-22:00; Su 13:30-21:00",
