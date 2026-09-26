@@ -564,18 +564,6 @@
     "lon": 10.7574858
   },
   {
-    "id": "osm-rest-11860401922",
-    "name": "Barish",
-    "cuisine": "Indisk",
-    "address": "Dronningens gate, 0154",
-    "website": "https://barishoslo.no",
-    "phone": "",
-    "opening_hours": "",
-    "description": "",
-    "lat": 59.9110481,
-    "lon": 10.7470683
-  },
-  {
     "id": "osm-rest-11039584823",
     "name": "Barramon",
     "cuisine": "",
@@ -975,7 +963,7 @@
     "id": "osm-rest-5652443563",
     "name": "Brasserie Rivoli",
     "cuisine": "Fransk",
-    "address": "Operagata 3, 0194",
+    "address": "Operagata, 0194",
     "website": "https://www.rivoli.no/",
     "phone": "+47 21 42 05 90",
     "opening_hours": "Tu-Fr 11:30-23:00; Mo 16:30-23:00; Sa-Su 14:30-23:00",
@@ -1066,18 +1054,6 @@
     "description": "",
     "lat": 59.9106321,
     "lon": 10.7264344
-  },
-  {
-    "id": "osm-rest-11185679028",
-    "name": "Burger Shack",
-    "cuisine": "Burger",
-    "address": "Nydalen allé, 0484",
-    "website": "https://burgershack.no",
-    "phone": "",
-    "opening_hours": "Mo-Su 14:00-22:45",
-    "description": "",
-    "lat": 59.9486929,
-    "lon": 10.7667273
   },
   {
     "id": "osm-rest-366996070",
@@ -2040,18 +2016,6 @@
     "lon": 10.778318
   },
   {
-    "id": "osm-rest-3210767983",
-    "name": "EatHappy Vegan - Fredensborgveien",
-    "cuisine": "Vietnamesisk",
-    "address": "Fredensborgveien, 0177",
-    "website": "https://www.eathappyvegan.no",
-    "phone": "+47 45 88 78 78",
-    "opening_hours": "Tu-Fr 12:00-20:00; Sa-Su 13:00-20:00",
-    "description": "",
-    "lat": 59.919145,
-    "lon": 10.748152
-  },
-  {
     "id": "osm-rest-6761522729",
     "name": "Ebi Sushi",
     "cuisine": "",
@@ -2382,7 +2346,7 @@
     "address": "Brynjulf Bulls plass, 0037",
     "website": "https://fishme.no/",
     "phone": "",
-    "opening_hours": "",
+    "opening_hours": "Mo-Su 12:00-22:00",
     "description": "",
     "lat": 59.9110127,
     "lon": 10.7311018
@@ -4632,6 +4596,18 @@
     "lon": 10.7711363
   },
   {
+    "id": "osm-rest-3210767983",
+    "name": "Lime & Leaf",
+    "cuisine": "Vietnamesisk",
+    "address": "Fredensborgveien, 0177",
+    "website": "https://www.limeleaf.no/",
+    "phone": "",
+    "opening_hours": "Tu-Su 12:00-19:30",
+    "description": "",
+    "lat": 59.919145,
+    "lon": 10.748152
+  },
+  {
     "id": "osm-rest-9931463110",
     "name": "Liminal",
     "cuisine": "",
@@ -5648,8 +5624,8 @@
     "phone": "",
     "opening_hours": "Mo-Sa 10:00-23:00; Su 11:00-23:00",
     "description": "",
-    "lat": 59.9476234,
-    "lon": 10.7674915
+    "lat": 59.947582,
+    "lon": 10.7674223
   },
   {
     "id": "osm-rest-3665953766",
@@ -6552,6 +6528,18 @@
     "lon": 10.7586121
   },
   {
+    "id": "osm-rest-14214269351",
+    "name": "Posteria",
+    "cuisine": "Italiensk",
+    "address": "Dronningens gate, 0152",
+    "website": "https://posteria.no/",
+    "phone": "",
+    "opening_hours": "Tu-Sa 13:00-22:00; Su 12:00-20:00",
+    "description": "",
+    "lat": 59.9104639,
+    "lon": 10.7460338
+  },
+  {
     "id": "osm-rest-2045411162",
     "name": "Posthallen",
     "cuisine": "",
@@ -6843,7 +6831,7 @@
     "id": "osm-rest-2785920497",
     "name": "Risbolle",
     "cuisine": "Thai",
-    "address": "Dronningens gate, 0154",
+    "address": "Dronningens gate 24, 0154",
     "website": "https://www.risbolle.no/",
     "phone": "",
     "opening_hours": "Mo-Sa 11:00-22:00; Su 13:30-21:00",
@@ -7383,10 +7371,10 @@
     "id": "osm-rest-5878291587",
     "name": "Silver Chopsticks & Sushi",
     "cuisine": "Asiatisk",
-    "address": "Rosenlundgata, 0474",
+    "address": "Vogts gate 38, 0474",
     "website": "https://silverchopstickssushi.no",
-    "phone": "",
-    "opening_hours": "",
+    "phone": "+47 22 05 34 70",
+    "opening_hours": "Tu-Sa 13:00-23:00; Su 11:00-23:00",
     "description": "",
     "lat": 59.933256,
     "lon": 10.763153
@@ -7515,7 +7503,7 @@
     "id": "osm-rest-2046008740",
     "name": "Smalhans",
     "cuisine": "",
-    "address": "Ullevålsveien, 0170",
+    "address": "Ullevålsveien, 0169",
     "website": "https://www.smalhans.no/",
     "phone": "+47 22 69 60 00",
     "opening_hours": "Mo 16:00-22:00; Tu 16:00-00:30, We-Sa 11:00-00:30, Su 12:00-22:00",
@@ -7767,7 +7755,7 @@
     "id": "osm-rest-6136462187",
     "name": "Sukhumvit Soup&Grill",
     "cuisine": "Thai",
-    "address": "Munkedamsveien 29, 0251",
+    "address": "Munkedamsveien, 0251",
     "website": "https://sukhumvit.no/",
     "phone": "",
     "opening_hours": "Mo-Sa 11:00-21:00",
@@ -8650,6 +8638,18 @@
     "description": "",
     "lat": 59.928139,
     "lon": 10.718273
+  },
+  {
+    "id": "osm-rest-14212337232",
+    "name": "Varemottaket",
+    "cuisine": "",
+    "address": "Wismargata, 0194",
+    "website": "https://polsemakeri.no/varemottaket-restauranten-oslobukta/",
+    "phone": "",
+    "opening_hours": "Th,Fr 17:00-23:00, Su 13:00-15:00",
+    "description": "",
+    "lat": 59.9070642,
+    "lon": 10.7588104
   },
   {
     "id": "osm-rest-3729807725",
