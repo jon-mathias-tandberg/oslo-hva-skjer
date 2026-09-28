@@ -159,7 +159,7 @@
     "id": "osm-6136462029",
     "name": "Bar Albatross",
     "type": "bar",
-    "address": "Torshovgata, 0474",
+    "address": "Torshovgata 5A, 0476",
     "website": "",
     "phone": "",
     "opening_hours": "",
@@ -1599,7 +1599,7 @@
     "id": "osm-2785637669",
     "name": "Kniven",
     "type": "pub",
-    "address": "Møllergata 32B, 0179",
+    "address": "Møllergata, 0179",
     "website": "",
     "phone": "",
     "opening_hours": "",
@@ -1822,6 +1822,18 @@
     "description": "",
     "lat": 59.9252751,
     "lon": 10.7593604
+  },
+  {
+    "id": "osm-14219823406",
+    "name": "Lucky Duck",
+    "type": "bar",
+    "address": "Badstugata 5",
+    "website": "https://luckyduck.no/",
+    "phone": "",
+    "opening_hours": "Su-We 10:00-00:00; Th-Sa 10:00-01:00",
+    "description": "",
+    "lat": 59.916147,
+    "lon": 10.7510755
   },
   {
     "id": "osm-12318709968",
@@ -2103,7 +2115,7 @@
     "id": "osm-4157612842",
     "name": "Oslo Bar & Bowling",
     "type": "bar",
-    "address": "Hammersborggata, 0179",
+    "address": "Torggata 14, 0181",
     "website": "",
     "phone": "",
     "opening_hours": "",
@@ -3358,6 +3370,18 @@
     "description": "",
     "lat": 59.9177678,
     "lon": 10.7183243
+  },
+  {
+    "id": "osm-14219662343",
+    "name": "VIN Bjørvika",
+    "type": "bar",
+    "address": "Operagata, 0194",
+    "website": "",
+    "phone": "",
+    "opening_hours": "Mo-Th 16:00-24:00; Fr 15:00-01:00; Sa 14:00-01:00; Su 16:00-22:00",
+    "description": "",
+    "lat": 59.9068432,
+    "lon": 10.7558488
   },
   {
     "id": "osm-310780981",

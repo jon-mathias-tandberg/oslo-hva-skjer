@@ -1695,7 +1695,7 @@
     "id": "osm-rest-11524415477",
     "name": "Delicatessen Sandvika",
     "cuisine": "Tapas",
-    "address": "Rådmann Halmrasts vei, 1337",
+    "address": "Rådmann Halmrasts vei 11, 1337",
     "website": "https://delicatessen.no/sandvika/",
     "phone": "+47 22 46 72 00",
     "opening_hours": "",
@@ -1786,6 +1786,18 @@
     "description": "",
     "lat": 59.909861,
     "lon": 10.740101
+  },
+  {
+    "id": "osm-rest-4799902087",
+    "name": "Digg Pizza",
+    "cuisine": "Pizza",
+    "address": "Torggata, 0183",
+    "website": "https://digg.no/torggata",
+    "phone": "",
+    "opening_hours": "Su-Th 11:00-22:00, Fr 11:00-01:00, Sa 11:00-03:30",
+    "description": "",
+    "lat": 59.9161142,
+    "lon": 10.7514721
   },
   {
     "id": "osm-rest-7778766115",
@@ -3372,18 +3384,6 @@
     "lon": 10.7131381
   },
   {
-    "id": "osm-rest-10659614884",
-    "name": "Il Professore",
-    "cuisine": "Italiensk",
-    "address": "Schweigaards gate, 0656",
-    "website": "https://www.ilprofessore.no/",
-    "phone": "+47 95 00 92 00",
-    "opening_hours": "",
-    "description": "",
-    "lat": 59.9085172,
-    "lon": 10.7690816
-  },
-  {
     "id": "osm-rest-3729794725",
     "name": "Il Vero",
     "cuisine": "Italiensk",
@@ -3622,6 +3622,18 @@
     "description": "",
     "lat": 59.9103329,
     "lon": 10.7282951
+  },
+  {
+    "id": "osm-rest-14222363001",
+    "name": "Jasmin by Dayax",
+    "cuisine": "",
+    "address": "Platous gate, 0190",
+    "website": "",
+    "phone": "",
+    "opening_hours": "",
+    "description": "",
+    "lat": 59.9131478,
+    "lon": 10.7668177
   },
   {
     "id": "osm-rest-441543693",
@@ -5892,6 +5904,18 @@
     "lon": 10.720532
   },
   {
+    "id": "osm-rest-8143157020",
+    "name": "Palate",
+    "cuisine": "",
+    "address": "Operagata, 0194",
+    "website": "https://palate.no/",
+    "phone": "",
+    "opening_hours": "",
+    "description": "",
+    "lat": 59.907181,
+    "lon": 10.7578531
+  },
+  {
     "id": "osm-rest-12820420444",
     "name": "Palazzo Comunale",
     "cuisine": "Italiensk",
@@ -6300,18 +6324,6 @@
     "lon": 10.748926
   },
   {
-    "id": "osm-rest-9200426624",
-    "name": "Pink Fish",
-    "cuisine": "Sushi",
-    "address": "0194",
-    "website": "",
-    "phone": "",
-    "opening_hours": "Mo-Sa 11:30-19:00; Su 12:00-18:00",
-    "description": "",
-    "lat": 59.9067816,
-    "lon": 10.756595
-  },
-  {
     "id": "osm-rest-12501197894",
     "name": "Pio pio",
     "cuisine": "Pizza",
@@ -6522,7 +6534,7 @@
     "address": "Grønland, 0186",
     "website": "",
     "phone": "+47 98 12 84 79",
-    "opening_hours": "",
+    "opening_hours": "Mo-Fr 14:00-20:30; Sa-Su 13:00-20:30",
     "description": "",
     "lat": 59.9135718,
     "lon": 10.7586121
@@ -8064,18 +8076,6 @@
     "lon": 10.7606108
   },
   {
-    "id": "osm-rest-5285791938",
-    "name": "Tacopop",
-    "cuisine": "Tacos;Mexican",
-    "address": "Stasjonsallmenningen, 0191",
-    "website": "",
-    "phone": "",
-    "opening_hours": "",
-    "description": "",
-    "lat": 59.908531,
-    "lon": 10.7584697
-  },
-  {
     "id": "osm-rest-9095744795",
     "name": "Tacoteket",
     "cuisine": "Meksikansk",
@@ -8290,18 +8290,6 @@
     "description": "",
     "lat": 59.9123707,
     "lon": 10.7560285
-  },
-  {
-    "id": "osm-rest-8143157020",
-    "name": "The Vandalay",
-    "cuisine": "Indisk",
-    "address": "0194",
-    "website": "",
-    "phone": "",
-    "opening_hours": "",
-    "description": "",
-    "lat": 59.907181,
-    "lon": 10.7578531
   },
   {
     "id": "osm-rest-292143398",
