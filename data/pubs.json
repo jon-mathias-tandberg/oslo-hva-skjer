@@ -159,7 +159,7 @@
     "id": "osm-6136462029",
     "name": "Bar Albatross",
     "type": "bar",
-    "address": "Torshovgata 5A, 0476",
+    "address": "Torshovgata, 0474",
     "website": "",
     "phone": "",
     "opening_hours": "",
@@ -894,7 +894,7 @@
     "address": "Klingenberggata, 0161",
     "website": "https://jekylls.no",
     "phone": "",
-    "opening_hours": "",
+    "opening_hours": "Mo,Tu 16:00-24:00, We 16:00-01:00, Th-Sa 15:00-03:00, Su 16:00-24:00",
     "description": "",
     "lat": 59.9136008,
     "lon": 10.7331776
@@ -2394,7 +2394,7 @@
     "address": "Klingenberggata, 0161",
     "website": "https://raadhusetoslo.no",
     "phone": "",
-    "opening_hours": "Tu-Th 15:00-24:00, Fr,Sa 15:00-03:00",
+    "opening_hours": "Tu-Th 16:00-24:00, Fr 16:00-02:00, Sa 12:00-02:00, Su 12:00-18:00",
     "description": "",
     "lat": 59.9137102,
     "lon": 10.7337979
@@ -3262,18 +3262,6 @@
     "description": "",
     "lat": 59.92813,
     "lon": 10.749162
-  },
-  {
-    "id": "osm-12974724560",
-    "name": "Trappa Pub",
-    "type": "pub",
-    "address": "Hammersborgtunnelen, 0180",
-    "website": "",
-    "phone": "",
-    "opening_hours": "",
-    "description": "",
-    "lat": 59.9160042,
-    "lon": 10.7417622
   },
   {
     "id": "osm-11919355556",

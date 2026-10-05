@@ -963,7 +963,7 @@
     "id": "osm-rest-5652443563",
     "name": "Brasserie Rivoli",
     "cuisine": "Fransk",
-    "address": "Operagata, 0194",
+    "address": "Operagata 3, 0194",
     "website": "https://www.rivoli.no/",
     "phone": "+47 21 42 05 90",
     "opening_hours": "Tu-Fr 11:30-23:00; Mo 16:30-23:00; Sa-Su 14:30-23:00",
@@ -1810,6 +1810,18 @@
     "description": "",
     "lat": 59.9161142,
     "lon": 10.7514721
+  },
+  {
+    "id": "osm-rest-9892016681",
+    "name": "Digg Pizza",
+    "cuisine": "Pizza",
+    "address": "Thorvald Meyers gate, 0552",
+    "website": "https://digg.no/grunerlokka",
+    "phone": "",
+    "opening_hours": "Mo-Su 11:00-22:00",
+    "description": "",
+    "lat": 59.9237665,
+    "lon": 10.7594122
   },
   {
     "id": "osm-rest-7778766115",
@@ -3858,7 +3870,7 @@
     "address": "Nittedalgata, 0655",
     "website": "https://www.kampenbistro.no/",
     "phone": "+47 22 19 77 08",
-    "opening_hours": "Mo-Fr 15:00-01:00; Sa-Su 13:00-01:00",
+    "opening_hours": "Tu-Th 17:00-23:00, Fr,Sa 17:00-01:00, Su 16:00-21:00",
     "description": "",
     "lat": 59.913764,
     "lon": 10.781102
@@ -4602,7 +4614,7 @@
     "address": "Olav Vs gate, 0161",
     "website": "",
     "phone": "",
-    "opening_hours": "",
+    "opening_hours": "Mo-Su 11:00-21:00",
     "description": "",
     "lat": 59.9133334,
     "lon": 10.7327705
@@ -5532,18 +5544,6 @@
     "lon": 10.9251696
   },
   {
-    "id": "osm-rest-9795309703",
-    "name": "Njokobok",
-    "cuisine": "African",
-    "address": "Åkebergveien, 0652",
-    "website": "",
-    "phone": "+47 91 90 92 22",
-    "opening_hours": "Su, We-Th 17:00-22:00; Fr-Sa 17:00-23:00",
-    "description": "",
-    "lat": 59.909651,
-    "lon": 10.77624
-  },
-  {
     "id": "osm-rest-5115459127",
     "name": "No Stress",
     "cuisine": "",
@@ -6188,8 +6188,8 @@
     "phone": "",
     "opening_hours": "Mo-Fr 13:00-22:00; Sa,Su 15:00-22:00",
     "description": "",
-    "lat": 59.9475867,
-    "lon": 10.6453416
+    "lat": 59.9475645,
+    "lon": 10.6453349
   },
   {
     "id": "osm-rest-8930809818",
@@ -6867,7 +6867,7 @@
     "id": "osm-rest-2785920497",
     "name": "Risbolle",
     "cuisine": "Thai",
-    "address": "Dronningens gate, 0154",
+    "address": "Dronningens gate 24, 0154",
     "website": "https://www.risbolle.no/",
     "phone": "",
     "opening_hours": "Mo-Sa 11:00-22:00; Su 13:30-21:00",
@@ -7539,7 +7539,7 @@
     "id": "osm-rest-2046008740",
     "name": "Smalhans",
     "cuisine": "",
-    "address": "Ullevålsveien, 0169",
+    "address": "Ullevålsveien, 0170",
     "website": "https://www.smalhans.no/",
     "phone": "+47 22 69 60 00",
     "opening_hours": "Mo 16:00-22:00; Tu 16:00-00:30, We-Sa 11:00-00:30, Su 12:00-22:00",
@@ -8545,10 +8545,10 @@
   },
   {
     "id": "osm-rest-5868856801",
-    "name": "UMai Sush",
+    "name": "Umai Sushi",
     "cuisine": "Sushi",
     "address": "Lørenveien, 0585",
-    "website": "",
+    "website": "https://umaisushi.no/",
     "phone": "",
     "opening_hours": "Mo-Fr 12:00-21:00; Sa,Su 13:00-21:00",
     "description": "",
