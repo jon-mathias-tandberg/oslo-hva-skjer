@@ -963,7 +963,7 @@
     "id": "osm-rest-5652443563",
     "name": "Brasserie Rivoli",
     "cuisine": "Fransk",
-    "address": "Operagata 3, 0194",
+    "address": "Operagata, 0194",
     "website": "https://www.rivoli.no/",
     "phone": "+47 21 42 05 90",
     "opening_hours": "Tu-Fr 11:30-23:00; Mo 16:30-23:00; Sa-Su 14:30-23:00",
@@ -3054,7 +3054,7 @@
     "address": "Rosteds gate, 0178",
     "website": "https://www.happyending.no/",
     "phone": "",
-    "opening_hours": "",
+    "opening_hours": "Su,Mo off",
     "description": "",
     "lat": 59.919319,
     "lon": 10.7511998
@@ -4494,7 +4494,7 @@
     "address": "Hegdehaugsveien, 0351",
     "website": "",
     "phone": "",
-    "opening_hours": "",
+    "opening_hours": "Mo-Fr 09:00-19:00; Sa 11:00-18:00",
     "description": "",
     "lat": 59.9218961,
     "lon": 10.7266755
@@ -4983,7 +4983,7 @@
     "id": "osm-rest-5652445255",
     "name": "Madonna",
     "cuisine": "",
-    "address": "Operagata, 0194",
+    "address": "Operagata 17, 0194",
     "website": "https://www.madonnaoslo.no/",
     "phone": "+47 22 60 12 00",
     "opening_hours": "Mo-Th 16:00-23:00; Fr-Sa 12:00-24:00",
@@ -5542,6 +5542,18 @@
     "description": "",
     "lat": 59.9614848,
     "lon": 10.9251696
+  },
+  {
+    "id": "osm-rest-5706202121",
+    "name": "Niwa",
+    "cuisine": "Sushi",
+    "address": "Lilleakerveien 16, 0283",
+    "website": "https://niwa.no/",
+    "phone": "+47 22 22 96 00",
+    "opening_hours": "Mo-Sa 11:00-21:00; Su 15:00-20:00",
+    "description": "",
+    "lat": 59.9184644,
+    "lon": 10.6349974
   },
   {
     "id": "osm-rest-5115459127",
@@ -7539,7 +7551,7 @@
     "id": "osm-rest-2046008740",
     "name": "Smalhans",
     "cuisine": "",
-    "address": "Ullevålsveien, 0170",
+    "address": "Ullevålsveien, 0169",
     "website": "https://www.smalhans.no/",
     "phone": "+47 22 69 60 00",
     "opening_hours": "Mo 16:00-22:00; Tu 16:00-00:30, We-Sa 11:00-00:30, Su 12:00-22:00",
