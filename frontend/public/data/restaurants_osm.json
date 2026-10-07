@@ -963,7 +963,7 @@
     "id": "osm-rest-5652443563",
     "name": "Brasserie Rivoli",
     "cuisine": "Fransk",
-    "address": "Operagata, 0194",
+    "address": "Operagata 3, 0194",
     "website": "https://www.rivoli.no/",
     "phone": "+47 21 42 05 90",
     "opening_hours": "Tu-Fr 11:30-23:00; Mo 16:30-23:00; Sa-Su 14:30-23:00",
@@ -5674,6 +5674,18 @@
     "description": "",
     "lat": 59.9487208,
     "lon": 10.7666893
+  },
+  {
+    "id": "osm-rest-5632395521",
+    "name": "Nıshı Sushı",
+    "cuisine": "",
+    "address": "Ombergveien, 0284",
+    "website": "",
+    "phone": "",
+    "opening_hours": "",
+    "description": "",
+    "lat": 59.9202707,
+    "lon": 10.6368109
   },
   {
     "id": "osm-rest-1485578755",
