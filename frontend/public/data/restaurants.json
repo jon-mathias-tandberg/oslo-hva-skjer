@@ -1,15 +1,15 @@
 [
   {
-    "id": "vink--rets-mest-sjarmerende-serie",
-    "title": "Årets mest sjarmerende serie",
+    "id": "vink-lunsj-i-bergen--se-hit-",
+    "title": "Lunsj i Bergen? Se hit!",
     "source": "vink",
-    "url": "https://vink.aftenposten.no/artikkel/gkbrA5/small-prophets-pa-apple-tv-er-arets-mest-sjarmerende-serie"
+    "url": "https://vink.aftenposten.no/artikkel/V6WnrJ/lunsj-i-bergen-se-hit"
   },
   {
-    "id": "vink-hvilke-retter-under-250-kroner-m--du-spi",
-    "title": "Hvilke retter under 250 kroner MÅ du spise i Bergen? Vi spurte byens kokker.",
+    "id": "vink-noen-timer-senere-rullet-vi-ut",
+    "title": "Noen timer senere rullet vi ut",
     "source": "vink",
-    "url": "https://vink.aftenposten.no/artikkel/Armgdx/her-spiser-kokkene-billig-og-bra-i-bergen"
+    "url": "https://vink.aftenposten.no/artikkel/e7gV3g/lola-er-en-perfekt-uperfekt-nabolagsbistro"
   },
   {
     "id": "vink--rets-hittil-beste-nye-restauranter",
@@ -40,6 +40,18 @@
     "title": "En ny juvel på Oslos restauranthimmel",
     "source": "vink",
     "url": "https://vink.aftenposten.no/artikkel/16aogX/pa-sabotage-pa-fredensborg-far-vi-utsokt-mat-knall-service-og-fantastisk-vin"
+  },
+  {
+    "id": "vink--rets-mest-sjarmerende-serie",
+    "title": "Årets mest sjarmerende serie",
+    "source": "vink",
+    "url": "https://vink.aftenposten.no/artikkel/gkbrA5/small-prophets-pa-apple-tv-er-arets-mest-sjarmerende-serie"
+  },
+  {
+    "id": "vink-hvilke-retter-under-250-kroner-m--du-spi",
+    "title": "Hvilke retter under 250 kroner MÅ du spise i Bergen? Vi spurte byens kokker.",
+    "source": "vink",
+    "url": "https://vink.aftenposten.no/artikkel/Armgdx/her-spiser-kokkene-billig-og-bra-i-bergen"
   },
   {
     "id": "vink-fra-oslo-til-bergen-og-tilbake-igjen--ho",
@@ -250,17 +262,5 @@
     "title": "De beste barene er nesten alltid fulle. Får du plass her, er du heldig.",
     "source": "vink",
     "url": "https://vink.aftenposten.no/artikkel/M792m5/her-er-du-heldig-hvis-du-faar-plass"
-  },
-  {
-    "id": "vink-om-du-lurer-p--hvor-all-balsamicoen-er-b",
-    "title": "Om du lurer på hvor all balsamicoen er blitt av, finner du svaret her.",
-    "source": "vink",
-    "url": "https://vink.aftenposten.no/artikkel/xr91mn/svak-italiensk-restaurant"
-  },
-  {
-    "id": "vink--jeg-har-permisjonsmaxxet--og-n--skal-du",
-    "title": "«Jeg har permisjonsmaxxet, og nå skal du få mine beste tips»",
-    "source": "vink",
-    "url": "https://vink.aftenposten.no/artikkel/RjGOoa/barnevognvennlige-kafeer-i-oslo"
   }
 ]
