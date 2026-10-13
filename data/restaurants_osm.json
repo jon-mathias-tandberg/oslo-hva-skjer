@@ -1152,6 +1152,18 @@
     "lon": 10.756791
   },
   {
+    "id": "osm-rest-14279115009",
+    "name": "Café Frosken",
+    "cuisine": "Fransk",
+    "address": "Folketeaterpassasjen, 0181",
+    "website": "",
+    "phone": "",
+    "opening_hours": "",
+    "description": "",
+    "lat": 59.9144202,
+    "lon": 10.7501138
+  },
+  {
     "id": "osm-rest-1498206424",
     "name": "Café Sara",
     "cuisine": "Meksikansk",
@@ -1386,7 +1398,7 @@
     "address": "Korsgata, 0550",
     "website": "https://www.ching-ching.no/",
     "phone": "+47 46 77 00 46",
-    "opening_hours": "Tu-Th 16-22; Fr 16-23; Sa 11-23",
+    "opening_hours": "Tu-Th 16:00-22:00; Fr 16:00-23:00; Sa 11:00-23:00",
     "description": "",
     "lat": 59.919816,
     "lon": 10.7581637
@@ -1695,7 +1707,7 @@
     "id": "osm-rest-11524415477",
     "name": "Delicatessen Sandvika",
     "cuisine": "Tapas",
-    "address": "Rådmann Halmrasts vei 11, 1337",
+    "address": "Rådmann Halmrasts vei, 1337",
     "website": "https://delicatessen.no/sandvika/",
     "phone": "+47 22 46 72 00",
     "opening_hours": "",
@@ -1812,6 +1824,18 @@
     "lon": 10.7514721
   },
   {
+    "id": "osm-rest-5071686908",
+    "name": "Digg Pizza",
+    "cuisine": "Pizza",
+    "address": "Grønlandsleiret, 0188",
+    "website": "",
+    "phone": "",
+    "opening_hours": "",
+    "description": "",
+    "lat": 59.9125607,
+    "lon": 10.7628762
+  },
+  {
     "id": "osm-rest-9892016681",
     "name": "Digg Pizza",
     "cuisine": "Pizza",
@@ -1822,6 +1846,42 @@
     "description": "",
     "lat": 59.9237665,
     "lon": 10.7594122
+  },
+  {
+    "id": "osm-rest-11432622325",
+    "name": "Digg Pizza",
+    "cuisine": "Pizza",
+    "address": "Bogstadveien, 0366",
+    "website": "https://digg.no/majorstuen",
+    "phone": "",
+    "opening_hours": "Mo-Su 11:00-22:00",
+    "description": "",
+    "lat": 59.928486,
+    "lon": 10.716279
+  },
+  {
+    "id": "osm-rest-13515804062",
+    "name": "Digg Pizza",
+    "cuisine": "Pizza",
+    "address": "Pilestredet, 0350",
+    "website": "https://digg.no/bislett",
+    "phone": "",
+    "opening_hours": "Mo-Su 11:00-22:00",
+    "description": "",
+    "lat": 59.9244803,
+    "lon": 10.7309374
+  },
+  {
+    "id": "osm-rest-13762277241",
+    "name": "Digg Pizza",
+    "cuisine": "Pizza",
+    "address": "Vitaminveien, 0485",
+    "website": "https://digg.no/diggstoro",
+    "phone": "",
+    "opening_hours": "Mo-Su 11:00-21:30",
+    "description": "",
+    "lat": 59.9472478,
+    "lon": 10.7748187
   },
   {
     "id": "osm-rest-7778766115",
@@ -1874,11 +1934,11 @@
   {
     "id": "osm-rest-838574104",
     "name": "Dirty Taco",
-    "cuisine": "",
-    "address": "Grüners gate, 0554",
-    "website": "https://www.dirtytaco.no",
+    "cuisine": "Asiatisk",
+    "address": "Olaf Ryes plass 9, 0552",
+    "website": "https://www.dirtytaco.no/dirty-taco-grunerlokka",
     "phone": "",
-    "opening_hours": "",
+    "opening_hours": "Mo-We 15:00-21:00; Th-Fr 15:00-23:00; Sa 12:00-23:00; Su 12:00-20:00",
     "description": "",
     "lat": 59.9234901,
     "lon": 10.7578905
@@ -1930,6 +1990,18 @@
     "description": "",
     "lat": 59.942418,
     "lon": 10.8117479
+  },
+  {
+    "id": "osm-rest-14271776772",
+    "name": "Drama Massla",
+    "cuisine": "Indisk",
+    "address": "Folketeaterpassasjen, 0181",
+    "website": "",
+    "phone": "",
+    "opening_hours": "",
+    "description": "",
+    "lat": 59.9141233,
+    "lon": 10.7505485
   },
   {
     "id": "osm-rest-973804256",
@@ -2904,6 +2976,18 @@
     "lon": 10.714784
   },
   {
+    "id": "osm-rest-4738519185",
+    "name": "Grilleriet",
+    "cuisine": "Barbecue",
+    "address": "Folketeaterpassasjen, 0181",
+    "website": "",
+    "phone": "",
+    "opening_hours": "",
+    "description": "",
+    "lat": 59.914242,
+    "lon": 10.7502536
+  },
+  {
     "id": "osm-rest-3768066724",
     "name": "Grorud Kebab Og Pizza",
     "cuisine": "Kebab",
@@ -3126,7 +3210,7 @@
     "address": "Skinnerbakken, 0198",
     "website": "https://www.heisolvik.no/",
     "phone": "",
-    "opening_hours": "We-Fr 14-22; Sa-Su 12-22",
+    "opening_hours": "We-Fr 14:00-22:00; Sa-Su 12:00-22:00",
     "description": "",
     "lat": 59.8650661,
     "lon": 10.7502256
@@ -4791,10 +4875,10 @@
     "id": "osm-rest-1932777090",
     "name": "Los Tacos",
     "cuisine": "Meksikansk",
-    "address": "Krebs' gate, 0478",
-    "website": "https://www.lostacos.no/",
-    "phone": "",
-    "opening_hours": "",
+    "address": "Vogts gate 60",
+    "website": "https://www.lostacos.no/restaurant/torshov",
+    "phone": "+47 67 79 03 38",
+    "opening_hours": "Mo-Th 15:00-22:00; Fr 15:00-00:00; Sa 12:00-00:00; Su 12:00-22:00",
     "description": "",
     "lat": 59.9359174,
     "lon": 10.7655167
@@ -4947,7 +5031,7 @@
     "id": "osm-rest-6136462485",
     "name": "Maaltid",
     "cuisine": "",
-    "address": "Sørligata 36, 0577",
+    "address": "Sørligata, 0577",
     "website": "https://www.maaltidtoyen.no/",
     "phone": "",
     "opening_hours": "Mo off; Tu-Fr 16:00-23:30; Sa 12:00-00:30; Su 12:00-17:00",
@@ -5055,7 +5139,7 @@
     "id": "osm-rest-5856905820",
     "name": "Mamma Pizza",
     "cuisine": "Italiensk",
-    "address": "Dronningens gate, 0154",
+    "address": "Dronningens gate 22, 0154",
     "website": "https://www.mammapizza.no/",
     "phone": "+47 91 51 18 41",
     "opening_hours": "Mo-Fr 11:00-22:00; Sa,Su 12:00-22:00",
@@ -5506,18 +5590,6 @@
     "description": "",
     "lat": 59.9089247,
     "lon": 10.7233745
-  },
-  {
-    "id": "osm-rest-4738519185",
-    "name": "Nikay",
-    "cuisine": "Peruvian",
-    "address": "Folketeaterpassasjen, 0181",
-    "website": "",
-    "phone": "",
-    "opening_hours": "",
-    "description": "",
-    "lat": 59.9141019,
-    "lon": 10.750458
   },
   {
     "id": "osm-rest-12974818630",
@@ -7479,10 +7551,10 @@
     "id": "osm-rest-9573613717",
     "name": "SKAAL Matbar",
     "cuisine": "",
-    "address": "Grüners gate, 0554",
+    "address": "Olaf Ryes plass 12, 0552",
     "website": "https://www.skaalmatbar.no",
     "phone": "",
-    "opening_hours": "",
+    "opening_hours": "Tu-Th 12:00-23:30; Fr-Sa 12:00-00:00; Su 12:00-16:00",
     "description": "",
     "lat": 59.923495,
     "lon": 10.7586535
@@ -7563,7 +7635,7 @@
     "id": "osm-rest-2046008740",
     "name": "Smalhans",
     "cuisine": "",
-    "address": "Ullevålsveien, 0170",
+    "address": "Ullevålsveien, 0169",
     "website": "https://www.smalhans.no/",
     "phone": "+47 22 69 60 00",
     "opening_hours": "Mo 16:00-22:00; Tu 16:00-00:30, We-Sa 11:00-00:30, Su 12:00-22:00",
@@ -7815,7 +7887,7 @@
     "id": "osm-rest-6136462187",
     "name": "Sukhumvit Soup&Grill",
     "cuisine": "Thai",
-    "address": "Munkedamsveien, 0251",
+    "address": "Munkedamsveien 29, 0251",
     "website": "https://sukhumvit.no/",
     "phone": "",
     "opening_hours": "Mo-Sa 11:00-21:00",
@@ -8343,10 +8415,10 @@
     "id": "osm-rest-292143398",
     "name": "Theka - Indian Street Food & Bar",
     "cuisine": "Indisk",
-    "address": "Grüners gate, 0554",
+    "address": "Olaf Ryes plass 10, 0552",
     "website": "https://theka.no/",
-    "phone": "",
-    "opening_hours": "Mo-Fr 15:00-22:00; Sa-Su 12:00-22:00",
+    "phone": "+47 22 35 35 33",
+    "opening_hours": "Mo-Th 15:00-22:00; Fr-Sa 12:00-23:00; Su 12:00-22:00",
     "description": "",
     "lat": 59.923498,
     "lon": 10.758101
@@ -8712,6 +8784,18 @@
     "lon": 10.927024
   },
   {
+    "id": "osm-rest-12748076737",
+    "name": "Vesuvio",
+    "cuisine": "Pizza",
+    "address": "Folketeaterpassasjen, 0181",
+    "website": "https://vesuviocafe.no/youngstorget-restaurant/",
+    "phone": "",
+    "opening_hours": "",
+    "description": "",
+    "lat": 59.9144351,
+    "lon": 10.7499095
+  },
+  {
     "id": "osm-rest-7288007623",
     "name": "Vesuvio Café og Pizza",
     "cuisine": "Pizza",
@@ -8823,10 +8907,10 @@
     "id": "osm-rest-263710832",
     "name": "Villa Paradiso Grünerløkka",
     "cuisine": "Pizza",
-    "address": "Grüners gate, 0554",
+    "address": "Olaf Ryes plass 8, 0552",
     "website": "https://www.villaparadiso.no/restauranter/grunerlokka",
     "phone": "+47 22 35 40 60",
-    "opening_hours": "Mo-We 08:00-21:00; Th-Fr 08:00-22:00; Sa 10:00-22:00; Su 11:00-21:00",
+    "opening_hours": "Mo-We 11:00-21:00; Th-Sa 11:00-22:00; Su 12:00-21:00",
     "description": "",
     "lat": 59.923502,
     "lon": 10.757423
@@ -9086,11 +9170,11 @@
   {
     "id": "osm-rest-6841796311",
     "name": "Yoyo Dumplings & Noodles",
-    "cuisine": "Nudler",
-    "address": "Waldemar Thranes gate, 0458",
+    "cuisine": "Asiatisk",
+    "address": "Waldemar Thranes gate 75, 0175",
     "website": "",
     "phone": "",
-    "opening_hours": "",
+    "opening_hours": "Mo-Sa 14:30-22:30; Su 14:30-22:00",
     "description": "",
     "lat": 59.9280977,
     "lon": 10.7536558
