@@ -2856,6 +2856,18 @@
     "lon": 10.7514151
   },
   {
+    "id": "osm-rest-14304155129",
+    "name": "Globetrotter Restaurant",
+    "cuisine": "European;Norwegian",
+    "address": "Fornebuveien, 1366",
+    "website": "https://www.radissonhotels.com/en-us/hotels/radisson-blu-oslo-park/dining",
+    "phone": "+47 67 82 34 55",
+    "opening_hours": "",
+    "description": "",
+    "lat": 59.9033229,
+    "lon": 10.6310432
+  },
+  {
     "id": "osm-rest-12704735103",
     "name": "Gohan Matcha",
     "cuisine": "Japansk",
@@ -4860,6 +4872,18 @@
     "lon": 10.7736697
   },
   {
+    "id": "osm-rest-14306474746",
+    "name": "Lola og G",
+    "cuisine": "Italiensk",
+    "address": "Snarøyveien, 1364",
+    "website": "",
+    "phone": "+47 67 54 82 80",
+    "opening_hours": "",
+    "description": "",
+    "lat": 59.8935868,
+    "lon": 10.6208995
+  },
+  {
     "id": "osm-rest-311166509",
     "name": "Lorry",
     "cuisine": "Regional",
@@ -5031,7 +5055,7 @@
     "id": "osm-rest-6136462485",
     "name": "Maaltid",
     "cuisine": "",
-    "address": "Sørligata 36, 0577",
+    "address": "Sørligata, 0577",
     "website": "https://www.maaltidtoyen.no/",
     "phone": "",
     "opening_hours": "Mo off; Tu-Fr 16:00-23:30; Sa 12:00-00:30; Su 12:00-17:00",
@@ -5067,7 +5091,7 @@
     "id": "osm-rest-5652445255",
     "name": "Madonna",
     "cuisine": "",
-    "address": "Operagata, 0194",
+    "address": "Operagata 17, 0194",
     "website": "https://www.madonnaoslo.no/",
     "phone": "+47 22 60 12 00",
     "opening_hours": "Mo-Th 16:00-23:00; Fr-Sa 12:00-24:00",
@@ -5266,6 +5290,18 @@
     "description": "",
     "lat": 59.9297539,
     "lon": 10.7096284
+  },
+  {
+    "id": "osm-rest-14306474752",
+    "name": "Maya's",
+    "cuisine": "Italiensk",
+    "address": "Snarøyveien, 1364",
+    "website": "https://mayas.restaurant/en",
+    "phone": "+47 97 62 15 00",
+    "opening_hours": "Mo-Sa 11:00-22:00; Su 13:00-21:00",
+    "description": "",
+    "lat": 59.8934439,
+    "lon": 10.6196702
   },
   {
     "id": "osm-rest-1784555269",
@@ -5715,7 +5751,7 @@
     "id": "osm-rest-5290156121",
     "name": "Norlaks Sushi Sæter",
     "cuisine": "Sushi",
-    "address": "Sæter Torg, 1163",
+    "address": "Nordstrandveien, 1163",
     "website": "https://norlaks.no/",
     "phone": "+4799433011;+4790268648",
     "opening_hours": "Mo-Su 14:00-21:00",
@@ -6300,6 +6336,18 @@
     "lon": 10.803384
   },
   {
+    "id": "osm-rest-14304155127",
+    "name": "Peppes Pizza",
+    "cuisine": "Pizza",
+    "address": "1633, 1366",
+    "website": "https://order.peppes.no",
+    "phone": "+47 22 22 55 55",
+    "opening_hours": "",
+    "description": "",
+    "lat": 59.9118321,
+    "lon": 10.6358971
+  },
+  {
     "id": "osm-rest-1667094976",
     "name": "Peppes Pizza - Lambertseter",
     "cuisine": "Pizza",
@@ -6394,6 +6442,18 @@
     "description": "",
     "lat": 59.9222978,
     "lon": 10.7043437
+  },
+  {
+    "id": "osm-rest-14304155130",
+    "name": "Pier 31",
+    "cuisine": "Italiensk",
+    "address": "Lysaker brygge, 0283",
+    "website": "https://pier31.no/",
+    "phone": "+47 67 12 08 00",
+    "opening_hours": "Mo-Fr 11:00-22:00; Sa 12:00-22:00; Su,PH 13:00-22:00",
+    "description": "",
+    "lat": 59.9097332,
+    "lon": 10.6424859
   },
   {
     "id": "osm-rest-11949532061",
@@ -6963,7 +7023,7 @@
     "id": "osm-rest-2785920497",
     "name": "Risbolle",
     "cuisine": "Thai",
-    "address": "Dronningens gate 24, 0154",
+    "address": "Dronningens gate, 0154",
     "website": "https://www.risbolle.no/",
     "phone": "",
     "opening_hours": "Mo-Sa 11:00-22:00; Su 13:30-21:00",
@@ -7174,6 +7234,18 @@
     "description": "",
     "lat": 59.8736325,
     "lon": 10.5027419
+  },
+  {
+    "id": "osm-rest-14306474745",
+    "name": "Sabi Sushi Fornebu",
+    "cuisine": "Sushi",
+    "address": "Snarøyveien, 1364",
+    "website": "https://sabi.no/restaurant/fornebu-oslo/",
+    "phone": "+47 40 00 18 33",
+    "opening_hours": "Mo-Sa 12:00-20:15; Su 14:00-20:15",
+    "description": "",
+    "lat": 59.8935957,
+    "lon": 10.6206854
   },
   {
     "id": "osm-rest-13334271809",
@@ -7402,6 +7474,18 @@
     "description": "",
     "lat": 59.9188268,
     "lon": 10.7157254
+  },
+  {
+    "id": "osm-rest-14306474749",
+    "name": "Scandic Fornebu Restaurant",
+    "cuisine": "Internasjonalt",
+    "address": "Martin Linges vei, 1364",
+    "website": "",
+    "phone": "",
+    "opening_hours": "",
+    "description": "",
+    "lat": 59.8936889,
+    "lon": 10.6294873
   },
   {
     "id": "osm-rest-12083513869",
@@ -7635,7 +7719,7 @@
     "id": "osm-rest-2046008740",
     "name": "Smalhans",
     "cuisine": "",
-    "address": "Ullevålsveien, 0170",
+    "address": "Ullevålsveien, 0169",
     "website": "https://www.smalhans.no/",
     "phone": "+47 22 69 60 00",
     "opening_hours": "Mo 16:00-22:00; Tu 16:00-00:30, We-Sa 11:00-00:30, Su 12:00-22:00",
@@ -8100,6 +8184,18 @@
     "lon": 10.5835252
   },
   {
+    "id": "osm-rest-14306474751",
+    "name": "Sushi Huset Fornebu",
+    "cuisine": "Sushi",
+    "address": "Solgangsbrisen 5, 1364",
+    "website": "http://www.sushihusetfornebu.no/",
+    "phone": "+47 48 51 09 90",
+    "opening_hours": "",
+    "description": "",
+    "lat": 59.89617,
+    "lon": 10.621835
+  },
+  {
     "id": "osm-rest-1213694549",
     "name": "Sushi of Life",
     "cuisine": "Sushi",
@@ -8352,6 +8448,18 @@
     "lon": 10.7547153
   },
   {
+    "id": "osm-rest-14304155126",
+    "name": "The Food Court",
+    "cuisine": "Internasjonalt",
+    "address": "John Strandruds vei, 1366",
+    "website": "https://www.fornebuporten.no/thefoodcourt",
+    "phone": "+47 41 41 76 77",
+    "opening_hours": "Mo-Fr 10:30-13:00; Sa-Su off",
+    "description": "",
+    "lat": 59.9048432,
+    "lon": 10.6252969
+  },
+  {
     "id": "osm-rest-12841457601",
     "name": "The fox and loaf",
     "cuisine": "Sandwich",
@@ -8376,6 +8484,18 @@
     "lon": 10.7502585
   },
   {
+    "id": "osm-rest-14304155128",
+    "name": "The Italy",
+    "cuisine": "Italiensk",
+    "address": "John Strandruds vei, 1366",
+    "website": "https://www.fornebuporten.no/theitaly",
+    "phone": "+47 94 81 62 54",
+    "opening_hours": "Mo-Fr 07:30-19:00; Sa-Su off",
+    "description": "",
+    "lat": 59.9048552,
+    "lon": 10.6253274
+  },
+  {
     "id": "osm-rest-10271575848",
     "name": "The Little Pickle",
     "cuisine": "",
@@ -8398,6 +8518,18 @@
     "description": "",
     "lat": 59.9080216,
     "lon": 10.7232991
+  },
+  {
+    "id": "osm-rest-14306474750",
+    "name": "The Social Bar & Bistro",
+    "cuisine": "Internasjonalt",
+    "address": "Snarøyveien 20, 1360",
+    "website": "https://www.strawberryhotels.com/restaurant/norway/oslo/the-social-expo/",
+    "phone": "+47 67 11 70 00",
+    "opening_hours": "Mo-Sa 18:00-21:30; Su off",
+    "description": "",
+    "lat": 59.902545,
+    "lon": 10.627785
   },
   {
     "id": "osm-rest-13780303683",
