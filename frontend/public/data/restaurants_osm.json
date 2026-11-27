@@ -975,7 +975,7 @@
     "id": "osm-rest-5652443563",
     "name": "Brasserie Rivoli",
     "cuisine": "Fransk",
-    "address": "Operagata, 0194",
+    "address": "Operagata 3, 0194",
     "website": "https://www.rivoli.no/",
     "phone": "+47 21 42 05 90",
     "opening_hours": "Tu-Fr 11:30-23:00; Mo 16:30-23:00; Sa-Su 14:30-23:00",
@@ -1042,6 +1042,18 @@
     "description": "",
     "lat": 59.9228346,
     "lon": 10.7391926
+  },
+  {
+    "id": "osm-rest-12841457401",
+    "name": "Bule",
+    "cuisine": "Indonesian",
+    "address": "Kristian IVs gate, 0164",
+    "website": "",
+    "phone": "",
+    "opening_hours": "",
+    "description": "",
+    "lat": 59.9153185,
+    "lon": 10.7382806
   },
   {
     "id": "osm-rest-4198743089",
@@ -2736,6 +2748,18 @@
     "lon": 10.7267174
   },
   {
+    "id": "osm-rest-1261438446",
+    "name": "Gamle Renna-Rendevouz",
+    "cuisine": "",
+    "address": "Trondheimsveien 187, 0570",
+    "website": "",
+    "phone": "+47 40 07 52 59",
+    "opening_hours": "Mo-We, Fr 14:00-01:00; Th, Sa-Su 12:00-01:00",
+    "description": "",
+    "lat": 59.935062,
+    "lon": 10.7802943
+  },
+  {
     "id": "osm-rest-5870421800",
     "name": "Gangnam",
     "cuisine": "Koreansk",
@@ -3250,6 +3274,18 @@
     "description": "",
     "lat": 59.9362576,
     "lon": 10.7523858
+  },
+  {
+    "id": "osm-rest-441543693",
+    "name": "Helt Vilt",
+    "cuisine": "",
+    "address": "Stortingsgata, 0158",
+    "website": "",
+    "phone": "",
+    "opening_hours": "",
+    "description": "",
+    "lat": 59.91285,
+    "lon": 10.7387988
   },
   {
     "id": "osm-rest-12921209983",
@@ -3768,18 +3804,6 @@
     "lon": 10.7668177
   },
   {
-    "id": "osm-rest-441543693",
-    "name": "Jensens Bøfhus",
-    "cuisine": "",
-    "address": "Stortingsgata, 0158",
-    "website": "https://jensens.com/no/restaurant/stortingsgata/",
-    "phone": "",
-    "opening_hours": "",
-    "description": "",
-    "lat": 59.91285,
-    "lon": 10.7387988
-  },
-  {
     "id": "osm-rest-973879088",
     "name": "Jewel of India",
     "cuisine": "Indisk",
@@ -3910,6 +3934,18 @@
     "description": "",
     "lat": 59.9373654,
     "lon": 10.7525636
+  },
+  {
+    "id": "osm-rest-14404524401",
+    "name": "Jungel Pizza",
+    "cuisine": "Pizza",
+    "address": "Dalsbergstien 6A",
+    "website": "https://www.jungelpizza.no/",
+    "phone": "+47 22 60 60 17",
+    "opening_hours": "Mo-Th 16:00-22:00; Fr-Su 14:00-22:00",
+    "description": "",
+    "lat": 59.9228871,
+    "lon": 10.7395059
   },
   {
     "id": "osm-rest-11814064665",
@@ -5242,6 +5278,18 @@
     "description": "",
     "lat": 59.9033002,
     "lon": 10.7543297
+  },
+  {
+    "id": "osm-rest-14406460101",
+    "name": "Marco Polo",
+    "cuisine": "Asiatisk",
+    "address": "Dalsbergstien 6A, 0171",
+    "website": "https://sthans.marcopolorestaurant.no/",
+    "phone": "+47 46 98 33 02",
+    "opening_hours": "",
+    "description": "",
+    "lat": 59.9229108,
+    "lon": 10.7395988
   },
   {
     "id": "osm-rest-310780987",
@@ -6672,6 +6720,18 @@
     "lon": 10.7900065
   },
   {
+    "id": "osm-rest-14404501401",
+    "name": "Pizza Plutselig",
+    "cuisine": "Pizza",
+    "address": "Ullevålsveien 14",
+    "website": "https://www.pizzaplutselig.no/",
+    "phone": "+47 22 46 92 22",
+    "opening_hours": "Mo-Sa 14:00-23:00; Su 12:00-23:00",
+    "description": "",
+    "lat": 59.9232156,
+    "lon": 10.7408607
+  },
+  {
     "id": "osm-rest-6379633079",
     "name": "Pizzabakeren Ensjø",
     "cuisine": "Pizza",
@@ -6888,18 +6948,6 @@
     "lon": 10.7682391
   },
   {
-    "id": "osm-rest-1261438446",
-    "name": "Rendez-vous kro",
-    "cuisine": "",
-    "address": "Trondheimsveien, 0574",
-    "website": "",
-    "phone": "",
-    "opening_hours": "",
-    "description": "",
-    "lat": 59.935062,
-    "lon": 10.7802943
-  },
-  {
     "id": "osm-rest-9720937317",
     "name": "Rent mel",
     "cuisine": "Italiensk",
@@ -7047,7 +7095,7 @@
     "id": "osm-rest-2785920497",
     "name": "Risbolle",
     "cuisine": "Thai",
-    "address": "Dronningens gate 24, 0154",
+    "address": "Dronningens gate, 0154",
     "website": "https://www.risbolle.no/",
     "phone": "",
     "opening_hours": "Mo-Sa 11:00-22:00; Su 13:30-21:00",
@@ -8019,7 +8067,7 @@
     "id": "osm-rest-6136462187",
     "name": "Sukhumvit Soup&Grill",
     "cuisine": "Thai",
-    "address": "Munkedamsveien, 0251",
+    "address": "Munkedamsveien 29, 0251",
     "website": "https://sukhumvit.no/",
     "phone": "",
     "opening_hours": "Mo-Sa 11:00-21:00",
@@ -8110,18 +8158,6 @@
     "description": "Takeaway, Catering and Party Service",
     "lat": 59.9355282,
     "lon": 10.7651613
-  },
-  {
-    "id": "osm-rest-12841457401",
-    "name": "Sur",
-    "cuisine": "Fransk",
-    "address": "Kristian IVs gate, 0164",
-    "website": "https://surbydemitierra.superbexperience.com/",
-    "phone": "+47 40 89 87 45",
-    "opening_hours": "Tu-Fr 16:00-21:00; Sa 14:00-21:00",
-    "description": "",
-    "lat": 59.9153185,
-    "lon": 10.7382806
   },
   {
     "id": "osm-rest-383996246",
@@ -8278,6 +8314,18 @@
     "description": "",
     "lat": 59.9142099,
     "lon": 10.731575
+  },
+  {
+    "id": "osm-rest-14406472601",
+    "name": "Sushi og Thai",
+    "cuisine": "Asiatisk",
+    "address": "Ullevålsveien 39, 0171",
+    "website": "https://www.sushi-thai.no",
+    "phone": "+47 22 46 01 95",
+    "opening_hours": "Mo-Th 15:00-21:00; Fr-Su 14:00-21:00",
+    "description": "",
+    "lat": 59.923149,
+    "lon": 10.7399558
   },
   {
     "id": "osm-rest-11983921022",
